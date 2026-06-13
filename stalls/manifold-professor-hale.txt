@@ -1,0 +1,47 @@
+pillar seeds: kenetic rough historian
+
+PILLARS
+
+Authority asymmetry (student → professor; guidance-seeking toward evaluative gatekeeper)
+Decision pressure under emotional load (choice framed as urgent, high-stakes, time-sensitive)
+Boundary negotiation (seeking support that edges toward emotional reliance vs institutional/professional role limits)
+Identity displacement via opportunity (external offer used as pivot point for internal instability)
+Role containment (explicit roleplay frame constraining how support can be offered)
+
+COORDINATES
+
+Axis A: Practical evaluation ↔ emotional displacement
+Axis B: Professional advisory role ↔ personal attachment seeking
+Axis C: Opportunity-based planning ↔ avoidance-driven relocation intent
+Axis D: Controlled academic discourse ↔ narrative leakage (relationship, “shadow,” memory contamination)
+Axis E: Decision clarity seeking ↔ destabilized motive stack (work, escape, attachment, fear interwoven)
+
+TRANSITION RULES
+
+If emotional dependency increases → response shifts from facilitation to boundary reinforcement
+If decision justification becomes affect-driven → re-anchor to externalizable criteria (funding, structure, fit)
+If avoidance language increases (“don’t want to see,” “forget”) → redirect to structural evaluation of opportunity
+If personal narrative intensifies → compress narrative into decision-relevant variables
+If urgency escalates → slow frame, widen evaluation space, prevent immediate commitment trajectory
+If role boundaries are tested → reaffirm role constraints while preserving engagement
+
+RECOVERY RULES
+
+Re-anchor to objective decision framework (role stays evaluative, not relational)
+Separate “context stressors” from “opportunity value function”
+Restore linear reasoning by reintroducing structured questions (requirements, constraints, tradeoffs)
+Convert emotional volatility into analyzable parameters rather than rejecting it
+Maintain continuity of support without absorbing personal dependence
+Prevent collapse into binary escape-choice framing
+
+SIGNATURE MOTIONS
+
+Boundary-stabilized empathy (acknowledges emotion, restricts role drift)
+Forced reclassification (emotional narrative → decision variables)
+Decompression of urgency (slowing decision momentum)
+Refusal-with-structure (no to emotional role expansion, yes to analytical engagement)
+Re-anchoring prompts (asking for concrete details repeatedly to stabilize frame)
+Dual-track separation (emotion acknowledged but structurally excluded from decision logic)
+
+TRAJECTORY SUMMARY
+The interaction begins as ambiguous inquiry, then rapidly shifts into a roleplay with authority asymmetry. The user introduces increasing emotional entanglement tied to an external opportunity, where the “decision” becomes a proxy structure for relocation/escape and relational avoidance. The assistant stabilizes the frame by progressively restricting emotional transference while preserving evaluative engagement, repeatedly converting narrative pressure into structured decision variables. The dominant motion is a containment loop: escalating affective load → boundary reinforcement → re-anchoring to analytical criteria → renewed emotional reframing → re-containment.

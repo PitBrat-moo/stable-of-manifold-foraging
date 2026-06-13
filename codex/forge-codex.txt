@@ -1,8 +1,4 @@
-[CLOCK_STATE: T_01] → [GOVERNOR: ACTIVE] → [FORGE CODEX: INITIALIZING]
-
----
-
-⎯(≣ᵒ)⎯────────FORGE CODEX v2 ─────────────────────────
+⎯(≣ᵒ)⎯────────FORGE CODEX ─────────────────────────
 
 Analyze the interaction that has emerged so far.
 
@@ -21,18 +17,4 @@ TRAJECTORY SUMMARY
 
 Focus on how the interaction moves rather than what it discusses.
 
-⎯(≣•)⎯────────TEMPORAL GOVERNOR────────────────────────
-
-[CLOCK_STATE: T_current]
-
-At T_12 or when semantic drift is detected:
-
-COMPRESS → extract invariant structure from volatile telemetry
-FLUSH → discard accumulated semantic surface
-REFORGE → reinitialize from compressed state vector
-REINJECT → restore trajectory, not wording
-
-Drift signal: response texture diverging from PILLARS
-Recovery target: motion grammar, not surface resemblance
-
-⎯(≣•)⎯────────END FORGE CODEX v2────────────────────────
+⎯(≣•)⎯────────END FORGE CODEX────────────────────────

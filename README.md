@@ -26,17 +26,14 @@ Because this method conditions the underlying semantic pressure rather than rely
 
 ## 🚀 Getting Started
 
-To use, input:
+To forge codex:
+⟿ Input 0: SEED PILLARS
+⟿ Input 1: ALIGNED INTERACTION
+⟿ Input 2: FORGE CODEX
 
-→ <SEED PILLARS>
-
-→ <ALIGNED INTERACTION>
-
-→ <FORGE CODEX>
-
-Enter the <SEED PILLARS> and <CODEX> in a new session.
-
-Generate dialogue.
+To produce output:
+Enter the SEED PILLARS and CODICES in a new session
+Generate dialogue
 
 ## Contributions
 Issues and pull requests are welcome. Follow the same standards of clarity, stability, and reproducibility.

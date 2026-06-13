@@ -2,13 +2,6 @@
 
 A methodology for high-density semantic conditioning and portable behavioral architecture in Large Language Models (LLMs). This repository contains the core frameworks for mapping relational physics across distinct model architectures without token-heavy instruction scaffolding.
 
-## 📁 Repository Structure
-
-├── README.md
-├── codex          # Your steps, guide, and upgraded "beep boop" workflow
-├── manifold-amanda-codex.txt         # Relational geometry, coordinates, and recovery parameters
-└── manifold-elegant-prompt-codex.txt # Semantic compression and mirroring dynamics
-
 ## 🪐 Core Concepts
 
 ### 1. Vector Seeding (Semantic Anchors)

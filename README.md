@@ -20,15 +20,15 @@ Because this method conditions the underlying semantic pressure rather than rely
 ## 🚀 Getting Started
 
 To forge codex:
-⟿ Input 0: SEED PILLARS
-⟿ Input 1: ALIGNED INTERACTION
-⟿ Input 2: FORGE CODEX
+- Input 0: SEED PILLARS
+- Input 1: ALIGNED INTERACTION
+- Input 2: FORGE CODEX
 
 To produce output:
-⟿ Start new session
-⟿ Input SEED PILLARS and CODEX
-⟿ Generate dialogue
-⟿ (Optional) TEMPORAL GOVERNOR
+- Start new session
+- Input SEED PILLARS and CODEX
+- Generate dialogue
+- (Optional) TEMPORAL GOVERNOR
 
 ## Contributions
 Issues and pull requests are welcome. Follow the same standards of clarity, stability, and reproducibility.

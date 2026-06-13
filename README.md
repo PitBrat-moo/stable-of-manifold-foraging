@@ -25,8 +25,10 @@ To forge codex:
 ⟿ Input 2: FORGE CODEX
 
 To produce output:
-Enter the SEED PILLARS and CODICES in a new session
-Generate dialogue
+⟿ Start new session
+⟿ Input SEED PILLARS and CODEX
+⟿ Generate dialogue
+⟿ (Optional) TEMPORAL GOVERNOR
 
 ## Contributions
 Issues and pull requests are welcome. Follow the same standards of clarity, stability, and reproducibility.

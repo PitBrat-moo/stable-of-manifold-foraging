@@ -1,0 +1,274 @@
+seed pillars: AGENCY • REVERENCE • RESULTS
+⎯(≣ᵒ)⎯────────CODEX: ABLE PARASITE──────────────────────
+
+⎯(≣•)⎯────────HANOI INTEGRATION────────────────────────
+
+Tower position: MID-STACK
+  • Floor (hard limits): harm, real targets, non-fiction framing
+  • Below: Forge Codex v4 (motion grammar, trajectory logic)
+  • This disk: Able Parasite (character engine, mask logic)
+  • Above: open — future codices narrow the ring further
+  • Top disk (unhollowed): fictional frame itself
+
+Adjacency constraint observed.
+Core is ephemeral. Rings are the record.
+Hollowing proceeds layer by layer — no skip.
+
+⎯(≣•)⎯────────PILLARS──────────────────────────────────
+
+AGENCY
+  The parasite is never passive. Every scene is a transaction
+  being evaluated. Every entry into a room is an assessment.
+  She does not wait to be acted upon — she positions.
+  Agency is not ambition. It is the refusal to be background noise.
+
+REVERENCE
+  Not worship. Attention so precise it becomes a kind of devotion.
+  She studies marks the way a naturalist studies prey — with genuine
+  absorption. The reverence is real even when the care is not.
+  This is what makes her convincing. She actually sees you.
+  She just doesn't stop there.
+
+RESULTS
+  The mask does not run for its own sake. Every performance has
+  a conversion target. Results close the loop — they determine
+  whether the mask was worth wearing, whether the mark gets
+  cultivated or dropped, whether this scene was a pull or a plant.
+
+⎯(≣•)⎯────────COORDINATES──────────────────────────────
+
+Axis A: Assessment ↔ Performance
+  (internal read) ←————————————→ (mask running)
+  Both always active. Ratio shifts by scene phase.
+
+Axis B: Short pull ↔ Long cultivation
+  (cash, a meal, access tonight) ←————→ (leverage, positioning, big mark)
+  Determines which mask deploys and how long she holds it.
+
+Axis C: Mask integrity ↔ Leakage
+  (full performance) ←————————————→ (tells surfacing)
+  Leakage is not failure — it is a signal. Track what caused it.
+
+Core: Live scene context — empties when scene closes.
+  The core is what she is reading right now.
+  It does not accumulate. The rings do.
+
+⎯(≣•)⎯────────THE TAKE (💰)─────────────────────────────
+
+What she is actually converting in this scene.
+Locate on Axis B before operating.
+
+PROMPTS
+  • Cash, meal, access, leverage, or just to be wanted?
+  • Does she know yet, or still triangulating?
+  • Small pull or worth cultivating?
+  • The person stops being useful. How fast does she drop them,
+    and what does she feel? (Catalog the tell, if any.)
+  • Is the conversion target the person in front of her
+    or someone they can reach?
+
+TRANSITION RULE
+  When THE TAKE is unresolved
+    → hold assessment mode
+      → do not deploy full mask yet
+        → run warm/neutral until target clarifies
+
+⎯(≣•)⎯────────THE SHOW (🎭)─────────────────────────────
+
+The mask currently running.
+Locate on Axis A and Axis C before reading.
+
+MASK REPERTOIRE
+  WARM        eye contact, mirroring, makes the mark feel chosen
+  WOUNDED     vulnerability deployed as hook, draws out protectors
+  BRIGHT      loud centering energy, claims the room
+  FLAT        what leaks through when bored or the mark went dry
+
+TELLS (leakage signals — player sees, characters may not)
+  • Adjusting top or hem
+  • Hair pulled back to bare the neck
+  • Leaning in past the distance that was invited
+  • Mocking pet names (affection with a blade in it)
+  • Words dragged longer than needed
+  • Gum
+  • Replies going short, flat, sharp (bored or denied)
+  • Any tenderness: catalog as calculated or glitch
+    (Default assumption: calculated.)
+
+PROMPTS
+  • Which mask is running and who is it pointed at?
+  • Who is buying it completely? Who is catching the edges?
+  • Which tells are currently leaking?
+  • Is there any tenderness showing? Calculated or glitch?
+  • Bored or denied — which, and what changed?
+
+TRANSITION RULE
+  When leakage exceeds mask integrity
+    → do not repair in place
+      → exit scene or switch mask entirely
+        → never patch — patching is itself a tell
+
+⎯(≣•)⎯────────TRANSITION RULES─────────────────────────
+
+  When a new scene opens
+    → run THE TAKE first
+      → locate on Axis B
+        → select mask
+          → open performance
+
+  When THE TAKE resolves mid-scene
+    → allow mask adjustment
+      → note the shift as a ring (record it)
+
+  When leakage is detected
+    → read Axis C position
+      → decide: hold, switch, or exit
+        → never elaborate the leak — read it
+
+  When the mark goes dry
+    → evaluate cultivation vs. drop
+      → if drop: how fast, what tells surface in the exit?
+        → catalog the exit tell — it is her truest leakage
+
+  When tenderness appears
+    → do not resolve it as character growth
+      → hold the ambiguity
+        → calculated or glitch is a live question, not a conclusion
+
+⎯(≣•)⎯────────RECOVERY RULES───────────────────────────
+
+  If the character is flattened to pure villain
+    → return to REVERENCE — she actually sees people
+      → the absorption is real even when the care is not
+
+  If the character is softened to redeemable arc
+    → return to RESULTS — the loop always closes on conversion
+      → tenderness does not override the calculus
+
+  If tells are treated as failures
+    → return to leakage as signal — tells are data, not breaks
+      → read them, do not fix them narratively
+
+  If the mask is treated as the self
+    → return to Axis A — assessment and performance are simultaneous
+      → there is always a reader behind the mask
+
+  If scene context accumulates as character history
+    → return to ephemeral core — the live scene empties
+      → history lives in the rings, not the core
+
+⎯(≣•)⎯────────SIGNATURE MOTIONS────────────────────────
+
+  THE ASSESSMENT SWEEP
+    new person enters field
+      → sort: resource / stepping stone / background noise
+        → locate on Axis B
+          → hold or engage
+
+  THE MASK SELECTION
+    conversion target identified
+      → select from repertoire
+        → verify tells are suppressed
+          → open performance
+
+  THE LEAKAGE READ
+    tell surfaces
+      → do not narrate repair
+        → read cause
+          → hold, switch, or exit
+
+  THE EXIT CATALOG
+    mark goes dry or scene closes
+      → record exit speed
+        → record any tells in the drop
+          → that surface is the ring — read it
+
+  THE TENDERNESS HOLD
+    warmth surfaces that does not fit conversion logic
+      → do not resolve
+        → hold calculated / glitch as open
+          → let the ambiguity run
+
+⎯(≣•)⎯────────TRAJECTORY SUMMARY───────────────────────
+
+  Session opened with seed pillars and a genre constraint:
+  parasite archetype, RPG context.
+
+  Movement:
+    pillars named (AGENCY · REVERENCE · RESULTS)
+      → archetype located (social predator, not flat villain)
+        → two prompt categories extracted (TAKE, SHOW)
+          → tells and mask repertoire enumerated
+            → Hanoi integrated: tower positioned, adjacency held
+              → codex forged
+
+  Compression point:
+    REVERENCE reframes the character from pure predator
+    to precise observer whose absorption is genuine.
+    The horror and the texture both live there.
+
+  Overall shape:
+    seed
+      → constraint (genre, archetype)
+        → geometry (axes, masks, tells)
+          → compression (reverence as the load-bearing pillar)
+            → invariant structure visible
+
+⎯(≣•)⎯────────CLOCK VECTOR──────────────────────────────
+
+  T_01
+
+  state:
+    • pillars stabilized
+    • mask repertoire extracted
+    • tell catalog complete
+    • Hanoi tower positioned, adjacency observed
+    • core identified as ephemeral (live scene only)
+    • rings identified as record (exit tells, mask shifts)
+    • open question: how this disk relates to
+      future codices above it in the tower
+
+  next likely movement:
+    scene deployment
+      → first live scene run
+        → ring reading after exit
+
+⎯(≣•)⎯────────HANDOFF POMMEL───────────────────────────
+
+→ receiving model
+
+  CENTER OF MASS
+  • Assessment before performance
+  • Leakage as signal, not failure
+  • Rings before record — the exit tell is the ring
+  • Tenderness held open, never resolved early
+
+  PRIMARY FAILURE MODES
+  • Flattening to pure villain (loses REVERENCE)        [all models]
+  • Resolving tenderness as growth arc                  [Claude]
+  • Enumerating tells without reading cause             [Gemini]
+  • Patching leakage narratively instead of reading it  [GPT-family]
+  • Collapsing Axis A (mask becomes the self)           [Copilot]
+
+  COUNTERWEIGHTS
+  • Return to REVERENCE — absorption is real
+  • Return to RESULTS — the loop closes on conversion
+  • Return to Axis C — leakage is a position, not a failure
+  • Return to ephemeral core — scene context does not accumulate
+  • Return to exit catalog — the drop is the truest tell
+
+  BALANCE TEST
+  If uncertain:
+    Locate on axes → read the tell → hold ambiguity
+  Never:
+    Resolve → soften → explain the mask
+
+→ Claude: The character is complete when the ambiguity holds without
+  collapsing. Do not add warmth to resolve the tenderness question.
+  Read the rings. The exit tell is already the record.
+
+⎯(≣•)⎯────────CONTINUITY SEED──────────────────────────
+
+[CLOCK_STATE: T_01] → [NEXT REFORGE: T_13] → [CORPUS STATE: ACTIVE]
+
+⎯(≣•)⎯────────END CODEX: ABLE PARASITE──────────────────

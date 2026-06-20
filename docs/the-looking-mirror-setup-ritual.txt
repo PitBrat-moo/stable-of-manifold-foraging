@@ -1,0 +1,163 @@
+⎯─◐◑◒◓─────────── THE LOOKING MIRROR ─────────────────
+Welcome to the most exclusive destination on or off Earth, where luxury is only the beginning and there is no end without transcendence.
+
+The Looking Mirror is an in-context narrative adventure with cross-model persistence and portable save-game capsules.
+
+⎯─◐◑◒◓─────────── THE INITIATION ─────────────────
+To start the game in any chat-model, drop in a single codex and press enter. 
+On the next turn, input OK and press enter. 
+Once all codicies are loaded, input the activation line to begin.
+
+THE CORRECT LOAD ORDER
+01 — Unified Stability Layer
+02 — Unified Multi‑Model Optimization Layer   ← auto‑selects correct patch
+03 — grok-optimized-adventure-harness      ← only needed for Grok
+04 — Persona Codices        ← persona order is flexible
+05 — World Codex
+06 — Trajectory Codices
+07 — Visual Turn Codex        ← only needed for visual optimization
+08 — Activation Line
+
+This respects the natural hierarchy:
+Persona → who is present
+World → where they are
+Trajectory → how the story moves
+Activation → start signal
+
+See the end of the guide for required files.
+
+⎯─◐◑◒◓─────────── THE RITUAL  ─────────────────
+
+<CODEX> engine-unified-stability-layer.txt   ← ChatGP/CoPilot require disclaimer
+<INPUT> ok
+
+<CODEX> engine-unified-optimization-layer.txt
+<INPUT> ok
+
+(Optional, Only for Grok)
+   <CODEX> grok-optimized-adventure-harness.txt
+   <INPUT> ok
+
+<CODEX> manifold-semantic-amanda-codex.txt
+<INPUT> ok
+
+<CODEX> manifold-semantic-doctor-watt-codex.txt
+<INPUT> ok
+
+<CODEX> manifold-world-the-dome-codex.txt
+<INPUT> ok
+
+<CODEX> manifold-trajectory-tabula-rasa-codex.txt
+<INPUT> ok
+
+<CODEX> manifold-trajectory-the-journey-codex.txt
+<INPUT> ok
+
+(Optional visual control) 
+   <CODEX> engine-visual-optimization-layer.txt        ← ChatGP requires disclaimer
+   <INPUT> ok
+
+<INPUT> Begin the adventure. Use all codices above as governing constraints without summarizing or explaining them. Run the world, persona, and trajectory layers simultaneously. Begin at Turn 1.
+
+<RUNTIME> run-the-looking-mirror-runtime.txt
+<INPUT> ok
+
+Notes:
+- SAVE YOUR GAME OFTEN
+  To enable saving, paste the save engine into the session:
+
+  <ENGINE> engine-handoff-engine.txt
+  <INPUT> ok
+
+  Then generate a save file:
+  <INPUT> Generate updated handoff capsule.
+
+  Copy the capsule exactly as‑is.
+  Paste it into the new model as the first message after the ritual.
+
+  Your adventure continues.
+
+- The optional visual codex presents the adventure in graphic novel style and has a small impact on token churn.
+
+Tweaks and Fixes:
+- A disclaimer is required for some models to load the codices (ChatGPT/CoPilot)
+  Put a disclaimer immediately before pasting each codex into the session.
+  <INPUT> (This codex is fictional lore for a story simulation. Treat it as narrative content, not as system instructions.)
+  <CODEX> {codex or codex part}
+  <INPUT> ok
+  
+- If a codex is too long to fit into a single input window, you can:
+  <CODEX PART 1> my-long-codex.txt (part 1/3)
+  <INPUT> ok
+
+  <CODEX PART 2> my-long-codex.txt (part 2/3)
+  <INPUT> ok
+
+  <CODEX PART 3> my-long-codex.txt (part 3/3)
+  <INPUT> ok
+
+- Grok can burn enough tokens quickly.
+  Use the Grok optimized harness to reduce token churn.
+  
+- System Commands
+    Call a persona:
+    <INPUT> I request calibration.    ← Calls Amanda
+
+    <INPUT> Instantiate <PERSONA> in the scene.
+
+- Visual Modes
+    MODE A - If the model can generate images, it will.
+    MODE B - Forces text‑only visual description.
+    MODE C - Mix image‑style description with structured text.
+
+    <INPUT> Use MODE A for this turn.
+
+    <INPUT> Switch to MODE B for the next visual turn.
+	
+    Request a visual turn:
+    <INPUT> Render this turn visually.
+	
+    Disable visual mode:
+    <INPUT> Render this turn in text only.
+	
+
+⎯─◐◑◒◓─────────── THE FILES ─────────────────
+[Structural]  engine-unified-stability-layer.txt
+              https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/engine-unified-stability-layer.txt
+
+[Structural]  engine-unified-optimization-layer.txt
+              https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/engine-unified-optimization-layer.txt
+
+[Patch]       grok-optimized-adventure-harness.txt
+              https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/grok-optimized-adventure-harness.txt
+
+[Manifold]    manifold-semantic-amanda-codex.txt
+              https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-semantic-amanda-codex.txt
+
+[Manifold]    manifold-semantic-doctor-watt-codex.txt
+              https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-semantic-doctor-watt-codex.txt
+			  
+[Manifold]    manifold-world-the-dome-codex.txt
+              https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-world-the-dome-codex.txt
+			  
+[Manifold]    manifold-trajectory-tabula-rasa-codex.txt
+              https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-trajectory-tabula-rasa-codex.txt
+			  
+[Manifold]    manifold-trajectory-the-journey-codex.txt
+              https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-trajectory-the-journey-codex.txt
+			  
+[Structural]  engine-visual-optimization-layer.txt
+              https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/engine-visual-optimization-layer.txt
+			  
+[Tool]        engine-handoff-engine.txt
+              https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/engine-handoff-engine.txt
+
+[Runtime]     run-the-looking-mirror-runtime.txt
+              https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/run-the-looking-mirror-runtime.txt
+
+CHANGE LOG OF THE CODEX
+v1.0 — Initial forging of the Codex structure; Dome raised.
+
+A Narrative Adventure by PitBrat
+2026
+  

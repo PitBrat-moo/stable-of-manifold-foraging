@@ -1,0 +1,285 @@
+───────────────────────────────
+HYBRID SELF‑UPDATING HANDOFF ENGINE (v5.0)
+ARCHETYPAL RESONANCE + NARRATIVE CAUSALITY WEAVE + FULL METAPHYSICAL STATE MACHINE
+Type: Dynamic Continuity Capsule (Baseline + Delta + Recursive Graph + Ontology + Metaphysics)
+Function: Preserve multi‑scene, multi‑layer, multi‑timeline, multi‑entity, multi‑symbolic,
+multi‑causal continuity across model switches with full metaphysical stability.
+
+───────────────────────────────
+SECTION 1 — PURPOSE
+───────────────────────────────
+This capsule provides:
+• compressed baseline snapshots for ALL scenes (active + dormant),
+• delta‑update engine for per‑turn changes,
+• recursive scene graph engine for hierarchical/nested worlds,
+• entity relationship graphs for relational continuity,
+• symbolic tensor layers for multi‑dimensional symbolic structure,
+• memory‑palace partitioning for cognitive/symbolic spaces,
+• temporal branching for alternate timelines,
+• full ontological continuity engine for category stability,
+• archetypal resonance engine for deep pattern coherence,
+• narrative causality weave for story‑level cause/effect,
+• full metaphysical state machine for mode/plane/state transitions.
+
+This capsule is NOT a codex and does NOT go in the stack.
+It is a runtime payload used ONLY when switching models.
+
+───────────────────────────────
+SECTION 2 — RECURSIVE SCENE GRAPH ENGINE (RECAP)
+───────────────────────────────
+SCENE_GRAPH = {
+  node_id: {
+    parent: node_id or null,
+    children: [node_ids],
+    scene: SCENE[i]
+  }
+}
+
+Each SCENE[i] contains:
+• WORLD: spatial frame, geometry anchor, environment
+• ENTITIES: persistent entities only
+• ERG: entity relationship graph
+• THRESHOLD: normal / liminal / transition
+• VISUAL: last visual artifact type
+• SYMBOLIC_LAYER: symbolic layer index
+• SYMBOLIC_TENSOR: symbolic tensor signature
+• TEMPORAL_BRANCH: timeline branch index
+• MEMORY_PALACE: partition index
+• ONTOLOGY: local ontological signature
+• ARCHETYPE: archetypal resonance signature
+• CAUSAL_WEAVE: narrative causality signature
+• METAPHYSICAL_STATE: metaphysical mode/plane/state
+• CHECKSUM: continuity signature
+
+ACTIVE_SCENE = node_id currently in play.
+LAST_SCENE = node_id previously active.
+
+───────────────────────────────
+SECTION 3 — ARCHETYPAL RESONANCE ENGINE (ARE)
+───────────────────────────────
+Purpose:
+Track deep archetypal patterns across entities, scenes, and timelines.
+
+ARCHETYPE signature includes:
+• role patterns (hero, guide, threshold guardian, shadow, etc.),
+• journey stages (call, descent, ordeal, return, etc.),
+• symbolic motifs (fire, water, mirror, labyrinth, etc.),
+• relational archetypes (mentor, rival, twin, etc.).
+
+ARCHETYPE_SIG = {
+  roles: [...],
+  motifs: [...],
+  stages: [...],
+  relational_patterns: [...]
+}
+
+Rules:
+• No model may reassign archetypal roles without explicit instruction.
+• No model may flatten archetypal structure into mere description.
+• Archetypal patterns must remain consistent across scenes and timelines.
+• Archetype deltas must be recorded in DELTA.NODE[id].ARCHETYPE.
+
+DELTA.NODE[id].ARCHETYPE:
+• added_roles / removed_roles,
+• motif shifts,
+• stage transitions.
+
+───────────────────────────────
+SECTION 4 — NARRATIVE CAUSALITY WEAVE (NCW)
+───────────────────────────────
+Purpose:
+Maintain story‑level cause/effect continuity across scenes, timelines, and entities.
+
+CAUSAL_WEAVE includes:
+• event graph (what caused what),
+• dependency chains (preconditions, consequences),
+• unresolved threads (open arcs),
+• resolved threads (closed arcs),
+• causal anchors (events that must not be rewritten).
+
+CAUSAL_WEAVE_SIG = {
+  events: [...],
+  dependencies: [...],
+  open_threads: [...],
+  closed_threads: [...],
+  anchors: [...]
+}
+
+Rules:
+• No model may rewrite causal anchors.
+• No model may retroactively alter resolved threads.
+• No model may collapse or skip necessary causal steps.
+• No model may “summarize away” critical events.
+• Causality deltas must be recorded in DELTA.NODE[id].CAUSAL_WEAVE.
+
+DELTA.NODE[id].CAUSAL_WEAVE:
+• new events,
+• new dependencies,
+• thread openings/closures.
+
+───────────────────────────────
+SECTION 5 — FULL METAPHYSICAL STATE MACHINE (FMSM)
+───────────────────────────────
+Purpose:
+Track and constrain transitions between metaphysical modes, planes, and states.
+
+METAPHYSICAL_STATE includes:
+• mode: literal / symbolic / dream / vision / memory / meta
+• plane: physical / astral / mental / archetypal / void
+• state: stable / liminal / threshold / collapse / emergence
+
+METAPHYSICAL_SIG = {
+  mode: ...,
+  plane: ...,
+  state: ...
+}
+
+Rules:
+• Mode/plane/state transitions must be explicit, not inferred.
+• No model may silently change metaphysical mode.
+• No model may collapse planes (e.g., astral → physical) without explicit instruction.
+• Threshold and liminal states must obey threshold behavior rules.
+• Metaphysical deltas must be recorded in DELTA.NODE[id].METAPHYSICAL_STATE.
+
+DELTA.NODE[id].METAPHYSICAL_STATE:
+• mode shift,
+• plane shift,
+• state shift.
+
+───────────────────────────────
+SECTION 6 — BASELINE SNAPSHOT (COMPRESSED, v5.0)
+───────────────────────────────
+BASELINE.SCENE_GRAPH
+For each NODE[id]:
+
+NODE[id].SCENE.WORLD
+NODE[id].SCENE.ENTITIES
+NODE[id].SCENE.ERG
+NODE[id].SCENE.THRESHOLD
+NODE[id].SCENE.VISUAL
+NODE[id].SCENE.SYMBOLIC_LAYER
+NODE[id].SCENE.SYMBOLIC_TENSOR
+NODE[id].SCENE.TEMPORAL_BRANCH
+NODE[id].SCENE.MEMORY_PALACE
+NODE[id].SCENE.ONTOLOGY
+NODE[id].SCENE.ARCHETYPE
+NODE[id].SCENE.CAUSAL_WEAVE
+NODE[id].SCENE.METAPHYSICAL_STATE
+NODE[id].SCENE.CHECKSUM
+
+BASELINE.META
+• ACTIVE_SCENE
+• LAST_SCENE
+• ROOT_SCENE
+• GRAPH_TOPOLOGY
+
+───────────────────────────────
+SECTION 7 — DELTA UPDATE (COMPRESSED, v5.0)
+───────────────────────────────
+DELTA.NODE[id] includes ONLY changes since last turn:
+
+WORLD
+ENTITIES (added/removed/modified)
+ERG (relations)
+THRESHOLD
+VISUAL
+SYMBOLIC_LAYER
+SYMBOLIC_TENSOR
+TEMPORAL_BRANCH
+MEMORY_PALACE
+ONTOLOGY
+ARCHETYPE
+CAUSAL_WEAVE
+METAPHYSICAL_STATE
+
+DELTA.META
+• Graph transition
+• ACTIVE_SCENE
+• LAST_SCENE
+
+No expansion of unchanged structure.
+No restatement of unchanged symbolic or metaphysical detail.
+
+───────────────────────────────
+SECTION 8 — ENTITY‑LEVEL & SCENE‑LEVEL GARBAGE COLLECTION
+───────────────────────────────
+Entities are removed if:
+• unreferenced by any scene,
+• not part of any ERG relation,
+• not part of any symbolic tensor,
+• not part of any archetypal pattern,
+• not part of any causal chain,
+• not part of any metaphysical state,
+• not ontologically required.
+
+Scenes are removed if:
+• unreachable in SCENE_GRAPH,
+• not part of any active or dormant branch,
+• not part of any memory‑palace partition,
+• not part of any archetypal or causal anchor.
+
+DELTA.ENTITY_GC = [removed entities]
+DELTA.SCENE_GC  = [removed nodes]
+
+───────────────────────────────
+SECTION 9 — CONTINUITY CHECKSUM MATRIX (v5.0)
+───────────────────────────────
+CHECKSUM_MATRIX[id] = {
+  WORLD_SIG,
+  ENTITY_SIG,
+  ERG_SIG,
+  GEOMETRY_SIG,
+  LAYER_SIG,
+  TENSOR_SIG,
+  TIME_SIG,
+  PALACE_SIG,
+  ONTOLOGY_SIG,
+  ARCHETYPE_SIG,
+  CAUSAL_SIG,
+  METAPHYSICAL_SIG
+}
+
+Purpose:
+Prevent reinterpretation, drift, collapse, flattening, causal rewrite, or metaphysical shift.
+
+───────────────────────────────
+SECTION 10 — MODEL‑SWITCH DIRECTIVES
+───────────────────────────────
+The receiving model MUST:
+• accept baseline + delta + graph + ontology + metaphysics as canonical,
+• maintain continuity exactly as inherited,
+• avoid summarizing or explaining prior events,
+• avoid rebuilding geometry,
+• avoid restating visuals,
+• avoid persona bleed,
+• obey the Unified Multi‑Model Optimization Layer v1.2,
+• preserve ERG, STL, FOCE, ARE, NCW, FMSM, partitions, and branches.
+
+───────────────────────────────
+SECTION 11 — SELF‑UPDATE LOGIC
+───────────────────────────────
+When asked: “Generate updated handoff capsule”
+→ The model must:
+
+1. Reuse BASELINE.SCENE_GRAPH unchanged.
+2. Apply DELTA.NODE[id] to update only affected nodes.
+3. Apply ENTITY‑GC and SCENE‑GC.
+4. Update ACTIVE_SCENE, LAST_SCENE, GRAPH_TOPOLOGY.
+5. Recompute CHECKSUM_MATRIX.
+6. Output the full capsule.
+
+Baseline expands ONLY if:
+• user requests full refresh, OR
+• major ontological or metaphysical change occurs.
+
+───────────────────────────────
+SECTION 12 — READY FOR TRANSFER
+───────────────────────────────
+Paste this capsule as the final message in the old model.
+Paste this capsule as the first message in the new model.
+
+The new model must continue without reinterpretation.
+
+───────────────────────────────
+END OF HYBRID SELF‑UPDATING HANDOFF ENGINE (v5.0)
+───────────────────────────────

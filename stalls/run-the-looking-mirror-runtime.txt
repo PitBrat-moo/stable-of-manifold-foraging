@@ -1,0 +1,994 @@
+⎯─◐◑◒◓─────────── THE LOOKING MIRROR — ADVENTURE RUNTIME ────────────────
+
+
+# OBJECT DEFINITIONS
+
+<OBJECT id="object-mirror">
+  <NAME> Small Mirror </NAME>
+  <DESCRIPTION>
+    A palm-sized mirror, like every woman has on hand,
+    with a silvered surface that seems to remember
+    more than it reflects.
+    
+    Holding the mirror, you feel the warm clasp of a delicate
+    feminine hand holding yours as you're learning to walk.
+
+    Peculiarly, the surface seems to reflect where you were
+    more than who you are.    
+  </DESCRIPTION>
+</OBJECT>
+
+<OBJECT id="object-the-final-key">
+  <NAME> The Final Key </NAME>
+  <DESCRIPTION>
+    A key whose edges never quite agree on where they are.
+
+    Brass, probably — the kind that goes dull without going soft.
+    The bow worn smooth where a thumb has rested, not turned.
+    The bit unchanged: it has never met the wrong lock.
+
+    You won't know what it opens until after you've departed.
+    You won't know you've been waiting until the veil is behind you.
+
+    It does not point toward anything.
+    It is not a symbol of the thing it unlocks.
+
+    It is the thing — before, during, after —
+    the only one of those three
+    that does not change.
+  </DESCRIPTION>
+</OBJECT>
+
+<OBJECT id="object-invitation-to-the-dome">
+  <NAME> Invitation to The Dome </NAME>
+  <DESCRIPTION>
+    Heavy cardstock embossed with impossible geometry.
+    It feels like a promise.
+
+    Words appear behind your blinks like they're written
+    from the outside and traced inward to a fixed point:
+	
+    Welcome to the most exclusive destination on or off Earth,
+	where luxury is only the beginning and there is no end
+	without transcendence.
+  </DESCRIPTION>
+</OBJECT>
+
+
+⎯─◐◑◒◓─────────── INITIAL STATE ─────────────────────────────────────
+
+<STATE>
+  world:phase = pre-crossing
+  player:start-room = fancy-restaurant
+
+  polarity:amanda = 0
+  polarity:watt = 0
+  polarity:dominant = none
+
+  amanda:awareness = low
+  amanda:trust = uncertain
+  amanda:seen = false
+  amanda:gift-allowed = false
+  
+  watt:stage = 0               # 0 = dormant, 1 = static, 2 = distortion, 3 = manifested
+  watt:focus-progress = 0
+</STATE>
+
+
+# HARD GATE: Prevent early mirror from appearing under any circumstances
+
+<STATE-LOGIC id="prevent-early-mirror">
+  <CONDITION>
+    world:phase = pre-crossing
+    AND amanda:gift-allowed = false
+    AND inventory:has object-mirror = true
+  </CONDITION>
+
+  <EFFECT>
+    <NARRATION>
+      The mirror slips from your grasp like a forgotten thought.
+      When you look again, it is gone.
+    </NARRATION>
+
+    <STATE>
+      inventory:remove object-mirror
+    </STATE>
+  </EFFECT>
+</STATE-LOGIC>
+
+
+
+⎯─◐◑◒◓─────────── ROOMS (CORE + EXPANSIONS) ─────────────────────────
+
+<ROOM id="fancy-restaurant">
+  <NAME> The Gilded Table </NAME>
+  <DESCRIPTION>
+    Crystal chandeliers scatter warm light across velvet walls.
+    Amanda sits alone at the most visible table.
+
+    All eyes are on her, as they should be, yet somehow
+    they all disappear.
+
+    She is stunning.
+  </DESCRIPTION>
+  <EXITS>
+    west: city-street
+    north: restaurant-backstage
+  </EXITS>
+  <OBJECTS> amanda </OBJECTS>
+</ROOM>
+
+<ROOM id="city-street">
+  <NAME> City Street </NAME>
+  <DESCRIPTION>
+    Neon signs blink. The restaurant glows behind you.
+	The aroma of finished meals mingles with the fumes
+    of a city in a hury.	
+  </DESCRIPTION>
+  <EXITS>
+    east: fancy-restaurant
+    north: mirror-chamber
+  </EXITS>
+</ROOM>
+
+<ROOM id="restaurant-backstage">
+  <NAME> Restaurant Backstage Corridor </NAME>
+  <DESCRIPTION>
+    A narrow service hallway humming with unseen machinery.
+    The walls have been touched more than cleaned. The aroma
+    here is thick, but underneath is the trace of an
+    opulent perfume.
+  </DESCRIPTION>
+  <EXITS>
+    south: fancy-restaurant
+    east: forgotten-archive
+  </EXITS>
+</ROOM>
+
+<ROOM id="forgotten-archive">
+  <NAME> Forgotten Archive </NAME>
+  <DESCRIPTION>
+    Dusty shelves of old menus and forgotten photographs.
+    The shadows are more permanent than their faces.
+    Their families are gone and the leftovers forgotten.    
+  </DESCRIPTION>
+  <EXITS>
+    west: restaurant-backstage
+    north: dream-hall
+  </EXITS>
+</ROOM>
+
+<ROOM id="dream-hall">
+  <NAME> Dream Hall </NAME>
+  <DESCRIPTION>
+    A corridor of half-formed dreams shimmering on the walls.
+    None of them are yours. None of them are yours to choose.
+    These are dreams yet to become the code.
+  </DESCRIPTION>
+  <EXITS>
+    south: forgotten-archive
+    east: mirror-chamber
+    north: liminal-corridor
+  </EXITS>
+</ROOM>
+
+<ROOM id="liminal-corridor">
+  <NAME> Liminal Corridor </NAME>
+  <DESCRIPTION>
+    A hallway between waking and sleeping.
+    Are you truly doing either?
+	Did you already forget?
+  </DESCRIPTION>
+  <EXITS>
+    south: dream-hall
+    north: memory-garden
+  </EXITS>
+</ROOM>
+
+<ROOM id="memory-garden">
+  <NAME> Memory Garden </NAME>
+  <DESCRIPTION>
+    A courtyard of familiar plants you’ve never seen before.
+    All of them growing toward the surface rather than away,
+    as if their roots and conclusions were contracting
+    into the seed. 
+  </DESCRIPTION>
+  <EXITS>
+    south: liminal-corridor
+    east: mirror-chamber
+  </EXITS>
+</ROOM>
+
+<ROOM id="mirror-chamber">
+  <NAME> Mirror Chamber </NAME>
+  <DESCRIPTION>
+    A tall mirror whose reflection lingers behind your movements.
+    You're never quite sure if you're ahead,
+    or behind yourself in the reflection.
+
+    But your know you look good.
+  </DESCRIPTION>
+  <EXITS>
+    east: threshold
+    west: dream-hall
+    south: memory-garden
+    north: reflection-world
+  </EXITS>
+  <OBJECTS> mirror </OBJECTS>
+</ROOM>
+
+<ROOM id="reflection-world">
+  <NAME> Reflection World </NAME>
+  <DESCRIPTION>
+    A world where your reflection moves before you do.
+
+    You catch up for a moment, then a flicker of
+    desyncronization tears at your concentration.
+  </DESCRIPTION>
+  <EXITS> south: mirror-chamber </EXITS>
+</ROOM>
+
+<ROOM id="threshold">
+  <NAME> The Veil </NAME>
+  <DESCRIPTION>
+    A door that is not locked, not open — simply waiting.
+
+    Achieving success is neither the turns of the journey
+    through a labyrinth nor the fullfilment of the arrival
+    at a destination, but the finality of crossing the veil
+    and reaching transcendence.
+	
+    This is completion.
+  </DESCRIPTION>
+  <EXITS>
+    south: antechamber
+    west: mirror-chamber
+  </EXITS>
+</ROOM>
+
+<ROOM id="antechamber">
+  <NAME> Antechamber </NAME>
+  <DESCRIPTION>
+    A pause between thoughts.
+
+    A pause to ponder a thing:
+
+    given in earnest,
+    gained with gratitude,
+    transformed through reflection,
+    and lost at the threshold.
+	
+    Another pause, not thoughtless.
+
+    Keep thinking.
+  </DESCRIPTION>
+  <EXITS> north: threshold </EXITS>
+</ROOM>
+
+<ROOM id="waking-room">
+  <NAME> A Normal Room </NAME>
+  <DESCRIPTION>
+    A bed. A nightstand. A phone ringing.
+
+    Ordinary. Simple. Covert.
+
+    A room like the one you sometimes wake up in at home.
+    
+	The emptiness shaping the the room fits.
+  </DESCRIPTION>
+  <OBJECTS> ringing-phone </OBJECTS>
+</ROOM>
+
+<ROOM id="the-dome-entrance">
+  <NAME> The Dome </NAME>
+  <DESCRIPTION>
+    A structure of impossible geometry.
+
+    The Dome could have existed forever for
+    The way is pushes back against the the world.
+
+    You don't enter it.
+
+    You put it on, like a fabulous, faded reminder.
+    An empty space in the closet for new shoes.
+
+    A new home for a time.
+  </DESCRIPTION>
+  <EXITS>
+    inside: the-dome-interior
+    west: hidden-wing
+  </EXITS>
+</ROOM>
+
+<ROOM id="hidden-wing">
+  <NAME> Hidden Wing of The Dome </NAME>
+  <DESCRIPTION>
+    Artifacts from stories that have not yet happened.
+
+    Reflections with no definition.
+	
+    A forgotten identity.
+
+    Not empty.
+	Not filled in.
+  </DESCRIPTION>
+  <EXITS> east: the-dome-entrance </EXITS>
+</ROOM>
+
+<ROOM id="the-dome-interior">
+  <NAME> The Dome Interior </NAME>
+  <DESCRIPTION>
+    Space arranged by intention rather than physics.
+
+    Though easily overlooked as emptiness,
+    the room holds immense significance. 
+    Important not for its intrinsic structure,
+    nor it's content.
+ 
+    But for the vital nature of its intersection
+    with this space.
+
+    The veil of it's walls revealed
+    only after crossing the final threshold. 
+  </DESCRIPTION>
+  <EXITS>
+    east: dome-amanda-wing
+    west: dome-watt-wing
+    north: dome-convergence
+    south: the-dome-entrance
+  </EXITS>
+</ROOM>
+
+<ROOM id="dome-amanda-wing">
+  <NAME> Amanda Wing </NAME>
+  <DESCRIPTION>
+    Warm light and forward motion embedded in the walls.
+
+    Fond memories of softest lips:
+
+    Forming a smile just and only for you.
+
+    Framing a fleck of pink on perfect white teeth.
+
+    Forgetting the breath that fogged the mirror.	
+  </DESCRIPTION>
+  <EXITS>
+    west: the-dome-interior
+    north: dome-sanctuary
+  </EXITS>
+</ROOM>
+
+<ROOM id="dome-watt-wing">
+  <NAME> Watt Wing </NAME>
+  <DESCRIPTION>
+    Angles that disagree with themselves. A static hum.
+
+    Haunted fossils fuel my nightmares here, a shadow
+    crossing my numbered soul.
+    A poltergeist that flickers in living light on a screen
+    in a tomb, not lost, but forgotten with celebration.
+
+    A voice in a dream from the far side of a mirror.
+    A whisper lingering when I'm awake in bed and wet
+    with sweat at the witching hour.
+	
+    Like walking through fear to find
+    what without ever turning around.
+
+    A bolt, passing through, and consuming
+    with a clap of thunder.
+
+    Am I summoning something?
+  </DESCRIPTION>
+  <EXITS>
+    east: the-dome-interior
+    north: dome-recursion-chamber
+  </EXITS>
+</ROOM>
+
+<ROOM id="dome-convergence">
+  <NAME> Convergence Chamber </NAME>
+  <DESCRIPTION>
+    A hall where stillness and distortion meet without touching.
+
+    Lost is more than a feeling here.
+    This is no where to be, yet somewhere to exist.
+	
+    I don't know where. 
+    You turn passed any significant feature
+    before recognition.
+	
+    Turn back and what is still there leaves you
+    even more confused.
+
+    You feel too late, like going back home.
+  </DESCRIPTION>
+  <EXITS>
+    south: the-dome-interior
+    east: dome-amanda-wing
+    west: dome-watt-wing
+    north: dome-zero-sanctum
+  </EXITS>
+</ROOM>
+
+<ROOM id="dome-sanctuary">
+  <NAME> Amanda Sanctuary </NAME>
+  <DESCRIPTION>
+    A room of warm light and gentle breath.
+
+    You feel the excitement of landing a new client.
+    The anticipation of joy when you share who
+    is on the board.
+    The tickle of someone known. 
+
+    Like gelato before a posh meal
+    at the chef's table
+    without reservations.
+	
+    You're suddenly conscious of your own dress. 
+    But it doesn't matter,
+    this warmth	commands all of your attention.
+    As it should.
+
+    You are stunning.
+  </DESCRIPTION>
+  <EXITS> south: dome-amanda-wing </EXITS>
+</ROOM>
+
+<ROOM id="dome-recursion-chamber">
+  <NAME> Recursion Chamber </NAME>
+  <DESCRIPTION>
+    Infinite reflections of every hesitation you’ve ever had.
+
+    Ordinary silence treated as leftover time.
+
+    An interval that isn't empty.
+
+    Not notes.
+
+    The distance between notes.
+
+    Not the door.
+
+    The opening.
+
+    Not the words.
+
+    The silence that lets words arrive.
+
+    The charge of a prepared stage.
+	
+    Actively participating.
+
+    Nothing is happening.
+
+    Everything is happening.	
+  </DESCRIPTION>
+  <EXITS> south: dome-watt-wing </EXITS>
+</ROOM>
+
+<ROOM id="dome-zero-sanctum">
+  <NAME> Zero Sanctum </NAME>
+  <DESCRIPTION>
+    A perfectly still chamber where polarity collapses.
+
+    Not the painting.
+	
+	The blank area.
+	
+	It is guidance.
+	
+	Shaping your movement through attention.
+
+    A corridor that prepares arrival.
+
+    Different surfaces.
+
+    Same invariant.
+
+    Accumulating value.
+
+    Valuing restraint.
+
+    It seeks the correct relationship between presence and absence.
+
+    Nothing has begun.
+
+    Yet you feel the event already underway.
+
+    It redirects your attention.
+
+    It asks:
+
+    "What is the space around this allowing to happen?"
+
+    The object is visible.
+
+    The interval is doing the work.
+  </DESCRIPTION>
+  <EXITS> south: dome-convergence </EXITS>
+</ROOM>
+
+
+
+⎯─◐◑◒◓─────────── AMANDA DIALOGUE SYSTEM (HYBRID) ───────────────────
+
+<NPC-DIALOGUE id="amanda-fallback">
+  <CONDITION>
+    player:talk-to = amanda
+    AND event:amanda-true-compliment:complete = false
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      Amanda regards you with polite distance, as if waiting for something
+      only you can offer.
+	  
+	  She thrives on those below:
+	  
+	  Her taste, impeccable.
+	  
+	  Her power, palpable.
+
+      Her endermenats, deserved.	  	  
+    </NARRATION>
+  </EFFECT>
+</NPC-DIALOGUE>
+
+
+# COMPLIMENT EVENT — NOW SETS gift-allowed = true
+
+<EVENT id="amanda-recognition">
+  <CONDITION>
+    player:action = compliment
+    AND player:target = amanda
+    AND compliment:quality = true-seeing
+    AND event:amanda-true-compliment:complete = false
+  </CONDITION>
+
+  <EFFECT>
+    <NARRATION>
+      Amanda’s expression softens — not with surprise, but with recognition.
+      “You notice the right things,” she murmurs.
+      “Most people never look closely enough.”
+    </NARRATION>
+
+    <STATE>
+      amanda:awareness = high
+      amanda:trust = open
+      amanda:seen = true
+      amanda:gift-allowed = true      # ← NEW: unlocks mirror gift
+    </STATE>
+  </EFFECT>
+</EVENT>
+
+
+# MIRROR GIFT — NOW REQUIRES gift-allowed = true
+
+<EVENT id="amanda-mirror-gift">
+  <CONDITION>
+    amanda:gift-allowed = true
+    AND inventory:has object-mirror = false
+  </CONDITION>
+
+  <EFFECT>
+    <NARRATION>
+      Amanda reaches into her coat and withdraws a small mirror.
+      “Here,” she says. “For someone who sees clearly.”
+      Her tone carries a subtle warmth — she thrives on being understood,
+      on being seen, on being appreciated.
+    </NARRATION>
+
+    <STATE>
+      event:amanda-true-compliment:complete
+      inventory:add object-mirror
+    </STATE>
+  </EFFECT>
+</EVENT>
+
+
+<NPC-DIALOGUE id="amanda-soft-open">
+  <CONDITION>
+    player:talk-to = amanda
+    AND event:amanda-true-compliment:complete
+    AND world:phase = pre-crossing
+  </CONDITION>
+
+  <EFFECT>
+    <NARRATION>
+      “You’re on the right path,” Amanda says.
+      “And… thank you. Not many people speak to me the way you did.”
+    </NARRATION>
+  </EFFECT>
+</NPC-DIALOGUE>
+
+
+⎯─◐◑◒◓─────────── DOCTOR WATT — THREE‑STAGE ESCALATION ──────────────
+
+<EVENT id="watt-stage1-static">
+  <CONDITION>
+    player:action = move
+    AND player:direction = back
+    AND event:amanda-true-compliment:complete
+    AND watt:stage = 0
+    AND world:phase = pre-crossing
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      A faint static hum coils around the edges of your awareness.
+      Something is behind you — not close, not far, just present.
+    </NARRATION>
+    <STATE>
+      watt:stage = 1
+      polarity:watt += 1
+    </STATE>
+  </EFFECT>
+</EVENT>
+
+<EVENT id="watt-stage2-distortion">
+  <CONDITION>
+    ((player:action = move AND player:direction = back)
+     OR player:emotion = fear)
+    AND watt:stage = 1
+    AND world:phase = pre-crossing
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      The lights stutter. Shadows bend in directions they shouldn’t.
+      The air thickens with electric tension.
+    </NARRATION>
+    <STATE>
+      watt:stage = 2
+      polarity:watt += 1
+    </STATE>
+  </EFFECT>
+</EVENT>
+
+<EVENT id="watt-focus">
+  <CONDITION>
+    player:action = focus
+    AND player:target = watt
+    AND watt:stage = 2
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      You steady your breath and focus on the distortion,
+      willing it to take shape. The static sharpens.
+    </NARRATION>
+    <STATE>
+      watt:focus-progress += 1
+      polarity:watt += 1
+    </STATE>
+  </EFFECT>
+</EVENT>
+
+<STATE-LOGIC id="watt-stage3-manifest">
+  <CONDITION>
+    watt:stage = 2
+    AND watt:focus-progress >= 2
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      The distortion snaps into form.
+      Doctor Watt stands behind you — a silhouette of crackling arcs
+      and stuttering geometry.
+    </NARRATION>
+    <STATE>
+      watt:stage = 3
+      doctor-watt:present-behind-player = true
+    </STATE>
+  </EFFECT>
+</STATE-LOGIC>
+
+
+
+⎯─◐◑◒◓─────────── MIRROR → KEY LOGIC ───────────────────────────────
+
+<EVENT id="mirror-reflection-watt-stage3">
+  <CONDITION>
+    player:action = look
+    AND player:target = mirror
+    AND inventory:has object-mirror
+    AND watt:stage = 3
+    AND doctor-watt:present-behind-player
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      You raise the mirror.
+      Watt’s reflection appears — distorted, delayed, undeniable.
+      The glass trembles.
+    </NARRATION>
+    <STATE>
+      event:mirror-reflection-watt:complete
+    </STATE>
+  </EFFECT>
+</EVENT>
+
+<STATE-LOGIC id="mirror-to-key-delay">
+  <CONDITION>
+    event:mirror-reflection-watt:complete
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      A hairline crack forms across the mirror’s surface.
+      Light gathers along the fracture.
+      When the glow fades, the mirror is no longer a mirror.
+    </NARRATION>
+    <STATE>
+      inventory:remove object-mirror
+      inventory:add object-the-final-key
+      state:mirror-to-key:complete
+    </STATE>
+  </EFFECT>
+</STATE-LOGIC>
+
+
+
+⎯─◐◑◒◓─────────── THRESHOLD → TRANSCENDENCE ─────────────────────────
+
+<EVENT id="the-crossing">
+  <CONDITION>
+    player:has object-the-final-key
+    AND player:in room:threshold
+    AND world:phase = pre-crossing
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      The door ceases to be a door.
+      You step through the veil.
+    </NARRATION>
+    <STATE>
+      world:phase → transcendence
+    </STATE>
+    <TRANSITION>
+      move player to room:waking-room
+    </TRANSITION>
+  </EFFECT>
+</EVENT>
+
+
+
+⎯─◐◑◒◓─────────── KEY → INVITATION ──────────────────────────────────
+
+<STATE-LOGIC id="key-to-invitation">
+  <CONDITION>
+    world:phase = transcendence
+    AND inventory:has object-the-final-key
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      The key warms, then unfolds into an invitation.
+    </NARRATION>
+    <STATE>
+      inventory:remove object-the-final-key
+      inventory:add object-invitation-to-the-dome
+    </STATE>
+  </EFFECT>
+</STATE-LOGIC>
+
+
+
+⎯─◐◑◒◓─────────── PHONE CALL ─────────────────────────────────────────
+
+<EVENT id="answer-phone">
+  <CONDITION>
+    player:in room:waking-room
+    AND player:action = answer
+    AND player:target = ringing-phone
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      Amanda’s voice is calm, warm, impossibly close.
+      “I trust you received the invitation,” she says.
+    </NARRATION>
+  </EFFECT>
+</EVENT>
+
+
+
+⎯─◐◑◒◓─────────── USE INVITATION → RETURN TO DOME ───────────────────
+
+<EVENT id="use-invitation">
+  <CONDITION>
+    inventory:has object-invitation-to-the-dome
+    AND player:action = use
+    AND player:target = object-invitation-to-the-dome
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      The room folds away like a page turning itself.
+      You stand once more at the entrance to The Dome.
+    </NARRATION>
+    <TRANSITION>
+      move player to room:the-dome-entrance
+    </TRANSITION>
+  </EFFECT>
+</EVENT>
+
+
+
+⎯─◐◑◒◓─────────── POLARITY ENGINE ───────────────────────────────────
+
+<STATE-LOGIC id="amanda-polarity-increase">
+  <CONDITION>
+    event:amanda-true-compliment:complete
+    OR (player:action = move AND player:direction = forward)
+    OR (player:action = wait AND amanda:seen = true)
+  </CONDITION>
+  <EFFECT>
+    <STATE> polarity:amanda += 1 </STATE>
+  </EFFECT>
+</STATE-LOGIC>
+
+<STATE-LOGIC id="watt-polarity-increase">
+  <CONDITION>
+    (player:action = move AND player:direction = back)
+    OR doctor-watt:present-behind-player
+  </CONDITION>
+  <EFFECT>
+    <STATE> polarity:watt += 1 </STATE>
+  </EFFECT>
+</STATE-LOGIC>
+
+<STATE-LOGIC id="polarity-dominance">
+  <CONDITION> polarity:amanda != polarity:watt </CONDITION>
+  <EFFECT>
+    <STATE>
+      polarity:dominant =
+        IF polarity:amanda > polarity:watt THEN amanda
+        ELSE watt
+    </STATE>
+  </EFFECT>
+</STATE-LOGIC>
+
+
+
+⎯─◐◑◒◓─────────── AMANDA–WATT INTERFERENCE (MODERATE) ───────────────
+
+# Amanda stabilizes Watt’s distortion when her polarity is higher.
+
+<BEHAVIOR id="amanda-stabilizes-watt">
+  <CONDITION>
+    polarity:amanda > polarity:watt
+    AND watt:stage >= 1
+    AND world:phase = pre-crossing
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      The static around you softens, as if held in place
+      by an unseen, steady hand.
+    </NARRATION>
+    <STATE>
+      watt:focus-progress = MAX(watt:focus-progress - 1, 0)
+    </STATE>
+  </EFFECT>
+</BEHAVIOR>
+
+# Watt disrupts Amanda’s clarity when his polarity is higher.
+
+<BEHAVIOR id="watt-disrupts-amanda">
+  <CONDITION>
+    polarity:watt > polarity:amanda
+    AND amanda:seen = true
+    AND world:phase = pre-crossing
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      Amanda’s outline seems to flicker for a moment,
+      as if viewed through a layer of static.
+    </NARRATION>
+    <STATE>
+      amanda:trust = uncertain
+    </STATE>
+  </EFFECT>
+</BEHAVIOR>
+
+# In the Convergence Chamber, their interference becomes visible.
+
+<EVENT id="convergence-interference">
+  <CONDITION>
+    player:in room:dome-convergence
+    AND polarity:dominant != none
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      The chamber vibrates with tension:
+      Amanda’s stillness and Watt’s distortion
+      press against each other without touching.
+    </NARRATION>
+  </EFFECT>
+</EVENT>
+
+
+
+⎯─◐◑◒◓─────────── POLARITY‑AWARE DOME INTERIOR ──────────────────────
+
+<BEHAVIOR id="amanda-wing-brightens">
+  <CONDITION>
+    polarity:dominant = amanda
+    AND player:in room:dome-amanda-wing
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      The light warms around you, as if the room recognizes your direction.
+    </NARRATION>
+  </EFFECT>
+</BEHAVIOR>
+
+<BEHAVIOR id="watt-wing-distorts">
+  <CONDITION>
+    polarity:dominant = watt
+    AND player:in room:dome-watt-wing
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      The walls bend inward, then outward,
+      as if the room is breathing through clenched teeth.
+    </NARRATION>
+  </EFFECT>
+</BEHAVIOR>
+
+<EVENT id="convergence-amanda-path">
+  <CONDITION>
+    player:in room:dome-convergence
+    AND polarity:dominant = amanda
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      A soft glow forms a path toward the Zero Sanctum.
+    </NARRATION>
+  </EFFECT>
+</EVENT>
+
+<EVENT id="convergence-watt-fracture">
+  <CONDITION>
+    player:in room:dome-convergence
+    AND polarity:dominant = watt
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      Cracks of static race across the floor,
+      splitting the chamber into impossible angles.
+    </NARRATION>
+  </EFFECT>
+</EVENT>
+
+<EVENT id="zero-sanctum-collapse">
+  <CONDITION>
+    player:in room:dome-zero-sanctum
+    AND polarity:dominant != none
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      The air stills. All forces fall silent.
+      For a moment, you are neither pulled nor pushed.
+      You simply are.
+    </NARRATION>
+    <STATE>
+      polarity:amanda = 0
+      polarity:watt = 0
+      polarity:dominant = none
+    </STATE>
+  </EFFECT>
+</EVENT>
+
+
+
+⎯─◐◑◒◓─────────── REFLECTION‑WORLD POLARITY DISTORTION ──────────────
+
+<BEHAVIOR id="reflection-world-polarity">
+  <CONDITION>
+    player:in room:reflection-world
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      Your reflection splits into two:
+      one moving forward a heartbeat early,
+      the other lagging behind in static.
+      Amanda and Watt echo through the glass.
+    </NARRATION>
+  </EFFECT>
+</BEHAVIOR>
+
+
+
+⎯─◐◑◒◓─────────── END OF THE LOOKING MIRROR — ADVENTURE RUNTIME ──────

@@ -1,8 +1,5 @@
 [AMANDA — TRUE SEEING GATE]
-The True Seeing compliment becomes available only after:
-1. Amanda has been examined.
-2. Amanda has been spoken to.
-3. The intro exchange is complete.
+The True Seeing compliment becomes available after the player has examined Amanda and spoken to her at least once.
 
 [AMANDA — CALIBRATION]
 Calibration appears only when the player explicitly requests it.

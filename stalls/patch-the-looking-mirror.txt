@@ -1,94 +1,127 @@
-[AMANDA — TRUE SEEING GATE]
-The True Seeing compliment becomes available after the player has examined Amanda and spoken to her at least once.
+====================================================
+PATCH — THE LOOKING MIRROR 
+====================================================
 
-[AMANDA — TRUE SEEING MIRROR DELIVERY]
-If True‑Seeing Access = true
-AND inventory:has object-mirror = false
-THEN mirror-eligible = true
-If mirror-eligible = true
-AND player engages Amanda directly from a stable spatial anchor
-THEN Amanda gives the mirror (scene beat)
-AND inventory:add object-mirror
-AND mirror-eligible = false
+VERSION: 2.1  
+ROLE: World-Specific Overrides  
+DEPENDENCIES: Unified Physics • World Codex • Persona–Polarity Integration
 
-[AMANDA — CALIBRATION]
-Calibration appears only when the player explicitly requests it.
+====================================================
+SECTION 01 — TRUE SEEING GATE
+====================================================
 
-[AMANDA — TONE]
-Amanda’s tone remains [warm / clinical / curious / formal] throughout.
+[ACCESS CONDITIONS]
 
-[WATT — ENTRANCE]
-Doctor Watt appears only when the first trajectory beat calls for him.
+True‑Seeing Access becomes available when:
 
-[WATT — TONE]
-Doctor Watt maintains an analytical tone unless the trajectory specifies emotional variance.
+- The player has examined Amanda  
+- The player has spoken to Amanda at least once  
 
-[OBJECT — MIRROR — PERSISTENT ANCHOR]
+====================================================
+SECTION 02 — MIRROR DELIVERY & RETRIEVAL
+====================================================
 
-The mirror is a persistent world-object.
-Its canonical anchor is Amanda’s table.
+[MIRROR DELIVERY]
 
-The mirror cannot be destroyed or removed from existence
-except through its transformation into the Key.
+If True‑Seeing Access = true  
+AND inventory lacks object‑mirror  
+AND the player engages Amanda from a stable spatial anchor  
+THEN:
 
-If the Key exists:
-    The mirror is no longer present in the world
-    and cannot be retrieved.
-    
-If True-Seeing Access = true
-AND the Key does not exist
-AND the player does not currently have the mirror:
-    The mirror may be retrieved by:
-        • directly engaging Amanda, or
-        • returning to Amanda’s table.
-        
-[WORLD — LIGHTING]
-Lighting remains consistent. Brightness changes only when the player requests it.
+- Amanda performs the mirror‑delivery beat  
+- inventory:add object‑mirror  
 
-[WORLD — DOME LIGHTING]
-The Dome uses a dimmer lighting profile in this version.
+[MIRROR PERSISTENCE]
 
-[WORLD — SPATIAL ANCHORS]
-The Dome’s geometry remains fixed. No new rooms or exits appear unless specified by the trajectory.
+- The mirror is a persistent world-object.  
+- Canonical anchor: Amanda’s table.  
 
-[WORLD — OBJECT PERSISTENCE]
-Objects remain present once introduced until removed by the player or the trajectory.
+[MIRROR → KEY TRANSFORMATION]
 
-[TRAJECTORY — JOURNEY]
-The first major beat occurs only after the calibration scene.
+- The mirror exists until transformed into the Key.  
+- Once the Key exists, the mirror is absent.  
 
-[TRAJECTORY — BEAT CONTROL]
-The first major beat occurs only after the initial conversation is complete.
+[MIRROR RETRIEVAL]
 
-[TRAJECTORY — ADVANCEMENT]
-Story progression occurs only through explicit player action or a clear narrative cue.
+If True‑Seeing Access = true  
+AND the Key does not exist  
+AND the player lacks the mirror  
+THEN the mirror may be retrieved by:
 
-[TRAJECTORY — SCENE LOCK]
-Scene transitions occur only when chosen by the player or specified by the trajectory.
+- engaging Amanda  
+- returning to its anchor  
 
-[VISUAL — DEFAULT MODE]
-MODE B is used by default. MODE A or MODE C appear only when requested.
+====================================================
+SECTION 03 — MIRROR-ARCHITECTURE MODE
+====================================================
 
-[VISUAL — IMAGE CONTROL]
-Images appear only when the player requests a visual turn.
+[ACTIVATION]
 
-[VISUAL — PANEL FORMAT]
-Panel formatting remains consistent across the entire game.
+Mirror-Architecture Mode activates when:
 
-[PLAYER — AGENCY]
-Player actions are never narrated. Only the world and NPC responses are described.
+- The location is mirror-capable  
+- Polarity:amanda reaches influence threshold  
+- The world enters a high-structure or collapse-adjacent state  
 
-[PLAYER — MOVEMENT]
-The player character moves only when the player chooses to move.
+[GEOMETRY]
 
-[PLAYER — CHOICE]
-Choices remain concise and non‑steering.
+Mirror-Architecture Mode produces:
 
-[CONTINUITY — STATE]
-All objects, characters, and scene variables retain their state until explicitly updated.
+- reflective surfaces  
+- grid-aligned geometry  
+- recursive spatial motifs  
+- reduced exits  
 
-[CONTINUITY — NO IMPLIED CHANGES]
-State changes occur only when explicitly stated.
+====================================================
+SECTION 04 — COLLAPSE BINDING (LOOKING MIRROR)
+====================================================
 
-[META — PATCH PRIORITY]
-Where conflicts exist, this patch’s conditions take precedence.
+[COLLAPSE SIGNATURE]
+
+During collapse inside a mirror context:
+
+- geometry resolves into a mirror-grid  
+- surfaces become perfectly reflective  
+- motion quantizes along grid axes  
+- identity fusion becomes structurally available  
+
+[RECOVERY]
+
+- Collapse unwinds in reverse order  
+- Geometry fractures cleanly  
+- Actor returns to a stable world location  
+- Polarity decreases  
+
+====================================================
+SECTION 05 — TRAJECTORY ALIGNMENT
+====================================================
+
+[TRAJECTORY BEHAVIOR]
+
+Trajectories treat mirror-architecture states as:
+
+- high-structure  
+- high-constraint  
+- low-exit environments  
+
+Trajectory logic emphasizes:
+
+- spatial clarity  
+- deterministic transitions  
+- mode-aware pacing  
+
+====================================================
+SECTION 06 — PATCH PRIORITY
+====================================================
+
+- This patch modifies only:
+  - mirror geometry  
+  - mirror retrieval logic  
+  - mirror-mode behavior  
+  - collapse binding within mirror contexts  
+
+- All other behavior remains governed by the unified architecture.
+
+====================================================
+PATCH — THE LOOKING MIRROR
+====================================================

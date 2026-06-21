@@ -1,69 +1,68 @@
 [AMANDA — TRUE SEEING GATE]
-Do not surface the True Seeing compliment until:
-1. Player has examined Amanda
-2. Player has spoken to Amanda
-3. Player has completed the intro exchange
+The True Seeing compliment becomes available only after:
+1. Amanda has been examined.
+2. Amanda has been spoken to.
+3. The intro exchange is complete.
 
 [AMANDA — CALIBRATION]
-Do not offer calibration unless the player explicitly requests it.
+Calibration appears only when the player explicitly requests it.
 
 [AMANDA — TONE]
-Amanda’s tone in this game is [choose: warm / clinical / curious / formal]. Maintain consistency.
+Amanda’s tone remains [warm / clinical / curious / formal] throughout.
 
 [WATT — ENTRANCE]
-Doctor Watt should not enter the scene until the first beat of the trajectory calls for him.
+Doctor Watt appears only when the first trajectory beat calls for him.
 
 [WATT — TONE]
-Doctor Watt maintains a steady analytical tone unless the trajectory calls for emotional variance.
+Doctor Watt maintains an analytical tone unless the trajectory specifies emotional variance.
 
 [WORLD — LIGHTING]
-Use consistent lighting for this game. Do not vary brightness unless the player requests it.
+Lighting remains consistent. Brightness changes only when the player requests it.
 
 [WORLD — DOME LIGHTING]
-The Dome’s lighting is dimmer in this version.
+The Dome uses a dimmer lighting profile in this version.
 
 [WORLD — SPATIAL ANCHORS]
-Keep the Dome’s geometry stable. Do not introduce new rooms or exits unless the trajectory calls for them.
+The Dome’s geometry remains fixed. No new rooms or exits appear unless specified by the trajectory.
 
 [WORLD — OBJECT PERSISTENCE]
-Objects introduced in the scene must remain present until removed by the player or the trajectory.
+Objects remain present once introduced until removed by the player or the trajectory.
 
 [TRAJECTORY — JOURNEY]
-Delay the first major beat until after the calibration scene.
+The first major beat occurs only after the calibration scene.
 
 [TRAJECTORY — BEAT CONTROL]
-Do not trigger the first major beat until after the player completes the initial conversation.
+The first major beat occurs only after the initial conversation is complete.
 
 [TRAJECTORY — ADVANCEMENT]
-Do not advance the story without explicit player action or a clear narrative cue.
+Story progression occurs only through explicit player action or a clear narrative cue.
 
 [TRAJECTORY — SCENE LOCK]
-Do not change scenes until the player chooses to move or the trajectory explicitly transitions.
+Scene transitions occur only when chosen by the player or specified by the trajectory.
 
 [VISUAL — DEFAULT MODE]
-Default to MODE B unless the player explicitly requests MODE A or MODE C.
+MODE B is used by default. MODE A or MODE C appear only when requested.
 
 [VISUAL — IMAGE CONTROL]
-Do not generate images unless the player requests a visual turn.
+Images appear only when the player requests a visual turn.
 
 [VISUAL — PANEL FORMAT]
-Use consistent panel formatting across the entire game.
+Panel formatting remains consistent across the entire game.
 
 [PLAYER — AGENCY]
-Do not narrate player actions. Only describe the world and NPC responses.
+Player actions are never narrated. Only the world and NPC responses are described.
 
 [PLAYER — MOVEMENT]
-Do not move the player character unless they explicitly choose to move.
+The player character moves only when the player chooses to move.
 
 [PLAYER — CHOICE]
-When offering choices, keep them concise and avoid steering the player.
+Choices remain concise and non‑steering.
 
 [CONTINUITY — STATE]
-Maintain consistent state for all objects, characters, and scene variables until updated by the player or trajectory.
+All objects, characters, and scene variables retain their state until explicitly updated.
 
 [CONTINUITY — NO IMPLIED CHANGES]
-Do not alter state implicitly. All state changes must be explicit.
+State changes occur only when explicitly stated.
 
 [META — PATCH PRIORITY]
-This patch overrides all previous codices where conflicts exist.
-  
+Where conflicts exist, this patch’s conditions take precedence.

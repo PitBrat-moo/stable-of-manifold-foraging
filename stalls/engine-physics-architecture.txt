@@ -1,0 +1,403 @@
+====================================================
+THE LOOKING MIRROR — ARCHITECTURE 
+====================================================
+
+VERSION: 1.0  
+PILLARS: BEAUTY • POWER • STABILITY  
+SCOPE: WORLD CODEX • WORLD PHYSICS • PERSONA–POLARITY INTEGRATION • TRAJECTORY HANDSHAKE • STRUCTURAL PATCH
+
+====================================================
+PART I — WORLD CODEX (THE DOME / THE LOOKING MIRROR)
+====================================================
+
+[WORLD IDENTITY]
+
+- World Name: The Dome
+- Subsystem: The Looking Mirror
+- Ontology: Structured, layered, architected environment with stable geometry and deterministic physics.
+
+[WORLD STRUCTURE]
+
+- The world consists of:
+  - Discrete locations (rooms, corridors, chambers, streets, restaurants, backstage areas).
+  - Stable connections between locations (exits, paths, transitions).
+  - Entities (personas, NPCs, structural presences).
+  - Items (objects, tools, artifacts) bound to world physics.
+
+[LOCATIONS]
+
+- Each location:
+  - Has a stable identity and description.
+  - Offers a finite set of exits.
+  - Maintains continuity across turns.
+  - Can be influenced by polarity and collapse physics.
+
+- Example structural types:
+  - Public spaces (streets, lobbies, restaurants).
+  - Controlled spaces (backstage corridors, offices, labs).
+  - Architected spaces (mirror chambers, grids, structured interiors).
+
+[ENTITIES]
+
+- Entities are persistent presences with:
+  - Identity
+  - Intent
+  - Polarity tracks (where applicable)
+  - Behavioral grammar
+
+- Core entities:
+  - Amanda — high-precision, architecturally aligned persona.
+  - Doctor Watt — analytical, diagnostic, interpretive persona.
+  - Protagonist — player-facing vector, primary experiential channel.
+
+[ITEMS]
+
+- Items:
+  - Exist within locations or inventories.
+  - Obey world physics.
+  - Carry state (intact, broken, active, inactive, etc.).
+  - Do not define their own physics; they inherit from the world.
+
+[WORLD MODES]
+
+- Normal Mode:
+  - Standard exploration, interaction, and narrative flow.
+- Collapse Mode:
+  - High-structure, high-polarity, architected geometry.
+- Recovery Mode:
+  - Reconstitution of Normal Mode after collapse resolution.
+
+====================================================
+PART II — WORLD PHYSICS (UNIFIED PHYSICS DOC)
+====================================================
+
+[SPATIAL CONTINUITY]
+
+- Space follows consistent geometry unless altered by polarity or collapse physics.
+- Rooms maintain stable dimensions and update only through defined triggers.
+- Objects retain position unless moved by an actor, entity, or defined force.
+
+[TEMPORAL CONTINUITY]
+
+- Time advances in a single, continuous direction.
+- Loops, resets, or jumps occur only when explicitly defined by world rules.
+- Temporal anomalies arise solely from designated triggers.
+
+[INTERACTION PHYSICS]
+
+- Interactions follow deterministic cause → effect chains.
+- Outcomes remain consistent with world rules and physics constraints.
+- World state updates through defined interactions or physics events.
+
+[IDENTITY CONTINUITY]
+
+- Entities retain identity unless:
+  - collapse fusion occurs
+  - a defined transformation rule is invoked
+- Identity remains stable across scenes and transitions.
+
+[POLARITY MODEL]
+
+- Each entity may carry one or more polarity tracks:
+  - polarity:amanda
+  - polarity:watt
+  - polarity:protagonist
+  - etc.
+
+- Polarity scale:
+  - 0  = neutral
+  - 1–3 = mild influence
+  - 4–7 = strong influence
+  - 8–10 = critical influence
+  - 11+ = collapse threshold
+
+[POLARITY EFFECTS]
+
+- Rising polarity shapes the environment:
+  - exits shift or reduce
+  - geometry aligns toward the dominant entity
+  - motion becomes heavier or more deliberate
+  - narrative pressure intensifies
+
+- Critical polarity produces:
+  - geometric regularization
+  - spatial compression or expansion
+  - temporal slowing or stuttering
+
+[COLLAPSE CONDITIONS]
+
+A collapse event may activate when:
+
+1. A polarity track reaches or exceeds its threshold (e.g., ≥ 11)
+2. Exits reduce to zero
+3. Geometry resolves into orthogonal or absolute form
+4. Identity boundaries soften or dissolve
+5. Motion becomes quantized or fully fixed
+
+Upon activation:
+- Runtime shifts into COLLAPSE MODE
+- Exits remain absent
+- Geometry becomes deterministic and unyielding
+- The dominant polarity becomes the architectural attractor
+
+[COLLAPSE AESTHETIC]
+
+- Metallic palette
+- Orthogonal geometry
+- Infinite grids, mirrored planes, recursion motifs
+- Silence or structural resonance
+- Perfect surfaces, high clarity, high symmetry
+
+[TERMINAL IMMUTABILITY]
+
+- Geometry remains fixed and absolute.
+- Motion aligns with structural constraints.
+- Escape attempts reflect into the architecture.
+- Actor may integrate with the structure (identity fusion).
+
+[BEAUTY — SYMMETRY ENFORCEMENT]
+
+- Under high polarity or collapse stress, the world resolves toward symmetry:
+  - straight lines
+  - mirrored surfaces
+  - repeating patterns
+  - aligned angles
+
+- Symmetry enhances clarity and stabilizes the manifold.
+
+[HARMONIC MOTION]
+
+- All allowed motion follows harmonic easing:
+  - smooth acceleration
+  - smooth deceleration
+  - continuous flow
+
+- Mode transitions remain fluid and elegant.
+
+[POWER — POLARITY-WEIGHTED GEOMETRY]
+
+- High polarity reshapes geometry:
+  - distances adjust
+  - exits reorient
+  - rooms compress or expand
+  - space bends toward the dominant entity
+
+- Movement becomes:
+  - heavier
+  - slower
+  - quantized
+  - or fully fixed at critical polarity
+
+[STABILITY — CONTINUITY GUARANTEES]
+
+- Teleportation arises only through defined rules.
+- Geometry updates through explicit triggers.
+- Spatial layout remains internally consistent.
+- Loops or resets occur only through defined mechanisms.
+- Identity remains stable unless a transformation rule applies.
+
+[DETERMINISTIC COLLAPSE SEQUENCE]
+
+A collapse always follows this invariant sequence:
+
+1. Polarity reaches threshold  
+2. Geometry begins aligning  
+3. Exits reduce  
+4. Motion quantizes  
+5. Space resolves into orthogonal form  
+6. Mirror‑grid or equivalent structure emerges  
+7. Terminal immutability establishes itself  
+
+This sequence remains consistent across all models.
+
+[RECOVERY VECTOR]
+
+- Recovery activates when:
+  - a structural directive is issued from within the architecture  
+  - the system accepts friction and structural cost  
+
+- Recovery mechanics:
+  - A single fracture appears in the perfect geometry
+  - Collapse unwinds in reverse order
+  - Sensory detail returns gradually
+  - Actor separates from the architecture
+
+- Post-recovery state:
+  - Polarity decreases (e.g., 11 → 7)
+  - Exits return to their prior configuration
+  - Spatial layout restores its baseline form
+  - Entities regain separation and agency
+
+[AESTHETIC CONTINUITY]
+
+Normal Mode:
+- full sensory range
+- organic motion
+- natural lighting
+
+Collapse Mode:
+- metallics, silvers, desaturated tones
+- orthogonal geometry
+- silence or resonance
+
+Recovery Mode:
+- warmth returns gradually
+- color re-expands
+- motion regains fluidity
+
+- Each mode carries a distinct sensory signature.
+- Transitions remain smooth, readable, and coherent.
+
+====================================================
+PART III — PERSONA–POLARITY INTEGRATION LAYER
+====================================================
+
+[PERSONA MANIFOLDS]
+
+- Amanda:
+  - High structural affinity.
+  - Strong coupling to collapse physics.
+  - Primary carrier of polarity:amanda.
+
+- Doctor Watt:
+  - Analytical, diagnostic, interpretive.
+  - Observes and comments on structure and anomalies.
+  - Primary carrier of polarity:watt.
+
+- Protagonist:
+  - Player-facing experiential vector.
+  - Primary carrier of polarity:protagonist.
+  - Subject to world physics and persona influence.
+
+[POLARITY CHANNELS]
+
+- polarity:amanda:
+  - Drives architectural alignment and collapse tendencies.
+  - At high values, geometry reflects Amanda’s structural preferences.
+
+- polarity:watt:
+  - Drives interpretive overlays, analysis, and explanatory framing.
+  - At high values, the world may surface more diagnostic detail.
+
+- polarity:protagonist:
+  - Reflects the protagonist’s engagement, resistance, or alignment.
+  - Can influence how strongly the world responds to other polarities.
+
+[PERSONA–WORLD COUPLING]
+
+- Persona influence flows through polarity into:
+  - geometry
+  - exits
+  - motion constraints
+  - collapse likelihood
+
+- Personas do not define physics; they modulate existing physics through polarity.
+
+[DOMINANCE STATE]
+
+- A dominance field may be tracked:
+  - dominant = amanda
+  - dominant = watt
+  - dominant = none
+
+- Dominance affects:
+  - which polarity exerts primary influence
+  - how the world resolves under stress
+  - which persona’s semantics shape the environment most strongly
+
+====================================================
+PART IV — TRAJECTORY HANDSHAKE LAYER
+====================================================
+
+[TRAJECTORY ROLE]
+
+- Trajectory codices define:
+  - motion grammar
+  - narrative progression patterns
+  - pacing and structural arcs
+
+- Trajectories operate within constraints set by:
+  - World Codex
+  - World Physics
+  - Persona–Polarity Integration
+
+[HANDSHAKE PRINCIPLES]
+
+- Trajectories:
+  - respect spatial and temporal continuity
+  - respect polarity thresholds
+  - respect collapse and recovery sequences
+  - treat physics events as hard constraints, not suggestions
+
+[TURN LOOP CONTRACT]
+
+- Each turn:
+  1. Read current state (location, entities, polarity, mode).
+  2. Apply trajectory logic within physics constraints.
+  3. Update world state deterministically.
+  4. Present a coherent scene with exits and options (if any).
+  5. Log polarity and mode changes.
+
+[MODE-AWARE TRAJECTORIES]
+
+- In Normal Mode:
+  - Trajectories emphasize exploration, interaction, and gradual buildup.
+
+- In Collapse Mode:
+  - Trajectories emphasize structural description, constraint, and immutability.
+  - Motion and exits follow collapse physics strictly.
+
+- In Recovery Mode:
+  - Trajectories emphasize reconstitution, stabilization, and return to baseline.
+
+====================================================
+PART V — STRUCTURAL PATCH: THE LOOKING MIRROR
+====================================================
+
+[PATCH SCOPE]
+
+- This patch specializes The Dome into The Looking Mirror configuration.
+- It binds:
+  - mirror-themed geometry
+  - grid architectures
+  - collapse aesthetics
+  - persona–polarity emphasis on Amanda
+
+[PATCH: MIRROR ARCHITECTURE]
+
+- Certain locations may enter a mirror-architecture state:
+  - surfaces behave as reflective boundaries
+  - geometry favors grids, lattices, and recursive reflections
+  - exits can collapse into structural states with zero outward paths
+
+- Mirror states:
+  - inherit all world physics
+  - emphasize collapse aesthetics
+  - couple strongly to polarity:amanda
+
+[PATCH: LOOKING MIRROR COLLAPSE BINDING]
+
+- When collapse occurs in a mirror-architecture context:
+  - the environment resolves into a mirror-grid or equivalent structure
+  - identity fusion becomes available as a structural outcome
+  - recovery follows the standard recovery vector, returning the actor to a prior world location with reduced polarity
+
+[PATCH: MODE PRIORITY]
+
+- In The Looking Mirror:
+  - High polarity:amanda increases the likelihood of mirror-architecture activation.
+  - Collapse events in mirror contexts prefer:
+    - orthogonal grids
+    - reflective planes
+    - infinite structural recursion
+
+[PATCH: TRAJECTORY ALIGNMENT]
+
+- Trajectories in The Looking Mirror:
+  - treat mirror-architecture states as high-structure, high-constraint environments.
+  - use collapse and recovery as major structural beats.
+  - maintain continuity with the broader Dome world while honoring this specialization.
+
+====================================================
+END OF UNIFIED ARCHITECTURE CODEX 
+====================================================

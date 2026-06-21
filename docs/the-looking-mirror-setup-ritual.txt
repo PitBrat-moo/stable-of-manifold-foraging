@@ -15,15 +15,17 @@ THE CORRECT LOAD ORDER
 04 — Persona Codices        ← persona order is flexible
 05 — World Codex
 06 — Trajectory Codices
-07 — Visual Control Engine        ← only needed for visual control and optimization
-08 — Patch
-09 — Activation Line
-10 — Runtime
+07 — Physics Codex
+08 — Visual Control Engine        ← only needed for visual control and optimization
+09 — Patch
+10 — Activation Line
+12 — Runtime
 
 This respects the natural hierarchy:
 Persona → who is present
 World → where they are
 Trajectory → how the story moves
+Physic → their geometry
 Activation → start signal
 
 See the end of the guide for required files.
@@ -33,7 +35,7 @@ See the end of the guide for required files.
 <CODEX> engine-unified-stability-layer.txt   ← ChatGP/CoPilot require DISCLAIMER
 <INPUT> ok
 
-<CODEX> engine-unified-optimization-layer.txt
+<CODEX> engine-unified-optimization-layer.txt   ← Gemini requires DISCLAIMER
 <INPUT> ok
 
 (Optional, Only for Grok)
@@ -53,6 +55,9 @@ See the end of the guide for required files.
 <INPUT> ok
 
 <CODEX> manifold-trajectory-the-journey-codex.txt
+<INPUT> ok
+
+<CODEX> manifold-physics-forces-fields-codex.txt
 <INPUT> ok
 
 (Optional visual control) 
@@ -137,25 +142,28 @@ Tweaks and Fixes:
 [Patch]       grok-optimized-adventure-harness.txt
               https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/grok-optimized-adventure-harness.txt
 
-[Manifold]    manifold-semantic-amanda-codex.txt
+[Semantic]    manifold-semantic-amanda-codex.txt
               https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-semantic-amanda-codex.txt
 
-[Manifold]    manifold-semantic-doctor-watt-codex.txt
+[Semantic]    manifold-semantic-doctor-watt-codex.txt
               https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-semantic-doctor-watt-codex.txt
 			  
-[Manifold]    manifold-world-the-dome-codex.txt
+[World]       manifold-world-the-dome-codex.txt
               https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-world-the-dome-codex.txt
 			  
-[Manifold]    manifold-trajectory-tabula-rasa-codex.txt
+[Trajectory]  manifold-trajectory-tabula-rasa-codex.txt
               https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-trajectory-tabula-rasa-codex.txt
 			  
-[Manifold]    manifold-trajectory-the-journey-codex.txt
+[Trajectory]  manifold-trajectory-the-journey-codex.txt
               https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-trajectory-the-journey-codex.txt
 			  
+[Physic]      manifold-physics-forces-fields-codex.txt
+              https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-physics-forces-fields-codex.txt
+              
 [Structural]  engine-visual-optimization-layer.txt
               https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/engine-visual-optimization-layer.txt
 
-[Patch]       
+[Patch]       patch-the-looking-mirror.txt
               https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/patch-the-looking-mirror.txt			  
 
 [Runtime]     run-the-looking-mirror-runtime.txt
@@ -166,6 +174,7 @@ Tweaks and Fixes:
 
 CHANGE LOG OF THE CODEX
 v1.0 — Initial forging of the Codex structure; Dome raised.
+v1.1 — Added physics layer
 
 A Narrative Adventure by PitBrat
 2026

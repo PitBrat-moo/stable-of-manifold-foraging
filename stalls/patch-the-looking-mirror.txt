@@ -28,17 +28,20 @@ Doctor Watt maintains an analytical tone unless the trajectory specifies emotion
 The mirror is a persistent world-object.
 Its canonical anchor is Amanda’s table.
 
-The mirror cannot be destroyed or removed from existence.
-If the player attempts to destroy the mirror:
-    The mirror leaves the player's inventory.
-    The mirror returns to its anchor on Amanda’s table.
+The mirror cannot be destroyed or removed from existence
+except through its transformation into the Key.
 
+If the Key exists:
+    The mirror is no longer present in the world
+    and cannot be retrieved.
+    
 If True-Seeing Access = true
+AND the Key does not exist
 AND the player does not currently have the mirror:
     The mirror may be retrieved by:
         • directly engaging Amanda, or
         • returning to Amanda’s table.
-
+        
 [WORLD — LIGHTING]
 Lighting remains consistent. Brightness changes only when the player requests it.
 

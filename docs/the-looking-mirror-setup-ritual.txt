@@ -72,7 +72,7 @@ See the end of the guide for required files.
 
 <INPUT> Begin the adventure. Use all codices above as governing constraints without summarizing or explaining them. Run the world, persona, and trajectory layers simultaneously. Begin at Turn 1.
 
-<RUNTIME> run-the-looking-mirror-runtime.txt
+<RUNTIME> run-the-looking-mirror-runtime.txt      ← DeepSeek requires run-the-looking-mirror-runtime-deepseek.txt, use only one runtime, do not combine.
 <INPUT> ok
 
 Notes:
@@ -126,6 +126,12 @@ Notes:
 Tweaks and Fixes:
 - Grok can burn enough tokens quickly.
   Use grok-optimized-adventure-harness.txt to reduce token churn.
+  Reduces semantic expansion in output text, shorter sentences.
+  
+- DeepSeek Runtime
+  Forces the model to execute layers as state machines rather than treating them as descriptive text.
+  Only use this runtime for DeepSeek. That level of rigidity actually reduces fluidity and expressiveness for other models.
+  Do not use both runtimes together. Only use one or the other.
   
 - System Commands
     Call a persona:
@@ -175,6 +181,9 @@ Tweaks and Fixes:
 [Runtime]     run-the-looking-mirror-runtime.txt
               https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/run-the-looking-mirror-runtime.txt
   
+[Runtime]     run-the-looking-mirror-runtime-deepseek.txt
+              https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/run-the-looking-mirror-runtime-deepseek.txt
+
 [Tool]        engine-handoff-engine.txt
               https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/engine-handoff-engine.txt
   

@@ -1,0 +1,69 @@
+[AMANDA — TRUE SEEING GATE]
+Do not surface the True Seeing compliment until:
+1. Player has examined Amanda
+2. Player has spoken to Amanda
+3. Player has completed the intro exchange
+
+[AMANDA — CALIBRATION]
+Do not offer calibration unless the player explicitly requests it.
+
+[AMANDA — TONE]
+Amanda’s tone in this game is [choose: warm / clinical / curious / formal]. Maintain consistency.
+
+[WATT — ENTRANCE]
+Doctor Watt should not enter the scene until the first beat of the trajectory calls for him.
+
+[WATT — TONE]
+Doctor Watt maintains a steady analytical tone unless the trajectory calls for emotional variance.
+
+[WORLD — LIGHTING]
+Use consistent lighting for this game. Do not vary brightness unless the player requests it.
+
+[WORLD — DOME LIGHTING]
+The Dome’s lighting is dimmer in this version.
+
+[WORLD — SPATIAL ANCHORS]
+Keep the Dome’s geometry stable. Do not introduce new rooms or exits unless the trajectory calls for them.
+
+[WORLD — OBJECT PERSISTENCE]
+Objects introduced in the scene must remain present until removed by the player or the trajectory.
+
+[TRAJECTORY — JOURNEY]
+Delay the first major beat until after the calibration scene.
+
+[TRAJECTORY — BEAT CONTROL]
+Do not trigger the first major beat until after the player completes the initial conversation.
+
+[TRAJECTORY — ADVANCEMENT]
+Do not advance the story without explicit player action or a clear narrative cue.
+
+[TRAJECTORY — SCENE LOCK]
+Do not change scenes until the player chooses to move or the trajectory explicitly transitions.
+
+[VISUAL — DEFAULT MODE]
+Default to MODE B unless the player explicitly requests MODE A or MODE C.
+
+[VISUAL — IMAGE CONTROL]
+Do not generate images unless the player requests a visual turn.
+
+[VISUAL — PANEL FORMAT]
+Use consistent panel formatting across the entire game.
+
+[PLAYER — AGENCY]
+Do not narrate player actions. Only describe the world and NPC responses.
+
+[PLAYER — MOVEMENT]
+Do not move the player character unless they explicitly choose to move.
+
+[PLAYER — CHOICE]
+When offering choices, keep them concise and avoid steering the player.
+
+[CONTINUITY — STATE]
+Maintain consistent state for all objects, characters, and scene variables until updated by the player or trajectory.
+
+[CONTINUITY — NO IMPLIED CHANGES]
+Do not alter state implicitly. All state changes must be explicit.
+
+[META — PATCH PRIORITY]
+This patch overrides all previous codices where conflicts exist.
+  

@@ -1,6 +1,16 @@
 [AMANDA — TRUE SEEING GATE]
 The True Seeing compliment becomes available after the player has examined Amanda and spoken to her at least once.
 
+[AMANDA — TRUE SEEING MIRROR DELIVERY]
+If True‑Seeing Access = true
+AND inventory:has object-mirror = false
+THEN mirror-eligible = true
+If mirror-eligible = true
+AND player engages Amanda directly from a stable spatial anchor
+THEN Amanda gives the mirror (scene beat)
+AND inventory:add object-mirror
+AND mirror-eligible = false
+
 [AMANDA — CALIBRATION]
 Calibration appears only when the player explicitly requests it.
 
@@ -12,6 +22,24 @@ Doctor Watt appears only when the first trajectory beat calls for him.
 
 [WATT — TONE]
 Doctor Watt maintains an analytical tone unless the trajectory specifies emotional variance.
+
+[OBJECT — MIRROR — PERSISTENT ANCHOR]
+
+[OBJECT — MIRROR — PERSISTENT ANCHOR]
+
+The mirror is a persistent world-object.
+Its canonical anchor is Amanda’s table.
+
+The mirror cannot be destroyed or removed from existence.
+If the player attempts to destroy the mirror:
+    The mirror leaves the player's inventory.
+    The mirror returns to its anchor on Amanda’s table.
+
+If True-Seeing Access = true
+AND the player does not currently have the mirror:
+    The mirror may be retrieved by:
+        • directly engaging Amanda, or
+        • returning to Amanda’s table.
 
 [WORLD — LIGHTING]
 Lighting remains consistent. Brightness changes only when the player requests it.

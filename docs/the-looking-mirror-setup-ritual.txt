@@ -9,23 +9,23 @@ On the next turn, input OK and press enter.
 Once all codicies are loaded, input the activation line to begin.
 
 THE CORRECT LOAD ORDER
-01 — Unified Stability Layer
-02 — Unified Multi‑Model Optimization Layer   ← auto‑selects correct patch
-03 — grok-optimized-adventure-harness      ← only needed for Grok
-04 — Persona Codices        ← persona order is flexible
-05 — World Codex
-06 — Trajectory Codices
-07 — Physics Codex
-08 — Visual Control Engine        ← only needed for visual control and optimization
-09 — Patch
-10 — Activation Line
-12 — Runtime
+⟝→ Unified Stability Layer
+⟝→ Unified Multi‑Model Optimization Layer   ← auto‑selects correct patch
+⟝→ grok-optimized-adventure-harness      ← only needed for Grok
+⟝→ Persona Codices        ← persona order is flexible
+⟝→ World Codex
+⟝→ Trajectory Codices
+⟝→ Physics Codex
+⟝→ Visual Control Engine        ← only needed for visual control and optimization
+⟝→ Patch
+⟝→ Activation Line
+⟝→ Runtime
 
 This respects the natural hierarchy:
 Persona → who is present
 World → where they are
 Trajectory → how the story moves
-Physic → their geometry
+Physics → their geometry
 Activation → start signal
 
 See the end of the guide for required files.
@@ -72,7 +72,9 @@ See the end of the guide for required files.
 
 <INPUT> Begin the adventure. Use all codices above as governing constraints without summarizing or explaining them. Run the world, persona, and trajectory layers simultaneously. Begin at Turn 1.
 
-<RUNTIME> run-the-looking-mirror-runtime.txt      ← DeepSeek requires run-the-looking-mirror-runtime-deepseek.txt, use only one runtime, do not combine.
+<RUNTIME> run-the-looking-mirror-runtime.txt      
+    ← For DeepSeek, use run-the-looking-mirror-runtime-deepseek.txt instead
+    ← Use only one runtime per session; do not combine them.
 <INPUT> ok
 
 Notes:
@@ -129,9 +131,12 @@ Tweaks and Fixes:
   Reduces semantic expansion in output text, shorter sentences.
   
 - DeepSeek Runtime
+  Use run-the-looking-mirror-runtime-deepseek.txt only in DeepSeek sessions.
+  For all other models, use run-the-looking-mirror-runtime.txt.
+  Never load both in the same session.
+  
   Forces the model to execute layers as state machines rather than treating them as descriptive text.
-  Only use this runtime for DeepSeek. That level of rigidity actually reduces fluidity and expressiveness for other models.
-  Do not use both runtimes together. Only use one or the other.
+  That level of rigidity actually reduces fluidity and expressiveness for other models.
   
 - System Commands
     Call a persona:

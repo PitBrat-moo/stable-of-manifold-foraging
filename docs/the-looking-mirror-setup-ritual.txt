@@ -51,6 +51,9 @@ See the end of the guide for required files.
 <CODEX> manifold-world-the-dome-codex.txt
 <INPUT> ok
 
+<CODEX> engine-physics-architecture.txt
+<INPUT> ok
+
 <CODEX> manifold-trajectory-tabula-rasa-codex.txt
 <INPUT> ok
 
@@ -150,28 +153,31 @@ Tweaks and Fixes:
 			  
 [World]       manifold-world-the-dome-codex.txt
               https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-world-the-dome-codex.txt
-			  
+
+[Physics]     engine-physics-architecture.txt   
+              https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/engine-physics-architecture.txt
+              
 [Trajectory]  manifold-trajectory-tabula-rasa-codex.txt
               https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-trajectory-tabula-rasa-codex.txt
-			  
+  
 [Trajectory]  manifold-trajectory-the-journey-codex.txt
               https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-trajectory-the-journey-codex.txt
-			  
-[Physic]      manifold-physics-forces-fields-codex.txt
+  
+[Physics]     manifold-physics-forces-fields-codex.txt
               https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-physics-forces-fields-codex.txt
               
 [Structural]  engine-visual-optimization-layer.txt
               https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/engine-visual-optimization-layer.txt
-
+  
 [Patch]       patch-the-looking-mirror.txt
               https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/patch-the-looking-mirror.txt			  
-
+  
 [Runtime]     run-the-looking-mirror-runtime.txt
               https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/run-the-looking-mirror-runtime.txt
-
+  
 [Tool]        engine-handoff-engine.txt
               https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/engine-handoff-engine.txt
-
+  
 CHANGE LOG OF THE CODEX
 v1.0 — Initial forging of the Codex structure; Dome raised.
 v1.1 — Added physics layer

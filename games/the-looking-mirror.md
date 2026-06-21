@@ -36,7 +36,7 @@ The setup ritual is real. Follow the rhythm, savor the anticipation, and expect 
 - manifold-world-the-dome-codex.txt  
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-world-the-dome-codex.txt
 
-- engine-physics-architecture.txt
+- engine-physics-architecture.txt      
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/engine-physics-architecture.txt      
   
 - manifold-trajectory-tabula-rasa-codex.txt  

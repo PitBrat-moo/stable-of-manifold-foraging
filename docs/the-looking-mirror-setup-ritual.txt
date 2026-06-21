@@ -57,6 +57,9 @@ See the end of the guide for required files.
    <CODEX> engine-visual-optimization-layer.txt        ← ChatGP requires DISCLAIMER
    <INPUT> ok
 
+<PATCH> patch-the-looking-mirror.txt
+<INPUT> ok
+
 <INPUT> Begin the adventure. Use all codices above as governing constraints without summarizing or explaining them. Run the world, persona, and trajectory layers simultaneously. Begin at Turn 1.
 
 <RUNTIME> run-the-looking-mirror-runtime.txt
@@ -149,12 +152,15 @@ Tweaks and Fixes:
 			  
 [Structural]  engine-visual-optimization-layer.txt
               https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/engine-visual-optimization-layer.txt
-			  
-[Tool]        engine-handoff-engine.txt
-              https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/engine-handoff-engine.txt
+
+[Patch]       patch-the-looking-mirror.txt
+              https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/patch-the-looking-mirror.txt			  
 
 [Runtime]     run-the-looking-mirror-runtime.txt
               https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/run-the-looking-mirror-runtime.txt
+
+[Tool]        engine-handoff-engine.txt
+              https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/engine-handoff-engine.txt
 
 CHANGE LOG OF THE CODEX
 v1.0 — Initial forging of the Codex structure; Dome raised.

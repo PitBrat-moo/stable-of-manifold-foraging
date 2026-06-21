@@ -43,6 +43,7 @@ The setup ritual is real. Follow the rhythm, savor the anticipation, and expect 
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-trajectory-the-journey-codex.txt
 			  
 - manifold-physics-forces-fields-codex.txt
+- 
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-physics-forces-fields-codex.txt
 
 - engine-visual-optimization-layer.txt  

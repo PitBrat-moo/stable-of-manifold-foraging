@@ -15,8 +15,10 @@ THE CORRECT LOAD ORDER
 04 — Persona Codices        ← persona order is flexible
 05 — World Codex
 06 — Trajectory Codices
-07 — Visual Turn Codex        ← only needed for visual optimization
-08 — Activation Line
+07 — Visual Control Engine        ← only needed for visual control and optimization
+08 — Patch
+09 — Activation Line
+10 — Runtime
 
 This respects the natural hierarchy:
 Persona → who is present
@@ -153,7 +155,7 @@ Tweaks and Fixes:
 [Structural]  engine-visual-optimization-layer.txt
               https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/engine-visual-optimization-layer.txt
 
-[Patch]       patch-the-looking-mirror.txt
+[Patch]       
               https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/patch-the-looking-mirror.txt			  
 
 [Runtime]     run-the-looking-mirror-runtime.txt

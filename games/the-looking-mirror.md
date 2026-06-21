@@ -57,6 +57,9 @@ The setup ritual is real. Follow the rhythm, savor the anticipation, and expect 
 - run-the-looking-mirror-runtime.txt  
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/run-the-looking-mirror-runtime.txt
 
+- run-the-looking-mirror-runtime-deepseek.txt      
+  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/run-the-looking-mirror-runtime-deepseek.txt
+
 - engine-handoff-engine.txt  
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/engine-handoff-engine.txt
 

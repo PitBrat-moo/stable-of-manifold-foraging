@@ -1,10 +1,11 @@
 # Shadow-Field Delta System v1.0
 
+This is an experimental auto‑generated scaffold produced during model prototyping.
+It does not represent the internal logic of the actual codex engine.
 Co-variant, codex-safe behavioral telemetry field with model-aware auto-tuning.
 
 ## Quick Start
 
-```bash
 # Development
 pip install -e .[dev,serve,monitoring]
 shadow-field serve --port 8080

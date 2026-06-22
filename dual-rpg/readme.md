@@ -2,7 +2,7 @@
 
 Description: How to load and run a dual‑layer RPG session.
 
-────────────────────────────────────────────────────────      
+────────────────────────────────────────────────────────    
 1. LOADING ORDER      
 ────────────────────────────────────────────────────────      
 
@@ -13,6 +13,7 @@ Step 2 — Load the Dual‑Layer RPG System Codex v1.2
 Step 3 — Load the Thunk Layer Codex v0.3  
 
 Step 4 — Initialize a Session State JSON
+```
 {
   "session_id": "session_test",
   "clock": "T_00",
@@ -20,7 +21,7 @@ Step 4 — Initialize a Session State JSON
   "characters": { ... },
   "world": { ... }
 }
-
+```
 Step 5 — Run a turn normally.
 
 

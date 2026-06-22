@@ -11,7 +11,12 @@ shadow-field/
 ├── delta/
 │   ├── packet.py         # DeltaPacket schema
 │   └── log.py            # DeltaLog (exportable)
-└── tests/
-    ├── test_field.py
-    ├── test_collector.py
-    └── test_invariants.py
+├── tests/
+│   ├── test_field.py
+│   ├── test_collector.py
+│   └── test_invariants.py
+├── stalls/
+│   └── manifold-shadow-field-bridle-codex.txt   #  Bridle manifold (shadow field)
+└── exntended/
+    └── core/
+        └── system.py     #  With Real Extraction

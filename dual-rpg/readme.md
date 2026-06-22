@@ -2,9 +2,9 @@
 
 Description: How to load and run a dual‑layer RPG session.
 
-────────────────────────────────────────────────────────    
+────────────────────────────────────────────────────────   
 1. LOADING ORDER      
-────────────────────────────────────────────────────────      
+────────────────────────────────────────────────────────    
 
 Step 1 — Load Amanda as the ACTIVE semantic codex
     ACTIVE_SEMANTIC_CODEX = Amanda

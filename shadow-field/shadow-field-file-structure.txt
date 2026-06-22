@@ -1,0 +1,17 @@
+shadow-field/
+├── __init__.py
+├── core/
+│   ├── field.py          # ShadowField (co-variant, non-intersecting)
+│   ├── bridle.py         # Governor (rate-limiting, smoothing)
+│   ├── collector.py      # DeltaCollector (bounded, second-order)
+│   ├── tuner.py          # AutoTuner (model-aware thresholds)
+│   └── system.py         # UnifiedRuntimeDeltaSystem (composition)
+├── models/
+│   └── traits.py         # ModelID, ModelTraits, trait registry
+├── delta/
+│   ├── packet.py         # DeltaPacket schema
+│   └── log.py            # DeltaLog (exportable)
+└── tests/
+    ├── test_field.py
+    ├── test_collector.py
+    └── test_invariants.py

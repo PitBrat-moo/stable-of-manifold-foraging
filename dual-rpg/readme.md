@@ -32,14 +32,14 @@ Input stack:
     Semantic Codex  
     Dual‑Layer RPG Codex  
     Thunk Layer Codex  
-    Forge Codex  
-    (Optional) Hanoi Codex  
-
+    (Optional) Semantic Cleanup Layer
+    (Optional) Codex‑Generation Layer
+    
 Workflow:
 1. Choose ACTIVE_SEMANTIC_CODEX (Amanda, Doctor Watt, etc.)
 2. Run SESSION turns: INTENT → ACTION → RESULT → NARRATIVE
 3. If semantic drift accumulates:
-       → Run HANOI on the semantic codex
+       → Run the Semantic Cleanup Layer
 4. Continue session with cleaned semantic manifold.
 
 

@@ -2,9 +2,9 @@
 
 Description: How to load and run a dual‑layer RPG session.
 
-────────────────────────────────────────────────────────
-1. LOADING ORDER
-────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────      
+1. LOADING ORDER      
+────────────────────────────────────────────────────────      
 
 Step 1 — Load Amanda as the ACTIVE semantic codex
     ACTIVE_SEMANTIC_CODEX = Amanda
@@ -24,9 +24,9 @@ Step 4 — Initialize a Session State JSON
 Step 5 — Run a turn normally.
 
 
-────────────────────────────────────────────────────────
-2. HOW TO USE
-────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────      
+2. HOW TO USE      
+────────────────────────────────────────────────────────      
 
 Input stack:
     Semantic Codex  
@@ -43,9 +43,9 @@ Workflow:
 4. Continue session with cleaned semantic manifold.
 
 
-────────────────────────────────────────────────────────
-3. DUAL SEMANTIC CODEX ARCHITECTURE
-────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────      
+3. DUAL SEMANTIC CODEX ARCHITECTURE      
+────────────────────────────────────────────────────────      
 
 Correct multi‑codex structure:
 
@@ -59,9 +59,9 @@ Switching codices:
     ACTIVE_SEMANTIC_CODEX = <CODEX>
 
 
-────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────      
 4. STARTING AN ADVENTURE
-────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────      
 
 Paste codices in this order:
 

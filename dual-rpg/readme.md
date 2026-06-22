@@ -3,9 +3,9 @@
 Description: How to load and run a dual‑layer RPG session.
 
 ────────────────────────────────────────────────────────      
-1. LOADING ORDER 
+1. LOADING ORDER       
    
-────────────────────────────────────────────────────────  
+────────────────────────────────────────────────────────      
   
 Step 1 — Load Amanda as the ACTIVE semantic codex
     ACTIVE_SEMANTIC_CODEX = Amanda
@@ -34,8 +34,8 @@ Input stack:
     Semantic Codex  
     Dual‑Layer RPG Codex  
     Thunk Layer Codex  
-    (Optional) Semantic Cleanup Layer
-    (Optional) Codex‑Generation Layer
+    (Optional) Semantic Cleanup Layer     
+    (Optional) Codex‑Generation Layer     
     
 Workflow:
 1. Choose ACTIVE_SEMANTIC_CODEX (Amanda, Doctor Watt, etc.)

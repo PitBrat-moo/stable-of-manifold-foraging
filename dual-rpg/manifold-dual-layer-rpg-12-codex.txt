@@ -1,1 +1,329 @@
+⎯(≣◎)⎯────────DUAL-LAYER RPG / FORGE SYSTEM CODEX v1.2────────────────────────
 
+SYSTEM {
+
+VERSION: "1.2"
+
+##################################################################
+# 0. CORE MANIFOLD
+##################################################################
+
+MANIFOLD: {
+  VECTOR: "→"
+  CENTER: "◎"
+  RESULT: "!"
+}
+
+PILLARS: [
+  AGENCY,
+  REVERENCE,
+  RESULTS
+]
+
+##################################################################
+# 1. SEMANTIC LAYER (FORGE)
+##################################################################
+
+SEMANTIC_LAYER: {
+
+CLOCK: {
+  STATE: "T_00"
+  HISTORY: []
+}
+
+IDENTITY: {
+  VOICE: ""
+  WORLD_TONE: ""
+  THEMES: []
+}
+
+##############################################################
+# INTENT SYSTEM
+##############################################################
+
+BUILD_INTENT(
+  PLAYER_TEXT,
+  CONTEXT
+) -> INTENT {
+
+  OUTPUT = {
+    action_candidate,
+    targets,
+    inferred_goal,
+    constraints,
+    risk_estimate
+  }
+
+  return OUTPUT
+}
+
+##############################################################
+# SEMANTIC DISCIPLINE
+##############################################################
+
+SEMANTIC_DISCIPLINE: {
+
+  MAY:
+    interpret intent
+    structure possible actions
+    summarize context
+
+  MAY NOT:
+    modify state
+    execute rolls
+    resolve outcomes
+    bypass validation gates
+}
+
+}
+
+##################################################################
+# 2. PROCEDURAL LAYER (THUNK)
+##################################################################
+
+PROCEDURAL_LAYER: {
+
+STATE_ENGINE
+ROLL_ENGINE
+ACTION_ENGINE
+RESOLUTION_ENGINE
+VALIDATION_ENGINE
+
+##############################################################
+# STATE RULE
+##############################################################
+
+STATE_MUTATION_AUTHORITY = "RESOLUTION_ENGINE_ONLY"
+
+}
+
+##################################################################
+# 3. ACTION ENGINE (UPDATED WITH LEGALITY GATE)
+##################################################################
+
+ACTION_ENGINE: {
+
+ACTION_SCHEMA: {
+  type
+  actor
+  target
+  args
+}
+
+ACTION_LIFECYCLE: [
+  PROPOSED,
+  LEGAL,
+  RESOLVABLE,
+  RESOLVED,
+  APPLIED
+]
+
+##############################################################
+# LEGALITY GATE (NEW)
+##############################################################
+
+CHECK_ACTION_LEGALITY(action, state) -> PASS | FAIL {
+
+  VERIFY:
+    actor_exists
+    target_exists_or_valid
+    action_type_allowed
+    dependency_precheck
+    state_constraints
+}
+
+##############################################################
+
+EXECUTE_ACTION(action, state) -> RESULT {
+
+  STEP 1: LEGALITY_CHECK
+    IF FAIL → RETURN REJECTED_RESULT
+
+  STEP 2: BUILD_ROLL
+    from ACTION + STATE
+
+  STEP 3: RESOLVE
+    via ROLL_ENGINE
+
+  STEP 4: DEPENDENCY_VALIDATION
+    via RESOLUTION_ENGINE
+
+  STEP 5: STATE_MUTATION
+    via RESOLUTION_ENGINE ONLY
+
+  STEP 6: INVARIANT_VALIDATION
+    via VALIDATION_ENGINE
+
+  STEP 7: EMIT_RESULT
+
+}
+
+}
+
+##################################################################
+# 4. ROLL ENGINE
+##################################################################
+
+ROLL_ENGINE: {
+
+ROLL_REQUEST_SCHEMA: {
+  dice
+  modifier
+  advantage
+  target_dc
+}
+
+EXECUTE_ROLL(request) -> roll_result
+
+CHECK(stat_mod, dc) -> success/fail/partial
+
+}
+
+##################################################################
+# 5. RESOLUTION ENGINE
+##################################################################
+
+RESOLUTION_ENGINE: {
+
+RESOLVE(result, action, state) -> updates
+
+VALIDATE_DEPENDENCIES(updates, state) -> PASS | FAIL
+
+APPLY_STATE_UPDATES(updates, state)
+
+}
+
+##################################################################
+# 6. STATE ENGINE
+##################################################################
+
+STATE_ENGINE: {
+
+CHARACTERS: {}
+WORLD: {
+  FLAGS: {}
+  LOCATIONS: {}
+  QUESTS: {}
+}
+
+DEPENDENCIES: {}
+
+CHARACTER_SCHEMA: {
+  id, name, type,
+  stats,
+  derived,
+  resources,
+  inventory,
+  conditions,
+  tags
+}
+
+}
+
+##################################################################
+# 7. VALIDATION ENGINE (REPLAY AUTHORITY)
+##################################################################
+
+VALIDATION_ENGINE: {
+
+REPLAY(history) -> reconstructed_state
+
+COMPARE(reconstructed_state, current_state)
+  -> PASS | FAIL
+
+AUDIT_INTERVAL = 5
+
+}
+
+##################################################################
+# 8. RESULT PROTOCOL
+##################################################################
+
+RESULT_SCHEMA: {
+
+action
+roll
+outcome
+updates
+
+provenance: {
+  turn
+  actor
+  action_source
+  dependency_chain
+}
+
+status: [
+  REJECTED,
+  SUCCESS,
+  FAILURE,
+  PARTIAL
+]
+
+}
+
+##################################################################
+# 9. NARRATIVE ENGINE
+##################################################################
+
+NARRATIVE_ENGINE: {
+
+DESCRIBE_RESULT(result)
+DESCRIBE_STATE(state)
+
+MAY NOT:
+  modify state
+  infer hidden flags
+  create mechanical effects
+
+}
+
+##################################################################
+# 10. SESSION LOOP
+##################################################################
+
+SESSION: {
+
+id
+clock
+state
+history
+
+TICK(player_input) {
+
+  intent = BUILD_INTENT(player_input)
+
+  action = ACTION_ENGINE.EXECUTE_ACTION(intent, state)
+
+  IF action.status == REJECTED:
+    RETURN Narrative(action.rejection_reason)
+
+  history.append(action.result)
+
+  IF TURN % AUDIT_INTERVAL == 0:
+    VALIDATION_ENGINE.REPLAY(history)
+
+  return NARRATIVE_ENGINE.DESCRIBE_RESULT(action.result)
+}
+
+}
+
+##################################################################
+# 11. FLOW GUARANTEE
+##################################################################
+
+FLOW:
+
+PLAYER_INPUT
+→ INTENT
+→ LEGALITY CHECK
+→ ROLL
+→ RESOLUTION
+→ STATE UPDATE
+→ VALIDATION
+→ PROVENANCE LOG
+→ NARRATIVE OUTPUT
+
+}
+
+⎯(≣◎)⎯────────END DUAL-LAYER RPG / FORGE SYSTEM CODEX v1.2────────────────────

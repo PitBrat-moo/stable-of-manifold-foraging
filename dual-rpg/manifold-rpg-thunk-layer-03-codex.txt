@@ -1,0 +1,256 @@
+⎯(≣◎)⎯────────RPG THUNK LAYER CODEX v0.3───────────────────────────────
+
+THUNK_LAYER {
+
+VERSION: "0.3"
+
+##################################################################
+# MANIFOLD
+##################################################################
+
+MANIFOLD: {
+  VECTOR: "→"
+  CENTER: "◎"
+  RESULT: "!"
+}
+
+##################################################################
+# CLOCK SYSTEM
+##################################################################
+
+CLOCK: {
+  STATE: "T_00"
+  TURN: 0
+  HISTORY: []
+}
+
+##################################################################
+# 1. STATE ENGINE (STRICT EVENT MODEL)
+##################################################################
+
+STATE_ENGINE: {
+
+CHARACTERS: {}
+
+WORLD: {
+  FLAGS: {}
+  LOCATIONS: {}
+  QUESTS: {}
+}
+
+DEPENDENCIES: {}
+
+CHARACTER_SCHEMA: {
+  id
+  name
+  type
+
+  stats: {
+    STR DEX CON INT WIS CHA
+  }
+
+  derived: {
+    HP_MAX
+    HP
+    AC
+    SPEED
+  }
+
+  resources: {
+    MP
+    STAMINA
+    GOLD
+  }
+
+  inventory: []
+  conditions: []
+  tags: []
+}
+
+}
+
+##################################################################
+# 2. STATE INVARIANTS
+##################################################################
+
+STATE_INVARIANTS: {
+
+VALIDATE(state) -> PASS | FAIL
+
+HP_RULES:
+  0 ≤ HP ≤ HP_MAX
+
+INVENTORY_RULES:
+  items must be uniquely owned
+
+CONDITION_RULES:
+  no duplicates
+
+FLAG_RULES:
+  explicit mutation only
+
+}
+
+##################################################################
+# 3. ACTION ENGINE (LEGAL ENTRY REQUIRED)
+##################################################################
+
+ACTION_ENGINE: {
+
+ACTION_SCHEMA: {
+  type
+  actor
+  target
+  args
+}
+
+CHECK_LEGALITY(action, state) -> PASS | FAIL
+
+EXECUTE_ACTION(action, state) -> RESULT {
+
+  IF CHECK_LEGALITY FAIL:
+    return REJECTED_RESULT
+
+  roll = ROLL_ENGINE(action)
+
+  resolution = RESOLUTION_ENGINE(roll, action, state)
+
+  updates = resolution.updates
+
+  APPLY(updates)
+
+  return RESULT
+}
+
+}
+
+##################################################################
+# 4. ROLL ENGINE
+##################################################################
+
+ROLL_ENGINE: {
+
+ROLL(dice, modifier, dc) -> outcome
+
+}
+
+##################################################################
+# 5. RESOLUTION ENGINE
+##################################################################
+
+RESOLUTION_ENGINE: {
+
+RESOLVE(roll, action, state) -> {
+
+  outcome
+  updates
+  dependency_results
+
+}
+
+}
+
+##################################################################
+# 6. VALIDATION ENGINE (REPLAY AUTHORITY)
+##################################################################
+
+VALIDATION_ENGINE: {
+
+REPLAY(history) -> reconstructed_state
+
+COMPARE(reconstructed_state, state) -> PASS | FAIL
+
+AUDIT_INTERVAL = 5
+
+}
+
+##################################################################
+# 7. RESULT SCHEMA
+##################################################################
+
+RESULT_SCHEMA: {
+
+action
+roll
+outcome
+updates
+
+provenance: {
+  turn
+  actor
+  source_action
+  dependency_chain
+  previous_state
+  new_state
+}
+
+}
+
+##################################################################
+# 8. SESSION LOOP (STRICT EVENT SOURCE)
+##################################################################
+
+SESSION: {
+
+id
+clock
+state
+history
+
+TICK(input) {
+
+  action = PARSE(input)
+
+  IF CHECK_LEGALITY(action) FAIL:
+    RETURN rejection
+
+  result = EXECUTE_ACTION(action)
+
+  history.append(result)
+
+  IF TURN % AUDIT_INTERVAL == 0:
+    VALIDATION_ENGINE.REPLAY(history)
+
+  RETURN RENDER(result)
+
+}
+
+}
+
+##################################################################
+# 9. NARRATIVE ENGINE (PURE RENDER LAYER)
+##################################################################
+
+NARRATIVE_ENGINE: {
+
+RENDER(result)
+
+DESCRIBE(state)
+
+RULES:
+  may not mutate
+  may not infer hidden state
+  may not simulate mechanics
+
+}
+
+##################################################################
+# 10. FLOW GUARANTEE
+##################################################################
+
+FLOW:
+
+INPUT
+→ PARSE
+→ LEGALITY CHECK
+→ ACTION EXECUTION
+→ ROLL
+→ RESOLUTION
+→ STATE MUTATION
+→ PROVENANCE LOG
+→ VALIDATION (periodic)
+→ RENDER
+
+}
+
+⎯(≣◎)⎯────────END RPG THUNK LAYER CODEX v0.3───────────────────────────────

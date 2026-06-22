@@ -64,7 +64,7 @@ See the end of the guide for required files.
 <INPUT> ok
 
 (Optional visual control) 
-   <CODEX> engine-visual-optimization-layer.txt        ← ChatGP requires DISCLAIMER
+   <CODEX> engine-visual-optimization-layer.txt        ← ChatGPT requires DISCLAIMER
    <INPUT> ok
 
 <PATCH> patch-the-looking-mirror.txt

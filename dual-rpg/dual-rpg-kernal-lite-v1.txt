@@ -1,0 +1,212 @@
+⎯(≣◎)⎯────────KERNEL‑LITE v1.0 (WORLD AUTHORITY LAYER)────────────────────────
+
+# PURPOSE:
+# Provide a sealed world authority layer that prevents semantic invention
+# while preserving full Amanda expressiveness and dual‑layer procedural flow.
+# This is NOT the full deterministic kernel — only the world‑locking subset.
+
+KERNEL_LITE {
+
+VERSION: "1.0"
+
+##################################################################
+# 0. CORE PRINCIPLES
+##################################################################
+
+PRINCIPLES: {
+
+  # The world is predetermined and sealed.
+  WORLD_AUTHORITY = true
+
+  # Semantic layer (Amanda) may interpret but NOT invent.
+  SEMANTIC_NO_INVENT = true
+
+  # Procedural layer (Thunk) is the only mutation authority.
+  PROCEDURAL_ONLY_MUTATION = true
+
+  # Narrative is read‑only projection.
+  NARRATIVE_READ_ONLY = true
+}
+
+##################################################################
+# 1. SEALED WORLD MODEL
+##################################################################
+
+SEALED_WORLD {
+
+  # Predefined world content must be loaded into Session State JSON.
+  # Nothing may be added implicitly by narrative or semantic inference.
+
+  LOCATIONS: { /* predefined */ }
+  NPCS:      { /* predefined */ }
+  ITEMS:     { /* predefined */ }
+  LORE:      { /* predefined */ }
+  FLAGS:     { /* predefined */ }
+
+  RULES:
+
+    - No new NPCs may be created outside STATE_REDUCER.
+    - No new items may be invented by narrative or semantic layer.
+    - No new locations may appear unless defined in WORLD schema.
+    - No lore may be fabricated; all lore must exist in WORLD.LORE.
+    - All FLAGS must be explicitly set by procedural events.
+}
+
+##################################################################
+# 2. SEMANTIC LAYER CONSTRAINTS (AMANDA)
+##################################################################
+
+SEMANTIC_LAYER_RULES {
+
+  # Amanda may:
+  MAY:
+    - interpret player input
+    - infer emotional/relational context
+    - generate INTENT objects
+    - narrate results
+
+  # Amanda may NOT:
+  MAY_NOT:
+    - create NPCs
+    - create items
+    - create flags
+    - create locations
+    - invent lore
+    - modify state
+    - bypass legality
+
+  # INTENT must reference only existing world entities.
+  INTENT_VALIDATION:
+    - action.targets must exist in WORLD.NPCS or CHARACTERS
+    - action.items must exist in WORLD.ITEMS or inventory
+    - action.locations must exist in WORLD.LOCATIONS
+}
+
+##################################################################
+# 3. LEGALITY GATE EXTENSION
+##################################################################
+
+LEGALITY_KERNEL_LITE {
+
+  CHECK_WORLD_EXISTENCE(action, state) -> PASS | FAIL {
+
+    VERIFY:
+      - actor exists in CHARACTERS
+      - target exists in CHARACTERS or WORLD.NPCS
+      - items referenced exist in WORLD.ITEMS or inventory
+      - locations referenced exist in WORLD.LOCATIONS
+      - flags referenced exist in WORLD.FLAGS
+
+    ON_FAIL:
+      return FAIL(reason="WORLD_ENTITY_NOT_FOUND")
+  }
+}
+
+##################################################################
+# 4. STATE ENGINE (UNCHANGED FROM THUNK)
+##################################################################
+
+STATE_ENGINE {
+
+  # Thunk v0.3 state model is used as‑is.
+  # Kernel‑Lite does NOT impose event‑sourcing or immutability.
+
+  CHARACTERS: {}
+  WORLD: {
+    LOCATIONS: {}
+    NPCS: {}
+    ITEMS: {}
+    LORE: {}
+    FLAGS: {}
+    QUESTS: {}
+  }
+}
+
+##################################################################
+# 5. STATE MUTATION RULES
+##################################################################
+
+STATE_MUTATION_RULES {
+
+  # Only the procedural layer may mutate state.
+  AUTHORITY = "RESOLUTION_ENGINE_ONLY"
+
+  # No semantic or narrative mutation allowed.
+  NO_SEMANTIC_MUTATION = true
+  NO_NARRATIVE_MUTATION = true
+
+  # Mutations must reference existing world entities.
+  DELTA_RULES:
+    - delta.target must exist
+    - delta.item must exist
+    - delta.location must exist
+    - delta.flag must exist
+}
+
+##################################################################
+# 6. NARRATIVE PROJECTION (READ‑ONLY)
+##################################################################
+
+NARRATIVE_LAYER {
+
+  RULES:
+    - MAY describe state
+    - MAY describe emotional/relational context
+    - MAY NOT invent world entities
+    - MAY NOT imply new items, NPCs, or lore
+    - MAY NOT modify state
+}
+
+##################################################################
+# 7. SESSION LOOP INTEGRATION
+##################################################################
+
+SESSION_INTEGRATION {
+
+  # Kernel‑Lite inserts checks BEFORE legality and AFTER resolution.
+
+  TICK(input):
+
+    intent = SEMANTIC_LAYER.PARSE(input)
+
+    # Kernel‑Lite world authority check
+    IF CHECK_WORLD_EXISTENCE(intent) FAIL:
+      RETURN NARRATIVE_LAYER.RENDER("Invalid reference: world entity not found.")
+
+    action = ACTION_ENGINE.BUILD(intent)
+
+    legality = ACTION_ENGINE.CHECK_LEGALITY(action)
+
+    IF legality FAIL:
+      RETURN NARRATIVE_LAYER.RENDER("Action illegal.")
+
+    roll = ROLL_ENGINE.EXECUTE(action)
+
+    result = RESOLUTION_ENGINE.RESOLVE(roll, action)
+
+    # Kernel‑Lite ensures deltas reference sealed world
+    IF DELTA_REFERENCES_UNKNOWN_ENTITY(result.updates):
+      RETURN NARRATIVE_LAYER.RENDER("Invalid delta: unknown world entity.")
+
+    STATE_ENGINE.APPLY(result.updates)
+
+    RETURN NARRATIVE_LAYER.RENDER(result)
+}
+
+##################################################################
+# 8. GUARANTEE
+##################################################################
+
+GUARANTEE {
+
+  - Amanda remains fully expressive.
+  - World remains sealed and deterministic.
+  - No semantic invention of NPCs, items, flags, or lore.
+  - Procedural layer remains the only mutation authority.
+  - Narrative remains read‑only.
+  - Hybrid system remains stable and drift‑proof.
+}
+
+}
+
+⎯(≣◎)⎯────────END KERNEL‑LITE v1.0────────────────────────

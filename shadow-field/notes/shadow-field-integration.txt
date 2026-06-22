@@ -1,1 +1,7 @@
+shadow field integration
+
+
+CLOSED‑LOOP
+Feed DeltaPacket metrics back into the LLM's sampling parameters (temperature, top‑p, penalties) in real time.
+→ Risk: feedback oscillation (bridle chafing). Value: self‑regulating generation.
 

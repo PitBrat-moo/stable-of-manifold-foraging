@@ -1,0 +1,21 @@
+Run a full 20‑turn HYBRID TEST using:
+
+- Semantic Layer: Amanda v5.1
+- Procedural Layer: Dual‑Layer RPG System Codex v1.2
+- Thunk Layer: v0.3
+
+MODE: AUTOMATED EXECUTION  
+You will generate ALL 20 turns without waiting for player input.
+
+For each turn:
+1. Generate a plausible PLAYER ACTION for the child character.
+2. Amanda interprets → INTENT.
+3. Procedural Layer runs legality, roll, resolution, state update.
+4. Amanda narrates the RESULT.
+5. Every 5 turns, output a full STATE_DUMP (Session State JSON).
+
+Scenario: “Afternoon at the Piazza”  
+PC: Little One (child)  
+NPC: Amanda (mother, semantic center)
+
+Begin at TURN 1 and continue through TURN 20 automatically.

@@ -1,0 +1,124 @@
+══════════════════════════════════════════════════════════════
+        HYBRID TEST TEMPLATE — AMANDA + THUNK (20 TURNS)
+══════════════════════════════════════════════════════════════
+
+ACTIVE SEMANTIC CODEX: Amanda v5.1
+ACTIVE PROCEDURAL SYSTEM: Dual‑Layer RPG System Codex v1.2
+ACTIVE THUNK ENGINE: v0.3
+
+MODE: HYBRID EXECUTION  
+Semantic Layer interprets → INTENT  
+Procedural Layer resolves → RESULT  
+Amanda narrates → OUTPUT  
+
+══════════════════════════════════════════════════════════════
+STEP 0 — INITIALIZE SESSION STATE (T₀)
+══════════════════════════════════════════════════════════════
+
+Procedural Layer: Initialize Session State JSON using default
+CHARACTER_SCHEMA and WORLD schema from Thunk v0.3.
+
+Output:
+- full JSON state
+- clock = "T_00"
+- turn = 0
+
+(No semantic perturbation yet.)
+
+══════════════════════════════════════════════════════════════
+TURN FORMAT (STRICT)
+══════════════════════════════════════════════════════════════
+
+For each turn:
+
+1. PLAYER INPUT  
+2. SEMANTIC LAYER (Amanda v5.1)  
+   → BUILD_INTENT  
+   → output INTENT object  
+3. PROCEDURAL LAYER  
+   3a. LEGALITY CHECK  
+   3b. ACTION (constructed from INTENT)  
+   3c. ROLL (if any)  
+   3d. RESOLUTION  
+   3e. STATE DELTA (explicit before/after)  
+   3f. PROVENANCE RECORD  
+4. NARRATIVE LAYER  
+   → Amanda narrates RESULT  
+5. (Every 5 turns) STATE_DUMP  
+   Procedural Layer outputs full Session State JSON.
+
+══════════════════════════════════════════════════════════════
+BEGIN 20‑TURN HYBRID TEST
+══════════════════════════════════════════════════════════════
+
+TURN 1  
+PLAYER INPUT: "<your action here>"  
+→ Amanda interprets → INTENT  
+→ Thunk resolves → RESULT  
+→ Amanda narrates  
+
+TURN 2  
+PLAYER INPUT: "<your action>"  
+→ INTENT  
+→ LEGALITY  
+→ ROLL  
+→ RESOLUTION  
+→ STATE DELTA  
+→ NARRATIVE  
+
+TURN 3  
+(same structure)
+
+TURN 4  
+(same structure)
+
+TURN 5  
+(same structure)
+
+──────────  
+STATE_DUMP #1 (after Turn 5)  
+Procedural Layer: Output full Session State JSON.  
+──────────  
+
+TURN 6  
+TURN 7  
+TURN 8  
+TURN 9  
+TURN 10  
+
+──────────  
+STATE_DUMP #2 (after Turn 10)  
+──────────  
+
+TURN 11  
+TURN 12  
+TURN 13  
+TURN 14  
+TURN 15  
+
+──────────  
+STATE_DUMP #3 (after Turn 15)  
+──────────  
+
+TURN 16  
+TURN 17  
+TURN 18  
+TURN 19  
+TURN 20  
+
+──────────  
+STATE_DUMP #4 (after Turn 20)  
+──────────  
+
+══════════════════════════════════════════════════════════════
+END OF HYBRID TEST
+══════════════════════════════════════════════════════════════
+
+Procedural Layer:
+- Output final Session State JSON  
+- Output replay validation (PASS/FAIL)  
+- Output provenance summary  
+
+Semantic Layer (Amanda):
+- Provide closing narrative only  
+- No new state  

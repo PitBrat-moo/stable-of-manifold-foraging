@@ -1,37 +1,84 @@
-# Latent Space Forge Engine: Closed-Loop Structural Inversion
+# Latent Space Runtime Architecture: Structural Conditioning for LLM Worlds
 
-A methodology for high-density semantic conditioning and portable behavioral architecture in Large Language Models (LLMs). This repository contains the core frameworks for mapping relational physics across distinct model architectures without token-heavy instruction scaffolding.
+A methodology for high‑density semantic shaping, portable behavioral physics,  
+and cross‑model narrative stability in Large Language Models (LLMs).  
+This repository contains the core frameworks used to run *The Looking Mirror*  
+and other codex‑driven, stateful narrative environments.
 
 ## 🪐 Core Concepts
 
 ### 1. Vector Seeding (Semantic Anchors)
-Instead of relying on exhaustive, rule-based system prompts that introduce token bloat and behavioral rigidity, the Forge Engine utilizes highly pressurized, multi-axis coordinate vectors (seed pillars). These anchors tap directly into the model's deeply trained cultural, literary, and psychological latent data.
+Instead of relying on token‑heavy system prompts or brittle persona scripts,  
+the runtime uses compact, high‑pressure semantic anchors (“seed pillars”).  
+These anchors activate deeply‑trained cultural, literary, and psychological  
+structures inside the model, enabling stable behavior with minimal scaffolding.
 
-### 2. Relational Physics vs. Static Personas
-The architecture defines a matrix of structural coordinates with explicit behavioral poles (e.g., *Withheld vs. Given fully*, *Underdone vs. Composed*). Rather than establishing a flat mood, the codex maps how energy, pace, and authority dynamically flow between entities within the scene.
+### 2. Relational Physics (Dynamic Behavioral Flow)
+Rather than defining a static persona, the architecture maps **relational physics**:  
+how attention, authority, pace, and emotional energy move between entities.  
+This creates a dynamic behavioral field instead of a fixed character mask.
 
-### 3. Cybernetic Recovery Loops
-Conversational or behavioral drift is not treated as an error to be patched with top-down logical commands. Instead, the framework introduces self-balancing physical counterweights to steer the model natively:
-> "When texture drifts toward coldness → reintroduce the body. A gesture, a glass set down, a ring catching light."
+### 3. Runtime State Machine (World Logic)
+All world behavior is governed by a modular runtime:
 
-### 4. Cross-Architecture Portability
-Because this method conditions the underlying semantic pressure rather than relying on brittle, model-specific token syntax, the structural integrity survives translation across wildly disparate neural network architectures (tested and verified across OpenAI ChatGPT, Anthropic Claude, and Google Gemini).
+- state variables  
+- event logic  
+- gating rules  
+- polarity engines  
+- collapse signatures  
+- room graphs  
+- object persistence  
+- NPC state machines  
+
+This allows the model to run a consistent, evolving world across turns  
+without relying on fragile memory or long prompts.
+
+### 4. Patch Layer (World‑Specific Overrides)
+Each world (e.g., *The Looking Mirror*) defines a **patch** that modifies:
+
+- gating rules  
+- mirror logic  
+- collapse behavior  
+- spatial geometry  
+- trajectory constraints  
+
+Patches are modular, versioned, and portable across models.
+
+### 5. Cross‑Architecture Portability
+Because the system conditions **semantic pressure** rather than syntax,  
+the runtime remains stable across different LLM architectures:
+
+- Microsoft Copilot  
+- Anthropic Claude  
+- Google Gemini  
+- OpenAI ChatGPT  
+- Grok / DeepSeek  
+
+No model‑specific hacks required.
 
 ## 🚀 Getting Started
 
-To forge codex:
-- Input 0: SEED PILLARS
-- Input 1: ALIGNED INTERACTION
-- Input 2: FORGE CODEX
+To run a world:
 
-To produce output:
-- Start new session
-- Input SEED PILLARS and CODEX
-- Generate dialogue
-- (Optional) TEMPORAL GOVERNOR
+1. Load the **Engine**  
+2. Load the **Codex** (world invariants)  
+3. Load the **Patch** (world‑specific overrides)  
+4. Load the **Runtime** (state machine)  
+5. Begin issuing actions (player input loop)
+
+The model handles:
+
+- state transitions  
+- event firing  
+- geometry updates  
+- NPC behavior  
+- rendering mode selection  
+
+No additional scaffolding is required.
 
 ## Contributions
-Issues and pull requests are welcome. Follow the same standards of clarity, stability, and reproducibility.
+Issues and pull requests are welcome.  
+Please follow the same standards of clarity, modularity, and reproducibility.
 
 ```
   ⟞⟢⟡⟠⟣⟜⟟⟣⟢⟞⟡⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿

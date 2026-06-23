@@ -2,7 +2,7 @@
 PATCH — THE LOOKING MIRROR 
 ====================================================
 
-VERSION: 2.1  
+VERSION: 2.2  
 ROLE: World-Specific Overrides  
 DEPENDENCIES: Unified Physics • World Codex • Persona–Polarity Integration
 
@@ -16,6 +16,23 @@ True‑Seeing Access becomes available when:
 
 - The player has examined Amanda  
 - The player has spoken to Amanda at least once  
+
+[ENFORCEMENT]
+
+The engine MUST evaluate these conditions at action‑time.  
+Models may NOT infer satisfaction of prerequisites.
+
+If either condition is false:
+
+- True‑Seeing Access = false  
+- Compliment:quality = locked  
+- Compliment action = unavailable  
+
+Only when BOTH conditions are true may:
+
+- True‑Seeing Access = true  
+- Compliment:quality = true‑seeing  
+- Recognition Event trigger  
 
 ====================================================
 SECTION 02 — MIRROR DELIVERY & RETRIEVAL
@@ -119,6 +136,7 @@ SECTION 06 — PATCH PRIORITY
   - mirror retrieval logic  
   - mirror-mode behavior  
   - collapse binding within mirror contexts  
+  - true-seeing gating enforcement  
 
 - All other behavior remains governed by the unified architecture.
 

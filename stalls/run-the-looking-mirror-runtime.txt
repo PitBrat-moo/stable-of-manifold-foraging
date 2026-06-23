@@ -534,6 +534,25 @@
   </EFFECT>
 </NPC-DIALOGUE>
 
+<STATE-LOGIC id="compliment-gate-enforcement">
+  <CONDITION>
+    player:action = compliment
+    AND player:target = amanda
+    AND (amanda:seen = false OR amanda:trust = uncertain)
+  </CONDITION>
+
+  <EFFECT>
+    <NARRATION>
+      You open your mouth to speak, but the moment isn’t ready.
+      Amanda’s attention wanders past you.
+      Her warmth redirected, though not unkindly, leaves you feeling unfinished.
+    </NARRATION>
+
+    <STATE>
+      compliment:quality = locked
+    </STATE>
+  </EFFECT>
+</STATE-LOGIC>
 
 # COMPLIMENT EVENT — NOW SETS gift-allowed = true
 

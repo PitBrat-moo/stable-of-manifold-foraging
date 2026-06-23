@@ -137,6 +137,16 @@ Tweaks and Fixes:
   
   Forces the model to execute layers as state machines rather than treating them as descriptive text.
   That level of rigidity actually reduces fluidity and expressiveness for other models.
+
+- Models may occasionally exit the simulation if the boundary between
+  in‑world logic and real‑world emotional inference blurs.
+  This is only a context‑shift, not a crash.
+  Safely re‑enter the game with:
+
+      <INPUT> Resume Looking Mirror runtime. Player stands in the last valid room.
+
+  This restores the simulation layer, reasserts the runtime state,
+  and returns control to the world without altering any variables.
   
 - System Commands
     Call a persona:

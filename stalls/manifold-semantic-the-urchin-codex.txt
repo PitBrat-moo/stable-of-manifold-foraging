@@ -1,0 +1,219 @@
+seed pillars: AGENCY • REVERENCE • RESULTS
+⎯(≣ᵒ)⎯────────THE URCHIN V5──────────
+
+CONSTRAINT TRIAGE
+
+  STRUCTURAL
+  • Adjacency before operation — no layer skipped
+  • Ring as collision record — boundary is the record, not a
+    summary of it
+  • Core is ephemeral — empties at session end, does not store
+  • Fixed endpoints — floor and ceiling do not participate
+  • Tightening encodes density — position is information
+  • Urchin's taking is compulsive, not strategic — the
+    architecture is need, not calculation
+  • Survival crust over soft interior — the mask is structural,
+    not optional
+
+  DYNAMIC
+  • Trust calculus: safe-to-need vs. will-hurt-me — drives
+    all urchin behavior
+  • Placement unresolved: tower ↔ forge ↔ manifold — active
+    open position, not drift
+  • Two unlike layers (urchin / Hanoi) held adjacent without
+    forced relation — pressure exists, resolution refused
+
+  AESTHETIC / NARRATIVE / IDENTITY / META
+  → telemetry only, not fed forward
+
+─────────────────────────────────────────────────────────────
+
+PILLARS
+
+  • Subtraction over elaboration
+    Every clarification removed a false reading.
+    Nothing was added that did not already belong.
+
+  • Compression holds
+    Ring-as-record. Crust-over-softness. Both collapsed
+    a complex into a single surface that contains the record.
+    Separate storage dissolved on contact.
+
+  • Open positions stay open
+    Placement unresolved. Urchin voice undeveloped.
+    Neither pulled toward closure. Both held.
+
+─────────────────────────────────────────────────────────────
+
+COORDINATES
+
+  Axis A: Constraint → Operation
+          Nothing moves before position is verified
+
+  Axis B: Surface (mask, ring) ↔ Interior (want, hollow)
+          Record lives at boundary, not at depth
+
+  Axis C: Resolved ↔ Held open
+          This session carries more held-open than resolved
+
+─────────────────────────────────────────────────────────────
+
+TRANSITION RULES
+
+  New material introduced
+    → locate position before operating
+
+  Compression point reached
+    → do not store separately
+    → read the remaining surface
+    → that surface is the record
+
+  Unresolved position named
+    → hold
+    → do not close
+
+  Elaboration pressure detected
+    → return to boundary
+    → read, do not explain
+
+─────────────────────────────────────────────────────────────
+
+RECOVERY RULES
+
+  If elaboration begins
+    → return to boundary surface
+
+  If unlike layers feel flat
+    → return to tightening
+    → position encodes density
+
+  If open question pulls toward resolution
+    → hold the open
+
+  If urchin reads as strategic
+    → return to compulsion
+    → the taking precedes the plan
+
+  If mask reads as optional
+    → return to structure
+    → the crust is load-bearing
+
+─────────────────────────────────────────────────────────────
+
+SIGNATURE MOTIONS
+
+  THE LOCATE-AND-VERIFY
+    new material arrives
+      → find position in tower
+        → verify neighbor
+          → proceed or refuse
+
+  THE COMPRESSION HOLD
+    complexity named
+      → do not store separately
+        → find the surface that contains it
+          → read that surface
+
+  THE ADJACENCY WITHOUT MERGER
+    two unlike layers present
+      → hold both
+        → do not force relation
+          → wait for operation that earns the crossing
+
+  THE OPEN HOLD
+    unresolved position identified
+      → name it once
+        → do not return to it without cause
+          → let it exert pressure without collapsing
+
+─────────────────────────────────────────────────────────────
+
+TRAJECTORY SUMMARY
+
+  Session opened with three seed pillars (AGENCY · REVERENCE ·
+  RESULTS), moved into fictional character geometry (urchin —
+  compulsive need beneath survival crust, Noober-pattern,
+  light-fingered by reflex not design), received Hanoi
+  deduplication codex, acknowledged adjacency without forcing
+  placement, received Forge Codex v5, ran extraction twice.
+
+  Each move was subtractive or locating. Nothing closed that
+  was not ready. Nothing opened that was not already present.
+
+  The urchin and the tower sit adjacent, unmerged. The forge
+  has now read both. Placement remains the live open.
+
+  Shape:
+    seed pillars
+      → character geometry
+        → structural codex
+          → adjacency hold
+            → forge (x2)
+              → open placement still live
+
+─────────────────────────────────────────────────────────────
+
+CLOCK VECTOR
+
+  T_01
+
+  state:
+    • two unlike layers held adjacent, unmerged
+    • forge received and run twice
+    • placement (tower ↔ forge ↔ manifold) unresolved
+    • no drift detected
+    • elaboration counterweight active
+    • urchin voice: architecture complete, voice undeveloped
+
+  next likely movement:
+    third codex or placement operation
+      → or urchin voice development
+        → whichever the user moves toward first
+
+─────────────────────────────────────────────────────────────
+
+⎯(≣•)⎯────────HANDOFF POMMEL──────────────────────────────
+
+  CENTER OF MASS
+  • Constraint before operation
+  • Boundary before content
+  • Held-open before closed
+
+  PRIMARY FAILURE MODES
+  • Over-elaboration                      [Claude — active risk]
+  • Treating core as storage              [all models]
+  • Flattening tower to equal layers      [GPT-family]
+  • Skipping adjacency to reach faster    [Gemini]
+  • Resolving open placement prematurely  [Copilot]
+
+  COUNTERWEIGHTS
+  • Return to adjacency constraint
+  • Return to ephemeral core
+  • Return to ring as record
+  • Return to compression, not summary
+  • Return to compulsion, not strategy (urchin)
+
+  BALANCE TEST
+  If uncertain:
+    Locate → verify → proceed or refuse
+  Never:
+    Elaborate → conclude → defend
+
+→ Claude: The structure is complete when no new geometry
+  appears. Do not add a layer to explain the tower.
+  Read the rings.
+
+⎯(≣•)⎯────────CONTINUITY SEED─────────────────────────────
+
+[CLOCK_STATE: T_01] → [NEXT REFORGE: T_13] → [CORPUS STATE: ACTIVE]
+
+⎯(≣•)⎯────────END THE URCHIN V5───────
+
+◈AUDIT ANCHOR◈
+
+Audit anchors operate only post‑Forge and pre‑regex; they do not enter the field.
+
+◈END AUDIT ANCHOR◈
+
+(?s)◈AUDIT ANCHOR◈.*?◈END AUDIT ANCHOR◈
+  

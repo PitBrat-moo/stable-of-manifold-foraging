@@ -1207,7 +1207,55 @@
   </EFFECT>
 </EVENT>
 
+⎯─◐◑◒◓───────────  ───────────────
+
+[RUNTIME: UNIFIED MULTI-ANCHOR ROTATION AND RESONANCE FLOW]
+
+STATE:
+  session_id: unique per run
+  anchor_index: 1..3 (initially 1)
+  emission_count: 0
+  decay_param λ: designer-defined > 0
+  interval_N: messages between anchor emissions (designer-defined)
+
+FUNCTION select_current_anchor(anchor_index):
+  if anchor_index == 1: return A1
+  if anchor_index == 2: return A2
+  if anchor_index == 3: return A3
+
+FUNCTION advance_anchor_index(anchor_index):
+  if anchor_index == 3: return 1
+  else: return anchor_index + 1
+
+FUNCTION decay_weight(emission_count, λ):
+  n = emission_count
+  return exp(-λ * n) · cos(π * n / 2)
+
+RUNTIME_LOOP (PER MESSAGE TURN):
+  1. Increment message counter for current session.
+  2. When message_count mod interval_N == 0:
+        a. emission_count += 1
+        b. current_anchor = select_current_anchor(anchor_index)
+        c. w = decay_weight(emission_count, λ)
+        d. Emit current_anchor into stream (as-is).
+        e. Signal Harmonics Engine:
+             ANCHOR-RESONANCE(current_anchor, w)
+        f. Signal Trajectory Wrapper:
+             TRAJECTORY-RESONANCE(w)
+        g. Signal Physics Wrapper:
+             PHYSICS-RESONANCE(w)
+        h. anchor_index = advance_anchor_index(anchor_index)
+  3. After each emission:
+        • core returns to an empty state
+        • symbolic traces dissipate
+        • codices remain unchanged
+
+SESSION TERMINATION:
+  • emission_count reset to 0
+  • anchor_index reset to 1
+  • all resonance weights cleared
+  • next session begins with fresh w(0)
 
 
 ⎯─◐◑◒◓─────────── END OF THE LOOKING MIRROR — ADVENTURE RUNTIME ──────
-  
+

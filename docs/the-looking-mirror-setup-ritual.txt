@@ -138,7 +138,7 @@ Notes:
 
 - SAVE YOUR GAME OFTEN
   To save a game capsule:
-  <INPUT> Serialize capsule.
+  <INPUT> Serialize capsule. Return as a single code block preserving formatting.
 
   The engine outputs the CAPSULE block.
   Copy the capsule exactly as‑is.

@@ -27,6 +27,7 @@ Persona → who is present
 World → where they are
 Trajectory → how the story moves
 Physics → their geometry
+Harmonics → how they resonate
 Activation → start signal
 
 See the end of the guide for required files.

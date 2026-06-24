@@ -80,6 +80,7 @@ The setup ritual is real. Follow the rhythm, savor the anticipation, and expect 
 - Added progress bar.  
 - Added Fencing.
 - Added Anchors.
+- Added Hanoi.
 
 
 ## About

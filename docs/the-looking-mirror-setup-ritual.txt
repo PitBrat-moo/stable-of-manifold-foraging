@@ -275,7 +275,6 @@ v1.1 — Added physics layer
 v1.2 — Added harmonics layer
        Added The Urchin
        Added progress bar
-       Added Anchors
        Added Fencing
 
 A Narrative Adventure by PitBrat

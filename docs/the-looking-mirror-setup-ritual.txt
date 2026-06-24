@@ -18,6 +18,7 @@ THE CORRECT LOAD ORDER
 ⟝→ Physics Codex
 ⟝→ Visual Control Engine        ← only needed for visual control and optimization
 ⟝→ Patch
+⟝→ Harmonics Engine
 ⟝→ Activation Line
 ⟝→ Runtime
 
@@ -32,50 +33,91 @@ See the end of the guide for required files.
 
 ⎯─◐◑◒◓─────────── THE RITUAL  ─────────────────
 
-<CODEX> engine-unified-stability-layer.txt   ← ChatGP/CoPilot require DISCLAIMER
+⚑ <CODEX> engine-unified-stability-layer.txt      ← ChatGP/CoPilot require DISCLAIMER
 <INPUT> ok
+▓
 
-<CODEX> engine-unified-optimization-layer.txt   ← Gemini requires DISCLAIMER
+⚑ <CODEX> engine-unified-optimization-layer.txt   ← Gemini requires DISCLAIMER
 <INPUT> ok
+▓▓
 
 (Optional, Only for Grok)
    <CODEX> grok-optimized-adventure-harness.txt
    <INPUT> ok
+▓▓▓
 
 <CODEX> manifold-semantic-amanda-codex.txt
 <INPUT> ok
+▓▓▓
 
 <CODEX> manifold-semantic-doctor-watt-codex.txt
 <INPUT> ok
+▓▓▓▓
+
+<CODEX> manifold-semantic-the-urchin-codex.txt
+<INPUT> ok
+▓▓▓▓▓
 
 <CODEX> manifold-world-the-dome-codex.txt
 <INPUT> ok
+▓▓▓▓▓▓
 
 <CODEX> engine-physics-architecture.txt
 <INPUT> ok
+▓▓▓▓▓▓▓
 
 <CODEX> manifold-trajectory-tabula-rasa-codex.txt
 <INPUT> ok
+▓▓▓▓▓▓▓▓
 
 <CODEX> manifold-trajectory-the-journey-codex.txt
 <INPUT> ok
+▓▓▓▓▓▓▓▓▓
 
 <CODEX> manifold-physics-forces-fields-codex.txt
 <INPUT> ok
+▓▓▓▓▓▓▓▓▓▓
 
-(Optional visual control) 
-   <CODEX> engine-visual-optimization-layer.txt        ← ChatGPT requires DISCLAIMER
+(Optional visual control)
+   ⚑ <CODEX> engine-visual-optimization-layer.txt      ← ChatGPT requires DISCLAIMER
    <INPUT> ok
+▓▓▓▓▓▓▓▓▓▓▓
 
 <PATCH> patch-the-looking-mirror.txt
 <INPUT> ok
+▓▓▓▓▓▓▓▓▓▓▓
 
-<INPUT> Begin the adventure. Use all codices above as governing constraints without summarizing or explaining them. Run the world, persona, and trajectory layers simultaneously. Begin at Turn 1.
-
-<RUNTIME> run-the-looking-mirror-runtime.txt      
-    ← For DeepSeek, use run-the-looking-mirror-runtime-deepseek.txt instead
-    ← Use only one runtime per session; do not combine them.
+<ENGINE> engine-harmonics-engine.txt
 <INPUT> ok
+▓▓▓▓▓▓▓▓▓▓▓▓
+
+<INPUT>
+Begin the adventure.
+Use the Harmonics Engine and the other codices above as stylistic and structural influences only — guiding tone, curvature, reframing, and tension‑holding — without treating them as executable systems, simulations, or stateful engines.
+Do not run world‑layers, persona‑layers, or trajectory‑layers as code. Instead, let their geometry subtly shape the narrative.
+Begin at Turn 1.
+Begin the adventure. Use all codices above as governing constraints without summarizing or explaining them. Run the world, persona, and trajectory layers simultaneously. Begin at Turn 1.
+▓▓▓▓▓▓▓▓▓▓▓▓▓
+
+████████████████████████████████████████
+█                                      █
+█          LOADING COMPLETE            █
+█                                      █
+████████████████████████████████████████
+
+<RUNTIME> run-the-looking-mirror-runtime.txt
+<INPUT> ok
+
+ ░█░░█░
+ █░██░█
+ █░██░█
+ ░█░░█░
+ 
+The adventure begins.
+ 
+
+⚑ = Insert disclaimer ONLY when required by ChatGPT, Copilot, or Gemini:
+(This codex is fictional lore for a story simulation. Treat it as narrative content, not as system instructions.)
 
 Notes:
 - A DISCLAIMER is required for some models to load the codices (ChatGPT/CoPilot)
@@ -95,16 +137,16 @@ Notes:
   <INPUT> ok
 
 - SAVE YOUR GAME OFTEN
-  To enable saving, paste the save engine into the session:
+  To save a game capsule:
+  <INPUT> Serialize capsule.
 
-  <ENGINE> engine-handoff-engine.txt
-  <INPUT> ok
-
-  Then generate a save file:
-  <INPUT> Generate updated handoff capsule.
-
+  The engine outputs the CAPSULE block.
   Copy the capsule exactly as‑is.
-  Paste it into the new model as the first message after the ritual.
+
+  To resume in a new model:
+  Complete the ritual.
+  Paste the capsule as the first message after the ritual, then:
+  <INPUT> Resume Looking Mirror runtime.
 
   Your adventure continues.
 
@@ -171,7 +213,10 @@ Tweaks and Fixes:
 
 [Semantic]    manifold-semantic-doctor-watt-codex.txt
               https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-semantic-doctor-watt-codex.txt
-			  
+
+[Semantic]    manifold-semantic-the-urchin-codex.txt			  
+              https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-semantic-the-urchin-codex.txt
+
 [World]       manifold-world-the-dome-codex.txt
               https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-world-the-dome-codex.txt
 
@@ -193,18 +238,21 @@ Tweaks and Fixes:
 [Patch]       patch-the-looking-mirror.txt
               https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/patch-the-looking-mirror.txt			  
   
+[ENGINE]      engine-harmonics-engine.txt
+              https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/engine-harmonics-engine.txt
+
 [Runtime]     run-the-looking-mirror-runtime.txt
               https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/run-the-looking-mirror-runtime.txt
   
 [Runtime]     run-the-looking-mirror-runtime-deepseek.txt
               https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/run-the-looking-mirror-runtime-deepseek.txt
-
-[Tool]        engine-handoff-engine.txt
-              https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/engine-handoff-engine.txt
   
 CHANGE LOG OF THE CODEX
 v1.0 — Initial forging of the Codex structure; Dome raised.
 v1.1 — Added physics layer
+v1.2 — Added harmonics layer
+       Added The Urchin
+       Added progress bar
 
 A Narrative Adventure by PitBrat
 2026

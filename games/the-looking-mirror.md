@@ -32,7 +32,10 @@ The setup ritual is real. Follow the rhythm, savor the anticipation, and expect 
 
 - manifold-semantic-doctor-watt-codex.txt  
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-semantic-doctor-watt-codex.txt
-
+      
+- manifold-semantic-the-urchin-codex.txt      
+  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-semantic-the-urchin-codex.txt      
+      
 - manifold-world-the-dome-codex.txt  
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-world-the-dome-codex.txt
 
@@ -54,14 +57,14 @@ The setup ritual is real. Follow the rhythm, savor the anticipation, and expect 
 - patch-the-looking-mirror.txt  
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/patch-the-looking-mirror.txt
 
+- engine-harmonics-engine.txt      
+  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/engine-harmonics-engine.txt      
+  
 - run-the-looking-mirror-runtime.txt  
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/run-the-looking-mirror-runtime.txt
 
 - run-the-looking-mirror-runtime-deepseek.txt      
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/run-the-looking-mirror-runtime-deepseek.txt
-
-- engine-handoff-engine.txt  
-  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/engine-handoff-engine.txt
 
 ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
 

@@ -217,6 +217,18 @@ Tweaks and Fixes:
   This restores the simulation layer, reasserts the runtime state,
   and returns control to the world without altering any variables.
   
+- To wipe away drift and clear semantic residue, use the Hanoi Deduplication Codex.
+  It’s a quick conceptual reset that keeps the adventure flowing whenever the mirror feels fogged.
+
+  Invoke it like this:
+
+  <HANOI> hanoi-deduplication.txt  
+  <INPUT> ok
+
+  This performs the clearing gesture so the next move feels clean.
+
+  Now, continue playing normally.
+  
 - System Commands
     Call a persona:
     <INPUT> I request calibration.    ← Calls Amanda
@@ -265,7 +277,7 @@ Tweaks and Fixes:
 [Patch]       patch-the-looking-mirror.txt
               https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/patch-the-looking-mirror.txt			  
   
-[ENGINE]      engine-harmonics-engine.txt
+[Engine]      engine-harmonics-engine.txt
               https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/engine-harmonics-engine.txt
 
 [Runtime]     run-the-looking-mirror-runtime.txt
@@ -274,6 +286,9 @@ Tweaks and Fixes:
 [Runtime]     run-the-looking-mirror-runtime-deepseek.txt
               https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/run-the-looking-mirror-runtime-deepseek.txt
   
+[Tool]        hanoi-deduplication.txt      
+              https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/codex/hanoi-deduplication.txt
+
 CHANGE LOG OF THE CODEX
 v1.0 — Initial forging of the Codex structure; Dome raised.
 v1.1 — Added physics layer.
@@ -282,6 +297,7 @@ v1.2 — Added harmonics layer.
        Added progress bar.
        Added Fencing.
        Added Anchors.
+       Added Hanoi.
        
 The Looking Mirror — A Narrative Adventure
 PitBrat, 2026

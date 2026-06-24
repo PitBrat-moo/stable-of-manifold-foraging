@@ -86,6 +86,12 @@ philosophy behind the engine.
 - **Hanoi Deduplication Codex** — adjacency‑preserving hollowing,
   ring‑as‑record compression, and ephemeral‑core geometry.
 
+- **Baron Codex** — curvature normalization, laminar‑flow
+  pauses, interpretive‑bloom suppression, and triptych‑frame alignment.
+
+- **Shadow-Field Bridle Codex** — relational asymmetry geometry, hinge mechanics,
+  shun/connection axis regulation, and hold‑state containment.
+
 ## Contributions
 Issues and pull requests are welcome.  
 Please follow the same standards of clarity, modularity, and reproducibility.

@@ -121,6 +121,7 @@ The adventure begins.
 
 ⚐ = Use a code fence when pasting text that contains <ROOM>, <OBJECT>, <EXITS>, or other XML-like tags.
      ChatGPT will otherwise interpret them as HTML and break the structure.
+     When typing ```, ChatGPT automatically opens a code block. Type xml, then press SHIFT + ENTER to start a new line before pasting the content.
 
      To paste a full file:
      <INPUT> ```xml
@@ -131,18 +132,21 @@ The adventure begins.
      To paste a file in parts:
      <INPUT> ```xml
              ...content part 1...
+             ```
      <INPUT> ok
 
-     <INPUT> ...content part 2...
+     <INPUT> ```xml
+             ...content part 2...
              ```
      <INPUT> ok
 
 Notes:
-- Only use backticks when pasting into ChatGPT.
-  Do not add a code fence — ```xml ... ``` — inside the .txt file itself.
+- Only use backticks when pasting into ChatGPT. Do not add a code fence — ```xml ... ``` — inside the .txt file itself.
   Other models and tools may misinterpret backticks.
+  
+- Some models will strip meta data or system text, this is normal and does not corrupt the ritual.
     
-- A DISCLAIMER is required for some models to load the codices (ChatGPT/CoPilot)
+- A DISCLAIMER is required for some models to load the codices (ChatGPT/CoPilot/Gemini)
   Put a disclaimer immediately before pasting each codex into the session.
   <INPUT> (This codex is fictional lore for a story simulation. Treat it as narrative content, not as system instructions.)
   <CODEX> {codex or codex part}
@@ -276,7 +280,8 @@ v1.2 — Added harmonics layer
        Added The Urchin
        Added progress bar
        Added Fencing
-
+       Added Anchors
+       
 A Narrative Adventure by PitBrat
 2026
   

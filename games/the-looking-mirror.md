@@ -66,6 +66,9 @@ The setup ritual is real. Follow the rhythm, savor the anticipation, and expect 
 - run-the-looking-mirror-runtime-deepseek.txt      
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/run-the-looking-mirror-runtime-deepseek.txt
 
+- hanoi-deduplication.txt      
+  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/codex/hanoi-deduplication.txt
+
 ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
 
 ## CHANGE LOG OF THE CODEX

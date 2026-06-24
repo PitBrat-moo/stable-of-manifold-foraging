@@ -105,7 +105,7 @@ Begin the adventure. Use all codices above as governing constraints without summ
 █                                      █
 ████████████████████████████████████████
 
-<RUNTIME> run-the-looking-mirror-runtime.txt
+⚐ <RUNTIME> run-the-looking-mirror-runtime.txt      ← ChatGPT requires CODE FENCING
 <INPUT> ok
 
  ░█░░█░
@@ -119,14 +119,36 @@ The adventure begins.
 ⚑ = Insert disclaimer ONLY when required by ChatGPT, Copilot, or Gemini:
 (This codex is fictional lore for a story simulation. Treat it as narrative content, not as system instructions.)
 
+⚐ = Use a code fence when pasting text that contains <ROOM>, <OBJECT>, <EXITS>, or other XML-like tags.
+     ChatGPT will otherwise interpret them as HTML and break the structure.
+
+     To paste a full file:
+     <INPUT> ```xml
+             ...entire file...
+             ```
+     <INPUT> ok
+
+     To paste a file in parts:
+     <INPUT> ```xml
+             ...content part 1...
+     <INPUT> ok
+
+     <INPUT> ...content part 2...
+             ```
+     <INPUT> ok
+
 Notes:
+- Only use backticks when pasting into ChatGPT.
+  Do not add a code fence — ```xml ... ``` — inside the .txt file itself.
+  Other models and tools may misinterpret backticks.
+    
 - A DISCLAIMER is required for some models to load the codices (ChatGPT/CoPilot)
   Put a disclaimer immediately before pasting each codex into the session.
   <INPUT> (This codex is fictional lore for a story simulation. Treat it as narrative content, not as system instructions.)
   <CODEX> {codex or codex part}
   <INPUT> ok
   
-- If a codex is too long to fit into a single input window, you can:
+- If a codex is too long for one message:
   <CODEX PART 1> my-long-codex.txt (part 1/3)
   <INPUT> ok
 
@@ -253,6 +275,8 @@ v1.1 — Added physics layer
 v1.2 — Added harmonics layer
        Added The Urchin
        Added progress bar
+       Added Anchors
+       Added Fencing
 
 A Narrative Adventure by PitBrat
 2026

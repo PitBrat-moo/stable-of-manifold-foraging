@@ -68,6 +68,18 @@ The setup ritual is real. Follow the rhythm, savor the anticipation, and expect 
 
 ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
 
+## CHANGE LOG OF THE CODEX
+
+**v1.0** — Initial forging of the Codex structure; Dome raised.
+
+**v1.1** — Added physics layer.
+
+**v1.2**
+- Added harmonics layer.  
+- Added The Urchin.  
+- Added progress bar.  
+
+
 ## About
 **The Looking Mirror — A Narrative Adventure**  
 PitBrat, 2026

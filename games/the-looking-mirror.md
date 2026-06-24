@@ -78,6 +78,8 @@ The setup ritual is real. Follow the rhythm, savor the anticipation, and expect 
 - Added harmonics layer.  
 - Added The Urchin.  
 - Added progress bar.  
+- Added Fencing
+- Added Anchors
 
 
 ## About

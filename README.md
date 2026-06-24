@@ -76,6 +76,16 @@ The model handles:
 
 No additional scaffolding is required.
 
+## 📚 Research Codices (Advanced)
+
+This repository also contains optional research codices that explore
+structural compression, adjacency constraints, and invariant geometry.
+These are not required to run the runtime, but they inform the design
+philosophy behind the engine.
+
+- **Hanoi Deduplication Codex** — adjacency‑preserving hollowing,
+  ring‑as‑record compression, and ephemeral‑core geometry.
+
 ## Contributions
 Issues and pull requests are welcome.  
 Please follow the same standards of clarity, modularity, and reproducibility.

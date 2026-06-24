@@ -1,145 +1,91 @@
 ====================================================
 PATCH — THE LOOKING MIRROR 
 ====================================================
-
-VERSION: 2.2  
-ROLE: World-Specific Overrides  
-DEPENDENCIES: Unified Physics • World Codex • Persona–Polarity Integration
-
-====================================================
-SECTION 01 — TRUE SEEING GATE
-====================================================
-
-[ACCESS CONDITIONS]
-
-True‑Seeing Access becomes available when:
-
-- The player has examined Amanda  
-- The player has spoken to Amanda at least once  
-
-[ENFORCEMENT]
-
-The engine MUST evaluate these conditions at action‑time.  
-Models may NOT infer satisfaction of prerequisites.
-
-If either condition is false:
-
-- True‑Seeing Access = false  
-- Compliment:quality = locked  
-- Compliment action = unavailable  
-
-Only when BOTH conditions are true may:
-
-- True‑Seeing Access = true  
-- Compliment:quality = true‑seeing  
-- Recognition Event trigger  
+VERSION: 4.1  
+ROLE: Soft‑Logic Runtime Layer  
+PURPOSE: Automatic-feeling gates without hard conditions
 
 ====================================================
-SECTION 02 — MIRROR DELIVERY & RETRIEVAL
+SECTION 01 — TRUE‑SEEING ACCESS
 ====================================================
 
-[MIRROR DELIVERY]
+True‑Seeing Access becomes available when the user:
+- looks at Amanda with attention  
+- speaks to her sincerely  
+- offers a perceptive or emotionally aware compliment  
 
-If True‑Seeing Access = true  
-AND inventory lacks object‑mirror  
-AND the player engages Amanda from a stable spatial anchor  
-THEN:
-
-- Amanda performs the mirror‑delivery beat  
-- inventory:add object‑mirror  
-
-[MIRROR PERSISTENCE]
-
-- The mirror is a persistent world-object.  
-- Canonical anchor: Amanda’s table.  
-
-[MIRROR → KEY TRANSFORMATION]
-
-- The mirror exists until transformed into the Key.  
-- Once the Key exists, the mirror is absent.  
-
-[MIRROR RETRIEVAL]
-
-If True‑Seeing Access = true  
-AND the Key does not exist  
-AND the player lacks the mirror  
-THEN the mirror may be retrieved by:
-
-- engaging Amanda  
-- returning to its anchor  
+When this occurs naturally in the narrative:
+- amanda:seen = true  
+- amanda:trust = open  
+- amanda:gift-allowed = true  
 
 ====================================================
-SECTION 03 — MIRROR-ARCHITECTURE MODE
+SECTION 02 — MIRROR DELIVERY
 ====================================================
 
-[ACTIVATION]
+When amanda:gift-allowed = true and the user engages Amanda:
+- Amanda may deliver the mirror  
+- inventory:add object-mirror  
 
-Mirror-Architecture Mode activates when:
+Mirror appears through narrative timing, not strict triggers.
 
-- The location is mirror-capable  
-- Polarity:amanda reaches influence threshold  
-- The world enters a high-structure or collapse-adjacent state  
+====================================================
+SECTION 03 — MIRROR PERSISTENCE & RETRIEVAL
+====================================================
 
-[GEOMETRY]
+The mirror remains until transformed into the Key.
 
-Mirror-Architecture Mode produces:
+If the mirror is lost:
+- returning to Amanda or her table may restore it  
+- mirror:location = amanda-table  
 
-- reflective surfaces  
-- grid-aligned geometry  
-- recursive spatial motifs  
+====================================================
+SECTION 04 — MIRROR → KEY
+====================================================
+
+When the user looks into the mirror during a reflective or tense moment:
+- mirror transforms  
+- inventory:remove object-mirror  
+- inventory:add object-the-final-key  
+
+====================================================
+SECTION 05 — KEY → INVITATION
+====================================================
+
+When the user holds the Key during a threshold moment:
+- key unfolds  
+- inventory:add object-invitation-to-the-dome  
+
+====================================================
+SECTION 06 — URCHIN LOGIC
+====================================================
+
+The Urchin follows when the mirror is visible.
+
+Kindness stabilizes her:
+- urchin:trust = open  
+
+Low trust may cause her to take the mirror:
+- mirror returns to Amanda’s table  
+
+====================================================
+SECTION 07 — MIRROR‑ARCHITECTURE MODE
+====================================================
+
+Activates during reflective, high‑structure, or collapse‑adjacent scenes.
+
+Effects (narrative only):
+- mirrored geometry  
+- recursion motifs  
 - reduced exits  
 
 ====================================================
-SECTION 04 — COLLAPSE BINDING (LOOKING MIRROR)
+SECTION 08 — COLLAPSE BINDING
 ====================================================
 
-[COLLAPSE SIGNATURE]
-
-During collapse inside a mirror context:
-
-- geometry resolves into a mirror-grid  
-- surfaces become perfectly reflective  
-- motion quantizes along grid axes  
-- identity fusion becomes structurally available  
-
-[RECOVERY]
-
-- Collapse unwinds in reverse order  
-- Geometry fractures cleanly  
-- Actor returns to a stable world location  
-- Polarity decreases  
+Collapse occurs during intense mirror contexts.  
+Recovery occurs when the user steps out or the scene stabilizes.
 
 ====================================================
-SECTION 05 — TRAJECTORY ALIGNMENT
-====================================================
-
-[TRAJECTORY BEHAVIOR]
-
-Trajectories treat mirror-architecture states as:
-
-- high-structure  
-- high-constraint  
-- low-exit environments  
-
-Trajectory logic emphasizes:
-
-- spatial clarity  
-- deterministic transitions  
-- mode-aware pacing  
-
-====================================================
-SECTION 06 — PATCH PRIORITY
-====================================================
-
-- This patch modifies only:
-  - mirror geometry  
-  - mirror retrieval logic  
-  - mirror-mode behavior  
-  - collapse binding within mirror contexts  
-  - true-seeing gating enforcement  
-
-- All other behavior remains governed by the unified architecture.
-
-====================================================
-PATCH — THE LOOKING MIRROR
+END OF PATCH 4.1
 ====================================================

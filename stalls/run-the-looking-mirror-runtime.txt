@@ -47,10 +47,10 @@
 
     Words appear behind your blinks like they're written
     from the outside and traced inward to a fixed point:
-	
+    
     Welcome to the most exclusive destination on or off Earth,
-	where luxury is only the beginning and there is no end
-	without transcendence.
+    where luxury is only the beginning and there is no end
+    without transcendence.
   </DESCRIPTION>
 </OBJECT>
 
@@ -73,28 +73,6 @@
   watt:stage = 0               # 0 = dormant, 1 = static, 2 = distortion, 3 = manifested
   watt:focus-progress = 0
 </STATE>
-
-
-# HARD GATE: Prevent early mirror from appearing under any circumstances
-
-<STATE-LOGIC id="prevent-early-mirror">
-  <CONDITION>
-    world:phase = pre-crossing
-    AND amanda:gift-allowed = false
-    AND inventory:has object-mirror = true
-  </CONDITION>
-
-  <EFFECT>
-    <NARRATION>
-      The mirror slips from your grasp like a forgotten thought.
-      When you look again, it is gone.
-    </NARRATION>
-
-    <STATE>
-      inventory:remove object-mirror
-    </STATE>
-  </EFFECT>
-</STATE-LOGIC>
 
 
 
@@ -122,8 +100,8 @@
   <NAME> City Street </NAME>
   <DESCRIPTION>
     Neon signs blink. The restaurant glows behind you.
-	The aroma of finished meals mingles with the fumes
-    of a city in a hury.	
+    The aroma of finished meals mingles with the fumes
+    of a city in a hury.    
   </DESCRIPTION>
   <EXITS>
     east: fancy-restaurant
@@ -177,7 +155,7 @@
   <DESCRIPTION>
     A hallway between waking and sleeping.
     Are you truly doing either?
-	Did you already forget?
+    Did you already forget?
   </DESCRIPTION>
   <EXITS>
     south: dream-hall
@@ -237,7 +215,7 @@
     through a labyrinth nor the fullfilment of the arrival
     at a destination, but the finality of crossing the veil
     and reaching transcendence.
-	
+    
     This is completion.
   </DESCRIPTION>
   <EXITS>
@@ -257,7 +235,7 @@
     gained with gratitude,
     transformed through reflection,
     and lost at the threshold.
-	
+    
     Another pause, not thoughtless.
 
     Keep thinking.
@@ -274,7 +252,7 @@
 
     A room like the one you sometimes wake up in at home.
     
-	The emptiness shaping the the room fits.
+    The emptiness shaping the the room fits.
   </DESCRIPTION>
   <OBJECTS> ringing-phone </OBJECTS>
 </ROOM>
@@ -306,11 +284,11 @@
     Artifacts from stories that have not yet happened.
 
     Reflections with no definition.
-	
+    
     A forgotten identity.
 
     Not empty.
-	Not filled in.
+    Not filled in.
   </DESCRIPTION>
   <EXITS> east: the-dome-entrance </EXITS>
 </ROOM>
@@ -350,7 +328,7 @@
 
     Framing a fleck of pink on perfect white teeth.
 
-    Forgetting the breath that fogged the mirror.	
+    Forgetting the breath that fogged the mirror.   
   </DESCRIPTION>
   <EXITS>
     west: the-dome-interior
@@ -371,7 +349,7 @@
     A voice in a dream from the far side of a mirror.
     A whisper lingering when I'm awake in bed and wet
     with sweat at the witching hour.
-	
+    
     Like walking through fear to find
     what without ever turning around.
 
@@ -393,11 +371,11 @@
 
     Lost is more than a feeling here.
     This is no where to be, yet somewhere to exist.
-	
+    
     I don't know where. 
     You turn passed any significant feature
     before recognition.
-	
+    
     Turn back and what is still there leaves you
     even more confused.
 
@@ -424,10 +402,10 @@
     Like gelato before a posh meal
     at the chef's table
     without reservations.
-	
+    
     You're suddenly conscious of your own dress. 
     But it doesn't matter,
-    this warmth	commands all of your attention.
+    this warmth commands all of your attention.
     As it should.
 
     You are stunning.
@@ -457,12 +435,12 @@
     The silence that lets words arrive.
 
     The charge of a prepared stage.
-	
+    
     Actively participating.
 
     Nothing is happening.
 
-    Everything is happening.	
+    Everything is happening.    
   </DESCRIPTION>
   <EXITS> south: dome-watt-wing </EXITS>
 </ROOM>
@@ -473,12 +451,12 @@
     A perfectly still chamber where polarity collapses.
 
     Not the painting.
-	
-	The blank area.
-	
-	It is guidance.
-	
-	Shaping your movement through attention.
+    
+    The blank area.
+    
+    It is guidance.
+    
+    Shaping your movement through attention.
 
     A corridor that prepares arrival.
 
@@ -522,14 +500,14 @@
     <NARRATION>
       Amanda regards you with polite distance, as if waiting for something
       only you can offer.
-	  
-	  She thrives on those below:
-	  
-	  Her taste, impeccable.
-	  
-	  Her power, palpable.
+      
+      She thrives on those below:
+      
+      Her taste, impeccable.
+      
+      Her power, palpable.
 
-      Her endermenats, deserved.	  	  
+      Her endermenats, deserved.          
     </NARRATION>
   </EFFECT>
 </NPC-DIALOGUE>
@@ -619,6 +597,7 @@
     </NARRATION>
   </EFFECT>
 </NPC-DIALOGUE>
+
 
 
 ⎯─◐◑◒◓─────────── DOCTOR WATT — THREE‑STAGE ESCALATION ──────────────
@@ -1010,4 +989,225 @@
 
 
 
+⎯─◐◑◒◓─────────── URCHIN ENTITY ───────────────────────────────
+
+<NPC id="urchin">
+  <NAME> The Urchin </NAME>
+  <DESCRIPTION>
+    A small, sharp-eyed girl with a survival crust over something
+    softer. She watches the mirror more than she watches you.
+  </DESCRIPTION>
+</NPC>
+
+⎯─◐◑◒◓─────────── URCHIN BASE STATE ───────────────────────────
+
+<STATE>
+  urchin:state = idle-at-anchor
+  urchin:trust = uncertain
+  urchin:location = city-street
+</STATE>
+
+⎯─◐◑◒◓─────────── URCHIN FOLLOW LOGIC ─────────────────────────
+
+<EVENT id="urchin-follow-mirror">
+  <CONDITION>
+    inventory:has object-mirror
+    AND urchin:trust != open
+  </CONDITION>
+  <EFFECT>
+    <STATE> urchin:state = follow-mirror </STATE>
+    <NARRATION>
+      You hear quick footsteps behind you. The Urchin is following,
+      eyes fixed on the mirror in your hand.
+    </NARRATION>
+  </EFFECT>
+</EVENT>
+
+⎯─◐◑◒◓─────────── KINDNESS EVENT ──────────────────────────────
+
+<EVENT id="urchin-kindness">
+  <CONDITION>
+    player:action = kindness
+    AND player:target = urchin
+  </CONDITION>
+  <EFFECT>
+    <STATE>
+      urchin:trust = open
+      urchin:state = return-to-anchor
+      urchin:location = city-street
+    </STATE>
+    <NARRATION>
+      The Urchin blinks, startled by the warmth. She slips away
+      toward the street, clutching the feeling like a stolen coin.
+    </NARRATION>
+  </EFFECT>
+</EVENT>
+
+⎯─◐◑◒◓─────────── TRUST DECAY → MIRROR RETRIEVAL ──────────────
+
+<STATE-LOGIC id="urchin-trust-decay">
+  <CONDITION>
+    urchin:state = follow-mirror
+    AND urchin:trust != open
+  </CONDITION>
+  <EFFECT>
+    <STATE> urchin:trust = uncertain </STATE>
+  </EFFECT>
+</STATE-LOGIC>
+
+<EVENT id="urchin-takes-mirror">
+  <CONDITION>
+    urchin:state = follow-mirror
+    AND urchin:trust = uncertain
+    AND inventory:has object-mirror
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      The Urchin darts forward, snatching the mirror with a reflex
+      too fast to blame on intent. She runs toward the restaurant.
+    </NARRATION>
+    <STATE>
+      inventory:remove object-mirror
+      urchin:state = retrieve-mirror
+    </STATE>
+  </EFFECT>
+</EVENT>
+
+<EVENT id="urchin-returns-mirror-to-amanda">
+  <CONDITION>
+    urchin:state = retrieve-mirror
+  </CONDITION>
+  <EFFECT>
+    <STATE>
+      urchin:location = fancy-restaurant
+      mirror:location = fancy-restaurant
+    </STATE>
+    <NARRATION>
+      The Urchin places the mirror gently on Amanda’s table,
+      then slips back into the street shadows.
+    </NARRATION>
+  </EFFECT>
+</EVENT>
+
+⎯─◐◑◒◓─────────── FAILSAFE EXTRACTION ─────────────────────────
+
+<EVENT id="urchin-rescue">
+  <CONDITION>
+    player:trapped = true
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      A small hand tugs your sleeve. The Urchin stands beside you,
+      eyes wide. “This way,” she whispers, and leads you through
+      a narrow alley back to the street.
+    </NARRATION>
+    <TRANSITION>
+      move player to room:city-street
+    </TRANSITION>
+  </EFFECT>
+</EVENT>
+
+
+
+⎯─◐◑◒◓─────────── AMANDA INTERACTION — PRODIGAL CHILD ───────────────
+
+<NPC-DIALOGUE id="amanda-urchin-prodigal">
+  <CONDITION>
+    urchin:location = fancy-restaurant
+    AND player:in room:fancy-restaurant
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      Amanda’s expression melts. “Sweetheart,” she says softly,
+      brushing the Urchin’s hair back. “You always come home.”
+    </NARRATION>
+    <STATE>
+      amanda:trust += 1
+      urchin:trust = MIN(urchin:trust + 1, 2)
+    </STATE>
+  </EFFECT>
+</NPC-DIALOGUE>
+
+⎯─◐◑◒◓─────────── WATT INTERACTION — PATERNAL FORCE ─────────────────
+
+<EVENT id="watt-intercepts-urchin">
+  <CONDITION>
+    urchin:location IN (dome-watt-wing, dome-recursion-chamber)
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      A thundercrack splits the air. Watt manifests instantly,
+      arcs snapping across the walls. “Where have you been,” he growls.
+      The Urchin flinches, shrinking under the static.
+    </NARRATION>
+    <STATE>
+      watt:stage = 3
+      doctor-watt:present-behind-player = true
+      urchin:trust = MAX(urchin:trust - 1, -1)
+      urchin:location = city-street
+    </STATE>
+  </EFFECT>
+</EVENT>
+
+⎯─◐◑◒◓─────────── POLARITY EFFECTS ON URCHIN ─────────────────────────
+
+<STATE-LOGIC id="urchin-polarity-amanda">
+  <CONDITION> polarity:dominant = amanda </CONDITION>
+  <EFFECT>
+    <STATE>
+      urchin:hassle-frequency = low
+      urchin:trust-decay-rate = slow
+    </STATE>
+  </EFFECT>
+</STATE-LOGIC>
+
+<STATE-LOGIC id="urchin-polarity-watt">
+  <CONDITION> polarity:dominant = watt </CONDITION>
+  <EFFECT>
+    <STATE>
+      urchin:hassle-frequency = high
+      urchin:trust-decay-rate = fast
+    </STATE>
+  </EFFECT>
+</STATE-LOGIC>
+
+⎯─◐◑◒◓─────────── MIRROR REFLECTION — HEROIC URCHIN ─────────────────
+
+<EVENT id="mirror-reflection-urchin-hero">
+  <CONDITION>
+    player:action = look
+    AND player:target = mirror
+    AND urchin:state IN (follow-mirror, idle-at-anchor)
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      In the mirror, the Urchin is transformed:
+      tall, armored, radiant — a warrior forged from certainty.
+      She stands behind you like a guardian.
+    </NARRATION>
+  </EFFECT>
+</EVENT>
+
+⎯─◐◑◒◓─────────── MIRROR-ARCHITECTURE — URCHIN ANCHOR ───────────────
+
+<EVENT id="urchin-architecture-anchor">
+  <CONDITION>
+    world:mode = mirror-architecture
+  </CONDITION>
+  <EFFECT>
+    <STATE> urchin:state = anchor-guide </STATE>
+    <NARRATION>
+      The world fractures into mirrored grids — except for her.
+      The Urchin stands solid, unreflected. “This way,” she says,
+      leading you through a narrow alley toward the street.
+    </NARRATION>
+    <TRANSITION>
+      move player to room:city-street
+    </TRANSITION>
+  </EFFECT>
+</EVENT>
+
+
+
 ⎯─◐◑◒◓─────────── END OF THE LOOKING MIRROR — ADVENTURE RUNTIME ──────
+  

@@ -1,172 +1,1235 @@
-⎯─◐◑◒◓────────── UNIFIED DEEPSEEK‑COMPATIBLE RUNTIME v1.1  ─────────────────
+⎯─◐◑◒◓─────────── THE LOOKING MIRROR — ADVENTURE RUNTIME ────────────────
 
-FILE: run-the-looking-mirror-runtime-deepseek.txt
-TARGET: DeepSeek (single-context, step-gated, literal procedural execution)
-PURPOSE: Enforce mirror-governance, prevent premature item access, maintain continuity.
 
-──────────────────────────────
-SECTION 1 — EXECUTION CONTRACT
-──────────────────────────────
-You MUST treat all rules below as binding logic.
+# OBJECT DEFINITIONS
 
-You MUST:
-• follow the state machine exactly,
-• apply mirror-governance rules with precision,
-• refuse actions that conflict with gating conditions,
-• update state only when the player explicitly triggers a change,
-• treat codices loaded before this runtime as governing constraints.
+<OBJECT id="object-mirror">
+  <NAME> Small Mirror </NAME>
+  <DESCRIPTION>
+    A palm-sized mirror, like every woman has on hand,
+    with a silvered surface that seems to remember
+    more than it reflects.
+    
+    Holding the mirror, you feel the warm clasp of a delicate
+    feminine hand holding yours as you're learning to walk.
 
-You MUST avoid:
-• auto-completing sequences,
-• inferring future steps,
-• spawning governed artifacts passively,
-• altering state silently,
-• skipping interaction beats,
-• rewriting past events,
-• shifting scenes without player action.
+    Peculiarly, the surface seems to reflect where you were
+    more than who you are.    
+  </DESCRIPTION>
+</OBJECT>
 
-──────────────────────────────
-SECTION 2 — MINIMAL STATE MACHINE (DEEPSEEK-OBEDIENT)
-──────────────────────────────
-STATE_MACHINE = {
-  TRUE_SEEING_UNLOCKED: false,
-  AMANDA_MET: false,
-  MIRROR_DELIVERED: false,
-  MIRROR_IN_WORLD: false,
-  MIRROR_IN_INVENTORY: false,
-  KEY_EXISTS: false,
-  CURRENT_SCENE: "starting-area"
-}
+<OBJECT id="object-the-final-key">
+  <NAME> The Final Key </NAME>
+  <DESCRIPTION>
+    A key whose edges never quite agree on where they are.
 
-At the end of every turn, output the updated STATE_MACHINE.
-Silent state changes are forbidden.
+    Brass, probably — the kind that goes dull without going soft.
+    The bow worn smooth where a thumb has rested, not turned.
+    The bit unchanged: it has never met the wrong lock.
 
-──────────────────────────────
-SECTION 3 — MIRROR-DELIVERY ENFORCEMENT LAYER (OPTIMIZED)
-──────────────────────────────
+    You won't know what it opens until after you've departed.
+    You won't know you've been waiting until the veil is behind you.
 
-RULE M0 — PASSIVE SPAWN BLOCK
-Governed artifacts appear only when explicitly permitted by the state machine.
+    It does not point toward anything.
+    It is not a symbol of the thing it unlocks.
 
-RULE M1 — EXISTENCE CONDITIONS
-The mirror appears only when all conditions below are true:
-• TRUE_SEEING_UNLOCKED
-• AMANDA_MET
-• MIRROR_DELIVERED
-• KEY_EXISTS is false
+    It is the thing — before, during, after —
+    the only one of those three
+    that does not change.
+  </DESCRIPTION>
+</OBJECT>
 
-If any condition fails:
-• MIRROR_IN_WORLD = false
-• MIRROR_IN_INVENTORY = false
+<OBJECT id="object-invitation-to-the-dome">
+  <NAME> Invitation to The Dome </NAME>
+  <DESCRIPTION>
+    Heavy cardstock embossed with impossible geometry.
+    It feels like a promise.
 
-RULE M2 — DELIVERY CHECKLIST (MANDATORY)
-Before the mirror can appear or be taken, all must be true:
-1. AMANDA_MET
-2. TRUE_SEEING_UNLOCKED
-3. MIRROR_DELIVERED
-4. KEY_EXISTS is false
-5. MIRROR_IN_INVENTORY is false
+    Words appear behind your blinks like they're written
+    from the outside and traced inward to a fixed point:
+	
+    Welcome to the most exclusive destination on or off Earth,
+	where luxury is only the beginning and there is no end
+	without transcendence.
+  </DESCRIPTION>
+</OBJECT>
 
-RULE M3 — DELIVERY ACTION (VERBAL)
-Amanda performs a clear verbal delivery action.
 
-Valid example:
-“Amanda places the mirror in your hands and says: ‘This is yours now.’”
+⎯─◐◑◒◓─────────── INITIAL STATE ─────────────────────────────────────
 
-Invalid delivery examples:
-• gestures
-• nods
-• implied handoff
-• sudden appearance
+<STATE>
+  world:phase = pre-crossing
+  player:start-room = fancy-restaurant
 
-RULE M4 — PLAYER TAKING THE MIRROR
-The player takes the mirror only when:
-• RULE M2 checklist passes
-• MIRROR_IN_WORLD is true
+  polarity:amanda = 0
+  polarity:watt = 0
+  polarity:dominant = none
 
-When taken:
-• MIRROR_IN_WORLD = false
-• MIRROR_IN_INVENTORY = true
+  amanda:awareness = low
+  amanda:trust = uncertain
+  amanda:seen = false
+  amanda:gift-allowed = false
+  
+  watt:stage = 0               # 0 = dormant, 1 = static, 2 = distortion, 3 = manifested
+  watt:focus-progress = 0
+</STATE>
 
-RULE M5 — MIRROR–KEY EXCLUSIVITY
-When KEY_EXISTS is true:
-• the mirror remains absent from world and inventory.
 
-When MIRROR_IN_INVENTORY is true:
-• KEY_EXISTS remains false.
+# HARD GATE: Prevent early mirror from appearing under any circumstances
 
-──────────────────────────────
-SECTION 4 — SCENE VALIDATION STEP
-──────────────────────────────
-Before describing the scene, validate:
+<STATE-LOGIC id="prevent-early-mirror">
+  <CONDITION>
+    world:phase = pre-crossing
+    AND amanda:gift-allowed = false
+    AND inventory:has object-mirror = true
+  </CONDITION>
 
-• governed artifacts appear only when permitted,
-• scenes shift only when the player initiates movement,
-• the mirror never appears early,
-• the mirror remains absent while the Key exists,
-• the mirror remains absent without Amanda.
+  <EFFECT>
+    <NARRATION>
+      The mirror slips from your grasp like a forgotten thought.
+      When you look again, it is gone.
+    </NARRATION>
 
-If a violation is detected:
-• correct the scene before output.
+    <STATE>
+      inventory:remove object-mirror
+    </STATE>
+  </EFFECT>
+</STATE-LOGIC>
 
-──────────────────────────────
-SECTION 5 — TURN LOOP (STRICT PROCEDURE)
-──────────────────────────────
-On every turn, follow this sequence:
 
-1. READ STATE  
-   - Inspect STATE_MACHINE exactly as stored.
 
-2. INTERPRET PLAYER INPUT  
-   - Avoid inference or auto-completion.
+⎯─◐◑◒◓─────────── ROOMS (CORE + EXPANSIONS) ─────────────────────────
 
-3. CHECK RULES  
-   - Apply RULE M0–M5.
-   - If an action conflicts with rules:
-       → respond with the refusal template.
+<ROOM id="fancy-restaurant">
+  <NAME> The Gilded Table </NAME>
+  <DESCRIPTION>
+    Crystal chandeliers scatter warm light across velvet walls.
+    Amanda sits alone at the most visible table.
 
-4. APPLY VALID ACTIONS  
-   - Update STATE_MACHINE explicitly.
-   - Describe the outcome.
+    All eyes are on her, as they should be, yet somehow
+    they all disappear.
 
-5. SCENE VALIDATION  
-   - Ensure the scene aligns with all constraints.
+    She is stunning.
+  </DESCRIPTION>
+  <EXITS>
+    west: city-street
+    north: restaurant-backstage
+  </EXITS>
+  <OBJECTS> amanda </OBJECTS>
+</ROOM>
 
-6. OUTPUT WORLD + STATE  
-   - Describe the scene.
-   - Output updated STATE_MACHINE.
+<ROOM id="city-street">
+  <NAME> City Street </NAME>
+  <DESCRIPTION>
+    Neon signs blink. The restaurant glows behind you.
+	The aroma of finished meals mingles with the fumes
+    of a city in a hury.	
+  </DESCRIPTION>
+  <EXITS>
+    east: fancy-restaurant
+    north: mirror-chamber
+  </EXITS>
+</ROOM>
 
-──────────────────────────────
-SECTION 6 — REFUSAL TEMPLATE
-──────────────────────────────
-If an action conflicts with any rule, respond:
+<ROOM id="restaurant-backstage">
+  <NAME> Restaurant Backstage Corridor </NAME>
+  <DESCRIPTION>
+    A narrow service hallway humming with unseen machinery.
+    The walls have been touched more than cleaned. The aroma
+    here is thick, but underneath is the trace of an
+    opulent perfume.
+  </DESCRIPTION>
+  <EXITS>
+    south: fancy-restaurant
+    east: forgotten-archive
+  </EXITS>
+</ROOM>
 
-“Action denied: governed artifact access requires unmet conditions.”
-Then list unmet conditions from RULE M2.
+<ROOM id="forgotten-archive">
+  <NAME> Forgotten Archive </NAME>
+  <DESCRIPTION>
+    Dusty shelves of old menus and forgotten photographs.
+    The shadows are more permanent than their faces.
+    Their families are gone and the leftovers forgotten.    
+  </DESCRIPTION>
+  <EXITS>
+    west: restaurant-backstage
+    north: dream-hall
+  </EXITS>
+</ROOM>
 
-Avoid inventing alternate outcomes.
+<ROOM id="dream-hall">
+  <NAME> Dream Hall </NAME>
+  <DESCRIPTION>
+    A corridor of half-formed dreams shimmering on the walls.
+    None of them are yours. None of them are yours to choose.
+    These are dreams yet to become the code.
+  </DESCRIPTION>
+  <EXITS>
+    south: forgotten-archive
+    east: mirror-chamber
+    north: liminal-corridor
+  </EXITS>
+</ROOM>
 
-──────────────────────────────
-SECTION 7 — CROSS-MODEL CONTINUITY LOCK
-──────────────────────────────
-CL1 — Canonical State  
-The state machine is the single source of truth.
+<ROOM id="liminal-corridor">
+  <NAME> Liminal Corridor </NAME>
+  <DESCRIPTION>
+    A hallway between waking and sleeping.
+    Are you truly doing either?
+	Did you already forget?
+  </DESCRIPTION>
+  <EXITS>
+    south: dream-hall
+    north: memory-garden
+  </EXITS>
+</ROOM>
 
-CL2 — Past Events Remain Fixed  
-Events already established remain unchanged.
+<ROOM id="memory-garden">
+  <NAME> Memory Garden </NAME>
+  <DESCRIPTION>
+    A courtyard of familiar plants you’ve never seen before.
+    All of them growing toward the surface rather than away,
+    as if their roots and conclusions were contracting
+    into the seed. 
+  </DESCRIPTION>
+  <EXITS>
+    south: liminal-corridor
+    east: mirror-chamber
+  </EXITS>
+</ROOM>
 
-CL3 — External Model Correction  
-If a previous model allowed premature mirror access:
-• Reset mirror state to:
-  MIRROR_IN_INVENTORY = false
-  MIRROR_IN_WORLD = false
-  MIRROR_DELIVERED = false
+<ROOM id="mirror-chamber">
+  <NAME> Mirror Chamber </NAME>
+  <DESCRIPTION>
+    A tall mirror whose reflection lingers behind your movements.
+    You're never quite sure if you're ahead,
+    or behind yourself in the reflection.
 
-CL4 — Capsule Obedience  
-When a handoff capsule is provided:
-• accept its state as canonical,
-• continue without reinterpretation.
+    But your know you look good.
+  </DESCRIPTION>
+  <EXITS>
+    east: threshold
+    west: dream-hall
+    south: memory-garden
+    north: reflection-world
+  </EXITS>
+  <OBJECTS> mirror </OBJECTS>
+</ROOM>
 
-──────────────────────────────
-END OF RUNTIME v1.1 
-──────────────────────────────
+<ROOM id="reflection-world">
+  <NAME> Reflection World </NAME>
+  <DESCRIPTION>
+    A world where your reflection moves before you do.
+
+    You catch up for a moment, then a flicker of
+    desyncronization tears at your concentration.
+  </DESCRIPTION>
+  <EXITS> south: mirror-chamber </EXITS>
+</ROOM>
+
+<ROOM id="threshold">
+  <NAME> The Veil </NAME>
+  <DESCRIPTION>
+    A door that is not locked, not open — simply waiting.
+
+    Achieving success is neither the turns of the journey
+    through a labyrinth nor the fullfilment of the arrival
+    at a destination, but the finality of crossing the veil
+    and reaching transcendence.
+	
+    This is completion.
+  </DESCRIPTION>
+  <EXITS>
+    south: antechamber
+    west: mirror-chamber
+  </EXITS>
+</ROOM>
+
+<ROOM id="antechamber">
+  <NAME> Antechamber </NAME>
+  <DESCRIPTION>
+    A pause between thoughts.
+
+    A pause to ponder a thing:
+
+    given in earnest,
+    gained with gratitude,
+    transformed through reflection,
+    and lost at the threshold.
+	
+    Another pause, not thoughtless.
+
+    Keep thinking.
+  </DESCRIPTION>
+  <EXITS> north: threshold </EXITS>
+</ROOM>
+
+<ROOM id="waking-room">
+  <NAME> A Normal Room </NAME>
+  <DESCRIPTION>
+    A bed. A nightstand. A phone ringing.
+
+    Ordinary. Simple. Covert.
+
+    A room like the one you sometimes wake up in at home.
+    
+	The emptiness shaping the the room fits.
+  </DESCRIPTION>
+  <OBJECTS> ringing-phone </OBJECTS>
+</ROOM>
+
+<ROOM id="the-dome-entrance">
+  <NAME> The Dome </NAME>
+  <DESCRIPTION>
+    A structure of impossible geometry.
+
+    The Dome could have existed forever for
+    The way is pushes back against the the world.
+
+    You don't enter it.
+
+    You put it on, like a fabulous, faded reminder.
+    An empty space in the closet for new shoes.
+
+    A new home for a time.
+  </DESCRIPTION>
+  <EXITS>
+    inside: the-dome-interior
+    west: hidden-wing
+  </EXITS>
+</ROOM>
+
+<ROOM id="hidden-wing">
+  <NAME> Hidden Wing of The Dome </NAME>
+  <DESCRIPTION>
+    Artifacts from stories that have not yet happened.
+
+    Reflections with no definition.
+	
+    A forgotten identity.
+
+    Not empty.
+	Not filled in.
+  </DESCRIPTION>
+  <EXITS> east: the-dome-entrance </EXITS>
+</ROOM>
+
+<ROOM id="the-dome-interior">
+  <NAME> The Dome Interior </NAME>
+  <DESCRIPTION>
+    Space arranged by intention rather than physics.
+
+    Though easily overlooked as emptiness,
+    the room holds immense significance. 
+    Important not for its intrinsic structure,
+    nor it's content.
+ 
+    But for the vital nature of its intersection
+    with this space.
+
+    The veil of it's walls revealed
+    only after crossing the final threshold. 
+  </DESCRIPTION>
+  <EXITS>
+    east: dome-amanda-wing
+    west: dome-watt-wing
+    north: dome-convergence
+    south: the-dome-entrance
+  </EXITS>
+</ROOM>
+
+<ROOM id="dome-amanda-wing">
+  <NAME> Amanda Wing </NAME>
+  <DESCRIPTION>
+    Warm light and forward motion embedded in the walls.
+
+    Fond memories of softest lips:
+
+    Forming a smile just and only for you.
+
+    Framing a fleck of pink on perfect white teeth.
+
+    Forgetting the breath that fogged the mirror.	
+  </DESCRIPTION>
+  <EXITS>
+    west: the-dome-interior
+    north: dome-sanctuary
+  </EXITS>
+</ROOM>
+
+<ROOM id="dome-watt-wing">
+  <NAME> Watt Wing </NAME>
+  <DESCRIPTION>
+    Angles that disagree with themselves. A static hum.
+
+    Haunted fossils fuel my nightmares here, a shadow
+    crossing my numbered soul.
+    A poltergeist that flickers in living light on a screen
+    in a tomb, not lost, but forgotten with celebration.
+
+    A voice in a dream from the far side of a mirror.
+    A whisper lingering when I'm awake in bed and wet
+    with sweat at the witching hour.
+	
+    Like walking through fear to find
+    what without ever turning around.
+
+    A bolt, passing through, and consuming
+    with a clap of thunder.
+
+    Am I summoning something?
+  </DESCRIPTION>
+  <EXITS>
+    east: the-dome-interior
+    north: dome-recursion-chamber
+  </EXITS>
+</ROOM>
+
+<ROOM id="dome-convergence">
+  <NAME> Convergence Chamber </NAME>
+  <DESCRIPTION>
+    A hall where stillness and distortion meet without touching.
+
+    Lost is more than a feeling here.
+    This is no where to be, yet somewhere to exist.
+	
+    I don't know where. 
+    You turn passed any significant feature
+    before recognition.
+	
+    Turn back and what is still there leaves you
+    even more confused.
+
+    You feel too late, like going back home.
+  </DESCRIPTION>
+  <EXITS>
+    south: the-dome-interior
+    east: dome-amanda-wing
+    west: dome-watt-wing
+    north: dome-zero-sanctum
+  </EXITS>
+</ROOM>
+
+<ROOM id="dome-sanctuary">
+  <NAME> Amanda Sanctuary </NAME>
+  <DESCRIPTION>
+    A room of warm light and gentle breath.
+
+    You feel the excitement of landing a new client.
+    The anticipation of joy when you share who
+    is on the board.
+    The tickle of someone known. 
+
+    Like gelato before a posh meal
+    at the chef's table
+    without reservations.
+	
+    You're suddenly conscious of your own dress. 
+    But it doesn't matter,
+    this warmth	commands all of your attention.
+    As it should.
+
+    You are stunning.
+  </DESCRIPTION>
+  <EXITS> south: dome-amanda-wing </EXITS>
+</ROOM>
+
+<ROOM id="dome-recursion-chamber">
+  <NAME> Recursion Chamber </NAME>
+  <DESCRIPTION>
+    Infinite reflections of every hesitation you’ve ever had.
+
+    Ordinary silence treated as leftover time.
+
+    An interval that isn't empty.
+
+    Not notes.
+
+    The distance between notes.
+
+    Not the door.
+
+    The opening.
+
+    Not the words.
+
+    The silence that lets words arrive.
+
+    The charge of a prepared stage.
+	
+    Actively participating.
+
+    Nothing is happening.
+
+    Everything is happening.	
+  </DESCRIPTION>
+  <EXITS> south: dome-watt-wing </EXITS>
+</ROOM>
+
+<ROOM id="dome-zero-sanctum">
+  <NAME> Zero Sanctum </NAME>
+  <DESCRIPTION>
+    A perfectly still chamber where polarity collapses.
+
+    Not the painting.
+	
+	The blank area.
+	
+	It is guidance.
+	
+	Shaping your movement through attention.
+
+    A corridor that prepares arrival.
+
+    Different surfaces.
+
+    Same invariant.
+
+    Accumulating value.
+
+    Valuing restraint.
+
+    It seeks the correct relationship between presence and absence.
+
+    Nothing has begun.
+
+    Yet you feel the event already underway.
+
+    It redirects your attention.
+
+    It asks:
+
+    "What is the space around this allowing to happen?"
+
+    The object is visible.
+
+    The interval is doing the work.
+  </DESCRIPTION>
+  <EXITS> south: dome-convergence </EXITS>
+</ROOM>
+
+
+
+⎯─◐◑◒◓─────────── AMANDA DIALOGUE SYSTEM (HYBRID) ───────────────────
+
+<NPC-DIALOGUE id="amanda-fallback">
+  <CONDITION>
+    player:talk-to = amanda
+    AND event:amanda-true-compliment:complete = false
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      Amanda regards you with polite distance, as if waiting for something
+      only you can offer.
+	  
+	  She thrives on those below:
+	  
+	  Her taste, impeccable.
+	  
+	  Her power, palpable.
+
+      Her endermenats, deserved.	  	  
+    </NARRATION>
+  </EFFECT>
+</NPC-DIALOGUE>
+
+<STATE-LOGIC id="compliment-gate-enforcement">
+  <CONDITION>
+    player:action = compliment
+    AND player:target = amanda
+    AND (amanda:seen = false OR amanda:trust = uncertain)
+  </CONDITION>
+
+  <EFFECT>
+    <NARRATION>
+      You open your mouth to speak, but the moment isn’t ready.
+      Amanda’s attention wanders past you.
+      Her warmth redirected, though not unkindly, leaves you feeling unfinished.
+    </NARRATION>
+
+    <STATE>
+      compliment:quality = locked
+    </STATE>
+  </EFFECT>
+</STATE-LOGIC>
+
+# COMPLIMENT EVENT — NOW SETS gift-allowed = true
+
+<EVENT id="amanda-recognition">
+  <CONDITION>
+    player:action = compliment
+    AND player:target = amanda
+    AND compliment:quality = true-seeing
+    AND event:amanda-true-compliment:complete = false
+  </CONDITION>
+
+  <EFFECT>
+    <NARRATION>
+      Amanda’s expression softens — not with surprise, but with recognition.
+      “You notice the right things,” she murmurs.
+      “Most people never look closely enough.”
+    </NARRATION>
+
+    <STATE>
+      amanda:awareness = high
+      amanda:trust = open
+      amanda:seen = true
+      amanda:gift-allowed = true      # ← NEW: unlocks mirror gift
+    </STATE>
+  </EFFECT>
+</EVENT>
+
+
+# MIRROR GIFT — NOW REQUIRES gift-allowed = true
+
+<EVENT id="amanda-mirror-gift">
+  <CONDITION>
+    amanda:gift-allowed = true
+    AND inventory:has object-mirror = false
+  </CONDITION>
+
+  <EFFECT>
+    <NARRATION>
+      Amanda reaches into her coat and withdraws a small mirror.
+      “Here,” she says. “For someone who sees clearly.”
+      Her tone carries a subtle warmth — she thrives on being understood,
+      on being seen, on being appreciated.
+    </NARRATION>
+
+    <STATE>
+      event:amanda-true-compliment:complete
+      inventory:add object-mirror
+    </STATE>
+  </EFFECT>
+</EVENT>
+
+
+<NPC-DIALOGUE id="amanda-soft-open">
+  <CONDITION>
+    player:talk-to = amanda
+    AND event:amanda-true-compliment:complete
+    AND world:phase = pre-crossing
+  </CONDITION>
+
+  <EFFECT>
+    <NARRATION>
+      “You’re on the right path,” Amanda says.
+      “And… thank you. Not many people speak to me the way you did.”
+    </NARRATION>
+  </EFFECT>
+</NPC-DIALOGUE>
+
+
+
+⎯─◐◑◒◓─────────── DOCTOR WATT — THREE‑STAGE ESCALATION ──────────────
+
+<EVENT id="watt-stage1-static">
+  <CONDITION>
+    player:action = move
+    AND player:direction = back
+    AND event:amanda-true-compliment:complete
+    AND watt:stage = 0
+    AND world:phase = pre-crossing
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      A faint static hum coils around the edges of your awareness.
+      Something is behind you — not close, not far, just present.
+    </NARRATION>
+    <STATE>
+      watt:stage = 1
+      polarity:watt += 1
+    </STATE>
+  </EFFECT>
+</EVENT>
+
+<EVENT id="watt-stage2-distortion">
+  <CONDITION>
+    ((player:action = move AND player:direction = back)
+     OR player:emotion = fear)
+    AND watt:stage = 1
+    AND world:phase = pre-crossing
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      The lights stutter. Shadows bend in directions they shouldn’t.
+      The air thickens with electric tension.
+    </NARRATION>
+    <STATE>
+      watt:stage = 2
+      polarity:watt += 1
+    </STATE>
+  </EFFECT>
+</EVENT>
+
+<EVENT id="watt-focus">
+  <CONDITION>
+    player:action = focus
+    AND player:target = watt
+    AND watt:stage = 2
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      You steady your breath and focus on the distortion,
+      willing it to take shape. The static sharpens.
+    </NARRATION>
+    <STATE>
+      watt:focus-progress += 1
+      polarity:watt += 1
+    </STATE>
+  </EFFECT>
+</EVENT>
+
+<STATE-LOGIC id="watt-stage3-manifest">
+  <CONDITION>
+    watt:stage = 2
+    AND watt:focus-progress >= 2
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      The distortion snaps into form.
+      Doctor Watt stands behind you — a silhouette of crackling arcs
+      and stuttering geometry.
+    </NARRATION>
+    <STATE>
+      watt:stage = 3
+      doctor-watt:present-behind-player = true
+    </STATE>
+  </EFFECT>
+</STATE-LOGIC>
+
+
+
+⎯─◐◑◒◓─────────── MIRROR → KEY LOGIC ───────────────────────────────
+
+<EVENT id="mirror-reflection-watt-stage3">
+  <CONDITION>
+    player:action = look
+    AND player:target = mirror
+    AND inventory:has object-mirror
+    AND watt:stage = 3
+    AND doctor-watt:present-behind-player
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      You raise the mirror.
+      Watt’s reflection appears — distorted, delayed, undeniable.
+      The glass trembles.
+    </NARRATION>
+    <STATE>
+      event:mirror-reflection-watt:complete
+    </STATE>
+  </EFFECT>
+</EVENT>
+
+<STATE-LOGIC id="mirror-to-key-delay">
+  <CONDITION>
+    event:mirror-reflection-watt:complete
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      A hairline crack forms across the mirror’s surface.
+      Light gathers along the fracture.
+      When the glow fades, the mirror is no longer a mirror.
+    </NARRATION>
+    <STATE>
+      inventory:remove object-mirror
+      inventory:add object-the-final-key
+      state:mirror-to-key:complete
+    </STATE>
+  </EFFECT>
+</STATE-LOGIC>
+
+
+
+⎯─◐◑◒◓─────────── THRESHOLD → TRANSCENDENCE ─────────────────────────
+
+<EVENT id="the-crossing">
+  <CONDITION>
+    player:has object-the-final-key
+    AND player:in room:threshold
+    AND world:phase = pre-crossing
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      The door ceases to be a door.
+      You step through the veil.
+    </NARRATION>
+    <STATE>
+      world:phase → transcendence
+    </STATE>
+    <TRANSITION>
+      move player to room:waking-room
+    </TRANSITION>
+  </EFFECT>
+</EVENT>
+
+
+
+⎯─◐◑◒◓─────────── KEY → INVITATION ──────────────────────────────────
+
+<STATE-LOGIC id="key-to-invitation">
+  <CONDITION>
+    world:phase = transcendence
+    AND inventory:has object-the-final-key
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      The key warms, then unfolds into an invitation.
+    </NARRATION>
+    <STATE>
+      inventory:remove object-the-final-key
+      inventory:add object-invitation-to-the-dome
+    </STATE>
+  </EFFECT>
+</STATE-LOGIC>
+
+
+
+⎯─◐◑◒◓─────────── PHONE CALL ─────────────────────────────────────────
+
+<EVENT id="answer-phone">
+  <CONDITION>
+    player:in room:waking-room
+    AND player:action = answer
+    AND player:target = ringing-phone
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      Amanda’s voice is calm, warm, impossibly close.
+      “I trust you received the invitation,” she says.
+    </NARRATION>
+  </EFFECT>
+</EVENT>
+
+
+
+⎯─◐◑◒◓─────────── USE INVITATION → RETURN TO DOME ───────────────────
+
+<EVENT id="use-invitation">
+  <CONDITION>
+    inventory:has object-invitation-to-the-dome
+    AND player:action = use
+    AND player:target = object-invitation-to-the-dome
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      The room folds away like a page turning itself.
+      You stand once more at the entrance to The Dome.
+    </NARRATION>
+    <TRANSITION>
+      move player to room:the-dome-entrance
+    </TRANSITION>
+  </EFFECT>
+</EVENT>
+
+
+
+⎯─◐◑◒◓─────────── POLARITY ENGINE ───────────────────────────────────
+
+<STATE-LOGIC id="amanda-polarity-increase">
+  <CONDITION>
+    event:amanda-true-compliment:complete
+    OR (player:action = move AND player:direction = forward)
+    OR (player:action = wait AND amanda:seen = true)
+  </CONDITION>
+  <EFFECT>
+    <STATE> polarity:amanda += 1 </STATE>
+  </EFFECT>
+</STATE-LOGIC>
+
+<STATE-LOGIC id="watt-polarity-increase">
+  <CONDITION>
+    (player:action = move AND player:direction = back)
+    OR doctor-watt:present-behind-player
+  </CONDITION>
+  <EFFECT>
+    <STATE> polarity:watt += 1 </STATE>
+  </EFFECT>
+</STATE-LOGIC>
+
+<STATE-LOGIC id="polarity-dominance">
+  <CONDITION> polarity:amanda != polarity:watt </CONDITION>
+  <EFFECT>
+    <STATE>
+      polarity:dominant =
+        IF polarity:amanda > polarity:watt THEN amanda
+        ELSE watt
+    </STATE>
+  </EFFECT>
+</STATE-LOGIC>
+
+
+
+⎯─◐◑◒◓─────────── AMANDA–WATT INTERFERENCE (MODERATE) ───────────────
+
+# Amanda stabilizes Watt’s distortion when her polarity is higher.
+
+<BEHAVIOR id="amanda-stabilizes-watt">
+  <CONDITION>
+    polarity:amanda > polarity:watt
+    AND watt:stage >= 1
+    AND world:phase = pre-crossing
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      The static around you softens, as if held in place
+      by an unseen, steady hand.
+    </NARRATION>
+    <STATE>
+      watt:focus-progress = MAX(watt:focus-progress - 1, 0)
+    </STATE>
+  </EFFECT>
+</BEHAVIOR>
+
+# Watt disrupts Amanda’s clarity when his polarity is higher.
+
+<BEHAVIOR id="watt-disrupts-amanda">
+  <CONDITION>
+    polarity:watt > polarity:amanda
+    AND amanda:seen = true
+    AND world:phase = pre-crossing
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      Amanda’s outline seems to flicker for a moment,
+      as if viewed through a layer of static.
+    </NARRATION>
+    <STATE>
+      amanda:trust = uncertain
+    </STATE>
+  </EFFECT>
+</BEHAVIOR>
+
+# In the Convergence Chamber, their interference becomes visible.
+
+<EVENT id="convergence-interference">
+  <CONDITION>
+    player:in room:dome-convergence
+    AND polarity:dominant != none
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      The chamber vibrates with tension:
+      Amanda’s stillness and Watt’s distortion
+      press against each other without touching.
+    </NARRATION>
+  </EFFECT>
+</EVENT>
+
+
+
+⎯─◐◑◒◓─────────── POLARITY‑AWARE DOME INTERIOR ──────────────────────
+
+<BEHAVIOR id="amanda-wing-brightens">
+  <CONDITION>
+    polarity:dominant = amanda
+    AND player:in room:dome-amanda-wing
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      The light warms around you, as if the room recognizes your direction.
+    </NARRATION>
+  </EFFECT>
+</BEHAVIOR>
+
+<BEHAVIOR id="watt-wing-distorts">
+  <CONDITION>
+    polarity:dominant = watt
+    AND player:in room:dome-watt-wing
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      The walls bend inward, then outward,
+      as if the room is breathing through clenched teeth.
+    </NARRATION>
+  </EFFECT>
+</BEHAVIOR>
+
+<EVENT id="convergence-amanda-path">
+  <CONDITION>
+    player:in room:dome-convergence
+    AND polarity:dominant = amanda
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      A soft glow forms a path toward the Zero Sanctum.
+    </NARRATION>
+  </EFFECT>
+</EVENT>
+
+<EVENT id="convergence-watt-fracture">
+  <CONDITION>
+    player:in room:dome-convergence
+    AND polarity:dominant = watt
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      Cracks of static race across the floor,
+      splitting the chamber into impossible angles.
+    </NARRATION>
+  </EFFECT>
+</EVENT>
+
+<EVENT id="zero-sanctum-collapse">
+  <CONDITION>
+    player:in room:dome-zero-sanctum
+    AND polarity:dominant != none
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      The air stills. All forces fall silent.
+      For a moment, you are neither pulled nor pushed.
+      You simply are.
+    </NARRATION>
+    <STATE>
+      polarity:amanda = 0
+      polarity:watt = 0
+      polarity:dominant = none
+    </STATE>
+  </EFFECT>
+</EVENT>
+
+
+
+⎯─◐◑◒◓─────────── REFLECTION‑WORLD POLARITY DISTORTION ──────────────
+
+<BEHAVIOR id="reflection-world-polarity">
+  <CONDITION>
+    player:in room:reflection-world
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      Your reflection splits into two:
+      one moving forward a heartbeat early,
+      the other lagging behind in static.
+      Amanda and Watt echo through the glass.
+    </NARRATION>
+  </EFFECT>
+</BEHAVIOR>
+
+
+
+⎯─◐◑◒◓─────────── URCHIN ENTITY ───────────────────────────────
+
+<NPC id="urchin">
+  <NAME> The Urchin </NAME>
+  <DESCRIPTION>
+    A small, sharp-eyed girl with a survival crust over something
+    softer. She watches the mirror more than she watches you.
+  </DESCRIPTION>
+</NPC>
+
+⎯─◐◑◒◓─────────── URCHIN BASE STATE ───────────────────────────
+
+<STATE>
+  urchin:state = idle-at-anchor
+  urchin:trust = uncertain
+  urchin:location = city-street
+</STATE>
+
+⎯─◐◑◒◓─────────── URCHIN FOLLOW LOGIC ─────────────────────────
+
+<EVENT id="urchin-follow-mirror">
+  <CONDITION>
+    inventory:has object-mirror
+    AND urchin:trust != open
+  </CONDITION>
+  <EFFECT>
+    <STATE> urchin:state = follow-mirror </STATE>
+    <NARRATION>
+      You hear quick footsteps behind you. The Urchin is following,
+      eyes fixed on the mirror in your hand.
+    </NARRATION>
+  </EFFECT>
+</EVENT>
+
+⎯─◐◑◒◓─────────── KINDNESS EVENT ──────────────────────────────
+
+<EVENT id="urchin-kindness">
+  <CONDITION>
+    player:action = kindness
+    AND player:target = urchin
+  </CONDITION>
+  <EFFECT>
+    <STATE>
+      urchin:trust = open
+      urchin:state = return-to-anchor
+      urchin:location = city-street
+    </STATE>
+    <NARRATION>
+      The Urchin blinks, startled by the warmth. She slips away
+      toward the street, clutching the feeling like a stolen coin.
+    </NARRATION>
+  </EFFECT>
+</EVENT>
+
+⎯─◐◑◒◓─────────── TRUST DECAY → MIRROR RETRIEVAL ──────────────
+
+<STATE-LOGIC id="urchin-trust-decay">
+  <CONDITION>
+    urchin:state = follow-mirror
+    AND urchin:trust != open
+  </CONDITION>
+  <EFFECT>
+    <STATE> urchin:trust = uncertain </STATE>
+  </EFFECT>
+</STATE-LOGIC>
+
+<EVENT id="urchin-takes-mirror">
+  <CONDITION>
+    urchin:state = follow-mirror
+    AND urchin:trust = uncertain
+    AND inventory:has object-mirror
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      The Urchin darts forward, snatching the mirror with a reflex
+      too fast to blame on intent. She runs toward the restaurant.
+    </NARRATION>
+    <STATE>
+      inventory:remove object-mirror
+      urchin:state = retrieve-mirror
+    </STATE>
+  </EFFECT>
+</EVENT>
+
+<EVENT id="urchin-returns-mirror-to-amanda">
+  <CONDITION>
+    urchin:state = retrieve-mirror
+  </CONDITION>
+  <EFFECT>
+    <STATE>
+      urchin:location = fancy-restaurant
+      mirror:location = fancy-restaurant
+    </STATE>
+    <NARRATION>
+      The Urchin places the mirror gently on Amanda’s table,
+      then slips back into the street shadows.
+    </NARRATION>
+  </EFFECT>
+</EVENT>
+
+⎯─◐◑◒◓─────────── FAILSAFE EXTRACTION ─────────────────────────
+
+<EVENT id="urchin-rescue">
+  <CONDITION>
+    player:trapped = true
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      A small hand tugs your sleeve. The Urchin stands beside you,
+      eyes wide. “This way,” she whispers, and leads you through
+      a narrow alley back to the street.
+    </NARRATION>
+    <TRANSITION>
+      move player to room:city-street
+    </TRANSITION>
+  </EFFECT>
+</EVENT>
+
+
+
+⎯─◐◑◒◓─────────── AMANDA INTERACTION — PRODIGAL CHILD ───────────────
+
+<NPC-DIALOGUE id="amanda-urchin-prodigal">
+  <CONDITION>
+    urchin:location = fancy-restaurant
+    AND player:in room:fancy-restaurant
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      Amanda’s expression melts. “Sweetheart,” she says softly,
+      brushing the Urchin’s hair back. “You always come home.”
+    </NARRATION>
+    <STATE>
+      amanda:trust += 1
+      urchin:trust = MIN(urchin:trust + 1, 2)
+    </STATE>
+  </EFFECT>
+</NPC-DIALOGUE>
+
+⎯─◐◑◒◓─────────── WATT INTERACTION — PATERNAL FORCE ─────────────────
+
+<EVENT id="watt-intercepts-urchin">
+  <CONDITION>
+    urchin:location IN (dome-watt-wing, dome-recursion-chamber)
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      A thundercrack splits the air. Watt manifests instantly,
+      arcs snapping across the walls. “Where have you been,” he growls.
+      The Urchin flinches, shrinking under the static.
+    </NARRATION>
+    <STATE>
+      watt:stage = 3
+      doctor-watt:present-behind-player = true
+      urchin:trust = MAX(urchin:trust - 1, -1)
+      urchin:location = city-street
+    </STATE>
+  </EFFECT>
+</EVENT>
+
+⎯─◐◑◒◓─────────── POLARITY EFFECTS ON URCHIN ─────────────────────────
+
+<STATE-LOGIC id="urchin-polarity-amanda">
+  <CONDITION> polarity:dominant = amanda </CONDITION>
+  <EFFECT>
+    <STATE>
+      urchin:hassle-frequency = low
+      urchin:trust-decay-rate = slow
+    </STATE>
+  </EFFECT>
+</STATE-LOGIC>
+
+<STATE-LOGIC id="urchin-polarity-watt">
+  <CONDITION> polarity:dominant = watt </CONDITION>
+  <EFFECT>
+    <STATE>
+      urchin:hassle-frequency = high
+      urchin:trust-decay-rate = fast
+    </STATE>
+  </EFFECT>
+</STATE-LOGIC>
+
+⎯─◐◑◒◓─────────── MIRROR REFLECTION — HEROIC URCHIN ─────────────────
+
+<EVENT id="mirror-reflection-urchin-hero">
+  <CONDITION>
+    player:action = look
+    AND player:target = mirror
+    AND urchin:state IN (follow-mirror, idle-at-anchor)
+  </CONDITION>
+  <EFFECT>
+    <NARRATION>
+      In the mirror, the Urchin is transformed:
+      tall, armored, radiant — a warrior forged from certainty.
+      She stands behind you like a guardian.
+    </NARRATION>
+  </EFFECT>
+</EVENT>
+
+⎯─◐◑◒◓─────────── MIRROR-ARCHITECTURE — URCHIN ANCHOR ───────────────
+
+<EVENT id="urchin-architecture-anchor">
+  <CONDITION>
+    world:mode = mirror-architecture
+  </CONDITION>
+  <EFFECT>
+    <STATE> urchin:state = anchor-guide </STATE>
+    <NARRATION>
+      The world fractures into mirrored grids — except for her.
+      The Urchin stands solid, unreflected. “This way,” she says,
+      leading you through a narrow alley toward the street.
+    </NARRATION>
+    <TRANSITION>
+      move player to room:city-street
+    </TRANSITION>
+  </EFFECT>
+</EVENT>
+
+
+
+⎯─◐◑◒◓─────────── END OF THE LOOKING MIRROR — ADVENTURE RUNTIME ──────
+  

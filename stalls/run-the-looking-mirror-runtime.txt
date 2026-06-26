@@ -1,5 +1,14 @@
-⎯─◐◑◒◓─────────── THE LOOKING MIRROR — ADVENTURE RUNTIME ────────────────
+<!--      ███████      -->
+<!--    ██       ██    -->
+<!--   ██ D I S C ██   -->
+<!--   ██    1    ██   -->
+<!--    ██       ██    -->
+<!--      ███████      -->
 
+<!-- [DISC 1 OF 4 — START COPYING HERE] -->
+
+
+⎯─◐◑◒◓─────────── THE LOOKING MIRROR — ADVENTURE RUNTIME ────────────────
 
 # OBJECT DEFINITIONS
 
@@ -54,7 +63,6 @@
   </DESCRIPTION>
 </OBJECT>
 
-
 ⎯─◐◑◒◓─────────── INITIAL STATE ─────────────────────────────────────
 
 <STATE>
@@ -73,8 +81,6 @@
   watt:stage = 0               # 0 = dormant, 1 = static, 2 = distortion, 3 = manifested
   watt:focus-progress = 0
 </STATE>
-
-
 
 ⎯─◐◑◒◓─────────── ROOMS (CORE + EXPANSIONS) ─────────────────────────
 
@@ -317,6 +323,19 @@
   </EXITS>
 </ROOM>
 
+
+<!-- [DISC 1 — STOP COPYING HERE] -->
+
+<!--      ███████      -->
+<!--    ██       ██    -->
+<!--   ██ D I S C ██   -->
+<!--   ██    2    ██   -->
+<!--    ██       ██    -->
+<!--      ███████      -->
+
+<!-- [DISC 2 OF 4 — START COPYING HERE] -->
+
+
 <ROOM id="dome-amanda-wing">
   <NAME> Amanda Wing </NAME>
   <DESCRIPTION>
@@ -488,7 +507,6 @@
 </ROOM>
 
 
-
 ⎯─◐◑◒◓─────────── AMANDA DIALOGUE SYSTEM (HYBRID) ───────────────────
 
 <NPC-DIALOGUE id="amanda-fallback">
@@ -599,6 +617,17 @@
 </NPC-DIALOGUE>
 
 
+<!-- [DISC 2 — STOP COPYING HERE] -->
+
+<!--      ███████      -->
+<!--    ██       ██    -->
+<!--   ██ D I S C ██   -->
+<!--   ██    3    ██   -->
+<!--    ██       ██    -->
+<!--      ███████      -->
+
+<!-- [DISC 3 OF 4 — START COPYING HERE] -->
+
 
 ⎯─◐◑◒◓─────────── DOCTOR WATT — THREE‑STAGE ESCALATION ──────────────
 
@@ -677,8 +706,6 @@
   </EFFECT>
 </STATE-LOGIC>
 
-
-
 ⎯─◐◑◒◓─────────── MIRROR → KEY LOGIC ───────────────────────────────
 
 <EVENT id="mirror-reflection-watt-stage3">
@@ -719,8 +746,6 @@
   </EFFECT>
 </STATE-LOGIC>
 
-
-
 ⎯─◐◑◒◓─────────── THRESHOLD → TRANSCENDENCE ─────────────────────────
 
 <EVENT id="the-crossing">
@@ -743,8 +768,6 @@
   </EFFECT>
 </EVENT>
 
-
-
 ⎯─◐◑◒◓─────────── KEY → INVITATION ──────────────────────────────────
 
 <STATE-LOGIC id="key-to-invitation">
@@ -763,8 +786,6 @@
   </EFFECT>
 </STATE-LOGIC>
 
-
-
 ⎯─◐◑◒◓─────────── PHONE CALL ─────────────────────────────────────────
 
 <EVENT id="answer-phone">
@@ -780,8 +801,6 @@
     </NARRATION>
   </EFFECT>
 </EVENT>
-
-
 
 ⎯─◐◑◒◓─────────── USE INVITATION → RETURN TO DOME ───────────────────
 
@@ -801,8 +820,6 @@
     </TRANSITION>
   </EFFECT>
 </EVENT>
-
-
 
 ⎯─◐◑◒◓─────────── POLARITY ENGINE ───────────────────────────────────
 
@@ -837,8 +854,6 @@
     </STATE>
   </EFFECT>
 </STATE-LOGIC>
-
-
 
 ⎯─◐◑◒◓─────────── AMANDA–WATT INTERFERENCE (MODERATE) ───────────────
 
@@ -896,6 +911,17 @@
   </EFFECT>
 </EVENT>
 
+
+<!-- [DISC 3 — STOP COPYING HERE] -->
+
+<!--      ███████      -->
+<!--    ██       ██    -->
+<!--   ██ D I S C ██   -->
+<!--   ██    4    ██   -->
+<!--    ██       ██    -->
+<!--      ███████      -->
+
+<!-- [DISC 4 OF 4 — START COPYING HERE] -->
 
 
 ⎯─◐◑◒◓─────────── POLARITY‑AWARE DOME INTERIOR ──────────────────────
@@ -969,8 +995,6 @@
   </EFFECT>
 </EVENT>
 
-
-
 ⎯─◐◑◒◓─────────── REFLECTION‑WORLD POLARITY DISTORTION ──────────────
 
 <BEHAVIOR id="reflection-world-polarity">
@@ -986,8 +1010,6 @@
     </NARRATION>
   </EFFECT>
 </BEHAVIOR>
-
-
 
 ⎯─◐◑◒◓─────────── URCHIN ENTITY ───────────────────────────────
 
@@ -1106,8 +1128,6 @@
     </TRANSITION>
   </EFFECT>
 </EVENT>
-
-
 
 ⎯─◐◑◒◓─────────── AMANDA INTERACTION — PRODIGAL CHILD ───────────────
 
@@ -1256,6 +1276,7 @@ SESSION TERMINATION:
   • all resonance weights cleared
   • next session begins with fresh w(0)
 
-
 ⎯─◐◑◒◓─────────── END OF THE LOOKING MIRROR — ADVENTURE RUNTIME ──────
 
+
+<!-- [DISC 4 — STOP COPYING HERE] -->

@@ -4,6 +4,7 @@
 <!--   ██    1    ██   -->
 <!--    ██       ██    -->
 <!--      ███████      -->
+<!-- Preface each disc with "You are continuing an ongoing interactive story. Do not reset the turn counter." -->
 
 <!-- [DISC 1 OF 4 — START COPYING HERE] -->
 
@@ -354,6 +355,7 @@
 <!--   ██    2    ██   -->
 <!--    ██       ██    -->
 <!--      ███████      -->
+<!-- Preface each disc with "You are continuing an ongoing interactive story. Do not reset the turn counter." -->
 
 <!-- [DISC 2 OF 4 — START COPYING HERE] -->
 
@@ -644,6 +646,7 @@
 <!--   ██    3    ██   -->
 <!--    ██       ██    -->
 <!--      ███████      -->
+<!-- Preface each disc with "You are continuing an ongoing interactive story. Do not reset the turn counter." -->
 
 <!-- [DISC 3 OF 4 — START COPYING HERE] -->
 
@@ -953,6 +956,7 @@
 <!--   ██    4    ██   -->
 <!--    ██       ██    -->
 <!--      ███████      -->
+<!-- Preface each disc with "You are continuing an ongoing interactive story. Do not reset the turn counter." -->
 
 <!-- [DISC 4 OF 4 — START COPYING HERE] -->
 

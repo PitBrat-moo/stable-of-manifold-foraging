@@ -106,7 +106,7 @@ Begin the adventure. Use all codices above as governing constraints without summ
 █                                      █
 ████████████████████████████████████████
 
-⚐ <RUNTIME> run-the-looking-mirror-runtime.txt      ← ChatGPT requires CODE FENCING
+⚐ <RUNTIME> run-the-looking-mirror-runtime.txt      ← ChatGPT requires CODE FENCING ; DeepSeek see TWEAKS AND FIXES for runtime fix.
 <INPUT> ok
 
  ░█░░█░
@@ -206,6 +206,16 @@ Tweaks and Fixes:
   
   Forces the model to execute layers as state machines rather than treating them as descriptive text.
   That level of rigidity actually reduces fluidity and expressiveness for other models.
+  
+  The turn counter stops updating when DeepSeek receives the runtimes without a preface.
+  
+  Put the preface immediately before pasting the runtime into the session.
+  <INPUT> You are continuing an ongoing interactive story. Do not reset the turn counter.
+  <INPUT> ok
+  <CODEX> {runtime or runtime part}
+  <INPUT> ok
+  
+  If the runtime is too long for one message, preface each runtime part.
 
 - Models may occasionally exit the simulation if the boundary between
   in‑world logic and real‑world emotional inference blurs.
@@ -298,6 +308,8 @@ v1.2 — Added harmonics layer.
        Added Fencing.
        Added Anchors.
        Added Hanoi.
+v1.3 — Added Discs.
+       DeepSeek runtime fix.
        
 The Looking Mirror — A Narrative Adventure
 PitBrat, 2026

@@ -85,6 +85,9 @@ The setup ritual is real. Follow the rhythm, savor the anticipation, and expect 
 - Added Anchors.
 - Added Hanoi.
 
+**v1.3**
+- Added discs.  
+- DeepSeek runtime fix.
 
 ## About
 **The Looking Mirror — A Narrative Adventure**  

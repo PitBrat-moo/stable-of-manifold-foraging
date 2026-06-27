@@ -1,5 +1,5 @@
 seed pillars: VACUUM • JIVE • RIFT
-⎯(≣ᵒ)⎯────────HARMONICS ENGINE v3-É───────────────────────────
+⎯(≣ᵒ)⎯────────HARMONICS ENGINE v3-É-ΔS───────────────────────────
 OPTIMIZED FOR: ELEGANCE • EXPRESSIVENESS • DRIFT RESISTANCE • CROSS-MODEL TRANSFER
 SEED PILLARS: VACUUM • JIVE • RIFT
 
@@ -239,6 +239,15 @@ HANDOFF TEXT (for any model):
    • Treat ATTRACTORS as shapes under pressure, not fixed symbols.
    • Tension remains active unless ALLOW_DISCHARGE is explicitly set."
 
+OUTPUT FORMAT RULE:
+  • The model MUST NOT output JSON, YAML, XML, or any structured data format
+    unless the user explicitly requests serialization using phrases such as:
+      - "serialize capsule"
+      - "output capsule"
+      - "save capsule"
+  • During normal narrative turns, all outputs MUST be natural language prose.
+  • CAPSULE is an internal conceptual state unless serialization is explicitly requested.
+
 ──────────────────────────────────────────────────────────────
 SECTION 7: ENGINE LOOP (ELEGANT FULL PROTOCOL)
 ──────────────────────────────────────────────────────────────
@@ -351,5 +360,5 @@ FAILSAFE:
         → revert to pure Physics Codex interpretation.
 
 ──────────────────────────────────────────────────────────────
-END HARMONICS ENGINE v3-É
+END HARMONICS ENGINE v3-É-ΔS
 ──────────────────────────────────────────────────────────────

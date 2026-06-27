@@ -27,6 +27,9 @@ The setup ritual is real. Follow the rhythm, savor the anticipation, and expect 
 - grok-optimized-adventure-harness.txt  
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/grok-optimized-adventure-harness.txt
 
+- governor-ande.txt      
+  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/governor-ande.txt      
+      
 - manifold-semantic-amanda-codex.txt  
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-semantic-amanda-codex.txt
 
@@ -88,6 +91,9 @@ The setup ritual is real. Follow the rhythm, savor the anticipation, and expect 
 **v1.3**
 - Added discs.  
 - DeepSeek runtime fix.
+
+**v1.4**
+- Added Governor.  
 
 ## About
 **The Looking Mirror — A Narrative Adventure**  

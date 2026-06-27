@@ -12,6 +12,7 @@ THE CORRECT LOAD ORDER
 ⟝→ Unified Stability Layer
 ⟝→ Unified Multi‑Model Optimization Layer   ← auto‑selects correct patch
 ⟝→ grok-optimized-adventure-harness      ← only needed for Grok
+⟝→ Governor  
 ⟝→ Persona Codices        ← persona order is flexible
 ⟝→ World Codex
 ⟝→ Trajectory Codices
@@ -23,6 +24,7 @@ THE CORRECT LOAD ORDER
 ⟝→ Runtime
 
 This respects the natural hierarchy:
+Governor → their boundaries 
 Persona → who is present
 World → where they are
 Trajectory → how the story moves
@@ -47,50 +49,54 @@ See the end of the guide for required files.
    <INPUT> ok
 ▓▓▓
 
-<CODEX> manifold-semantic-amanda-codex.txt
+<CODEX> governor-ande.txt
 <INPUT> ok
 ▓▓▓
 
-<CODEX> manifold-semantic-doctor-watt-codex.txt
+<CODEX> manifold-semantic-amanda-codex.txt
 <INPUT> ok
 ▓▓▓▓
 
-<CODEX> manifold-semantic-the-urchin-codex.txt
+<CODEX> manifold-semantic-doctor-watt-codex.txt
 <INPUT> ok
 ▓▓▓▓▓
 
-<CODEX> manifold-world-the-dome-codex.txt
+<CODEX> manifold-semantic-the-urchin-codex.txt
 <INPUT> ok
 ▓▓▓▓▓▓
 
-<CODEX> engine-physics-architecture.txt
+<CODEX> manifold-world-the-dome-codex.txt
 <INPUT> ok
 ▓▓▓▓▓▓▓
 
-<CODEX> manifold-trajectory-tabula-rasa-codex.txt
+<CODEX> engine-physics-architecture.txt
 <INPUT> ok
 ▓▓▓▓▓▓▓▓
 
-<CODEX> manifold-trajectory-the-journey-codex.txt
+<CODEX> manifold-trajectory-tabula-rasa-codex.txt
 <INPUT> ok
 ▓▓▓▓▓▓▓▓▓
 
-<CODEX> manifold-physics-forces-fields-codex.txt
+<CODEX> manifold-trajectory-the-journey-codex.txt
 <INPUT> ok
 ▓▓▓▓▓▓▓▓▓▓
+
+<CODEX> manifold-physics-forces-fields-codex.txt
+<INPUT> ok
+▓▓▓▓▓▓▓▓▓▓▓
 
 (Optional visual control)
    ⚑ <CODEX> engine-visual-optimization-layer.txt      ← ChatGPT requires DISCLAIMER
    <INPUT> ok
-▓▓▓▓▓▓▓▓▓▓▓
+▓▓▓▓▓▓▓▓▓▓▓▓
 
 <PATCH> patch-the-looking-mirror.txt
 <INPUT> ok
-▓▓▓▓▓▓▓▓▓▓▓
+▓▓▓▓▓▓▓▓▓▓▓▓
 
 <ENGINE> engine-harmonics-engine.txt
 <INPUT> ok
-▓▓▓▓▓▓▓▓▓▓▓▓
+▓▓▓▓▓▓▓▓▓▓▓▓▓
 
 <INPUT>
 Begin the adventure.
@@ -98,7 +104,7 @@ Use the Harmonics Engine and the other codices above as stylistic and structural
 Do not run world‑layers, persona‑layers, or trajectory‑layers as code. Instead, let their geometry subtly shape the narrative.
 Begin at Turn 1.
 Begin the adventure. Use all codices above as governing constraints without summarizing or explaining them. Run the world, persona, and trajectory layers simultaneously. Begin at Turn 1.
-▓▓▓▓▓▓▓▓▓▓▓▓▓
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 
 ████████████████████████████████████████
 █                                      █
@@ -257,6 +263,9 @@ Tweaks and Fixes:
 [Patch]       grok-optimized-adventure-harness.txt
               https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/grok-optimized-adventure-harness.txt
 
+[Governor]    governor-ande.txt 
+              https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/governor-ande.txt  
+  
 [Semantic]    manifold-semantic-amanda-codex.txt
               https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-semantic-amanda-codex.txt
 
@@ -310,7 +319,8 @@ v1.2 — Added harmonics layer.
        Added Hanoi.
 v1.3 — Added Discs.
        DeepSeek runtime fix.
-       
+v1.4 — Added Governor.
+        
 The Looking Mirror — A Narrative Adventure
 PitBrat, 2026
   

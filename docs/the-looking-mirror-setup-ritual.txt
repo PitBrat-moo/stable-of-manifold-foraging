@@ -24,6 +24,7 @@ THE CORRECT LOAD ORDER
 ⟝→ Runtime
 
 This respects the natural hierarchy:
+Stability → the foundation
 Governor → the expanse 
 Persona → who is present
 World → where they are

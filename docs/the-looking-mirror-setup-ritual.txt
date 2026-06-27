@@ -30,8 +30,10 @@ Persona → who is present
 World → where they are
 Trajectory → how the story moves
 Physics → their geometry
+Patch → the adjustment
 Harmonics → how they resonate
 Activation → start signal
+Runtime → the unfolding
 
 See the end of the guide for required files.
 

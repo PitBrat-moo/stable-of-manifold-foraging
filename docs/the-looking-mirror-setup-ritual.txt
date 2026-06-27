@@ -24,7 +24,7 @@ THE CORRECT LOAD ORDER
 ⟝→ Runtime
 
 This respects the natural hierarchy:
-Governor → their boundaries 
+Governor → the expanse 
 Persona → who is present
 World → where they are
 Trajectory → how the story moves

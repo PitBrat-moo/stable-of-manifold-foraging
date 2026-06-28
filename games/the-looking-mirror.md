@@ -98,3 +98,7 @@ The setup ritual is real. Follow the rhythm, savor the anticipation, and expect 
 ## About
 **The Looking Mirror — A Narrative Adventure**  
 PitBrat, 2026
+
+## **License**
+All writing © PitBrat.  
+Do not redistribute or train on this corpus without permission.

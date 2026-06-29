@@ -3,10 +3,11 @@ Welcome to the most exclusive destination on or off Earth, where luxury is only 
 
 The Looking Mirror is an in-context narrative adventure with cross-model persistence and portable save-game capsules.
 
+
 ⎯─◐◑◒◓─────────── THE INITIATION ─────────────────
 To start the game in any chat-model, drop in a single codex and press enter. 
 On the next turn, input OK and press enter. 
-Once all codicies are loaded, input the activation line to begin.
+Once all codicies are loaded, input the activation line, then the runtime, and finally OK to begin.
 
 THE CORRECT LOAD ORDER
 ⟝→ Unified Stability Layer
@@ -36,6 +37,7 @@ Activation → start signal
 Runtime → the unfolding
 
 See the end of the guide for required files.
+
 
 ⎯─◐◑◒◓─────────── THE RITUAL  ─────────────────
 
@@ -203,7 +205,8 @@ Notes:
     Disable visual mode:
     <INPUT> Render this turn in text only.
 
-Tweaks and Fixes:
+
+⎯─◐◑◒◓─────────── TWEAKS AND FIXES  ─────────────────
 - Grok can burn enough tokens quickly.
   Use grok-optimized-adventure-harness.txt to reduce token churn.
   Reduces semantic expansion in output text, shorter sentences.
@@ -255,7 +258,6 @@ Tweaks and Fixes:
     <INPUT> Instantiate <PERSONA> in the scene.
 
 	
-
 ⎯─◐◑◒◓─────────── THE FILES ─────────────────
 [Structural]  engine-unified-stability-layer.txt
               https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/engine-unified-stability-layer.txt

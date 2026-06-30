@@ -48,8 +48,7 @@ Patches are modular, versioned, and portable across models.
 Because the system conditions **semantic pressure** rather than syntax,  
 the runtime remains stable across different LLM architectures:
 
-- Microsoft Copilot  
-- Anthropic Claude  
+- Microsoft Copilot   
 - Google Gemini  
 - OpenAI ChatGPT  
 - Grok / DeepSeek  

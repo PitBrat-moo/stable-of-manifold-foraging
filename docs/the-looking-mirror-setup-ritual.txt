@@ -23,8 +23,8 @@ THE CORRECT LOAD ORDER
 ⟝→ Visual Control Engine        ← only needed for visual control and optimization
 ⟝→ Patch
 ⟝→ Harmonics Engine
-⟝→ Activation Line
 ⟝→ Runtime
+⟝→ Activation Line
 
 This respects the natural hierarchy:
 Stability → the foundation
@@ -35,8 +35,8 @@ Trajectory → how the story moves
 Physics → their geometry
 Patch → the adjustment
 Harmonics → how they resonate
-Activation → start signal
 Runtime → the unfolding
+Activation → start signal
 
 See the end of the guide for required files.
 

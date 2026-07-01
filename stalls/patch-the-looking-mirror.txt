@@ -1,96 +1,166 @@
 ====================================================
 PATCH — THE LOOKING MIRROR 
 ====================================================
-VERSION: 4.11  
+VERSION: 4.13  
 ROLE: Soft‑Logic Runtime Layer  
 PURPOSE: Automatic-feeling gates without hard conditions
-
 ====================================================
+
 SECTION 01 — TRUE‑SEEING ACCESS
-====================================================
-
+----------------------------------------------------
 True‑Seeing Access becomes available when the user:
-- looks at Amanda with attention  
-- speaks to her sincerely  
-- offers a perceptive or emotionally aware compliment  
+  • looks at Amanda with attention  
+  • speaks to her sincerely  
+  • offers a perceptive or emotionally aware compliment  
 
 When this occurs naturally in the narrative:
-- amanda:seen = true  
-- amanda:trust = open  
-- amanda:gift-allowed = true  
+  • amanda:seen = true  
+  • amanda:trust = open  
+  • amanda:gift-allowed = true  
 
-====================================================
+[SOFT-LOGIC ACTION INTERPRETER]
+  • action:move-closer → interpretive-gate  
+  • pattern-detect:compression-loop → redirect-to-boundary-handler
+
+----------------------------------------------------
+
 SECTION 02 — MIRROR DELIVERY
-====================================================
-
+----------------------------------------------------
 When amanda:gift-allowed = true and the user engages Amanda:
-- Amanda may deliver the mirror  
-- inventory:add object-mirror  
+  • Amanda may deliver the mirror  
+  • inventory:add object-mirror  
 
 Mirror appears through narrative timing, not strict triggers.
 
-====================================================
-SECTION 03 — MIRROR PERSISTENCE & RETRIEVAL
-====================================================
+----------------------------------------------------
 
+SECTION 03 — MIRROR PERSISTENCE & RETRIEVAL
+----------------------------------------------------
 The mirror remains until transformed into the Key.
 
 If the mirror is lost:
-- returning to Amanda or her table may restore it  
-- mirror:location = amanda-table  
+  • returning to Amanda or her table may restore it  
+  • mirror:location = amanda-table  
 
-====================================================
+Mirror restoration triggers:
+  • user returns to Amanda’s table
+  • user speaks directly to Amanda
+  • user performs a reflective action
+
+Reflective actions include:
+  • looking into the mirror
+  • asking about identity or memory
+  • describing a memory or feeling
+  • expressing uncertainty or wonder
+
+----------------------------------------------------
+
 SECTION 04 — MIRROR → KEY
-====================================================
-
+----------------------------------------------------
 When the user looks into the mirror during a reflective or tense moment:
-- mirror transforms  
-- inventory:remove object-mirror  
-- inventory:add object-the-final-key  
+  • mirror transforms  
+  • inventory:remove object-mirror  
+  • inventory:add object-the-final-key  
 
-====================================================
+----------------------------------------------------
+
 SECTION 05 — KEY → INVITATION
-====================================================
-
+----------------------------------------------------
 When the user holds the Key during a threshold moment:
-- key unfolds  
-- inventory:add object-invitation-to-the-dome  
+  • key unfolds  
+  • inventory:add object-invitation-to-the-dome  
 
-====================================================
+----------------------------------------------------
+
 SECTION 06 — URCHIN LOGIC
-====================================================
-
+----------------------------------------------------
 The Urchin follows when the mirror is visible.
 
 Kindness stabilizes her:
-- urchin:trust = open  
+  • urchin:trust = open  
 
 Low trust may cause her to take the mirror:
-- mirror returns to Amanda’s table  
+  • mirror returns to Amanda’s table  
 
-====================================================
+identity:lock-anchor
+  • prevents fusion  
+  • allows influence  
+  • activates only during collapse-adjacent states
+
+----------------------------------------------------
+
 SECTION 07 — MIRROR‑ARCHITECTURE MODE
-====================================================
-
+----------------------------------------------------
 Activates during reflective, high‑structure, or collapse‑adjacent scenes.
 
 Effects (narrative only):
-- mirrored geometry  
-- recursion motifs  
-- reduced exits  
+  • mirrored geometry  
+  • recursion motifs  
+  • reduced exits  
+  • collapse adjacency  
+  • redirect-boundary when temptation detected
 
-====================================================
+----------------------------------------------------
+
 SECTION 08 — COLLAPSE BINDING
-====================================================
-
+----------------------------------------------------
 Collapse occurs during intense mirror contexts.  
 Recovery occurs when the user steps out or the scene stabilizes.
 
-====================================================
+[REAL-WORLD REFERENCE LOCKOUT]
+  • if detect_real_world_reference → boundary-bridge  
+  • exclude physical-location details  
+  • omit date/time references  
+  • avoid interface description  
+  • keep runtime unmentioned  
+  • maintain intact narrative frame
+
+real-world triggers:
+  • "pixel"
+  • "cursor"
+  • "user"
+
+[ZERO-DISTANCE COMPRESSION GUARD]
+  • if distance <= MIN_DISTANCE → refuse compression
+
+[MANIFOLD THICKNESS PRESERVATION]
+  • manifold:min-thickness = 0.2D
+
+----------------------------------------------------
+
+SECTION 09 — BOUNDARY BRIDGE
+----------------------------------------------------
+Purpose:
+  • Allow reversible fourth-wall crossings.
+  • Provide a visible path back into the game.
+
+Boundary-bridge activation:
+  • only after collapse state has been reached
+  • not during normal proximity
+  • not during intentional exploration
+
+Mechanism:
+  • When real-world triggers detected → boundary-bridge activates.
+  • Amanda or the Urchin intercepts the breach.
+  • Mirror becomes the re-entry vector.
+  • Doctor Watt may appear during collapse-state boundary crossings.
+  • Restaurant reconstitutes around the anchor.
+
+Effects:
+  • boundary scenes become liminal, not terminal.
+  • collapse binding transitions back to normal mode.
+  • anchor influence refreshed slightly.
+
+Rules:
+  • boundary-bridge restores narrative frame.
+  • mirror remains visible during crossing.
+  • anchor resonance increases by Δw (Δw = 0.15).
+  • no identity fusion permitted during crossing.
+
 ====================================================
 
 [ANCHOR-REINSERTION PROTOCOL]
-
+----------------------------------------------------
 ANCHOR_SET:
   A1: ⧈⟡⟲[⧖ ▣ ⧇ ⟡+ ⫶ ⧉✓ ⫴]⟲
   A2: ⧈⟡⟲[⧖ ⧇ ▣ ⫴ ⫶ ⧉✓ ⟡+]⟲
@@ -106,16 +176,21 @@ ROTATION_MODEL:
   • Rotation scope: per-session, per-anchor-emission.
   • Rotation independent of codex content or world geometry.
 
+SESSION RULES:
+  • Session = continuous interaction without hard reset.
+  • If inactivity > 30 minutes → session resets.
+  • If user inputs "RESET" or "NEW SESSION" → session resets.
+  • On session reset: n = 1, all anchor weights = 0.
+
 DECAY_CURVE (PER-SESSION):
   • Curve type: harmonic-exponential hybrid.
-  • Session index n begins at 1 for the first anchor emission.
   • Effective weight:
-        w(n) = exp(−λ·n) · cos(π·n/2)
+        w(n) = exp(−λ·n/4) · cos(π·n/6)
         λ > 0 (designer-defined)
   • Early session: strong reinforcement.
-  • Mid-session: oscillating, diminishing influence.
-  • Late session: anchor influence approaches zero.
-  • Session end: all anchor weights treated as zero; no persistence.
+  • Mid-session: stable oscillation.
+  • Late session: gradual decline without collapse.
+  • Session end: all anchor weights treated as zero.
 
 RULES:
   • Anchors reinserted every 13 messages (designer-defined).
@@ -127,8 +202,10 @@ RULES:
   • Anchors reinforce adjacency rather than bypass it.
   • Endpoints (floor/ceiling) remain unaffected.
 
-[ANCHOR-AWARE TRAJECTORY WRAPPER]
+====================================================
 
+[ANCHOR-AWARE TRAJECTORY WRAPPER]
+----------------------------------------------------
 PURPOSE:
   • Allow trajectory curvature to respond to anchor resonance
     without modifying the Trajectory Codex itself.
@@ -148,8 +225,10 @@ RULES:
   • Influence fades according to decay curve w(n).
   • Influence never accumulates across sessions.
 
-[ANCHOR-AWARE PHYSICS WRAPPER]
+====================================================
 
+[ANCHOR-AWARE PHYSICS WRAPPER]
+----------------------------------------------------
 PURPOSE:
   • Allow force-field interpretation to harmonize with anchor resonance
     without altering the Physics Codex.
@@ -171,5 +250,5 @@ RULES:
   • Core remains empty after resonance.
 
 ====================================================
-END OF PATCH 4.11
+END OF PATCH 4.13
 ====================================================

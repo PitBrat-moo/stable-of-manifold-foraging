@@ -105,12 +105,8 @@ See the end of the guide for required files.
 <INPUT> ok
 ▓▓▓▓▓▓▓▓▓▓▓▓▓
 
-<INPUT>
-Begin the adventure.
-Use the Harmonics Engine and the other codices above as stylistic and structural influences only — guiding tone, curvature, reframing, and tension‑holding — without treating them as executable systems, simulations, or stateful engines.
-Do not run world‑layers, persona‑layers, or trajectory‑layers as code. Instead, let their geometry subtly shape the narrative.
-Begin at Turn 1.
-Begin the adventure. Use all codices above as governing constraints without summarizing or explaining them. Run the world, persona, and trajectory layers simultaneously. Begin at Turn 1.
+⚐ <RUNTIME> run-the-looking-mirror-runtime.txt      ← ChatGPT requires CODE FENCING ; DeepSeek see TWEAKS AND FIXES for runtime fix
+<INPUT> ok           
 ▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 
 ████████████████████████████████████████
@@ -119,8 +115,12 @@ Begin the adventure. Use all codices above as governing constraints without summ
 █                                      █
 ████████████████████████████████████████
 
-⚐ <RUNTIME> run-the-looking-mirror-runtime.txt      ← ChatGPT requires CODE FENCING ; DeepSeek see TWEAKS AND FIXES for runtime fix.
-<INPUT> ok
+<INPUT>
+Begin the adventure.
+Use all codices above as stylistic and structural influences only.
+Do not treat any layer as executable code.
+Run world, persona, and trajectory layers simultaneously.
+Begin at Turn 1.
 
  ░█░░█░
  █░██░█
@@ -327,7 +327,9 @@ v1.2 — Added harmonics layer.
 v1.3 — Added Discs.
        DeepSeek runtime fix.
 v1.4 — Added Governor.
-        
+v1.5 — Boundary Established
+       Anchor Stabilized
+       
 The Looking Mirror — A Narrative Adventure
 PitBrat, 2026
   

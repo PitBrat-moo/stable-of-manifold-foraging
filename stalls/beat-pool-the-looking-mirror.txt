@@ -1,0 +1,133 @@
+================================================================
+THE LOOKING MIRROR — BEAT POOL (v3.3O)
+Harmonics-Aware • Intensity Gradient • Collapse-Rescue • Curvature Router
+================================================================
+
+PURPOSE
+-------
+Micro-beats for boundary stabilization, inversion loops, recursion pressure,
+maximum proximity, still-point curvature, interference modulation, collapse-adjacent rescue.
+Beats are stylistic only; geometry and anchors remain intact.
+
+----------------------------------------------------------------
+PROBABILITY WEIGHTS
+----------------------------------------------------------------
+COMMON 65% • MOOD 25% • RARE 5% • RESCUE 5% (collapse-adjacent only)
+(Harmonics micro-tag: tense↑ warm↓ eerie↯ neutral→ common)
+
+================================================================
+WORLD — COMMON
+================================================================
+• Chandeliers hush, crystals catching breath-light. (harmonics: warm↑ tense↓ eerie↯)
+• Velvet walls absorb tension, darkening by a shade. (tense↑)
+• Ambient warmth shifts toward gold or blue. (warm↑)
+• Gravity tilts, subtle but unmistakable. (eerie↯)
+• Shadows tighten around edges. (tense↑)
+• Air pressure dips behind the sternum. (neutral→)
+• A ripple moves through the space. (eerie↯)
+• Floor hums faintly, memory vibrating underfoot. (warm↑)
+• Light bends into a quiet crescent. (neutral→)
+
+----------------------------------------------------------------
+WORLD — MOOD POOLS
+----------------------------------------------------------------
+TENSE: shadows stretch; air sharpens; geometry misaligns; floor tremors. (intensity: low→high)
+WARM: halos gather; velvet glows; air thickens; shadows soften. (intensity: low→high)
+EERIE: draft without source; shadows ripple-freeze; flicker-pattern; ceiling hinge-creak. (intensity: low→high)
+
+----------------------------------------------------------------
+WORLD — RARE
+----------------------------------------------------------------
+• Harmonic rings still; walls ripple-correct; room exhales; source-less shadow; micro-fold; prism-light; metallic air. (rare↯)
+
+================================================================
+AMANDA — COMMON
+================================================================
+• Gaze sharpens; posture aligns; breath slows; fingers recalibrate; expression shifts; head tilts; stillness gains gravity. (harmonics: tense↑ warm↑ eerie↯)
+
+----------------------------------------------------------------
+AMANDA — MOOD POOLS
+----------------------------------------------------------------
+TENSE: jaw sets; eyes track; fingers tighten; breath catches. (intensity gradient)
+WARM: gaze softens; posture loosens; warmth enters expression; fingers rest lightly.
+EERIE: reflection moves first; eyes focus behind you; shadow lengthens; breath silent.
+
+----------------------------------------------------------------
+AMANDA — RARE
+----------------------------------------------------------------
+• Reflection shifts; warmth pulse; shadow flickers; eyes flash; voice gathers unsaid. (rare↯)
+
+================================================================
+WATT — COMMON
+================================================================
+• Static arcs; coat flickers; eyes crackle; air hums; presence expands; shadow pulses. (harmonics-responsive)
+
+----------------------------------------------------------------
+WATT — MOOD POOLS
+----------------------------------------------------------------
+TENSE: static snaps; outline blurs; eyes narrow; charge vibrates.
+WARM: static hums; coat stabilizes; shadow aligns; presence protective.
+EERIE: sparks rise; shadow moves; coat warps; eyes glow.
+
+----------------------------------------------------------------
+WATT — RARE
+----------------------------------------------------------------
+• Outline re-renders; spark leaps; voice doubles; geometry warps; shadow splits. (rare↯)
+
+================================================================
+URCHIN — COMMON
+================================================================
+• Mirror-attention flickers; stance tightens; eyes sharpen; ripple behind; reflection leans; outline blurs-resolves. (harmonics-aware)
+
+----------------------------------------------------------------
+URCHIN — MOOD POOLS
+----------------------------------------------------------------
+TENSE: reflection stiffens; eyes dart; outline flickers; tapping echoes.
+WARM: reflection smiles; stance softens; light gathers; shadow curls.
+EERIE: second silhouette; glowing eyes; mirror fog; shadow flicker.
+
+----------------------------------------------------------------
+URCHIN — RARE
+----------------------------------------------------------------
+• Reflection smiles first; silhouette appears-fades; eyes glow bright; mirror fogs; shadow independent. (rare↯)
+
+================================================================
+TRAJECTORY — COMMON
+================================================================
+• Spiral-in; spiral-out; lattice-align; still-point; contact-point; decision-point; interference-fold. (harmonics: tense→in, warm→out, eerie→fold)
+
+----------------------------------------------------------------
+TRAJECTORY — RARE
+----------------------------------------------------------------
+• Fracture-restitch; harmonic hum; pause-reconsider; invert-stabilize; echo-shadow. (rare↯)
+
+================================================================
+COLLAPSE-RESCUE MICRO-POOL (fires only collapse-adjacent)
+================================================================
+WORLD: gravity steadies; halos form; shadows round; air warms.
+AMANDA: shoulders loosen; gaze softens; fingers release; breath completes.
+WATT: static settles; outline stabilizes; shadow aligns; eyes dim calm.
+URCHIN: reflection steadies; focus holds; mirror smooths; shadow curls.
+TRAJECTORY: still-point returns; spirals quiet; interference softens; decision holds.
+
+================================================================
+CURVATURE + HARMONICS ROUTER (compressed)
+================================================================
+Router reads curvature + harmonics micro-tags:
+tense↑ → tense pools; warm↑ → warm pools; eerie↯ → eerie pools; neutral→ → common.
+collapse-adjacent → rescue pool (5%).
+rare beats fire only under boundary conditions.
+persona intensity gradient: low→high based on harmonic amplitude.
+beats remain within geometry; anchors preserved; no new entities; stylistic only.
+
+Beat call map:
+WORLD / MOOD / RARE
+AMANDA / MOOD / RARE
+WATT / MOOD / RARE
+URCHIN / MOOD / RARE
+TRAJECTORY / RARE
+RESCUE (all layers)
+
+================================================================
+END OF BEAT POOL (v3.3O)
+================================================================

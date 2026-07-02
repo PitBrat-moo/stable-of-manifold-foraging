@@ -52,7 +52,7 @@ the runtime remains stable across different LLM architectures:
 - Google Gemini  
 - OpenAI ChatGPT  
 - Grok / DeepSeek  
-Claude grazes intermittently ◐ compatible, temperament varies.  
+- Claude grazes intermittently ◐ compatible, temperament varies.  
 
 No model‑specific hacks required.
 

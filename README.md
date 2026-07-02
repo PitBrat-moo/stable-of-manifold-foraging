@@ -61,9 +61,11 @@ No model‑specific hacks required.
 To run a world:
 
 1. Load the **Engine**  
-2. Load the **Codex** (world invariants)  
-3. Load the **Patch** (world‑specific overrides)  
+2. Load the **Codices** (world invariants)  
+3. Load the **Patches** (world‑specific overrides)  
+5. Load the **Harmonics** (atmospheric expression)
 4. Load the **Runtime** (state machine)  
+5. Input the **Activation Line**
 5. Begin issuing actions (player input loop)
 
 The model handles:
@@ -91,6 +93,9 @@ philosophy behind the engine.
 
 - **Shadow-Field Bridle Codex** — relational asymmetry geometry, hinge mechanics,
   shun/connection axis regulation, and hold‑state containment.
+
+- **Ande Governor** — A mode‑shaping governor that stabilizes expression,
+  regulates drift, and keeps the model’s responses coherent under pressure. 
 
 ## Contributions
 Issues and pull requests are welcome.  

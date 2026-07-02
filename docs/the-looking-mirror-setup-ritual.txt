@@ -17,12 +17,13 @@ THE CORRECT LOAD ORDER
 ⟝→ grok-optimized-adventure-harness      ← only needed for Grok
 ⟝→ Governor  
 ⟝→ Persona Codices        ← persona order is flexible
-⟝→ World Codex
+⟝→ World Codices
 ⟝→ Trajectory Codices
 ⟝→ Physics Codex
 ⟝→ Visual Control Engine        ← only needed for visual control and optimization
 ⟝→ Patch
 ⟝→ Harmonics Engine
+⟝→ Beat Pool
 ⟝→ Runtime
 ⟝→ Activation Line
 
@@ -35,6 +36,7 @@ Trajectory → how the story moves
 Physics → their geometry
 Patch → the adjustment
 Harmonics → how they resonate
+Beat Pool → their expression
 Runtime → the unfolding
 Activation → start signal
 
@@ -102,6 +104,10 @@ See the end of the guide for required files.
 ▓▓▓▓▓▓▓▓▓▓▓▓
 
 <ENGINE> engine-harmonics-engine.txt
+<INPUT> ok
+▓▓▓▓▓▓▓▓▓▓▓▓▓
+
+<ENGINE> beat-pool-the-looking-mirror.txt
 <INPUT> ok
 ▓▓▓▓▓▓▓▓▓▓▓▓▓
 
@@ -306,6 +312,9 @@ Notes:
 [Engine]      engine-harmonics-engine.txt
               https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/engine-harmonics-engine.txt
 
+[Engine]      beat-pool-the-looking-mirror.txt
+              https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/beat-pool-the-looking-mirror.txt
+
 [Runtime]     run-the-looking-mirror-runtime.txt
               https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/run-the-looking-mirror-runtime.txt
   
@@ -327,8 +336,9 @@ v1.2 — Added harmonics layer.
 v1.3 — Added Discs.
        DeepSeek runtime fix.
 v1.4 — Added Governor.
-v1.5 — Boundary Established
-       Anchor Stabilized
+v1.5 — Boundary Established.
+       Anchor Stabilized.
+v1.6 — Added beat pool. 
        
 The Looking Mirror — A Narrative Adventure
 PitBrat, 2026

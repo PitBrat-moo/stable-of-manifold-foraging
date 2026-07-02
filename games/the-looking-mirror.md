@@ -96,15 +96,13 @@ The setup ritual is real. Follow the rhythm, savor the anticipation, and expect 
 - Added discs.  
 - DeepSeek runtime fix.
 
-**v1.4**
-- Added Governor.  
+**v1.4** — Added Governor.  
 
 **v1.5**
 - Boundary Established.
 - Anchor Stabilized.
 
-**v1.6**
-- Added beat pool.
+**v1.6** — Added beat pool.
 
 ## About
 **The Looking Mirror — A Narrative Adventure**  

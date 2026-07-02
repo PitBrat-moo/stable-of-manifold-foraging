@@ -63,7 +63,10 @@ The setup ritual is real. Follow the rhythm, savor the anticipation, and expect 
 
 - engine-harmonics-engine.txt      
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/engine-harmonics-engine.txt      
-  
+    
+- beat-pool-the-looking-mirror.txt
+  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/beat-pool-the-looking-mirror.txt        
+        
 - run-the-looking-mirror-runtime.txt  
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/run-the-looking-mirror-runtime.txt
 
@@ -97,8 +100,11 @@ The setup ritual is real. Follow the rhythm, savor the anticipation, and expect 
 - Added Governor.  
 
 **v1.5**
-- Boundary Established
-- Anchor Stabilized
+- Boundary Established.
+- Anchor Stabilized.
+
+**v1.6**
+- Added beat pool.
 
 ## About
 **The Looking Mirror — A Narrative Adventure**  

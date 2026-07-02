@@ -48,10 +48,11 @@ Patches are modular, versioned, and portable across models.
 Because the system conditions **semantic pressure** rather than syntax,  
 the runtime remains stable across different LLM architectures:
 
-- Microsoft Copilot   
+- Microsoft Copilot  
 - Google Gemini  
 - OpenAI ChatGPT  
 - Grok / DeepSeek  
+Claude grazes intermittently ◐ compatible, temperament varies.  
 
 No model‑specific hacks required.
 

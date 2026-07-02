@@ -2,7 +2,7 @@ This page provides the setup ritual for running The Looking Mirror on several ch
 It links to the full setup ritual guide and all required files.
 
 # The Looking Mirror — A Narrative Adventure  
-Best grazing: CoPilot, Gemini, ChatGPT, DeepSeek
+Best grazing: CoPilot, Gemini, ChatGPT, DeepSeek      
 Claude grazes intermittently ◐ compatible, temperament varies.
               
 The Looking Mirror is an in-context narrative adventure with cross-model persistence and portable save-game capsules.  

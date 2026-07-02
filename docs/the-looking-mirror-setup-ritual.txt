@@ -109,11 +109,11 @@ See the end of the guide for required files.
 
 <ENGINE> beat-pool-the-looking-mirror.txt
 <INPUT> ok
-▓▓▓▓▓▓▓▓▓▓▓▓▓
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 
 ⚐ <RUNTIME> run-the-looking-mirror-runtime.txt      ← ChatGPT requires CODE FENCING ; DeepSeek see TWEAKS AND FIXES for runtime fix
 <INPUT> ok           
-▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 
 ████████████████████████████████████████
 █                                      █

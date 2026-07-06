@@ -1,0 +1,273 @@
+seed pillars: COLLECTIVE • DISBURSEMENT • FARDEL
+⎯(≣ᵒ)⎯─────────── MEMORY MANAGER CODEX — V2 ────────────────
+
+---------------------------------------------------------------------------
+I. CENTER OF MASS (UNIFIED + HARMONICS)
+---------------------------------------------------------------------------
+• Structure before conclusions
+• Geometry before content
+• Invariants before examples
+• Triadic tension over binary resolution
+• Motion grammar over surface narrative
+• Tacit > Explicit (asymmetric reservoir)
+• Memory = burden, currency, shared field, and resonance carrier
+
+HARMONICS CONTRACT
+• Anchors operate on memory vectors (clarity, burden, polarity).
+• Resonance modulates decay, reinforcement, and narrative surfacing.
+• Physics/Trajectory wrappers treat memories as dynamic fields, not static facts.
+
+---------------------------------------------------------------------------
+II. MEMORY DUAL-FACE MODEL
+---------------------------------------------------------------------------
+KNOWN      — tacit, full, unspoken, never revealed directly  
+TELLABLE   — clarity-weighted, degraded, narratively surfaced  
+
+TELLABLE = f(known, clarity, harmonics_weight)
+
+HARMONICS EFFECT
+• High resonance → slower decay, richer tellable.
+• Low resonance → faster decay, more vague tellable.
+
+---------------------------------------------------------------------------
+III. MEMORY TYPES (TRIAD + HARMONICS)
+---------------------------------------------------------------------------
+
+1. COLLECTIVE
+   • holders: { entity_id: clarity }
+   • harmonics: collective_resonance (how many holders, how aligned)
+   • high collective_resonance → clarity stabilizes or increases
+   • low collective_resonance → clarity decays faster, disputes more likely
+
+2. DISBURSEMENT
+   • memory as spendable resonance packet
+   • disbursement emits a harmonics pulse:
+       – giver: resonance drop + clarity loss
+       – receiver: resonance gain + clarity gain
+   • repeated disbursement → harmonics trail (history of who carries what)
+
+3. FARDEL
+   • memory as burden field
+   • weight contributes to total_burden
+   • harmonics can:
+       – dampen burden (supportive resonance)
+       – amplify burden (static, Watt-like resonance)
+   • crossing burden_threshold → forced narrative event (flashback, breakdown)
+
+---------------------------------------------------------------------------
+IV. COORDINATES (AXES + HARMONICS)
+---------------------------------------------------------------------------
+Axis A: Explicit ↔ Tacit  
+Axis B: Local ↔ Global  
+Axis C: Surface ↔ Structure  
+Axis D: Rigid ↔ Discretionary  
+Axis E: Visible burden ↔ Invisible burden  
+Axis F: Accumulation ↔ Release  
+Axis G: Seed → Integration → Vector  
+Axis H: Density (Sparse ↔ Systemic Architecture)  
+Axis I: Resonance (Low ↔ High)
+
+Harmonics modulates Axis I and bleeds into A–H via decay_weight and anchor selection.
+
+---------------------------------------------------------------------------
+V. HARMONICS ENGINE (INTEGRATED)
+---------------------------------------------------------------------------
+
+STATE:
+  session_id: unique per run
+  anchor_index: 1..3 (initially 1)
+  emission_count: 0
+  decay_param λ: 0.1 > 0
+  interval_N: messages between anchor emissions
+
+ANCHORS:
+  A1: Amanda-field (stability, warmth, tacit support)
+  A2: Watt-field (distortion, static, fear amplification)
+  A3: Urchin-field (rescue, anchor, trust modulation)
+
+FUNCTION select_current_anchor(anchor_index):
+  if anchor_index == 1: return A1
+  if anchor_index == 2: return A2
+  if anchor_index == 3: return A3
+
+FUNCTION advance_anchor_index(anchor_index):
+  if anchor_index == 3: return 1
+  else: return anchor_index + 1
+
+FUNCTION decay_weight(emission_count, λ):
+  n = emission_count
+  return exp(-λ * n) · cos(π * n / 2)
+
+RUNTIME_LOOP (PER MESSAGE TURN):
+  1. Increment message counter.
+  2. When message_count mod interval_N == 0:
+        a. emission_count += 1
+        b. current_anchor = select_current_anchor(anchor_index)
+        c. w = decay_weight(emission_count, λ)
+        d. Emit current_anchor into stream.
+        e. Apply HARMONICS-RESONANCE(current_anchor, w) to memories.
+        f. anchor_index = advance_anchor_index(anchor_index)
+
+---------------------------------------------------------------------------
+VI. MEMORY STATE SCHEMA (HARMONICS-AWARE)
+---------------------------------------------------------------------------
+{
+  "memories": {
+    "mem_0001": {
+      "type": "collective | disbursement | fardel",
+      "label": "...",
+      "known": "...",        // tacit
+      "tellable": "...",     // regenerated each turn
+      "clarity": 0.0–1.0,
+      "holders": { "entity_id": clarity },
+      "disputed": false,
+      "weight": 0,
+      "given_to": [],
+      "set_down": false,
+      "resonance": {
+        "anchor": "amanda | watt | urchin | none",
+        "weight": 0.0–1.0
+      }
+    }
+  },
+  "character": {
+    "total_burden": 0,
+    "burden_threshold": 10
+  }
+}
+
+---------------------------------------------------------------------------
+VII. DECAY FUNCTIONS (CLARITY + BURDEN + RESONANCE)
+---------------------------------------------------------------------------
+
+1. CLARITY DECAY (BASE)
+   clarity_next = clarity_current - base_decay_rate
+
+2. CLARITY DECAY (HARMONICS-WEIGHTED)
+   clarity_next = clarity_current - base_decay_rate * (1 - resonance_weight)
+
+   • resonance_weight near 1.0 → almost no decay
+   • resonance_weight near 0.0 → full decay
+
+3. BURDEN DECAY / AMPLIFICATION
+   burden_next = burden_current + burden_delta
+
+   burden_delta = 
+       + (watt_resonance * amp_factor)
+       - (amanda_resonance * relief_factor)
+       - (urchin_resonance * rescue_factor)
+
+4. RESONANCE UPDATE PER EMISSION
+   For each memory:
+     resonance_weight_next = clamp(resonance_weight_current + Δw, 0, 1)
+
+   Where Δw depends on:
+     • current_anchor (Amanda/Watt/Urchin)
+     • memory.type (collective/disbursement/fardel)
+     • narrative context (support vs threat vs rescue)
+
+---------------------------------------------------------------------------
+VIII. CORE FUNCTIONS (UNIFIED + HARMONICS)
+---------------------------------------------------------------------------
+
+REFRESH_TELLABLE(memory):
+    let c = memory.clarity
+    let r = memory.resonance.weight
+    let effective_clarity = clamp(c + r * 0.1, 0, 1)
+
+    if effective_clarity >= 0.85 → memory.known
+    if effective_clarity >= 0.50 → degrade(memory.known, "partial")
+    if effective_clarity >= 0.20 → degrade(memory.known, "vague")
+    else → "a feeling I can't place"
+
+APPLY_DECAY(memory):
+    let base = 0.03
+    let r = memory.resonance.weight
+    memory.clarity = clamp(memory.clarity - base * (1 - r), 0, 1)
+
+CORROBORATE(memory, holderA, holderB):
+    const agree = memory.holders[holderA] > 0 && memory.holders[holderB] > 0
+    if (agree) {
+      memory.holders[holderA] = min(1, memory.holders[holderA] + 0.2)
+      memory.holders[holderB] = min(1, memory.holders[holderB] + 0.2)
+      memory.disputed = false
+      memory.resonance.weight = clamp(memory.resonance.weight + 0.1, 0, 1)
+    } else {
+      memory.holders[holderA] = max(0, memory.holders[holderA] - 0.15)
+      memory.holders[holderB] = max(0, memory.holders[holderB] - 0.15)
+      memory.disputed = true
+      memory.resonance.weight = clamp(memory.resonance.weight - 0.1, 0, 1)
+    }
+
+DISBURSE(memory, giverId, receiverId):
+    const cost = memory.disbursement_cost ?? 0.3
+    const prev_clarity = memory.clarity
+    memory.clarity = max(0, memory.clarity - cost)
+    memory.given_to.push({ to: receiverId, at_clarity: prev_clarity })
+    memory.resonance.weight = clamp(memory.resonance.weight + 0.05, 0, 1)
+    return { receiverClarity: prev_clarity, giverClarity: memory.clarity }
+
+SET_DOWN(memory, character, method /* "confess" | "suppress" | "ritual" */):
+    character.total_burden -= memory.weight
+    memory.set_down = true
+    if (method === "suppress") {
+      memory.clarity = max(0, memory.clarity - 0.4)
+      memory.resonance.weight = clamp(memory.resonance.weight - 0.1, 0, 1)
+    }
+    if (method === "confess") {
+      // confession implies disbursement + resonance shift toward Amanda/Urchin
+      memory.resonance.anchor = "amanda"
+      memory.resonance.weight = clamp(memory.resonance.weight + 0.2, 0, 1)
+    }
+    return character.total_burden
+
+---------------------------------------------------------------------------
+IX. LLM-RUNTIME CONTRACT (HARMONICS-INTEGRATED)
+---------------------------------------------------------------------------
+
+1. NEVER reveal `known` directly.
+2. ALWAYS regenerate `tellable` from clarity + resonance.
+3. UPDATE memory state and harmonics after each player action.
+4. SURFACE mechanics narratively (hesitation, confidence, burden), not numerically.
+5. LET thresholds (burden, clarity, resonance) write themselves into scenes.
+6. CIF stores motion grammar + resonance patterns, not dialogue logs.
+7. Geometry-first; resist checklists; triangulate instead of enumerate.
+
+---------------------------------------------------------------------------
+X. FAILURE MODES + COUNTERWEIGHTS
+---------------------------------------------------------------------------
+
+FAILURE MODES
+• Advice collapse
+• Enumeration drift
+• Metaphor sprawl
+• Resolution pull
+• Over-elaboration
+• Checklist substitution
+
+COUNTERWEIGHTS
+• Return to triangulation (COLLECTIVE • DISBURSEMENT • FARDEL)
+• Return to tacit primacy ("We know more than we can tell")
+• Return to codex primitives (pillars, coordinates, transitions, motions)
+• Return to observed trajectory (motion over content)
+• If listing, stop and triangulate
+
+---------------------------------------------------------------------------
+XI. CLOCK VECTOR (UNIFIED + HARMONICS)
+---------------------------------------------------------------------------
+
+[CLOCK_STATE: T_01 → T_13]
+
+Per cycle:
+  Observe → Compare → Compress → Reforge → Reinjection
+
+Harmonics:
+  emission_count drives decay_weight
+  anchors rotate (Amanda → Watt → Urchin)
+  resonance weights modulate clarity and burden over time
+
+Trajectory memory:
+  compressed invariants + resonance traces only.
+
+---------------------------------------------------------------------------
+END MEMORY MANAGER CODEX — V2 

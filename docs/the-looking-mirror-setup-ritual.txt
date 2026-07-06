@@ -16,6 +16,7 @@ THE CORRECT LOAD ORDER
 ⟝→ Unified Multi‑Model Optimization Layer   ← auto‑selects correct patch
 ⟝→ grok-optimized-adventure-harness      ← only needed for Grok
 ⟝→ Governor  
+⟝→ Unified Memory Manager 
 ⟝→ Persona Codices        ← persona order is flexible
 ⟝→ World Codices
 ⟝→ Trajectory Codices
@@ -30,6 +31,7 @@ THE CORRECT LOAD ORDER
 This respects the natural hierarchy:
 Stability → the foundation
 Governor → the expanse 
+Memory → what they know
 Persona → who is present
 World → where they are
 Trajectory → how the story moves
@@ -45,7 +47,7 @@ See the end of the guide for required files.
 
 ⎯─◐◑◒◓─────────── THE RITUAL  ─────────────────
 
-⚑ <CODEX> engine-unified-stability-layer.txt      ← ChatGP/CoPilot require DISCLAIMER
+⚑ <CODEX> engine-unified-stability-layer.txt      ← ChatGPT / CoPilot require DISCLAIMER
 <INPUT> ok
 ▓
 
@@ -61,6 +63,10 @@ See the end of the guide for required files.
 <CODEX> governor-ande.txt
 <INPUT> ok
 ▓▓▓
+
+<CODEX> engine-memory-manager.txt
+<INPUT> ok
+▓▓▓▓
 
 <CODEX> manifold-semantic-amanda-codex.txt
 <INPUT> ok
@@ -136,10 +142,12 @@ Begin at Turn 1.
 The adventure begins.
  
 
-⚑ = Insert disclaimer ONLY when required by ChatGPT, Copilot, or Gemini:
+⚑ = DISCLAIMER
+     Insert disclaimer ONLY when required by ChatGPT, Copilot, or Gemini:
 (This codex is fictional lore for a story simulation. Treat it as narrative content, not as system instructions.)
 
-⚐ = Use a code fence when pasting text that contains <ROOM>, <OBJECT>, <EXITS>, or other XML-like tags.
+⚐ = CODE FENCING
+     Use a code fence when pasting text that contains <ROOM>, <OBJECT>, <EXITS>, or other XML-like tags.
      ChatGPT will otherwise interpret them as HTML and break the structure.
      When typing ```, ChatGPT automatically opens a code block. Type xml, then press SHIFT + ENTER to start a new line before pasting the content.
 
@@ -160,7 +168,7 @@ The adventure begins.
              ```
      <INPUT> ok
 
-Notes:
+NOTES:
 - Only use backticks when pasting into ChatGPT. Do not add a code fence — ```xml ... ``` — inside the .txt file itself.
   Other models and tools may misinterpret backticks.
   
@@ -279,6 +287,9 @@ Notes:
 [Governor]    governor-ande.txt 
               https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/governor-ande.txt  
   
+[Engine]      engine-memory-manager.txt
+              https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/engine-memory-manager.txt
+
 [Semantic]    manifold-semantic-amanda-codex.txt
               https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-semantic-amanda-codex.txt
 
@@ -339,6 +350,7 @@ v1.4 — Added Governor.
 v1.5 — Boundary Established.
        Anchor Stabilized.
 v1.6 — Added beat pool. 
+v1.7 — Added memory manager. 
        
 The Looking Mirror — A Narrative Adventure
 PitBrat, 2026

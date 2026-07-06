@@ -9,7 +9,7 @@ The Looking Mirror is an in-context narrative adventure with cross-model persist
 ⎯─◐◑◒◓─────────── THE INITIATION ─────────────────
 To start the game in any chat-model, drop in a single codex and press enter. 
 On the next turn, input OK and press enter. 
-Once all codicies are loaded, input the activation line, then the runtime, and finally OK to begin.
+Once all codicies and the runtime are loaded, input the activation line to begin.
 
 THE CORRECT LOAD ORDER
 ⟝→ Unified Stability Layer

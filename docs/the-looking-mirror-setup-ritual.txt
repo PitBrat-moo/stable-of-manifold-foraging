@@ -70,56 +70,56 @@ See the end of the guide for required files.
 
 <CODEX> manifold-semantic-amanda-codex.txt
 <INPUT> ok
-▓▓▓▓
+▓▓▓▓▓
 
 <CODEX> manifold-semantic-doctor-watt-codex.txt
 <INPUT> ok
-▓▓▓▓▓
+▓▓▓▓▓▓
 
 <CODEX> manifold-semantic-the-urchin-codex.txt
 <INPUT> ok
-▓▓▓▓▓▓
+▓▓▓▓▓▓▓
 
 <CODEX> manifold-world-the-dome-codex.txt
 <INPUT> ok
-▓▓▓▓▓▓▓
+▓▓▓▓▓▓▓▓
 
 <CODEX> engine-physics-architecture.txt
 <INPUT> ok
-▓▓▓▓▓▓▓▓
+▓▓▓▓▓▓▓▓▓
 
 <CODEX> manifold-trajectory-tabula-rasa-codex.txt
 <INPUT> ok
-▓▓▓▓▓▓▓▓▓
+▓▓▓▓▓▓▓▓▓▓
 
 <CODEX> manifold-trajectory-the-journey-codex.txt
 <INPUT> ok
-▓▓▓▓▓▓▓▓▓▓
+▓▓▓▓▓▓▓▓▓▓▓
 
 <CODEX> manifold-physics-forces-fields-codex.txt
 <INPUT> ok
-▓▓▓▓▓▓▓▓▓▓▓
+▓▓▓▓▓▓▓▓▓▓▓▓
 
 (Optional visual control)
    ⚑ <CODEX> engine-visual-optimization-layer.txt      ← ChatGPT requires DISCLAIMER
    <INPUT> ok
-▓▓▓▓▓▓▓▓▓▓▓▓
+▓▓▓▓▓▓▓▓▓▓▓▓▓
 
 <PATCH> patch-the-looking-mirror.txt
 <INPUT> ok
-▓▓▓▓▓▓▓▓▓▓▓▓
+▓▓▓▓▓▓▓▓▓▓▓▓▓
 
 <ENGINE> engine-harmonics-engine.txt
 <INPUT> ok
-▓▓▓▓▓▓▓▓▓▓▓▓▓
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 
 <ENGINE> beat-pool-the-looking-mirror.txt
 <INPUT> ok
-▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 
 ⚐ <RUNTIME> run-the-looking-mirror-runtime.txt      ← ChatGPT requires CODE FENCING ; DeepSeek see TWEAKS AND FIXES for runtime fix
 <INPUT> ok           
-▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 
 ████████████████████████████████████████
 █                                      █

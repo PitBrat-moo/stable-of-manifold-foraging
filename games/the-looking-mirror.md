@@ -30,7 +30,10 @@ The setup ritual is real. Follow the rhythm, savor the anticipation, and expect 
 
 - governor-ande.txt      
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/governor-ande.txt      
-      
+
+- engine-memory-manager.txt      
+  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/engine-memory-manager.txt      
+        
 - manifold-semantic-amanda-codex.txt  
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-semantic-amanda-codex.txt
 
@@ -103,6 +106,8 @@ The setup ritual is real. Follow the rhythm, savor the anticipation, and expect 
 - Anchor Stabilized.
 
 **v1.6** — Added beat pool.
+
+**v1.7** — Added memory manager.
 
 ## About
 **The Looking Mirror — A Narrative Adventure**  

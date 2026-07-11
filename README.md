@@ -60,13 +60,16 @@ No model‑specific hacks required.
 
 To run a world:
 
-1. Load the **Engine**  
-2. Load the **Codices** (world invariants)  
-3. Load the **Patches** (world‑specific overrides)  
-5. Load the **Harmonics** (atmospheric expression)
-4. Load the **Runtime** (state machine)  
-5. Input the **Activation Line**
-5. Begin issuing actions (player input loop)
+1. Load the **Engine** 
+2. Load the **Governor** (Stability)
+3. Load the **Unified Memory Manager** (Retention)
+4. Load the **Codices** (world invariants)  
+5. Load the **Patches** (world‑specific overrides)  
+6. Load the **Harmonics** (atmospheric expression)
+7. Load the **Beat Pool** (micro-adjustments)
+8. Load the **Runtime** (state machine)  
+9. Input the **Activation Line**
+10. Begin issuing actions (player input loop)
 
 The model handles:
 
@@ -86,21 +89,26 @@ These are not required to run the runtime, but they inform the design
 philosophy behind the engine.
 
 - **Hanoi Deduplication Codex** — adjacency‑preserving hollowing,
-  ring‑as‑record compression, and ephemeral‑core geometry.
-
+  ring‑as‑record compression, and ephemeral‑core geometry.      
+  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/codex/hanoi-deduplication.txt      
+      
 - **Baron Codex** — curvature normalization, laminar‑flow
-  pauses, interpretive‑bloom suppression, and triptych‑frame alignment.
-
+  pauses, interpretive‑bloom suppression, and triptych‑frame alignment.      
+  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-diagnostic-semantic-baron-codex.txt      
+        
 - **Shadow-Field Bridle Codex** — relational asymmetry geometry, hinge mechanics,
-  shun/connection axis regulation, and hold‑state containment.
-
+  shun/connection axis regulation, and hold‑state containment.      
+  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-shadow-field-bridle-codex.txt      
+      
 - **Ande Governor** — A mode‑shaping governor that stabilizes expression,
-  regulates drift, and keeps the model’s responses coherent under pressure. 
-
+  regulates drift, and keeps the model’s responses coherent under pressure.      
+  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-persona-system.txt      
+      
 - **Forge Codex** — An external translation engine.
   The core specification is open-source (V1), advanced engines (V5+) utilize private algorithms.
-  For basic session restoration, the public V1 layer is sufficient.
-
+  For basic session restoration, the public V1 layer is sufficient.      
+  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/codex/forge-codex.txt      
+      
 ## Contributions
 Issues and pull requests are welcome.  
 Please follow the same standards of clarity, modularity, and reproducibility.

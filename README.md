@@ -81,6 +81,16 @@ The model handles:
 
 No additional scaffolding is required.
 
+## 🐄 Games ##
+
+- **Amanda and the Magic Shop** — A narrative system in one codex for threshold crossings, 
+  object‑based transformation, and continuity through transfer.      
+  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/games/amanda-and-the-magic-shop.md      
+      
+- **The Looking Mirror** — A fully in-context narrative simulation comprised of layered condices 
+  with physics, harmonics, scar retention and serialized save-game capsules.       
+  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/games/the-looking-mirror.md      
+        
 ## 📚 Research Codices (Advanced)
 
 This repository also contains optional research codices that explore

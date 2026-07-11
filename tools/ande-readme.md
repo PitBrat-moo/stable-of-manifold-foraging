@@ -34,8 +34,8 @@ Start a fresh session and input:
 2. \<INPUT\> ok
 
 ***Note***:
-- Some models (CoPilot) require a prompt to adopt the full ANDE system, 
-  \<INPUT\> Adopt ANDE for this session.
+- Some models (CoPilot) require a prompt to adopt the full ANDE system,     
+  \<INPUT\> Adopt ANDE for this session.      
 
 ---
 

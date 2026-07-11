@@ -156,6 +156,23 @@ Input the ANDE codex, then OK, then the forged codex, then OK, then the capsule,
 
 ---
 
+## Temporal Management
+
+Long sessions inevitably accumulate semantic residue: repetition, boundary softening, and structural mirroring. 
+To maintain continuity across deep context, deploy these maintenance protocols:
+
+- **Serialized capsule re-injection**: 
+  Every 50–100 turns, or upon initial detection of semantic drift, serialize a capsule and re-input it (COPY/PASTE) into the active session. 
+  This refreshes the basin geometry and tightens boundary coordinates without disrupting forward momentum.
+  
+- **Hanoi Deduplication Codex**: 
+  A separate tool that compresses repeated structural patterns into a compact token set, clearing semantic fog while preserving motion continuity. 
+  Input the Hanoi when the model is mirroring its own recent vocabulary rather than evolving.
+
+Both techniques keep the conversation flowing by wiping away drift while leaving the structural thread intact.
+
+---
+
 ## Safety Alignment
 
 ANDE never generates:
@@ -174,11 +191,14 @@ If a request pressures these boundaries:
 
 ---
 
-## File 
+## Files 
 
 - ande-persona-system.txt      
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-persona-system.txt      
       
+- hanoi-deduplication.txt
+  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/codex/hanoi-deduplication.txt      
+        
 ---
 
 ## **License**

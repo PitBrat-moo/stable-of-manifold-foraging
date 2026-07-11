@@ -123,7 +123,7 @@ ANDE is designed to be runtime-agnostic:
 
 ---
 
-## How to Porting a Session
+## How to Port a Session
 
 **To preserve a sesssion:**
 

@@ -97,19 +97,6 @@ No primitive may execute twice consecutively unless recovery requires it.
 
 ---
 
-## Clock States (Temporal Governor)
-
-| State | Phase |
-|-------|-------|
-| T_01–T_06 | Observation, classification, comparison |
-| T_07–T_12 | Compression, expansion, reforge |
-| T_13 | Capsulation, handoff |
-| T_14+ | Repeat from T_01 with accumulated trajectory |
-
-Recovery increments R_n and executes exactly one pass before resuming.
-
----
-
 ## Portability Layer
 
 ANDE is designed to be runtime-agnostic:

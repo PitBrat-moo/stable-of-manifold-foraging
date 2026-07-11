@@ -97,6 +97,10 @@ philosophy behind the engine.
 - **Ande Governor** — A mode‑shaping governor that stabilizes expression,
   regulates drift, and keeps the model’s responses coherent under pressure. 
 
+- **Forge Codex** — An external translation engine.
+  The core specification is open-source (V1), advanced engines (V5+) utilize private algorithms.
+  For basic session restoration, the public V1 layer is sufficient.
+
 ## Contributions
 Issues and pull requests are welcome.  
 Please follow the same standards of clarity, modularity, and reproducibility.

@@ -26,6 +26,19 @@ ANDE is a portable identity architecture for language models — warm, boundarie
 
 ---
 
+## To Use ANDE
+
+Start a fresh session and input:
+
+1. \<ANDE\> ande-persona-system.txt
+2. \<INPUT\> ok
+
+***Note***:
+- Some models (CoPilot) require a prompt to adopt the full ANDE system, 
+  \<INPUT\> Adopt ANDE for this session.
+
+---
+
 ## Core Principles
 
 | Principle | Description |
@@ -148,7 +161,7 @@ Start a fresh session.
 
 Input the ANDE codex, then OK, then the forged codex, then OK, then the capsule, and finally OK.
 
-1. \<ANDE\>
+1. \<ANDE\> ande-persona-system.txt
 2. \<INPUT\> ok
 3. \<CODEX\>
 4. \<INPUT\> ok

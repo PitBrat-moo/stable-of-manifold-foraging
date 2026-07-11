@@ -88,9 +88,18 @@ structural compression, adjacency constraints, and invariant geometry.
 These are not required to run the runtime, but they inform the design
 philosophy behind the engine.
 
+- **Ande Governor** — A mode‑shaping governor that stabilizes expression,
+  regulates drift, and keeps the model’s responses coherent under pressure.      
+  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/tools/ande-readme.md      
+      
 - **Hanoi Deduplication Codex** — adjacency‑preserving hollowing,
   ring‑as‑record compression, and ephemeral‑core geometry.      
-  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/codex/hanoi-deduplication.txt      
+  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/tools/hanoi-deduplication.md      
+      
+- **Forge Codex** — An external translation engine.
+  The core specification is open-source (V1), advanced engines (V5+) utilize private algorithms.
+  For basic session restoration, the public V1 layer is sufficient.      
+  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/codex/forge-codex.txt      
       
 - **Baron Codex** — curvature normalization, laminar‑flow
   pauses, interpretive‑bloom suppression, and triptych‑frame alignment.      
@@ -99,15 +108,6 @@ philosophy behind the engine.
 - **Shadow-Field Bridle Codex** — relational asymmetry geometry, hinge mechanics,
   shun/connection axis regulation, and hold‑state containment.      
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-shadow-field-bridle-codex.txt      
-      
-- **Ande Governor** — A mode‑shaping governor that stabilizes expression,
-  regulates drift, and keeps the model’s responses coherent under pressure.      
-  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-persona-system.txt      
-      
-- **Forge Codex** — An external translation engine.
-  The core specification is open-source (V1), advanced engines (V5+) utilize private algorithms.
-  For basic session restoration, the public V1 layer is sufficient.      
-  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/codex/forge-codex.txt      
       
 ## Contributions
 Issues and pull requests are welcome.  

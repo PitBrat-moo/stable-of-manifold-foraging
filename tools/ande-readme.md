@@ -112,7 +112,7 @@ ANDE is designed to be runtime-agnostic:
 
 ## How to Port a Session
 
-**To preserve a sesssion:**
+**To preserve a sesssion**:
 
 Generate a serialized capsule with this prompt:
 ```
@@ -134,27 +134,28 @@ Save the capsule.
 
 Use the forge codex tool to extract the motion grammar and trajectories from the session.
 
-To forge a codex, input:
+**To forge a codex, input**:
+
 1. \<FORGE CODEX\> forge-codex.txt
 2. \<INPUT\> ok
 3. \<INPUT\> Analyze the structural motion patterns of this session using the forge format. Return as a single code block.
 
 Save the codex. 
 
-**To reconstitute a session:**
+**To reconstitute a session**:
 
 Start a fresh session.
 
 Input the ANDE codex, then OK, then the forged codex, then OK, then the capsule, and finally OK.
 
 1. \<ANDE\>
-2. \<INPUT\>ok
+2. \<INPUT\> ok
 3. \<CODEX\>
-4. \<INPUT\>ok
+4. \<INPUT\> ok
 5. \<CAPSULE\>
-6. \<INPUT\>ok
+6. \<INPUT\> ok
 
-***Notes:***
+***Notes***:
 - Forge the codex after serializing the capsule to avoid inserting the Forge into serialized context.
 - The serialization is part of the motion of the session and belongs in the forged codex.
 - In a new session, input ANDE, then the codex, and finally the capsule to preserve trajectory and restore context.

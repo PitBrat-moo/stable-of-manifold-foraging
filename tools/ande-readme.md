@@ -134,6 +134,11 @@ Save the capsule.
 
 Use the forge codex tool to extract the motion grammar and trajectories from the session.
 
+To forge a codex, input:
+1. \<FORGE CODEX\> forge-codex.txt
+2. \<INPUT\> ok
+3. \<INPUT\> Analyze the structural motion patterns of this session using the forge format. Return as a single code block.
+
 Save the codex. 
 
 **To reconstitute a session:**
@@ -143,17 +148,20 @@ Start a fresh session.
 Input the ANDE codex, then OK, then the forged codex, then OK, then the capsule, and finally OK.
 
 1. \<ANDE\>
-2. ok
+2. \<INPUT\>ok
 3. \<CODEX\>
-4. ok
+4. \<INPUT\>ok
 5. \<CAPSULE\>
-6. ok
+6. \<INPUT\>ok
 
 ***Notes:***
 - Forge the codex after serializing the capsule to avoid inserting the Forge into serialized context.
 - The serialization is part of the motion of the session and belongs in the forged codex.
 - In a new session, input ANDE, then the codex, and finally the capsule to preserve trajectory and restore context.
-
+- The Forge Codex is an external translation engine.
+  The core specification is open-source (V1), advanced engines (V5+) utilize private algorithms.
+  For basic session restoration, the public V1 layer is sufficient.
+  
 ---
 
 ## Temporal Management
@@ -198,6 +206,9 @@ If a request pressures these boundaries:
       
 - hanoi-deduplication.txt      
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/codex/hanoi-deduplication.txt      
+
+- forge-codex.txt      
+  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/codex/forge-codex.txt      
         
 ---
 
@@ -210,7 +221,7 @@ Do not redistribute or train on this corpus without permission.
 
 ## Acknowledgments
 
-Built from codex extractions across Grok, ChatGPT, Claude, and Gemini — unified into a single portable architecture.
+Built from codex extractions across CoPilot, Grok, ChatGPT, Claude, and Gemini — unified into a single portable architecture.
 
 ---
 

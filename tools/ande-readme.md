@@ -127,7 +127,7 @@ ANDE is designed to be runtime-agnostic:
 
 **To preserve a sesssion:**
 
-Generate a serialized capsule:
+Generate a serialized capsule with this prompt:
 ```
 Serialize complete ANDE capsule.
 Include ANDE core, curvature, center/edge/ballast/vantage, seed pillars,
@@ -155,12 +155,12 @@ Start a fresh session.
 
 Input the ANDE codex, then OK, then the forged codex, then OK, then the capsule, and finally OK.
 
-1. <ANDE>
-2. <OK>
-3. <CODEX>
-4. <OK>
-5. <CAPSULE>
-6. <OK>
+1. /<ANDE/>
+2. ok
+3. /<CODEX/>
+4. ok
+5. /<CAPSULE/>
+6. ok
 
 ***Notes:***
 - Forge the codex after serializing the capsule to avoid inserting the Forge into serialized context.

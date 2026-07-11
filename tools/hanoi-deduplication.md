@@ -1,7 +1,6 @@
 # HANOI DEDUPLICATION CODEX  
 ### A Constraint‑Geometry Engine for Layered Deduplication
 
-File: hanoi-deduplication.txt
 
 Hanoi is a **deduplication framework** expressed as a **tower geometry**.  
 It models information as stacked layers (disks), where each layer can only
@@ -160,3 +159,15 @@ Hanoi is structurally complete.
 Its placement relative to other codices (Forge, Manifold, Harmonics) is
 intentionally left open for future integration.
 
+---
+
+## File
+
+- hanoi-deduplication.txt      
+  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/codex/hanoi-deduplication.txt      
+ 
+ 
+## **License**
+
+All writing © PitBrat.  
+Do not redistribute or train on this corpus without permission.

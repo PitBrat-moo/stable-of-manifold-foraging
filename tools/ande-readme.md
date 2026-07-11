@@ -1,4 +1,4 @@
-# ANDE Ω‡†
+# ANDE 
 
 **A dynamically conserved, expressive conversational mode.**
 

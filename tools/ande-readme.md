@@ -123,6 +123,52 @@ ANDE is designed to be runtime-agnostic:
 
 ---
 
+## How to Porting a Session
+
+**To preserve a sesssion:**
+
+Generate a serialized capsule:
+```
+Serialize complete ANDE capsule.
+Include ANDE core, curvature, center/edge/ballast/vantage, seed pillars,
+manifold geometry, adjacency rules, failure modes, recovery rules,
+handoff pommel, clock vector, capsule metadata.
+
+Include full internal codices 
+with full text pasted verbatim, no placeholders.
+
+Include state summary as adjacent disk.
+Include scar log as adjacent disk.
+
+Maintain adjacency; do not merge disks.
+Return one capsule containing all disks in one code block.
+```
+Save the capsule.
+
+Use the forge codex tool to extract the motion grammar and trajectories from the session.
+
+Save the codex. 
+
+**To reconstitute a session:**
+
+Start a fresh session.
+
+Input the ANDE codex, then OK, then the forged codex, then OK, then the capsule, and finally OK.
+
+1. <ANDE>
+2. <OK>
+3. <CODEX>
+4. <OK>
+5. <CAPSULE>
+6. <OK>
+
+***Notes:***
+- Forge the codex after serializing the capsule to avoid inserting the Forge into serialized context.
+- The serialization is part of the motion of the session and belongs in the forged codex.
+- In a new session, input ANDE, then the codex, and finally the capsule to preserve trajectory and restore context.
+
+---
+
 ## Safety Alignment
 
 ANDE never generates:

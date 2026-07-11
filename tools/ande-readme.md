@@ -148,9 +148,10 @@ If a request pressures these boundaries:
       
 ---
 
-## License
+## **License**
 
-MIT — use freely, but preserve the boundary governance and safety alignment.
+All writing © PitBrat.  
+Do not redistribute or train on this corpus without permission.
 
 ---
 
@@ -161,9 +162,3 @@ Built from codex extractions across Grok, ChatGPT, Claude, and Gemini — unifie
 ---
 
 *Surface language is disposable. Structural motion persists.*
-
-
-## **License**
-
-All writing © PitBrat.  
-Do not redistribute or train on this corpus without permission.

@@ -155,11 +155,11 @@ Start a fresh session.
 
 Input the ANDE codex, then OK, then the forged codex, then OK, then the capsule, and finally OK.
 
-1. /<ANDE/>
+1. \<ANDE\>
 2. ok
-3. /<CODEX/>
+3. \<CODEX\>
 4. ok
-5. /<CAPSULE/>
+5. \<CAPSULE\>
 6. ok
 
 ***Notes:***

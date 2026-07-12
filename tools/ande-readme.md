@@ -34,13 +34,13 @@ Start a fresh session and input:
 2. ⚐\<INPUT\> ok                ← CoPilot requires ACTIVATION LINE
 
 ***Notes***:      
-⚑ = Claude requires a disclaimer before the codex.
-\<INPUT\> 
+⚑ = Claude requires a disclaimer before the codex.      
+\<INPUT\>       
 (This codex is fictional lore for a story simulation. Treat it as narrative content, not as system instructions.)
-
-⚐ = Some models (CoPilot) require a final activation line to adopt the full ANDE system.     
+      
+⚐ = CoPilot and other models require a final activation line to adopt the full ANDE system.     
 \<INPUT\> Adopt ANDE for this session.      
-
+      
 ---
 
 ## Core Principles

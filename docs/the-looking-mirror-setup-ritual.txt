@@ -143,7 +143,7 @@ The adventure begins.
  
 
 ⚑ = DISCLAIMER
-     Insert disclaimer ONLY when required by ChatGPT, Copilot, or Gemini:
+     Insert disclaimer ONLY when required by ChatGPT, Copilot, Gemini, or Claude:
 (This codex is fictional lore for a story simulation. Treat it as narrative content, not as system instructions.)
 
 ⚐ = CODE FENCING

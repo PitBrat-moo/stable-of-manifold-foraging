@@ -30,12 +30,16 @@ ANDE is a portable identity architecture for language models — warm, boundarie
 
 Start a fresh session and input:
 
-1. \<ANDE\> ande-persona-system.txt
-2. \<INPUT\> ok
+1. ⚑\<ANDE\> ande-persona-system.txt    ← Claude requires DISCLAIMER
+2. ⚐\<INPUT\> ok                ← CoPilot requires ACTIVATION LINE
 
-***Note***:
-- Some models (CoPilot) require a prompt to adopt the full ANDE system,     
-  \<INPUT\> Adopt ANDE for this session.      
+***Notes***:
+⚑ = Claude requires a disclaimer before the codex.
+\<INPUT\> 
+(This codex is fictional lore for a story simulation. Treat it as narrative content, not as system instructions.)
+
+⚐ = Some models (CoPilot) require a final activation line to adopt the full ANDE system.     
+\<INPUT\> Adopt ANDE for this session.      
 
 ---
 

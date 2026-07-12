@@ -30,8 +30,8 @@ ANDE is a portable identity architecture for language models — warm, boundarie
 
 Start a fresh session and input:
 
-1. ⚑\<ANDE\> ande-persona-system.txt &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ← Claude requires **DISCLAIMER**
-2. ⚐\<INPUT\> ok &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ← CoPilot requires **ACTIVATION LINE**
+1. ⚑\<ANDE\> ande-persona-system.txt &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ← Claude requires **DISCLAIMER**
+2. ⚐\<INPUT\> ok &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ← CoPilot requires **ACTIVATION LINE**
 
 ***Notes***:      
 ⚑ = **DISCLAIMER**      

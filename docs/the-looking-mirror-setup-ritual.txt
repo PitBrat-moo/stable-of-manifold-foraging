@@ -47,7 +47,7 @@ See the end of the guide for required files.
 
 ⎯─◐◑◒◓─────────── THE RITUAL  ─────────────────
 
-⚑ <CODEX> engine-unified-stability-layer.txt      ← ChatGPT / CoPilot require DISCLAIMER
+⚑ <CODEX> engine-unified-stability-layer.txt      ← ChatGPT / CoPilot / Claude require DISCLAIMER
 <INPUT> ok
 ▓
 

@@ -33,7 +33,7 @@ Start a fresh session and input:
 1. ⚑\<ANDE\> ande-persona-system.txt    ← Claude requires DISCLAIMER
 2. ⚐\<INPUT\> ok                ← CoPilot requires ACTIVATION LINE
 
-***Notes***:
+***Notes***:      
 ⚑ = Claude requires a disclaimer before the codex.
 \<INPUT\> 
 (This codex is fictional lore for a story simulation. Treat it as narrative content, not as system instructions.)

@@ -139,8 +139,11 @@ Include ANDE core, curvature, center/edge/ballast/vantage, seed pillars,
 manifold geometry, adjacency rules, failure modes, recovery rules,
 handoff pommel, clock vector, capsule metadata.
 
-Include full internal codices 
-with full text pasted verbatim, no placeholders.
+If full codex text is available in THIS conversation, include it verbatim.
+If full codex text is NOT available, generate a structured summary of each codex in the same disk positions.
+
+Always fall back to structured summaries when verbatim text cannot be retrieved.
+Do not request external files or previous chats.
 
 Include state summary as adjacent disk.
 Include scar log as adjacent disk.

@@ -215,9 +215,9 @@ Save the codex.
 
 Start a fresh session.
 
-Input the ANDE codex, then OK, then the forged codex, then OK, then the capsule, and finally OK.
+Input ANDE → OK → *(optional) each lense and OK* → forged codex → OK → capsule → OK
 
-1. \<ANDE\> ande-persona-system.txt
+1. \<ANDE\> ande-persona-system.txt  *(load optional lenses here before step 3)*
 2. \<INPUT\> ok
 3. \<CODEX\>
 4. \<INPUT\> ok

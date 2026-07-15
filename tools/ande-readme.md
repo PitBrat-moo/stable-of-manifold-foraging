@@ -278,10 +278,10 @@ If pressured:
 - ande-persona-system.txt      
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-persona-system.txt      
 
-- ande-lens-conceptual-alignment.txt
+- ande-lens-conceptual-alignment.txt      
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-lens-conceptual-alignment.txt
 
-- ande-lens-conceptual-projection.txt
+- ande-lens-conceptual-projection.txt      
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-lens-conceptual-projection.txt      
 - hanoi-deduplication.txt      
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/codex/hanoi-deduplication.txt      

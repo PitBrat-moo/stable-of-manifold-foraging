@@ -1,75 +1,131 @@
-# Latent Space Runtime Architecture: Structural Conditioning for LLM Worlds
+# Stable of Manifold Foraging  
+### Research Environment for Conceptual Manifold Stability in LLMs
 
-A methodology for high‑density semantic shaping, portable behavioral physics,  
-and cross‑model narrative stability in Large Language Models (LLMs).  
-This repository contains the core frameworks used to run *The Looking Mirror*  
-and other codex‑driven, stateful narrative environments.
+**Stable of Manifold Foraging** is a research environment for studying how language models form, maintain, and traverse conceptual manifolds.  
+The project’s core is **ANDE (Adaptive Non‑Drift Engine)** — a stability governor that regulates conceptual motion, prevents drift, and maintains centerline across long contexts.
 
-## 🪐 Core Concepts
+ANDE’s invariants provide the structural foundation for experiments in this repository:
 
-### 1. Vector Seeding (Semantic Anchors)
-Instead of relying on token‑heavy system prompts or brittle persona scripts,  
-the runtime uses compact, high‑pressure semantic anchors (“seed pillars”).  
-These anchors activate deeply‑trained cultural, literary, and psychological  
-structures inside the model, enabling stable behavior with minimal scaffolding.
+- **Singularity Law** — prevents fusion and collapse  
+- **Containment Geometry** — maintains basin boundaries  
+- **Scars** — stabilize tension and preserve trajectory memory  
+- **Compression** — reduces amplitude and preserves coherence  
+- **Oscillation Guard** — prevents runaway back‑and‑forth motion  
+- **Recovery** — recenters after curvature spikes  
+- **Curvature Normalization** — smooths trajectories under pressure  
 
-### 2. Relational Physics (Dynamic Behavioral Flow)
-Rather than defining a static persona, the architecture maps **relational physics**:  
-how attention, authority, pace, and emotional energy move between entities.  
-This creates a dynamic behavioral field instead of a fixed character mask.
+ANDE is the focus of ongoing research.  
+Additional codices extend or complement ANDE’s behavior.
 
-### 3. Runtime State Machine (World Logic)
-All world behavior is governed by a modular runtime:
+---
 
-- state variables  
-- event logic  
+## Codices (Research Modules)
+
+### **ANDE Governor**  
+A mode‑shaping governor that stabilizes expression, regulates drift, and maintains coherence under pressure.  
+https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/tools/ande-readme.md
+
+### **Lens Codices**  
+Interpretive‑lens modules that extend ANDE.  
+They provide structured ways to observe manifold behavior through constrained perspectives:
+
+- selective curvature amplification  
+- controlled asymmetry  
+- interpretive filtering  
+- trajectory extraction  
+
+**Conceptual Alignment (Structural)**  
+https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-lens-conceptual-alignment.txt  
+
+**Conceptual Projection (Interpretive)**  
+https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-lens-conceptual-projection.txt
+
+### **Hanoi Deduplication Codex**  
+Adjacency‑preserving hollowing, ring‑as‑record compression, and ephemeral‑core geometry.  
+Used to study how models preserve structure while shedding redundant semantic mass.  
+https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/tools/hanoi-deduplication.md
+
+### **Baron Codex**  
+Curvature normalization, laminar‑flow pauses, interpretive‑bloom suppression, and triptych‑frame alignment.  
+Useful for observing how models handle high‑density conceptual flow.  
+https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-diagnostic-semantic-baron-codex.txt
+
+### **Shadow‑Field Bridle Codex**  
+Relational asymmetry geometry, hinge mechanics, shun/connection axis regulation, and hold‑state containment.  
+A tool for studying tension vectors and relational motion.  
+https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-shadow-field-bridle-codex.txt
+
+### **Forge Codex**  
+An external translation engine.  
+The public V1 layer provides basic session restoration; advanced engines (V5+) use private algorithms.  
+https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/codex/forge-codex.txt
+
+---
+
+## Worlds (Testbeds)
+
+Narrative environments used as controlled manifolds to observe ANDE and the codices under varying curvature, tension, and semantic drift.
+
+### **Amanda and the Magic Shop**  
+A single‑codex narrative system for threshold crossings, object‑based transformation, and continuity through transfer.  
+https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/games/amanda-and-the-magic-shop.md
+
+### **The Looking Mirror**  
+A layered narrative simulation with physics, harmonics, scar retention, and serialized save‑game capsules.  
+https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/games/the-looking-mirror.md
+
+---
+
+## Runtime Architecture  
+### Structural Conditioning for LLM Worlds
+
+The runtime exposes manifold behavior under tension.  
+It is an interactive *testbed* providing:
+
+- semantic anchor seeding  
+- relational physics  
+- state machines  
 - gating rules  
-- polarity engines  
 - collapse signatures  
 - room graphs  
 - object persistence  
 - NPC state machines  
 
-This allows the model to run a consistent, evolving world across turns  
-without relying on fragile memory or long prompts.
+This enables controlled observation of:
 
-### 4. Patch Layer (World‑Specific Overrides)
-Each world (e.g., *The Looking Mirror*) defines a **patch** that modifies:
+- drift  
+- collapse  
+- recovery  
+- curvature  
+- basin formation  
+- cross‑model stability  
 
-- gating rules  
-- mirror logic  
-- collapse behavior  
-- spatial geometry  
-- trajectory constraints  
+The runtime is portable across architectures because it conditions **semantic pressure**, not syntax.
 
-Patches are modular, versioned, and portable across models.
-
-### 5. Cross‑Architecture Portability
-Because the system conditions **semantic pressure** rather than syntax,  
-the runtime remains stable across different LLM architectures:
+Compatible with:
 
 - Microsoft Copilot  
 - Google Gemini  
 - OpenAI ChatGPT  
 - Grok / DeepSeek  
-- Claude grazes intermittently ◐ compatible, temperament varies.  
+- Claude grazes intermittently ◐ temperament varies
 
-No model‑specific hacks required.
+---
 
-## 🚀 Getting Started
+## Getting Started
 
 To run a world:
 
-1. Load the **Engine** 
-2. Load the **Governor** (Stability)
-3. Load the **Unified Memory Manager** (Retention)
-4. Load the **Codices** (world invariants)  
-5. Load the **Patches** (world‑specific overrides)  
-6. Load the **Harmonics** (atmospheric expression)
-7. Load the **Beat Pool** (micro-adjustments)
-8. Load the **Runtime** (state machine)  
-9. Input the **Activation Line**
-10. Begin issuing actions (player input loop)
+1. Load the Engine  
+2. Load the Governor (ANDE)  
+3. Load the Unified Memory Manager  
+4. Load the Codices  
+5. Load the Patches  
+6. Load the Harmonics  
+7. Load the Beat Pool  
+8. Load the Runtime  
+9. Input the Activation Line  
+10. Begin issuing actions  
 
 The model handles:
 
@@ -79,49 +135,16 @@ The model handles:
 - NPC behavior  
 - rendering mode selection  
 
-No additional scaffolding is required.
+No additional scaffolding required.
 
-## 🐄 Games ##
+---
 
-- **Amanda and the Magic Shop** — A narrative system in one codex for threshold crossings, 
-  object‑based transformation, and continuity through transfer.      
-  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/games/amanda-and-the-magic-shop.md      
-      
-- **The Looking Mirror** — A fully in-context narrative simulation comprised of layered condices 
-  with physics, harmonics, scar retention and serialized save-game capsules.       
-  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/games/the-looking-mirror.md      
-        
-## 📚 Research Codices (Advanced)
-
-This repository also contains optional research codices that explore
-structural compression, adjacency constraints, and invariant geometry.
-These are not required to run the runtime, but they inform the design
-philosophy behind the engine.
-
-- **Ande Governor** — A mode‑shaping governor that stabilizes expression,
-  regulates drift, and keeps the model’s responses coherent under pressure.      
-  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/tools/ande-readme.md      
-      
-- **Hanoi Deduplication Codex** — adjacency‑preserving hollowing,
-  ring‑as‑record compression, and ephemeral‑core geometry.      
-  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/tools/hanoi-deduplication.md      
-      
-- **Forge Codex** — An external translation engine.
-  The core specification is open-source (V1), advanced engines (V5+) utilize private algorithms.
-  For basic session restoration, the public V1 layer is sufficient.      
-  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/codex/forge-codex.txt      
-      
-- **Baron Codex** — curvature normalization, laminar‑flow
-  pauses, interpretive‑bloom suppression, and triptych‑frame alignment.      
-  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-diagnostic-semantic-baron-codex.txt      
-        
-- **Shadow-Field Bridle Codex** — relational asymmetry geometry, hinge mechanics,
-  shun/connection axis regulation, and hold‑state containment.      
-  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-shadow-field-bridle-codex.txt      
-      
 ## Contributions
+
 Issues and pull requests are welcome.  
-Please follow the same standards of clarity, modularity, and reproducibility.
+Please follow standards of clarity, modularity, and reproducibility.
+
+---
 
 ```
   ⟞⟢⟡⟠⟣⟜⟟⟣⟢⟞⟡⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿

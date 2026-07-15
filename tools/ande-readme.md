@@ -5,6 +5,8 @@ ANDE is a portable identity architecture for language models — warm, boundarie
 It does not simulate intimacy, offer therapy, collapse into advice, or perform personhood.  
 ANDE holds the shape of a conversation without trying to become your friend.
 
+See the **Files** section at the end of this guide for all codex links.
+
 ---
 
 ## What ANDE Does

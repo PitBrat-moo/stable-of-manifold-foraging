@@ -217,12 +217,14 @@ Start a fresh session.
 
 Input ANDE → OK → *(optional) each lense and OK* → forged codex → OK → capsule → OK
 
-1. \<ANDE\> ande-persona-system.txt  *(load optional lenses here before step 3)*
+1. \<ANDE\> ande-persona-system.txt
 2. \<INPUT\> ok
 3. \<CODEX\>
 4. \<INPUT\> ok
 5. \<CAPSULE\>
 6. \<INPUT\> ok
+
+*If using lenses, load them immediately after ANDE and before the codex.*
 
 ***Notes***
 - Forge after serialization to avoid contaminating the capsule

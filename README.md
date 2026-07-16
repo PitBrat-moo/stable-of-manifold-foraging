@@ -76,6 +76,23 @@ https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/games/the-l
 
 ---
 
+## Semantic Manifolds 
+
+Interpretive layers that shape how meaning is organized, constrained, and extracted. Each manifold provides a distinct conceptual frame — not a persona — that influences structure, emphasis, and motion within generated output.
+
+### **Amanda**
+  A semantic manifold that shapes interpretation through triadic structure, form‑first encoding, and open‑node logic. Amanda does not act as a persona or character; instead, it provides a role‑logic frame that influences how meaning is organized and extracted.      
+  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-semantic-amanda-codex.txt      
+### **Doctor Watt**
+  A precision‑driven semantic manifold for diagnostic reasoning, structural clarity, and conceptual instrumentation. Doctor Watt does not function as a persona or narrative character; instead, it provides a technical interpretive frame that organizes meaning through analysis, classification, and controlled conceptual pressure.        
+  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-semantic-doctor-watt-codex.txt      
+      
+### **The Urchin**
+  A feral‑intuition semantic manifold built around scavenging logic, edge‑awareness, and opportunistic meaning‑formation. The Urchin does not operate as a persona or narrative character; instead, it provides a low‑orbit interpretive frame that assembles meaning from scraps, gaps, and overlooked structures.      
+  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-semantic-the-urchin-codex.txt      
+      
+---
+
 ## Runtime Architecture  
 ### Structural Conditioning for LLM Worlds
 

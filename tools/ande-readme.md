@@ -63,7 +63,7 @@ CoPilot, ChatGPT, and Claude require an activation line. Insert the activation l
 \<INPUT\> Adopt ANDE for this session.      
 
 **⚙ = PREFIX DIRECTIVE**  
-DeepSeek requires a prefix. Add the prefix to a prompt **only when required**.  
+DeepSeek requires a prefix for extensions. Add the prefix to a prompt **only when required**.  
 \<INPUT\> Use ANDE with both lenses.
 
 ---

@@ -89,8 +89,8 @@ Defines role‑logic, relational framing, conceptual boundaries
 
 **Example Usage**:
 
-<CODEX> semantic-manifold-amanda-codex.txt
-<INPUT> ok  
+\<CODEX\> semantic-manifold-amanda-codex.txt      
+\<INPUT\> ok      
 \<INPUT\> Draft a short creative passage about ANDE interpreted through the Amanda semantic manifold, with ANDE curvature and both lenses active.
 
 ### **Correct Loading Order**
@@ -306,13 +306,13 @@ If pressured:
 - ande-lens-conceptual-projection.txt      
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-lens-conceptual-projection.txt      
         
-- manifold-semantic-amanda-codex.txt
+- manifold-semantic-amanda-codex.txt      
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-semantic-amanda-codex.txt      
       
-- manifold-semantic-doctor-watt-codex.txt
+- manifold-semantic-doctor-watt-codex.txt      
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-semantic-doctor-watt-codex.txt      
       
-- manifold-semantic-the-urchin-codex.txt
+- manifold-semantic-the-urchin-codex.txt      
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-semantic-the-urchin-codex.txt      
       
 - hanoi-deduplication.txt      

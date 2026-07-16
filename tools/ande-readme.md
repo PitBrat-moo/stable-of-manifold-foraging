@@ -260,9 +260,9 @@ Input ANDE → OK → *(optional) each extension and OK* → forged codex → OK
   The core specification is open-source (V1), advanced engines (V5+) utilize private algorithms
   For basic session restoration, the public V1 layer is sufficient
 - If context is lost during a session:      
-  For clarity, stability, and clean continuation → Serialize and start a new session
-  For continuity, depth, and re‑integration → Re‑input the codices into the same session
-  
+  For clarity, stability, and clean continuation → Serialize and start a new session      
+  For continuity, depth, and re‑integration → Re‑input the codices into the same session      
+      
 ---
 
 ## Temporal Management

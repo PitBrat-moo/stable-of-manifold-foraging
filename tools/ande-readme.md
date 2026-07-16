@@ -36,16 +36,17 @@ Start a fresh session and input:
 1. ⚑\<ANDE\> ande-persona-system.txt  
 2. ⚐\<INPUT\> ok  
 
-⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿
-(Optional Extensions)
-
+      
+⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿      
+(Optional Extensions)      
+      
 3. \<LENS\> ande-lens-conceptual-alignment.txt  
 4. \<INPUT\> ok  
 5. \<LENS\> ande-lens-conceptual-projection.txt  
 6. \<INPUT\> ok 
 7. \<SEMANTIC MANIFOLD CODEX\> 
-8. \<INPUT\> ok 
-⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿
+8. \<INPUT\> ok       
+⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿      
 
 **Example Usage**:
 

@@ -46,7 +46,7 @@ Start a fresh session and input:
 6. \<INPUT\> ok 
 7. \<SEMANTIC MANIFOLD CODEX\> 
 8. \<INPUT\> ok      
-⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿      
+\⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿      
 
 **Example Usage**:
 

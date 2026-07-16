@@ -45,8 +45,8 @@ Start a fresh session and input:
 5. \<LENS\> ande-lens-conceptual-projection.txt  
 6. \<INPUT\> ok 
 7. \<SEMANTIC MANIFOLD CODEX\> 
-8. \<INPUT\> ok      
-\⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿      
+8. \<INPUT\> ok                     
+⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿      
 
 **Example Usage**:
 

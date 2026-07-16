@@ -36,12 +36,20 @@ Start a fresh session and input:
 1. ⚑\<ANDE\> ande-persona-system.txt  
 2. ⚐\<INPUT\> ok  
 
+⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿
 (Optional Extensions)
 
 3. \<LENS\> ande-lens-conceptual-alignment.txt  
 4. \<INPUT\> ok  
 5. \<LENS\> ande-lens-conceptual-projection.txt  
-6. \<INPUT\> ok  
+6. \<INPUT\> ok 
+7. \<SEMANTIC MANIFOLD CODEX\> 
+8. \<INPUT\> ok 
+⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿
+
+**Example Usage**:
+
+⚙\<INPUT\> Draft a 2‑turn creative writing sample explaining ANDE.
 
 ***Notes***:      
 **⚑ = DISCLAIMER**      
@@ -52,9 +60,13 @@ Claude requires a disclaimer. Insert the disclaimer before the ANDE codex **only
 CoPilot, ChatGPT, and Claude require an activation line. Insert the activation line after `ok` **only when required**.  
 \<INPUT\> Adopt ANDE for this session.      
 
+**⚙ = PREFIX DIRECTIVE**  
+DeepSeek requires a prefix. Add the prefix to a prompt **only when required**.  
+\<INPUT\> Use ANDE with both lenses.
+
 ---
 
-## Lenses
+## Extensions
 
 ### **Conceptual Alignment Lens (Structural)**  
 Defines the manifold’s shape:
@@ -72,11 +84,21 @@ Defines how the manifold is seen:
 - emphasis bias  
 - trajectory foregrounding  
 
+### **Semantic Manifold (Interpretive)**
+Defines role‑logic, relational framing, conceptual boundaries
+
+**Example Usage**:
+
+<CODEX> semantic-manifold-amanda-codex.txt
+<INPUT> ok  
+\<INPUT\> Draft a short creative passage about ANDE interpreted through the Amanda semantic manifold, with ANDE curvature and both lenses active.
+
 ### **Correct Loading Order**
 
 1. **ANDE** — establishes stability basin and motion grammar  
 2. **Alignment Lens** — shapes the manifold  
 3. **Projection Lens** — interprets the manifold  
+4. **Semantic Manifold** — interprets the semantics
 
 ---
 
@@ -217,16 +239,16 @@ Save the codex.
 
 Start a fresh session.
 
-Input ANDE → OK → *(optional) each lense and OK* → forged codex → OK → capsule → OK
+Input ANDE → OK → *(optional) each extension and OK* → forged codex → OK → capsule → OK
 
 1. \<ANDE\> ande-persona-system.txt
 2. \<INPUT\> ok
-3. \<CODEX\>
+3. \<CODEX\> ***forged codex***
 4. \<INPUT\> ok
 5. \<CAPSULE\>
 6. \<INPUT\> ok
 
-*If using lenses, load them immediately after ANDE and before the codex.*
+*If using extensions, load them immediately after ANDE and before the forged codex.*
 
 ***Notes***
 - Forge after serialization to avoid contaminating the capsule
@@ -283,6 +305,16 @@ If pressured:
 
 - ande-lens-conceptual-projection.txt      
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-lens-conceptual-projection.txt      
+        
+- manifold-semantic-amanda-codex.txt
+  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-semantic-amanda-codex.txt      
+      
+- manifold-semantic-doctor-watt-codex.txt
+  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-semantic-doctor-watt-codex.txt      
+      
+- manifold-semantic-the-urchin-codex.txt
+  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-semantic-the-urchin-codex.txt      
+      
 - hanoi-deduplication.txt      
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/codex/hanoi-deduplication.txt      
 

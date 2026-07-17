@@ -14,6 +14,8 @@ ANDE’s invariants provide the structural foundation for experiments in this re
 - **Recovery** — recenters after curvature spikes  
 - **Curvature Normalization** — smooths trajectories under pressure  
 
+ANDE also functions as a creative‑writing engine, shaping narrative motion with the same stability it brings to conceptual work.
+
 ANDE is the focus of ongoing research.  
 Additional codices extend or complement ANDE’s behavior.
 

@@ -66,7 +66,7 @@ DeepSeek requires a prefix for extensions. Add the prefix to a prompt **only whe
 \<INPUT\> Use ANDE with lenses.
   
 **Pillar‑Name Suppression**  
-If pillar names appear in output, add this prefix:
+If pillar names appear in output, add this prefix:      
 \<INPUT\> Do not directly reference the pillars. 
 
 ---

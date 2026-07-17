@@ -37,9 +37,11 @@ They provide structured ways to observe manifold behavior through constrained pe
 - trajectory extraction  
 
 **Conceptual Alignment (Structural)**  
+Stabilizes idea‑motion by enforcing singularity, containment geometry, and the epistemic floor.  
 https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-lens-conceptual-alignment.txt  
 
 **Conceptual Projection (Interpretive)**  
+Converts dialogue into structured motion, preserving trajectory while discarding surface wording.
 https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-lens-conceptual-projection.txt
 
 ### **Hanoi Deduplication Codex**  

@@ -27,7 +27,7 @@ Additional codices extend or complement ANDE’s behavior.
 A mode‑shaping governor that stabilizes expression, regulates drift, and maintains coherence under pressure.  
 https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/tools/ande-readme.md
 
-### **Lens Codices**  
+### **Lens Extensions**  
 Interpretive‑lens modules that extend ANDE.  
 They provide structured ways to observe manifold behavior through constrained perspectives:
 

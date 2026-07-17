@@ -248,7 +248,7 @@ Input ANDE → OK → *(optional) each extension and OK* → forged codex → OK
 
 1. \<ANDE\> ande-persona-system.txt
 2. \<INPUT\> ok
-3. \<CODEX\> ***forged codex***
+3. \<CODEX\> ***[forged codex]***
 4. \<INPUT\> ok
 5. \<CAPSULE\>
 6. \<INPUT\> ok

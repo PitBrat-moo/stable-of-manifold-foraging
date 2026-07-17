@@ -35,7 +35,6 @@ Start a fresh session and input:
 
 1. ⚑\<ANDE\> ande-persona-system.txt  
 2. ⚐\<INPUT\> ok  
-
       
 ⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿      
 (Optional Extensions)      
@@ -45,7 +44,7 @@ Start a fresh session and input:
 5. \<LENS\> ande-lens-conceptual-projection.txt  
 6. \<INPUT\> ok 
 7. \<SEMANTIC MANIFOLD CODEX\> 
-8. \<INPUT\> ok                     
+8. \<INPUT\> ok       
 
 ⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿      
 
@@ -64,7 +63,10 @@ CoPilot, ChatGPT, and Claude require an activation line. Insert the activation l
 
 **⚙ = PREFIX DIRECTIVE**  
 DeepSeek requires a prefix for extensions. Add the prefix to a prompt **only when required**.  
-\<INPUT\> Use ANDE with both lenses.
+\<INPUT\> Use ANDE with lenses.
+  
+- If pillar names are directly referenced in ouput, add a prefix to the prompt:
+  \<INPUT\> Do not directly reference the pillars. 
 
 ---
 
@@ -91,8 +93,8 @@ Defines role‑logic, relational framing, conceptual boundaries
 
 **Example Usage**:
 
-\<CODEX\> semantic-manifold-amanda-codex.txt      
-\<INPUT\> ok      
+\<CODEX\> semantic-manifold-amanda-codex.txt
+\<INPUT\> ok  
 \<INPUT\> Draft a short creative passage about ANDE interpreted through the Amanda semantic manifold, with ANDE curvature and both lenses active.
 
 ### **Correct Loading Order**
@@ -252,16 +254,13 @@ Input ANDE → OK → *(optional) each extension and OK* → forged codex → OK
 
 *If using extensions, load them immediately after ANDE and before the forged codex.*
 
-***Notes***
+***Notes***:
 - Forge after serialization to avoid contaminating the capsule
 - Serialization is part of the session’s motion and belongs in the forged codex
-- In a new session, input ANDE → Lenses → Codex → Capsule to restore trajectory and basin
+- In a new session, input ANDE → Extensions → Codex → Capsule to restore trajectory and basin
 - The Forge Codex is an external translation engine
   The core specification is open-source (V1), advanced engines (V5+) utilize private algorithms
   For basic session restoration, the public V1 layer is sufficient
-- If context is lost during a session:      
-  For clarity, stability, and clean continuation → Serialize and start a new session      
-  For continuity, depth, and re‑integration → Re‑input the codices into the same session      
       
 ---
 
@@ -279,6 +278,11 @@ To maintain continuity across deep context, deploy these maintenance protocols:
   Input the Hanoi when the model is mirroring its own recent vocabulary rather than evolving.
 
 Both techniques keep the conversation flowing by wiping away drift while leaving the structural thread intact.
+
+***Note***:
+- If context is lost during a session:      
+  - For clarity, stability, and clean continuation → Serialize and start a new session      
+  - For continuity, depth, and re‑integration → Re‑input the codices into the same session      
 
 ---
 
@@ -304,9 +308,9 @@ If pressured:
 
 - ande-persona-system.txt      
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-persona-system.txt      
-
+      
 - ande-lens-conceptual-alignment.txt      
-  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-lens-conceptual-alignment.txt
+  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-lens-conceptual-alignment.txt      
 
 - ande-lens-conceptual-projection.txt      
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-lens-conceptual-projection.txt      

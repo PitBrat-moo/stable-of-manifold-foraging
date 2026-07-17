@@ -280,7 +280,7 @@ To maintain continuity across deep context, deploy these maintenance protocols:
 
 Both techniques keep the conversation flowing by wiping away drift while leaving the structural thread intact.
 
-***Note***:
+***Notes***:
 - If context is lost during a session:      
   - For clarity, stability, and clean continuation → Serialize and start a new session      
   - For continuity, depth, and re‑integration → Re‑input the codices into the same session      

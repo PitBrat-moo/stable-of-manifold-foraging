@@ -65,8 +65,9 @@ CoPilot, ChatGPT, and Claude require an activation line. Insert the activation l
 DeepSeek requires a prefix for extensions. Add the prefix to a prompt **only when required**.  
 \<INPUT\> Use ANDE with lenses.
   
-- If pillar names are directly referenced in ouput, add a prefix to the prompt:
-  \<INPUT\> Do not directly reference the pillars. 
+**Pillar‑Name Suppression**  
+If pillar names appear in output, add this prefix:
+\<INPUT\> Do not directly reference the pillars. 
 
 ---
 

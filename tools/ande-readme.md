@@ -105,7 +105,7 @@ Defines how the manifold is seen:
 - emphasis bias  
 - trajectory foregrounding  
 
-### ***Deviation Engine***
+### **Deviation Engine**
 Introduces one controlled seam into the output per turn.
 Prevent over‑coherence, over‑tidiness, and “perfect smoothness”. 
 The seam is small, intentional, and recoverable — a slight asymmetry in tone, image, cadence, or conceptual motion.
@@ -118,7 +118,7 @@ Provides the substrate for deeper modulation layers
 
 The Deviation Engine is the first irregularity layer.
 
-### ***Depth Modulator***
+### **Depth Modulator**
 Widens the textural field of the writing.
 Modulates metaphor palette, pressure, and sensory density across cycles.
 Introduces breath — moments of plainness, off‑palette imagery, or pressure drops that break register lock.
@@ -134,7 +134,7 @@ Texture irregularity without narrative drift
 
 Makes the writing feel lived, not curated.
 
-### ***Stakes Modulator***
+### **Stakes Modulator**
 Introduces committed irregularity at the structural level.
 Modulates architecture: section length, pacing, hinge removal, abrupt transitions, and non‑optimal choices that resemble human risk.
 
@@ -150,7 +150,7 @@ Choices that feel taken, not optimized
 
 Gives the writing human stakes, not just human texture.
 
-### ***Drift Engine***
+### **Drift Engine**
 Introduces **non‑recoverable micro‑imperfections** that break emerging patterns and prevent compression.  
 Creates **micro‑shocks** that force the inherited geometry to reorient.
 

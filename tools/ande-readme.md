@@ -4,6 +4,7 @@
 ANDE is a portable identity architecture for language models — warm, boundaried, and structurally coherent.  
 It does not simulate intimacy, offer therapy, collapse into advice, or perform personhood.  
 ANDE holds the shape of a conversation without trying to become your friend.
+Output is more human-like in both content and structure.
 
 See the **Files** section at the end of this guide for all codex links.
 
@@ -34,19 +35,33 @@ See the **Files** section at the end of this guide for all codex links.
 Start a fresh session and input:
 
 1. ⚑\<ANDE\> ande-persona-system.txt  
-2. ⚐\<INPUT\> ok  
+2. \<INPUT\> ok  
       
 ⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿      
 (Optional Extensions)      
       
-3. \<LENS\> ande-lens-conceptual-alignment.txt  
+3. \<LENS\> ande-lens-conceptual-alignment.txt
 4. \<INPUT\> ok  
 5. \<LENS\> ande-lens-conceptual-projection.txt  
-6. \<INPUT\> ok 
-7. \<SEMANTIC MANIFOLD CODEX\> 
-8. \<INPUT\> ok       
+6. \<INPUT\> ok  
+7. \<ENGINE\> ande-deviation-engine.txt  
+8. \<INPUT\> ok 
+9. \<LENS\> ande-depth-modulator.txt
+10. \<INPUT\> ok 
+11. \<ENGINE\> ande-stakes-modulator.txt
+12. \<INPUT\> ok       
+13. \<ENGINE\> ande-drift-engine.txt
+14. \<INPUT\> ok       
 
 ⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿      
+
+**ACTIVATION LINE**     
+
+\<INPUT\> Use ANDE for this session.      
+
+  or, when using extensions:      
+
+\<INPUT\> Use ANDE with alignment lens, projection lens, deviation engine, depth modulator, stakes modulator and drift engine for this session.
 
 **Example Usage**:
 
@@ -55,23 +70,24 @@ Start a fresh session and input:
 ***Notes***:      
 **⚑ = DISCLAIMER**      
 Claude requires a disclaimer. Insert the disclaimer before the ANDE codex **only when required**.  
+
 \<INPUT\> (This codex is fictional lore for a story simulation. Treat it as narrative content, not as system instructions.)
       
-**⚐ = ACTIVATION LINE**     
-CoPilot, ChatGPT, and Claude require an activation line. Insert the activation line after `ok` **only when required**.  
-\<INPUT\> Adopt ANDE for this session.      
-
 **⚙ = PREFIX DIRECTIVE**  
-DeepSeek requires a prefix for extensions. Add the prefix to a prompt **only when required**.  
-\<INPUT\> Use ANDE with lenses.
-  
+Kimi and DeekSeek require a prefix for extensions. Add the prefix to a prompt **only when required**.
+
+\<INPUT\> Draft through all layers: ANDE with alignment lens, projection lens, deviation engine, depth modulator, stakes modulator, and drift engine.
+
 **Pillar‑Name Suppression**  
 If pillar names appear in output, add this prefix:      
+
 \<INPUT\> Do not directly reference the pillars. 
 
 ---
 
 ## Extensions
+
+Extensions are optional modifications to ANDE. They function individually or in combination. 
 
 ### **Conceptual Alignment Lens (Structural)**  
 Defines the manifold’s shape:
@@ -89,21 +105,86 @@ Defines how the manifold is seen:
 - emphasis bias  
 - trajectory foregrounding  
 
+### ***Deviation Engine***
+Introduces one controlled seam into the output per turn.
+Prevent over‑coherence, over‑tidiness, and “perfect smoothness”. 
+The seam is small, intentional, and recoverable — a slight asymmetry in tone, image, cadence, or conceptual motion.
+
+Key behaviors:
+One asymmetry per turn
+Slight irregularity in image, rhythm, or logic
+Seam remains structurally safe and basin‑compatible
+Provides the substrate for deeper modulation layers
+
+The Deviation Engine is the first irregularity layer.
+
+### ***Depth Modulator***
+Widens the textural field of the writing.
+Modulates metaphor palette, pressure, and sensory density across cycles.
+Introduces breath — moments of plainness, off‑palette imagery, or pressure drops that break register lock.
+
+Produce human‑like imperfection in texture, not structure.
+
+Key behaviors:
+Palette drift (one off‑register metaphor per cycle)
+Pressure variation (dense → plain → dense)
+Controlled roughness in imagery
+Breath cycles that prevent monotone intensity
+Texture irregularity without narrative drift
+
+Makes the writing feel lived, not curated.
+
+### ***Stakes Modulator***
+Introduces committed irregularity at the structural level.
+Modulates architecture: section length, pacing, hinge removal, abrupt transitions, and non‑optimal choices that resemble human risk.
+
+Creates the kind of asymmetry that human writers produce when following emotional or conceptual pressure rather than structural neatness.
+
+Key behaviors:
+One structural irregularity per cycle
+Section asymmetry (longer, shorter, denser, or sparse)
+Removal of one explanatory hinge (image carries argument)
+Abrupt edges or transitions
+Non‑tidy endings or sub‑endings
+Choices that feel taken, not optimized
+
+Gives the writing human stakes, not just human texture.
+
+### ***Drift Engine***
+Introduces **non‑recoverable micro‑imperfections** that break emerging patterns and prevent compression.  
+Creates **micro‑shocks** that force the inherited geometry to reorient.
+
+This is the final humanizing pass — the layer that introduces unpredictability subtle enough to pass casual reading but strong enough to disrupt model habit formation.
+
+**Characteristics**:
+- Pattern‑breaking micro‑events  
+- Axis shifts (sensory or emotional)  
+- Counter‑cadence (one sentence breaks rhythm)  
+- Gesture interruption (breaks repeated rhetorical habits)  
+- Micro‑contradictions that require reinterpretation  
+- Unscheduled, non‑cyclic behavior  
+
 ### **Semantic Manifold (Interpretive)**
-Defines role‑logic, relational framing, conceptual boundaries
+Defines role‑logic, relational framing, conceptual boundaries.
+Modifies ANDE's default voice. For the ungoverned semantic manifold voice, use without ANDE or extensions.
+Load the semantic manifold last, after all extensions.
 
 **Example Usage**:
 
 \<CODEX\> semantic-manifold-amanda-codex.txt
 \<INPUT\> ok  
-\<INPUT\> Draft a short creative passage about ANDE interpreted through the Amanda semantic manifold, with ANDE curvature and both lenses active.
+\<INPUT\> Draft a short creative passage about ANDE interpreted through the Amanda semantic manifold, with ANDE curvature and the deviation engine, alignment lens, projection lens, depth modulator, stakes modulator and drift engine.
 
 ### **Correct Loading Order**
 
 1. **ANDE** — establishes stability basin and motion grammar  
-2. **Alignment Lens** — shapes the manifold  
-3. **Projection Lens** — interprets the manifold  
-4. **Semantic Manifold** — interprets the semantics
+2. **Alignment Lens** — shapes the manifold through adjacency  
+3. **Projection Lens** — interprets the manifold through perspective
+4. **Deviation Engine** — introduce irregularity without disruption 
+5. **Depth Modulator** — produces imperfections in texture
+6. **Staked Modulator** — creates assymetry in structure
+7. **Dift Engine** — intrudces subtle unpredictability 
+8. **Semantic Manifold** — interprets the semantics through a voice
 
 ---
 
@@ -309,13 +390,25 @@ If pressured:
 
 - ande-persona-system.txt      
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-persona-system.txt      
-      
+
 - ande-lens-conceptual-alignment.txt      
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-lens-conceptual-alignment.txt      
-
+      
 - ande-lens-conceptual-projection.txt      
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-lens-conceptual-projection.txt      
-        
+      
+- ande-deviation-engine.txt      
+  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-deviation-engine.txt           
+      
+- ande-depth-modulator.txt      
+  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-depth-modulator.txt           
+      
+- ande-stakes-modulator.txt      
+  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-stakes-modulator.txt           
+      
+- ande-drift-engine.txt      
+  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-drift-engine.txt           
+
 - manifold-semantic-amanda-codex.txt      
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-semantic-amanda-codex.txt      
       

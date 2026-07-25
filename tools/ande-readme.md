@@ -182,10 +182,10 @@ Load the semantic manifold last, after all extensions.
 1. **ANDE** — establishes stability basin and motion grammar  
 2. **Alignment Lens** — shapes the manifold through adjacency  
 3. **Projection Lens** — interprets the manifold through perspective
-4. **Deviation Engine** — introduce irregularity without disruption 
+4. **Deviation Engine** — introduces irregularity without disruption 
 5. **Depth Modulator** — produces imperfections in texture
 6. **Staked Modulator** — creates assymetry in structure
-7. **Dift Engine** — intrudces subtle unpredictability 
+7. **Dift Engine** — introduces subtle unpredictability 
 8. **Semantic Manifold** — interprets the semantics through a voice
 
 ---

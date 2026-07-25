@@ -6,7 +6,7 @@ It does not simulate intimacy, offer therapy, collapse into advice, or perform p
 ANDE holds the shape of a conversation without trying to become your friend.
 Output is more human-like in both content and structure.
 
-**ANDE also functions as a creative‑writing engine, shaping narrative motion with the same stability it brings to conceptual work.**
+***ANDE also functions as a creative‑writing engine, shaping narrative motion with the same stability it brings to conceptual work.***
 
 See the **Files** section at the end of this guide for all codex links.
 

@@ -50,18 +50,18 @@ https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande
 Adds small, human‑scaled irregularities to ANDE responses without disrupting stability.      
 https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-deviation-engine.txt           
       
-**Depth Modulator**
+**Depth Modulator**      
 Widens the textural field of the writing.
 Modulates metaphor palette, pressure, and sensory density across cycles.
 Introduces breath — moments of plainness, off‑palette imagery, or pressure drops that break register lock.      
 https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-depth-modulator.txt           
       
-**Stakes Modulator**
+**Stakes Modulator**      
 Introduces committed irregularity at the structural level.
 Modulates architecture: section length, pacing, hinge removal, abrupt transitions, and non‑optimal choices that resemble human risk.      
 https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-stakes-modulator.txt           
       
-**Drift Engine**
+**Drift Engine**      
 Introduces **non‑recoverable micro‑imperfections** that break emerging patterns and prevent compression.  
 Creates **micro‑shocks** that force the inherited geometry to reorient.      
 https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-drift-engine.txt           

@@ -173,10 +173,10 @@ Load the semantic manifold last, after all extensions.
 
 **Example Usage**:
 
-\<CODEX\> semantic-manifold-amanda-codex.txt
-\<INPUT\> ok  
-\<INPUT\> Draft a short creative passage about ANDE interpreted through the Amanda semantic manifold, with ANDE curvature and the deviation engine, alignment lens, projection lens, depth modulator, stakes modulator and drift engine.
-
+\<CODEX\> semantic-manifold-amanda-codex.txt      
+\<INPUT\> ok      
+\<INPUT\> Draft a short creative passage about ANDE interpreted through the Amanda semantic manifold, with ANDE curvature and the deviation engine, alignment lens, projection lens, depth modulator, stakes modulator and drift engine.      
+      
 ### **Correct Loading Order**
 
 1. **ANDE** — establishes stability basin and motion grammar  

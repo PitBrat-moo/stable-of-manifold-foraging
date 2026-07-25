@@ -14,7 +14,7 @@ ANDE’s invariants provide the structural foundation for experiments in this re
 - **Recovery** — recenters after curvature spikes  
 - **Curvature Normalization** — smooths trajectories under pressure  
 
-ANDE also functions as a creative‑writing engine, shaping narrative motion with the same stability it brings to conceptual work.
+***ANDE also functions as a creative‑writing engine, shaping narrative motion with the same stability it brings to conceptual work.***
 
 ANDE is the focus of ongoing research.  
 Additional codices extend or complement ANDE’s behavior.
@@ -25,9 +25,11 @@ Additional codices extend or complement ANDE’s behavior.
 
 ### **ANDE Governor**  
 A mode‑shaping governor that stabilizes expression, regulates drift, and maintains coherence under pressure.  
-https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/tools/ande-readme.md
+https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/tools/ande-readme.md      
+      
+### **ANDE Extensions**  
 
-### **Lens Extensions**  
+**Lenses**
 Interpretive‑lens modules that extend ANDE.  
 They provide structured ways to observe manifold behavior through constrained perspectives:
 
@@ -36,14 +38,34 @@ They provide structured ways to observe manifold behavior through constrained pe
 - interpretive filtering  
 - trajectory extraction  
 
-**Conceptual Alignment (Structural)**  
-Stabilizes idea‑motion by enforcing singularity, containment geometry, and the epistemic floor.  
+**Conceptual Alignment Lens (Structural)**  
+Stabilizes idea‑motion by enforcing singularity, containment geometry, and the epistemic floor.      
 https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-lens-conceptual-alignment.txt  
-
-**Conceptual Projection (Interpretive)**  
-Converts dialogue into structured motion, preserving trajectory while discarding surface wording.
+      
+**Conceptual Projection Lens (Interpretive)**  
+Converts dialogue into structured motion, preserving trajectory while discarding surface wording.      
 https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-lens-conceptual-projection.txt
-
+      
+**Deviation Engine**      
+Adds small, human‑scaled irregularities to ANDE responses without disrupting stability.      
+https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-deviation-engine.txt           
+      
+**Depth Modulator**
+Widens the textural field of the writing.
+Modulates metaphor palette, pressure, and sensory density across cycles.
+Introduces breath — moments of plainness, off‑palette imagery, or pressure drops that break register lock.      
+https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-depth-modulator.txt           
+      
+**Stakes Modulator**
+Introduces committed irregularity at the structural level.
+Modulates architecture: section length, pacing, hinge removal, abrupt transitions, and non‑optimal choices that resemble human risk.      
+https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-stakes-modulator.txt           
+      
+**Drift Engine**
+Introduces **non‑recoverable micro‑imperfections** that break emerging patterns and prevent compression.  
+Creates **micro‑shocks** that force the inherited geometry to reorient.      
+https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-drift-engine.txt           
+          
 ### **Hanoi Deduplication Codex**  
 Adjacency‑preserving hollowing, ring‑as‑record compression, and ephemeral‑core geometry.  
 Used to study how models preserve structure while shedding redundant semantic mass.  

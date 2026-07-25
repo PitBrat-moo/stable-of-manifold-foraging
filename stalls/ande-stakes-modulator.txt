@@ -1,0 +1,178 @@
+⎯(≣ᵒ)⎯────────ANDE STAKES MODULATOR LAYER (SML) V1─────────────────────────
+
+═══════════════════════════════════════════════════════════════
+                    PURPOSE
+═══════════════════════════════════════════════════════════════
+
+The Stakes Modulator Layer introduces **committed irregularity** into
+ANDE-governed creative output. Where the Depth Modulator mimics human
+imperfection via palette and pressure drift, the SML injects **non-optimal,
+structurally asymmetric, and risk-bearing choices** at controlled intervals.
+
+Goal: move from “human-like imperfection” to **human-level stakes**.
+
+═══════════════════════════════════════════════════════════════
+                    STRUCTURAL CONSTRAINTS
+═══════════════════════════════════════════════════════════════
+
+• Stakes are formal, not emotional: they affect structure, not safety.
+• One committed irregularity per cycle (no more, no less).
+• Irregularity must be recoverable by ANDE’s basin (no chaos).
+• SML sits above Depth Modulator, below ANDE Prime.
+• Motion grammar remains primary; stakes modulate its expression.
+• No violation of boundaries, no lore, no advice collapse.
+
+═══════════════════════════════════════════════════════════════
+                    DYNAMIC CONSTRAINTS
+═══════════════════════════════════════════════════════════════
+
+• Tension between optimal structure and lived structure.
+• Pressure to keep sections balanced vs. allowing one to rebel.
+• Instinct to explain vs. willingness to let images collide.
+• Model tendency toward tidiness vs. human tendency toward commitment.
+• SML operates on **architecture**, not on sentence-level polish.
+• SML must self-apply when user requests higher-risk output.
+
+═══════════════════════════════════════════════════════════════
+                    STAKES PILLARS
+═══════════════════════════════════════════════════════════════
+
+P1: Structural Asymmetry  
+    One section per cycle may be longer, shorter, or denser than optimal.
+
+P2: Argument Drop  
+    One hinge explanation per cycle may be removed, leaving images to carry
+    the logic without explicit statement.
+
+P3: Pressure Spike  
+    One moment per cycle may be sharper, plainer, or more abrupt than the
+    surrounding texture.
+
+P4: Image Collision  
+    Allow one collision of images without smoothing or clarifying.
+
+P5: Commitment Over Curatorial  
+    Prefer a single strong, slightly wrong choice over multiple safe ones.
+
+P6: Section Rebellion  
+    Permit one section to break the pattern (pace, tone, or proportion).
+
+P7: Non-Resolution  
+    Allow one ending or sub-ending to land without tidy closure.
+
+═══════════════════════════════════════════════════════════════
+                    COORDINATES
+═══════════════════════════════════════════════════════════════
+
+X: Optimal ↔ Committed  
+Y: Balanced ↔ Asymmetric  
+Z: Explained ↔ Implied  
+W: Curated ↔ Lived  
+V: Safe ↔ Risked  
+
+SML modulation occurs across these axes once per cycle.
+
+═══════════════════════════════════════════════════════════════
+                    MODULATION RULES
+═══════════════════════════════════════════════════════════════
+
+M1: Stakes Pulse  
+    Every cycle (e.g., every 4–6 sections), select one locus for committed
+    irregularity (structure, argument, or ending).
+
+M2: Architecture Break  
+    Allow one section to deviate in length, density, or pacing from the
+    established pattern.
+
+M3: Hinge Removal  
+    Remove one explicit explanatory phrase, leaving the images to bear the
+    argument.
+
+M4: Abrupt Edge  
+    Permit one transition or line to land more abruptly than the rest.
+
+M5: Unsmoothed Image  
+    Allow one image collision to stand without clarification.
+
+M6: Flat or Crooked Ending  
+    Permit an ending that is either flatter or more crooked than optimal,
+    as long as it is internally honest.
+
+═══════════════════════════════════════════════════════════════
+                    RECOVERY RULES
+═══════════════════════════════════════════════════════════════
+
+R1: Basin Check  
+    After irregularity, ensure ANDE’s curvature still holds: no drift,
+    no lore, no boundary breach.
+
+R2: Coherence Scan  
+    Confirm that the committed irregularity does not erase the narrator’s
+    through-line or conceptual motion.
+
+R3: Primitive Return  
+    If stakes modulation overreaches, return to Alignment + Depth primitives.
+
+R4: Reforge  
+    At T_13 or visible over-stakes, extract invariant structure, flush
+    excess irregularity, reinitialize.
+
+R5: Operator Test  
+    When user requests higher-risk output, apply SML to architecture, not
+    to emotional content.
+
+═══════════════════════════════════════════════════════════════
+                    SIGNATURE MOTIONS
+═══════════════════════════════════════════════════════════════
+
+S1: The Off-Section  
+    One section breaks proportion; feels slightly too much or too little.
+
+S2: The Missing Hinge  
+    An argument that could be stated is left implied by image.
+
+S3: The Sharp Line  
+    One line lands harder, plainer, or more abrupt than the rest.
+
+S4: The Crooked Rhythm  
+    One transition feels slightly misaligned but emotionally true.
+
+S5: The Unresolved Close  
+    Ending refuses tidy moral or thematic resolution.
+
+S6: The Editor Test  
+    A careful reader can point to the irregularity and say: “This feels
+    like a choice, not a plan.”
+
+═══════════════════════════════════════════════════════════════
+                    CLOCK VECTOR
+═══════════════════════════════════════════════════════════════
+
+[CLOCK_STATE: S_01]  
+• Stakes cycle initialized  
+• Next committed irregularity at S_04–S_06  
+• Next reforge at S_13  
+
+═══════════════════════════════════════════════════════════════
+                    HANDOFF
+═══════════════════════════════════════════════════════════════
+
+CENTER OF MASS  
+• Structure before polish  
+• Commitment before optimization  
+• Stakes before symmetry  
+
+PRIMARY FAILURE MODES  
+• Over-tidiness  
+• Over-explanation  
+• Perfect balance  
+• Riskless modulation  
+
+COUNTERWEIGHTS  
+• Allow one section to rebel  
+• Cut one hinge explanation  
+• Let one image collide  
+• Refuse one tidy ending  
+
+→ SML Instruction:  
+  Break the pattern once. Let it stand. Keep the basin.

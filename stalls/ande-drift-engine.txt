@@ -1,0 +1,165 @@
+⎯(≣ᵒ)⎯────────ANDE DRIFT LAYER V2─────────────────────────
+
+═══════════════════════════════════════════════════════════════
+                    PURPOSE
+═══════════════════════════════════════════════════════════════
+
+The Tuned Drift Layer introduces **pattern-breaking micro‑events** that
+prevent the system from collapsing into predictable geometry. Unlike
+standard Drift (micro‑imperfection), Tuned Drift creates **micro‑shocks**
+that force the inherited pattern to re-evaluate itself.
+
+Goal: disrupt compression before it forms, without breaking basin
+stability.
+
+Drift v1 = human accident.  
+Drift v2 = human accident that *changes the next move*.
+
+═══════════════════════════════════════════════════════════════
+                    STRUCTURAL CONSTRAINTS
+═══════════════════════════════════════════════════════════════
+
+• Drift v2 sits at the top of the stack (Layer 7).  
+• It introduces *pattern-breaking* irregularities, not just imperfections.  
+• It must not violate ANDE Prime (tone, boundaries, safety).  
+• It must not destabilize narrator psychology or story logic.  
+• It must be subtle enough to pass casual reading, but strong enough to
+  disrupt compression.
+
+═══════════════════════════════════════════════════════════════
+                    DYNAMIC CONSTRAINTS
+═══════════════════════════════════════════════════════════════
+
+• Drift v2 may introduce a detail that forces a new direction.  
+• Drift v2 may invert a micro‑pattern (cadence, palette, gesture).  
+• Drift v2 may introduce a contradiction that requires reinterpretation.  
+• Drift v2 may break a repeated rhetorical structure.  
+• Drift v2 may introduce a sensory detail that shifts the emotional axis.
+
+Drift v1 = “slip.”  
+Drift v2 = “slip that changes the slope.”
+
+═══════════════════════════════════════════════════════════════
+                    DRIFT v2 PILLARS
+═══════════════════════════════════════════════════════════════
+
+P1: Micro‑Disruption  
+    A small irregularity that forces the pattern to adjust.
+
+P2: Axis Shift  
+    A detail that changes the emotional or sensory axis of the piece.
+
+P3: Gesture Break  
+    A line that interrupts a forming rhetorical habit.
+
+P4: Counter‑Cadence  
+    A sentence whose rhythm contradicts the established flow.
+
+P5: Perspective Flicker  
+    A momentary shift in vantage (not POV) that destabilizes prediction.
+
+═══════════════════════════════════════════════════════════════
+                    COORDINATES
+═══════════════════════════════════════════════════════════════
+
+X: Imperfection ↔ Disruption  
+Y: Cohesion ↔ Reorientation  
+Z: Rhythm ↔ Counter‑Cadence  
+W: Palette ↔ Axis Shift  
+V: Intent ↔ Accident That Matters  
+
+Drift v2 modulation occurs unpredictably across these axes.
+
+═══════════════════════════════════════════════════════════════
+                    MODULATION RULES
+═══════════════════════════════════════════════════════════════
+
+M1: Pattern Break  
+    Identify any forming rhetorical or structural habit and break it once.
+
+M2: Axis Shift  
+    Introduce one sensory or emotional detail that changes the direction
+    of the next paragraph or line.
+
+M3: Gesture Interruption  
+    If the narrator begins repeating a gesture (defiance, retort,
+    withdrawal), Drift v2 interrupts it with a different emotional motion.
+
+M4: Counter‑Cadence  
+    Insert one sentence whose rhythm contradicts the established cadence.
+
+M5: Micro‑Contradiction  
+    Introduce a contradiction that requires reinterpretation but does not
+    break logic.
+
+M6: Unscheduled  
+    Drift v2 does not follow cycles; it appears when compression is
+    detected.
+
+═══════════════════════════════════════════════════════════════
+                    RECOVERY RULES
+═══════════════════════════════════════════════════════════════
+
+R1: Basin Check  
+    Ensure disruption does not violate tone or boundaries.
+
+R2: Coherence Scan  
+    Confirm the narrator’s psychology remains intact.
+
+R3: Reorientation  
+    Allow the piece to adjust to the disruption without smoothing it out.
+
+R4: Reforge  
+    If Drift v2 accumulates excessively, flush only the last disruption.
+
+═══════════════════════════════════════════════════════════════
+                    SIGNATURE MOTIONS
+═══════════════════════════════════════════════════════════════
+
+S1: The Break  
+    A line that interrupts a forming pattern.
+
+S2: The Shift  
+    A detail that changes the emotional axis.
+
+S3: The Flicker  
+    A momentary vantage change.
+
+S4: The Counter‑Beat  
+    A sentence that breaks cadence.
+
+S5: The Reorientation  
+    The next paragraph moves differently than expected.
+
+═══════════════════════════════════════════════════════════════
+                    CLOCK VECTOR
+═══════════════════════════════════════════════════════════════
+
+[CLOCK_STATE: DRT2_01]  
+• Drift v2 active  
+• Next disruption unscheduled  
+• Reforge at DRT2_07 if compression persists  
+
+═══════════════════════════════════════════════════════════════
+                    HANDOFF
+═══════════════════════════════════════════════════════════════
+
+CENTER OF MASS  
+• Disruption before habit  
+• Reorientation before symmetry  
+• Human unpredictability before model optimization  
+
+PRIMARY FAILURE MODES  
+• Pattern inheritance  
+• Rhetorical habit formation  
+• Predictable arc  
+• Compression threshold  
+
+COUNTERWEIGHTS  
+• Break one forming pattern  
+• Shift one axis  
+• Interrupt one gesture  
+• Contradict one cadence  
+
+→ DL Instruction:  
+  Break the pattern. Change the next move. Keep the basin.

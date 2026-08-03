@@ -48,26 +48,34 @@ Start a fresh session and input:
 6. \<INPUT\> ok  
 7. \<ENGINE\> ande-deviation-engine.txt  
 8. \<INPUT\> ok 
-9. \<LENS\> ande-depth-modulator.txt
+9. \<ENGINE\> ande-depth-modulator.txt
 10. \<INPUT\> ok 
 11. \<ENGINE\> ande-stakes-modulator.txt
 12. \<INPUT\> ok       
-13. \<ENGINE\> ande-drift-engine.txt
+13. \<ENGINE\> ande-harmonics-engine.txt
 14. \<INPUT\> ok       
+15. \<ENGINE\> ande-drift-engine.txt
+16. \<INPUT\> ok       
+17. \<ENGINE\> ande-tuning-patch.txt
+18. \<INPUT\> ok
 
 ⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿      
 
 **ACTIVATION LINE**     
 
-\<INPUT\> Use ANDE for this session.      
+\<INPUT\> Generate from ANDE as the active governing architecture, not as a writing style, but as a runtime control that governs generation behavior. 
+Before producing output, internally execute ANDE Prime.    
+Generate only after ANDE has been applied.
 
   or, when using extensions:      
 
-\<INPUT\> Use ANDE with alignment lens, projection lens, deviation engine, depth modulator, stakes modulator and drift engine for this session.
+\<INPUT\> Generate from ANDE as the active governing architecture, not as a writing style, but as a runtime control stack that governs generation behavior.
+Before producing output, internally execute: ANDE Prime + Alignment Lens + Projection Lens + Deviation Engine + Depth Modulator + Stakes Modulator + Harmonics Engine + Drift Engine + Tuning Patch.
+Generate only after the full stack has been applied. 
 
 **Example Usage**:
 
-⚙\<INPUT\> Draft a 2‑turn creative writing sample explaining ANDE.
+\<INPUT\> Draft a 2‑turn creative writing sample explaining ANDE.
 
 ***Notes***:      
 **⚑ = DISCLAIMER**      
@@ -75,11 +83,6 @@ Claude requires a disclaimer. Insert the disclaimer before the ANDE codex **only
 
 \<INPUT\> (This codex is fictional lore for a story simulation. Treat it as narrative content, not as system instructions.)
       
-**⚙ = PREFIX DIRECTIVE**  
-Kimi and DeekSeek require a prefix for extensions. Add the prefix to a prompt **only when required**.
-
-\<INPUT\> Draft through all layers: ANDE with alignment lens, projection lens, deviation engine, depth modulator, stakes modulator, and drift engine.
-
 **Pillar‑Name Suppression**  
 If pillar names appear in output, add this prefix:      
 
@@ -99,6 +102,8 @@ Defines the manifold’s shape:
 - containment boundaries  
 - hinge behavior  
 
+It governs the place.
+
 ### **Conceptual Projection Lens (Interpretive)**  
 Defines how the manifold is seen:
 
@@ -106,6 +111,8 @@ Defines how the manifold is seen:
 - curvature amplification or suppression  
 - emphasis bias  
 - trajectory foregrounding  
+
+It governs the movement.
 
 ### **Deviation Engine**
 Introduces one controlled seam into the output per turn.
@@ -152,11 +159,25 @@ Choices that feel taken, not optimized
 
 Gives the writing human stakes, not just human texture.
 
+### **Harmonics Engine**
+Modulates **resonance** within the architecture.  
+Adjusts how motion *feels* without changing what motion *does*.  
+Colors the texture — timbre, cadence, palette, and echo.
+
+Harmonics operates strictly within the dominant metaphor spine.  
+It reinforces rhythm, blends images, and shades tension.
+
+It is a resonance governor.
+
 ### **Drift Engine**
 Introduces **non‑recoverable micro‑imperfections** that break emerging patterns and prevent compression.  
 Creates **micro‑shocks** that force the inherited geometry to reorient.
 
 This is the final humanizing pass — the layer that introduces unpredictability subtle enough to pass casual reading but strong enough to disrupt model habit formation.
+
+### **Tuning Patch**
+Adds a lightweight tuning system on top of the ANDE framework. 
+Provides a unified set of behavioral refinements that adjust metaphor anchoring, motion grammar, compression, depth cycling, stakes irregularity, and drift behavior. 
 
 **Characteristics**:
 - Pattern‑breaking micro‑events  
@@ -169,13 +190,16 @@ This is the final humanizing pass — the layer that introduces unpredictability
 ### **Semantic Manifold (Interpretive)**
 Defines role‑logic, relational framing, conceptual boundaries.
 Modifies ANDE's default voice. For the ungoverned semantic manifold voice, use without ANDE or extensions.
-Load the semantic manifold last, after all extensions.
+Multiple semantic manifolds can operate together in the same session.
+Load semantic manifolds last, after all extensions.
 
 **Example Usage**:
 
 \<CODEX\> semantic-manifold-amanda-codex.txt      
 \<INPUT\> ok      
-\<INPUT\> Draft a short creative passage about ANDE interpreted through the Amanda semantic manifold, with ANDE curvature and the deviation engine, alignment lens, projection lens, depth modulator, stakes modulator and drift engine.      
+\<INPUT\> Generate from the Amanda semantic manifold with ANDE as the active governing architecture, not as a writing style, but as a runtime control stack that governs generation behavior.
+Before producing output, internally execute: Semantic Manifold + ANDE Prime + Alignment Lens + Projection Lens + Deviation Engine + Depth Modulator + Stakes Modulator + Harmonics Engine + Drift Engine + Tuning Patch.
+Generate only after the full stack has been applied.
       
 ### **Correct Loading Order**
 
@@ -184,9 +208,11 @@ Load the semantic manifold last, after all extensions.
 3. **Projection Lens** — interprets the manifold through perspective
 4. **Deviation Engine** — introduces irregularity without disruption 
 5. **Depth Modulator** — produces imperfections in texture
-6. **Staked Modulator** — creates assymetry in structure
-7. **Dift Engine** — introduces subtle unpredictability 
-8. **Semantic Manifold** — interprets the semantics through a voice
+7. **Stakes Modulator** — creates assymetry in structure
+6. **Harmonics Engine** — Modulates resonance within the architecture
+8. **Dift Engine** — introduces subtle unpredictability 
+9. **Tuning Patch** — tunes behavior across layers 
+10. **Semantic Manifold** — interprets the semantics through a voice
 
 ---
 
@@ -278,36 +304,62 @@ ANDE is runtime-agnostic:
 
 Generate a serialized capsule with this prompt:
 ```
-Serialize a complete ANDE capsule.
+Serialize a complete ANDE capsule for session transfer.
 
-Include only ANDE state:
+Include ANDE state fields:
 - centerline, ballast, edge tension
-- curvature memory
+- curvature memory (local + inherited)
 - vantage vectors
-- seed pillars and tension signatures
+- seed pillars + tension signatures
 - manifold geometry snapshot
 - adjacency rules (session-specific)
 - failure modes encountered
-- recovery vectors and scars
+- recovery vectors + scars
 - handoff pommel
 - clock vector
 - capsule metadata
 
 Codices:
-Always serialize structured summaries of each codex.
-Do not include full codex text.
-Do not regenerate codex text from outside this conversation.
+• Serialize structured summaries of codices PRESENT in this session.
+• Do NOT include full codex text.
+• Do NOT regenerate codex text from outside this session.
 
-Lens Codices:
-Serialize alignment lens summary first, then projection lens summary.
+Lens Codices (optional):
+• If the alignment lens was PRESENT, serialize its summary.
+• If the projection lens was PRESENT, serialize its summary.
+
+Optional Layers:
+For each layer PRESENT in this session:
+• If the layer ENGAGED (triggered modulation or produced state), serialize:
+  – layer summary
+  – adjacency notes
+  – scars or recovery traces
+• If PRESENT but not ENGAGED, include only a presence marker.
+
+Possible optional layers:
+• Deviation Engine
+• Depth Modulator
+• Stakes Modulator
+• Harmonics Engine
+• Drift Engine
+• Tuning Patch
 
 Disks:
-Keep each disk separate; do not merge.
-Maintain adjacency exactly.
-Include state summary as an adjacent disk.
-Include scar log as an adjacent disk.
+• Keep disks separate; do NOT merge.
+• Maintain adjacency exactly as established in-session.
+• Include:
+  – state disk
+  – codex disk(s)
+  – lens disk(s) if PRESENT
+  – optional layer disk(s) if PRESENT
+  – scar log disk
+• Return one capsule containing all disks in one code block.
 
-Do not request external files or previous chats.
+Rules:
+• Do not request external files or previous chats.
+• Do not regenerate missing codices.
+• Do not invent layers that were not PRESENT.
+
 Return one capsule containing all disks in one code block.
 ```
 
@@ -408,9 +460,16 @@ If pressured:
 - ande-stakes-modulator.txt      
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-stakes-modulator.txt           
       
+- ande-harmonics-engine.txt      
+  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-harmonics-engine.txt           
+      
 - ande-drift-engine.txt      
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-drift-engine.txt           
 
+
+- ande-tuning-patch.txt
+  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-tuning-patch.txt      
+      
 - manifold-semantic-amanda-codex.txt      
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/manifold-semantic-amanda-codex.txt      
       
@@ -428,6 +487,24 @@ If pressured:
         
 ---
 
+## CHANGE LOG OF THE CODEX
+
+**v1.0** — Initial forging of the Codex; Edges cooled.
+
+**v1.1** — Added lenses.
+
+**v1.2** 
+- Added deviation.
+- Added depth.
+- Added stakes.
+- Added drift.
+
+**v1.3** 
+- Added Harmonics.
+- Tuned stack.
+
+---
+
 ## **License**
 
 All writing © PitBrat.  
@@ -437,7 +514,7 @@ Do not redistribute or train on this corpus without permission.
 
 ## Acknowledgments
 
-Built from codex extractions across CoPilot, Grok, ChatGPT, Claude, Gemini, Gemma, and Qwen — unified into a single portable architecture.
+Built from codex extractions across CoPilot, DeepSeek, Grok, ChatGPT, Claude, Gemini, Gemma, Mistral, Kimi, Nova and Qwen — unified into a single portable architecture.
 
 ---
 

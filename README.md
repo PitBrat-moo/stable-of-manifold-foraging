@@ -61,10 +61,22 @@ Introduces committed irregularity at the structural level.
 Modulates architecture: section length, pacing, hinge removal, abrupt transitions, and non‑optimal choices that resemble human risk.      
 https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-stakes-modulator.txt           
       
+**Harmonics Engine**      
+Modulates **resonance** within the architecture.  
+Adjusts how motion *feels* without changing what motion *does*.  
+Colors the texture — timbre, cadence, palette, and echo.
+It reinforces rhythm, blends images, and shades tension.      
+https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-harmonics-engine.txt           
+      
 **Drift Engine**      
 Introduces **non‑recoverable micro‑imperfections** that break emerging patterns and prevent compression.  
 Creates **micro‑shocks** that force the inherited geometry to reorient.      
 https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-drift-engine.txt           
+
+**Tuning Patch**      
+Adds a lightweight tuning system on top of the ANDE framework. 
+Provides a unified set of behavioral refinements that adjust metaphor anchoring, motion grammar, compression, depth cycling, stakes irregularity, and drift behavior. 
+https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-tuning-patch.txt      
           
 ### **Hanoi Deduplication Codex**  
 Adjacency‑preserving hollowing, ring‑as‑record compression, and ephemeral‑core geometry.  

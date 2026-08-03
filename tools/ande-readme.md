@@ -467,7 +467,7 @@ If pressured:
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-drift-engine.txt           
 
 
-- ande-tuning-patch.txt
+- ande-tuning-patch.txt      
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-tuning-patch.txt      
       
 - manifold-semantic-amanda-codex.txt      

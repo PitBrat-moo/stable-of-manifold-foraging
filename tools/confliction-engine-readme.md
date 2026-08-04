@@ -20,7 +20,8 @@ This makes it easy for beginners and experienced writers to create scenes with p
 
 ## Quick Start Tutorial
 
-### 1. Fill the Seed Template
+### 1. Fill the Seed Template (Layer III in the codex)
+*(Seed Template lives in Layer III — the engine’s user‑input layer.)*
 
 * **Object:** Where to eat
 * **Incompatibility Pair:** Two people

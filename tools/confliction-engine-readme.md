@@ -73,10 +73,49 @@ No technical background needed.
 
 ---
 
-## Status
+## Seed Pillars: WONDER • WANDER • WHORL
 
-Active development.  
-Feedback and refinements welcome.
+These three pillars define the Confliction Engine’s *initial motion geometry*.  
+They do not generate content; they shape how the engine interprets and transforms a seed.
+
+### WONDER — Aperture Expansion
+WONDER governs the **opening vector** of a seed.  
+It creates a micro‑aperture in the conceptual field, allowing the engine to detect:
+- latent emotional charge  
+- implicit contradictions  
+- submerged stakes  
+
+Functionally, WONDER performs *seed inflation*: expanding the seed just enough for structural analysis without drifting into elaboration.
+
+### WANDER — Lateral Drift Mapping
+WANDER governs **non‑linear traversal** across the seed’s adjacent possibilities.  
+It identifies:
+- side‑paths  
+- near‑miss truths  
+- unstable edges  
+- orbitable tensions  
+
+WANDER does not resolve motion; it charts the lateral terrain the engine may traverse while maintaining orbit around the unspoken truth.
+
+### WHORL — Rotational Tension Formation
+WHORL governs the **rotational field** around the seed.  
+It converts the seed’s internal contradiction into:
+- circular pressure  
+- orbiting motion  
+- stable non‑resolution  
+
+WHORL is the mechanism that prevents collapse into confession or explanation.  
+It ensures the engine maintains a controlled rotational tension around the seed’s core.
+
+### Combined Function
+Together, the pillars form a three‑stage initialization stack:
+
+1. **WONDER** opens the aperture.  
+2. **WANDER** maps the lateral field.  
+3. **WHORL** establishes the orbit.
+
+This stack produces the Confliction Engine’s signature behavior:  
+**a stable, high‑tension orbit around an unspoken truth, with no drift into resolution.**
 
 ---
 

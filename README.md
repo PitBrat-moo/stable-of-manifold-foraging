@@ -98,6 +98,12 @@ An external translation engine.
 The public V1 layer provides basic session restoration; advanced engines (V5+) use private algorithms.  
 https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/codex/forge-codex.txt
 
+
+### **Confliction Engine**
+A tool for writers to generate narrative tension.      
+Helps writers explore scenes using simple seeds.      
+https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ext-confliction-engine-codex.txt      
+      
 ---
 
 ## Worlds (Testbeds)

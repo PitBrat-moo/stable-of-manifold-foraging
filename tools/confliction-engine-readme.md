@@ -28,7 +28,7 @@ This makes it easy for beginners and experienced writers to create scenes with p
 
 ### 2. Paste the Confliction Engine Codex
 
-Located at:
+Located at:      
 https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ext-confliction-engine-codex.txt
 
 ### 3. Begin the Scene

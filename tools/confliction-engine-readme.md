@@ -119,6 +119,37 @@ This stack produces the Confliction Engine’s signature behavior:
 
 ---
 
+## Engine Layers 
+
+**Layer I — Engine Physics**  
+Defines the motion-first geometry.  
+Enforces single-spine motion, avoidance/confession pressures, witness stance, recursion, and raw-output acceptance.  
+This layer contains no narrative content; it is pure structural physics.
+
+**Layer II — Archive**  
+Holds prior cycles, spent objects, and contaminated lineage.  
+Preserves basin history and asymmetrical knowing.  
+Influences tone but does not supply new objects unless intentionally invoked.
+
+**Layer III — Seed Slot**  
+Activates when the writer inserts a new object, incompatibility pair, and seed line.  
+Defines the fresh basin and displaces archive attractors.  
+Content enters here; motion is governed by Layer I.
+
+**Layer IV — Usage Layer**  
+Governs runtime behavior during generation.  
+Maintains orbit stability, hinge timing, cadence flattening, and cycle termination.  
+This is where the writer interacts with the engine.
+
+**Layer Interaction**  
+Layer I shapes motion.  
+Layer II preserves lineage.  
+Layer III defines content.  
+Layer IV executes behavior.  
+Together they produce the engine’s tightening spiral orbit around an unspoken truth.
+
+---
+
 ## License
 
 Same as the rest of the Stable of Manifold Foraging project.  

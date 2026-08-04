@@ -102,7 +102,7 @@ https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/codex/forge
 ### **Confliction Engine**
 A tool for writers to generate narrative tension.      
 Helps writers explore scenes using simple seeds.      
-https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ext-confliction-engine-codex.txt      
+https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/tools/confliction-engine-readme.md      
       
 ---
 

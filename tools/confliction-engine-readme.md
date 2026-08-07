@@ -1,5 +1,5 @@
 # Confliction Engine  
-### *A lightweight tool for writers to generate narrative tension with an LLM*
+### *A tension‑physics sandbox for writers using LLMs*
 
 The **Confliction Engine** is not a drafting tool.  
 It does not generate novel‑ready prose, interiority, or voice.  

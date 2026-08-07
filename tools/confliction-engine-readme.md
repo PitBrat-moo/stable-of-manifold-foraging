@@ -1,20 +1,38 @@
 # Confliction Engine  
 ### *A lightweight tool for writers to generate narrative tension with an LLM*
 
-The **Confliction Engine** helps writers explore scenes using simple seeds.  
-It keeps the model circling an *unspoken truth*—the emotional center characters avoid naming—while the surface topic becomes the orbit.
+The **Confliction Engine** is not a drafting tool.  
+It does not generate novel‑ready prose, interiority, or voice.  
+It is a **scene‑level tension simulator**: a lightweight physics layer that keeps an LLM orbiting an unspoken truth instead of resolving it.
 
-This makes it easy for beginners and experienced writers to create scenes with pressure, subtext, and unresolved dynamics.
+Use it to **poke**, **test**, and **explore** pressure between characters — not to produce finished chapters.
 
 ---
 
-## What It Does
+## ✅ What This IS
 
-- Holds the model in orbit around a core tension  
-- Prevents premature resolution  
-- Maintains conflict without melodrama  
-- Supports turn‑by‑turn scene exploration  
-- Works with any LLM that accepts long prompts  
+A **motion‑first tension engine** that:
+
+- holds the model in orbit around a core contradiction  
+- prevents premature resolution  
+- maintains pressure without melodrama  
+- produces recursive, stable, high‑tension motion  
+- supports turn‑by‑turn exploration of a scene  
+
+It is a **sandbox**, not a generator.
+
+---
+
+## ❌ What This Is NOT
+
+- not a prose generator  
+- not a voice‑matching system  
+- not a romance/banter engine  
+- not a drafting accelerator  
+- not a one‑shot scene writer  
+- not a story‑structure tool  
+
+For polished prose, interiority, or stylistic mimicry, run a refinement pass *after* using the engine.
 
 ---
 
@@ -99,72 +117,83 @@ Insert:
 
 ---
 
-## Why Writers Use It
+## 🌀 Why the Codex Contains Redundancy
 
-- LLMs often resolve conflict too quickly  
-- Characters confess too early  
-- Scenes drift into explanation or advice  
-- Emotional stakes flatten  
+The repetition is intentional.  
+It establishes a **pattern** the model uses to maintain continuity:
 
-The Confliction Engine generates **structured tension** around your seed and keeps the scene suspended in it.
+- repetition → pattern  
+- pattern → constraint  
+- constraint → continuity  
+- continuity → orbit  
+- orbit → tension stability  
 
----
-
-## Who It’s For
-
-- Creative writers  
-- Screenwriters  
-- Novelists  
-- RPG storytellers  
-- Anyone learning to write with an LLM  
-
-No technical background needed.
+The codex is not decorative; it is structural reinforcement.
 
 ---
 
-## Seed Pillars: WONDER • WANDER • WHORL
+## 🌱 Seed Pillars: WONDER • WANDER • WHORL
 
-These three pillars define the Confliction Engine’s *initial motion geometry*.  
-They do not generate content; they shape how the engine interprets and transforms a seed.
+These are not thematic ideas.  
+They are the **motion grammar** of the engine:
 
-### WONDER — Aperture Expansion
-WONDER governs the **opening vector** of a seed.  
-It creates a micro‑aperture in the conceptual field, allowing the engine to detect:
+### WONDER — Aperture Expansion  
+Opens the conceptual field just enough for the engine to detect:  
 - latent emotional charge  
 - implicit contradictions  
 - submerged stakes  
 
-Functionally, WONDER performs *seed inflation*: expanding the seed just enough for structural analysis without drifting into elaboration.
-
-### WANDER — Lateral Drift Mapping
-WANDER governs **non‑linear traversal** across the seed’s adjacent possibilities.  
-It identifies:
+### WANDER — Lateral Drift Mapping  
+Charts the seed’s adjacent possibilities:  
 - side‑paths  
 - near‑miss truths  
 - unstable edges  
 - orbitable tensions  
 
-WANDER does not resolve motion; it charts the lateral terrain the engine may traverse while maintaining orbit around the unspoken truth.
-
-### WHORL — Rotational Tension Formation
-WHORL governs the **rotational field** around the seed.  
-It converts the seed’s internal contradiction into:
-- circular pressure  
+### WHORL — Rotational Tension Formation  
+Creates the circular pressure that prevents collapse:  
 - orbiting motion  
 - stable non‑resolution  
+- controlled rotational tension  
 
-WHORL is the mechanism that prevents collapse into confession or explanation.  
-It ensures the engine maintains a controlled rotational tension around the seed’s core.
-
-### Combined Function
-Together, the pillars form a three‑stage initialization stack:
-
+### Combined Function  
 1. **WONDER** opens the aperture.  
 2. **WANDER** maps the lateral field.  
 3. **WHORL** establishes the orbit.
 
 This stack produces the Confliction Engine’s signature behavior:  
 **a stable, high‑tension orbit around an unspoken truth, with no drift into resolution.**
+
+---
+
+## 👁 How to Read the Output
+
+The engine writes in **witness stance**:
+
+- flat declarative lines  
+- external observation  
+- minimal interiority  
+- pressure through avoidance  
+- truth landing once, late  
+
+This is intentional.  
+It keeps the scene suspended instead of collapsing into explanation or confession.
+
+For interiority or stylistic voice, add it in a refinement pass.
+
+---
+
+## 🧪 How Writers Use It
+
+Use the engine to:
+
+- test character dynamics  
+- explore contradictions  
+- find pressure points  
+- generate subtext  
+- discover orbitable tensions  
+
+It is a diagnostic tool for **tension**, not a drafting tool for **prose**.
 
 ---
 

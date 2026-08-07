@@ -20,24 +20,49 @@ This makes it easy for beginners and experienced writers to create scenes with p
 
 ## Quick Start Tutorial
 
-### 1. Fill the Seed Template (Layer III in the codex)
+### 1. Fill the Seed Template (Layer III in the codex) for the Prompt
 *(Seed Template lives in Layer III — the engine’s user‑input layer.)*
 
-* **Object:** Where to eat
-* **Incompatibility Pair:** Two people
-* **Seed Line:** They're both in love with someone else
+Fill the Seed Template in the prompt — don’t edit the codex.
 
-### 2. Paste the Confliction Engine Codex
+Example:
+* **Object:** a coin
+* **Incompatibility Pair:** two people who both want it
+* **Seed Line:** ‘It’s worthless until someone needs it.’
+
+### 2. Paste the Confliction Engine Codex into the Model
 
 Located at:      
 https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ext-confliction-engine-codex.txt
 
-### 3. Begin the Scene
+### 3. Input the Seed Template
 
-Start writing dialogue or action.  
+After pasting the codex, drop the filled Seed Template as the next prompt.
+
+Example (using the template from Step 1):
+```
+----------------------------------------
+SEED TEMPLATE
+----------------------------------------
+Insert:
+
+1. **New Object**  
+   a coin
+
+2. **New Incompatibility Pair**  
+   two people who both want it  
+
+3. **Seed Line**  
+   ‘It’s worthless until someone needs it.’
+```
+
+### 4. Begin the Scene
+
+Drop in world + character notes — story bible / character sheets.  
+Start writing dialogue or action.
 The engine maintains the orbit automatically.
 
-### 4. Add Steering Inputs
+### 5. Add Steering Inputs
 
 Use simple nudges to deepen tension:
 
@@ -47,7 +72,30 @@ Use simple nudges to deepen tension:
 - proximity  
 - hesitation  
 
+Examples — bend the coin, swallow it, make it the room, lose it.
+
 The engine keeps the truth unspoken but present.
+
+### Changing the Seed
+
+Input a new seed template.
+
+Example:
+```
+----------------------------------------
+SEED TEMPLATE
+----------------------------------------
+Insert:
+
+1. **New Object**  
+   Where to eat
+
+2. **New Incompatibility Pair**  
+   Two people who aren't hungry for the same thing.  
+
+3. **Seed Line**  
+   They're both in love with someone else
+```
 
 ---
 

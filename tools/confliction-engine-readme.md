@@ -59,7 +59,7 @@ Insert:
 ### 4. Begin the Scene
 
 Drop in world + character notes — story bible / character sheets.  
-Start writing dialogue or action.
+Start writing dialogue or action.  
 The engine maintains the orbit automatically.
 
 ### 5. Add Steering Inputs

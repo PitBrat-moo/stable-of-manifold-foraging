@@ -228,6 +228,15 @@ Together they produce the engine’s tightening spiral orbit around an unspoken 
 
 ---
 
+## Why It Works
+
+LLMs lose relational distance quickly — characters collapse into confession, explanation, or resolution.  
+The Confliction Engine stabilizes distance between characters, objects, and the unspoken truth.  
+This distance is what creates tension, orbit, and subtext.  
+The engine does not generate prose; it maintains relational geometry.
+
+---
+
 ## License
 
 Same as the rest of the Stable of Manifold Foraging project.  

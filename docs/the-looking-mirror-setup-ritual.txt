@@ -357,6 +357,7 @@ v1.5 — Boundary Established.
        Anchor Stabilized.
 v1.6 — Added beat pool. 
 v1.7 — Added memory manager. 
+v1.8 — Negative constraints refactored.
        
 The Looking Mirror — A Narrative Adventure
 PitBrat, 2026

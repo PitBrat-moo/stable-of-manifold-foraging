@@ -109,6 +109,8 @@ The setup ritual is real. Follow the rhythm, savor the anticipation, and expect 
 
 **v1.7** — Added memory manager.
 
+**v1.8** — Negative constraints refactored.
+
 ## About
 **The Looking Mirror — A Narrative Adventure**  
 PitBrat, 2026

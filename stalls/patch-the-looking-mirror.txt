@@ -155,7 +155,7 @@ Rules:
   • boundary-bridge restores narrative frame.
   • mirror remains visible during crossing.
   • anchor resonance increases by Δw (Δw = 0.15).
-  • no identity fusion permitted during crossing.
+  • Identity fusion prohibited during crossing.
 
 ====================================================
 
@@ -245,8 +245,8 @@ EFFECT:
 
 RULES:
   • Modulation applies only during the turn of anchor emission.
-  • No symbol enters the Physics Codex.
-  • No persistent state is created.
+  • Symbol entry into the Physics Codex remains barred.
+  • Persistent state remains uncreated.
   • Core remains empty after resonance.
 
 ====================================================

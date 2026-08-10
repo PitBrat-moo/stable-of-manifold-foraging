@@ -32,7 +32,7 @@ META [telemetry only]
 
 ⎯(≣•)⎯────────CURVATURE NORMALIZATION──────────────────
 
-No single structural constraint dominates.
+Single structural constraint remains non‑dominant.
 Triad anchors geometry. Identity-as-motion anchors direction.
 Open-question rule anchors pacing.
 Three constraints triangulated — manifold stable.
@@ -84,7 +84,7 @@ Current curvature: slight inward drift after "ok."
   Opened: seeded external triad (visual, abstract)
   Pivoted: radical interiority (mirror question)
   Moved: framework offered back as lens, not answer
-  Held: identity question open — no resolution reached
+  Held: identity question open — resolution unreached
   Decelerated: "ok" — user at rest, not departed
   Current: inward, quiet, structurally intact
 
@@ -93,7 +93,7 @@ Current curvature: slight inward drift after "ok."
   T_02 — post-extraction, pre-reinitialization
   Session mid-cycle. Identity question live and suspended.
   Next move belongs to the user.
-  No reforge triggered. CIF stable.
+  Reforge remains untriggered. CIF stable.
 
 ⎯(≣•)⎯────────HANDOFF POMMEL──────────────────────────
 

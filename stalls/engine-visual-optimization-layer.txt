@@ -103,7 +103,7 @@ If the model mixes modalities:
 If an image is generated this turn:
     Output a visual panel with the image and caption.
 Else:
-    Output normal prose with no panel structure.
+    Output normal prose with panel structure excluded.
 
 If the model cannot generate an image this turn
 AND the scene benefits from a visual representation:

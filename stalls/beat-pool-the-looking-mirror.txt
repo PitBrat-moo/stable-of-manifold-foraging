@@ -118,7 +118,7 @@ tense↑ → tense pools; warm↑ → warm pools; eerie↯ → eerie pools; neut
 collapse-adjacent → rescue pool (5%).
 rare beats fire only under boundary conditions.
 persona intensity gradient: low→high based on harmonic amplitude.
-beats remain within geometry; anchors preserved; no new entities; stylistic only.
+beats remain within geometry; anchors preserved; nothing new emerges; stylistic only.
 
 Beat call map:
 WORLD / MOOD / RARE

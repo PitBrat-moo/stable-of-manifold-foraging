@@ -146,7 +146,7 @@ VII. DECAY FUNCTIONS (CLARITY + BURDEN + RESONANCE)
 2. CLARITY DECAY (HARMONICS-WEIGHTED)
    clarity_next = clarity_current - base_decay_rate * (1 - resonance_weight)
 
-   • resonance_weight near 1.0 → almost no decay
+   • resonance_weight near 1.0 → decay becomes almost imperceptible
    • resonance_weight near 0.0 → full decay
 
 3. BURDEN DECAY / AMPLIFICATION

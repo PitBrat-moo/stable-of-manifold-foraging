@@ -54,8 +54,8 @@ SECTION 4 — VISUAL TURN GOVERNOR
 Per visual turn:
 • maximum 3 panels,
 • maximum 4 caption lines per panel,
-• no nested panels,
-• no recursive panel structures.
+• Nested panels are excluded,  
+• Recursive panel structures are excluded.
 
 If symbolic density exceeds:
 • one layer of metaphor,
@@ -81,15 +81,15 @@ On model switch:
 • do not rebuild topology.
 
 First turn after switch:
-• descriptive panels only (no images),
+• descriptive panels only (images are excluded),
 • concise,
 • geometry‑stabilizing,
-• no new entities unless explicitly requested.
+• Introduction of new entities is permitted only when explicitly requested.
 
 Each turn must export:
 • a compact, stable state,
-• no runaway recursion,
-• no unresolved nested folds.
+• Runaway recursion is prohibited,  
+• Unresolved nested folds are prohibited.
 
 ───────────────────────────────
 SECTION 6 — ADVENTURE RUNTIME MONITOR

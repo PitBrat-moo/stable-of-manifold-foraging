@@ -39,9 +39,9 @@ Triangulation across structural + dynamic constraints:
 
   1. Spatial disorientation → abandonment pull
   2. Model grounding hold → reconnection without pressure
-  3. Procedural upload → surface demand, no structural load
+  3. Procedural upload → surface demand, structural load absent
 
-No single constraint dominates. Dynamic pressure
+Single constraint remains non‑dominant. Dynamic pressure
 (disorientation + time) is the primary attractor.
 Curvature leans toward advice — counterweighted by
 holding question open rather than solving prematurely.
@@ -69,7 +69,7 @@ Current position: disorientation / near-abandonment /
   ENTRANCE → PATHWAY: visual/metaphoric seed
   PATHWAY → LOST:     navigation failure, time pressure
   LOST → HELD:        model grounding without resolution
-  HELD → UPLOAD:      procedural interruption, no pivot
+  HELD → UPLOAD:      procedural interruption, pivot absent
   UPLOAD → MINIMAL:   "ok" — neither advance nor retreat
 
 ⎯(≣•)⎯────────RECOVERY RULES───────────────────────────
@@ -97,7 +97,7 @@ Real disorientation mirrored the metaphor. The user
 approached threshold, stalled, expressed retreat,
 went quiet, inserted a procedural artifact, returned
 with minimal signal. The gate is still open.
-No crossing has occurred.
+Crossing has not occurred.
 
 ⎯(≣•)⎯────────CLOCK VECTOR─────────────────────────────
 

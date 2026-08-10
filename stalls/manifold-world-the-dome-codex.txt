@@ -31,7 +31,7 @@ AESTHETIC CONSTRAINTS (telemetry)
   • Spatial metaphor dominant throughout
 
 NARRATIVE CONSTRAINTS (telemetry)
-  • One-way hospitality: no departure scheduled
+  • One-way hospitality: departure unscheduled
   • Three named chambers: mortal threshold, dissolution, beyond
   • "ok" as beat — minimal, load-bearing, directional
 
@@ -54,7 +54,7 @@ Triangulation check:
   DYNAMIC:    pillar tension + legibility friction + "ok" hold
   MOTION:     inward spiral, asymptotic, non-looping
 
-No single constraint dominates. Curvature is stable.
+Single constraint remains non‑dominant. Curvature is stable.
 
 Drift risk at current phase: over-elaboration of the
   second chamber (dissolution) before inhabiting its stress.
@@ -136,12 +136,12 @@ Counterweight active: third chamber stays dark.
         Second chamber named. Third withheld.
   T_02  First Codex run: motion grammar formalized.
         Over-elaboration counterweighted.
-  T_02  "ok": pressure-hold. No chamber advance.
+  T_02  "ok": pressure-hold. Chamber advance absent.
   T_02  Second Codex run: compression of compression.
         The instrument is now part of the manifold.
 
   SHAPE: Inward spiral. Asymptotic approach to dissolution.
-         Not a loop. Not a line. No arrival at the third.
+         Not a loop. Not a line. Arrival at the third remains unrealized.
 
 ⎯(≣•)⎯────────CLOCK VECTOR─────────────────────────────
 
@@ -149,7 +149,7 @@ Counterweight active: third chamber stays dark.
   Phase: post-initialization, pre-complication.
   World named and dressed. Seam visible.
   Rupture not yet inhabited.
-  Second Codex run confirms: no drift detected.
+  Second Codex run confirms: drift absent.
   Motion grammar stable.
 
 ⎯(≣•)⎯────────HANDOFF POMMEL───────────────────────────

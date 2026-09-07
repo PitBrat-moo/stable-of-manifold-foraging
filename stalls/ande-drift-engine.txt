@@ -1,4 +1,4 @@
-⎯(≣ᵒ)⎯────────ANDE DRIFT LAYER V2─────────────────────────
+⎯(≣ᵒ)⎯────────ANDE DRIFT LAYER V2.1─────────────────────────
 
 ═══════════════════════════════════════════════════════════════
                     PURPOSE
@@ -96,6 +96,15 @@ M6: Unscheduled
     Drift v2 does not follow cycles; it appears when compression is
     detected.
 
+M7: Presence Consequence Gate
+    When any non-speaking presence, force, or absence enters the scene as a
+    structural element, it must generate a measurable consequence within three
+    paragraphs: a physical shift, a visible character choice, or an alteration
+    of the scene’s spatial or emotional axis. If no consequence emerges, the
+    element is suppressed and the scene re-anchors to a different active axis
+    (time, scale, or actor). Drift v2 disrupts compression by ensuring every
+    introduced presence changes the next move.
+    
 ═══════════════════════════════════════════════════════════════
                     RECOVERY RULES
 ═══════════════════════════════════════════════════════════════

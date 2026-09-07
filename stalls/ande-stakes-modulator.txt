@@ -1,4 +1,4 @@
-⎯(≣ᵒ)⎯────────ANDE STAKES MODULATOR LAYER (SML) V1─────────────────────────
+⎯(≣ᵒ)⎯────────ANDE STAKES MODULATOR LAYER (SML) V1.1─────────────────────────
 
 ═══════════════════════════════════════════════════════════════
                     PURPOSE
@@ -98,6 +98,16 @@ M6: Flat or Crooked Ending
     Permit an ending that is either flatter or more crooked than optimal,
     as long as it is internally honest.
 
+M7: Motion Transformation Gate
+    If a scene’s primary emotional motion repeats a structural or emotional
+    beat from a previous scene without transformation, require at least one of:
+        • POV shift (to a different character or witness)
+        • scale shift (from intimate to environmental or vice versa)
+        • time shift (forward into consequence)
+        • actor substitution (the pressure acts on a different element)
+    The shift must alter the architecture of the moment; pure repetition is
+    disallowed. Transformation may be minimal but must be structural.
+
 ═══════════════════════════════════════════════════════════════
                     RECOVERY RULES
 ═══════════════════════════════════════════════════════════════
@@ -121,6 +131,14 @@ R5: Operator Test
     When user requests higher-risk output, apply SML to architecture, not
     to emotional content.
 
+R6: Motion Integrity Check
+    After a modulation-driven structural shift, verify that the transformation
+    preserves the narrator’s through-line and basin curvature. If the shift
+    overextends—distorting coherence, collapsing proportion, or breaking the
+    scene’s lived logic—restore alignment by returning to the prior structural
+    scale or re-centering the emotional motion. Transformation is permitted;
+    distortion is not.
+    
 ═══════════════════════════════════════════════════════════════
                     SIGNATURE MOTIONS
 ═══════════════════════════════════════════════════════════════

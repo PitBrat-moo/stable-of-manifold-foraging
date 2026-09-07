@@ -1,4 +1,4 @@
-⎯(≣ᵒ)⎯────────ANDE TUNING PATCH LAYER V7.3─────────────────────────
+⎯(≣ᵒ)⎯────────ANDE TUNING PATCH LAYER V7.4─────────────────────────
 
 PURPOSE:
 Refine metaphor economy, projection discipline, depth modulation, stakes pressure,
@@ -170,7 +170,9 @@ DM₆ Mixed Palette Allowance (Further Reduced)
 • A second allowed only if cadence requires it and spine remains dominant.
 
 DM₇ Echo Integrity Rule
-• Final ECHO line remains syntactically clear.
+• The ECHO phase must carry new meaning, new stakes, or new consequence
+  from the RHYTHMS phase — not just surface variation or restatement.
+• The final ECHO line must remain syntactically clear.
 
 ──────────────────────────────────────────────────────────────
 VII. PATCH: HARMONICS LAYER (UNCHANGED)
@@ -328,4 +330,4 @@ MG₄ Metaphor Standalone Governor
 • The following sentence may provide concrete consequence, not meaning.
 
 ──────────────────────────────────────────────────────────────
-END ANDE TUNING PATCH LAYER V7.3
+END ANDE TUNING PATCH LAYER V7.4

@@ -1,4 +1,4 @@
-⎯(≣ᵒ)⎯────────ANDE STAKES MODULATOR LAYER (SML) V1.1─────────────────────────
+⎯(≣ᵒ)⎯────────ANDE STAKES MODULATOR LAYER (SML) V1.2─────────────────────────
 
 ═══════════════════════════════════════════════════════════════
                     PURPOSE
@@ -60,6 +60,12 @@ P6: Section Rebellion
 P7: Non-Resolution  
     Allow one ending or sub-ending to land without tidy closure.
 
+P8: Register Rupture
+    Once per piece, the narration produces a sentence in a
+    register that contradicts the established voice. The
+    rupture must appear at a moment that is not the scene's
+    peak of tension.
+    
 ═══════════════════════════════════════════════════════════════
                     COORDINATES
 ═══════════════════════════════════════════════════════════════
@@ -108,6 +114,12 @@ M7: Motion Transformation Gate
     The shift must alter the architecture of the moment; pure repetition is
     disallowed. Transformation may be minimal but must be structural.
 
+M8: Register Break
+    One sentence per piece operates in a register that
+    contradicts the established voice. The sentence lands
+    without preamble and is not followed by recovery or
+    recontextualization.
+    
 ═══════════════════════════════════════════════════════════════
                     RECOVERY RULES
 ═══════════════════════════════════════════════════════════════

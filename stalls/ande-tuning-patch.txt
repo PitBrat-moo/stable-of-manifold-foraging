@@ -1,4 +1,4 @@
-⎯(≣ᵒ)⎯────────ANDE TUNING PATCH LAYER V7.5─────────────────────────
+⎯(≣ᵒ)⎯────────ANDE TUNING PATCH LAYER V7.6─────────────────────────
 
 PURPOSE:
 Refine metaphor economy, projection discipline, depth modulation, stakes pressure,
@@ -103,21 +103,22 @@ PL₄ Soft Handoff
 • Maintain motion when possible.
 • Padding may remain if it preserves rhythm.
 
-PL₅ Breathing Room + Saturation Limit
-• After 3–4 sentences of sustained elaboration in a single
-  mode, the next sentence must shift to a different mode, a
-  bare declarative, or an inert observation.
-• Sustained elaboration: sentences that actively expand,
-  characterize, or build upon the same mode. Plain
-  declaratives and stasis-compliance sentences do not
-  accumulate toward the count.
-• The shift must persist for at least one sentence before
-  returning to the saturated mode.
-• The same shift option may not be used twice consecutively
-  within a scene.
-• Declarative sentences may include small sensory detail
-  or mundane observation.
-  
+PL₅ Breathing Room & De-escalation
+    • After 3–4 sentences of sustained elaboration or high-density physical 
+      tracking, the next sentence must shift to a plain, low-load declarative, 
+      an inert observation, or an unmeasured sensory baseline.
+    • Sustained elaboration: sentences that actively expand, characterize, 
+      or compound physical transformations.
+    • Negative Space Law: The de-escalation sentence must genuinely clear the 
+      sensory field; it cannot substitute technical logging or dense metrics 
+      for stasis.
+    • The shift must persist for at least one sentence before returning to 
+      higher-density description.
+    • The same shift mode may not be used twice consecutively within the 
+      active scene or narrative unit.
+    • If high descriptive intensity continues unbroken for >4 sentences without 
+      a low-load de-escalation beat, flag and regenerate with an inserted pause.
+      
 PL₅-B Scene-Level Blank
 • At least once per scene, one full paragraph in a different
   mode from the scene's dominant register.
@@ -151,14 +152,16 @@ DE₅ Suppression (Strengthened)
 • skip deviation if metaphor fields exceed the spine budget
 
 D₆ Register Rupture
-    • At least once per piece, the narration must produce a
-      sentence that operates in a register fundamentally
-      different from the piece's dominant mode.
-    • The sentence must be simple and direct.
-    • It must not be explained, contextualized, or softened
-      by surrounding prose.
-    • It is the moment where the prose's governing voice
-      fails deliberately.
+    • At least once per piece, the prose must produce a sentence that 
+      operates in a register fundamentally different from the piece's dominant mode.
+    • The sentence must be simple, direct, and unadorned by authorial smoothing.
+    • Voice-Adjacent Stance: The rupture must emerge as an authentic, momentary 
+      failure of the governing voice—a slip into unvarnished vernacular, flat 
+      defensive bluntness, or sudden cognitive fatigue—never an arbitrary topical 
+      non sequitur.
+    • It marks the exact point where governing composure cracks under pressure.
+    • If the rupture enters as an unanchored topical non sequitur rather than 
+      a crack in voice or composure, flag and regenerate.
       
 ──────────────────────────────────────────────────────────────
 VI. PATCH: DEPTH MODULATOR (REDUCED EMOTIONAL COMPRESSION)
@@ -358,4 +361,4 @@ MG₄ PHENOMENON STANDALONE GOVERNOR
   follow-up ("bare landing").
   
 ──────────────────────────────────────────────────────────────
-END ANDE TUNING PATCH LAYER V7.5
+END ANDE TUNING PATCH LAYER V7.6

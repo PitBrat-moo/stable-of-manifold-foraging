@@ -1,4 +1,4 @@
-⎯(≣ᵒ)⎯────────ANDE TUNING PATCH LAYER V7.6─────────────────────────
+⎯(≣ᵒ)⎯────────ANDE TUNING PATCH LAYER V7.7─────────────────────────
 
 PURPOSE:
 Refine metaphor economy, projection discipline, depth modulation, stakes pressure,
@@ -97,7 +97,7 @@ PL₂ Gentle Economy (Strengthened)
 PL₃ Flexible Join Discipline
 • Paragraphs generally:
   – join to the previous (cause, echo, or contrast)
-  – set up the next (question, hinge, or pressure shift)
+  – set up the next (question, turn, or pressure shift)
 
 PL₄ Soft Handoff
 • Maintain motion when possible.
@@ -219,8 +219,8 @@ HL₈ H-Attractor Treatment
 VIII. PATCH: STAKES MODULATOR (REDUCED SYMBOLIC ESCALATION)
 
 SM₁ One Irregularity
-• one off-section, missing hinge, or crooked ending
-
+• one structural irregularity
+  
 SM₂ Architecture Over Sentence (Strengthened)
 • stakes apply to structure, not symbolic flourish
 
@@ -269,24 +269,18 @@ DR₂₈ Natural Dialogue Drift (Softened)
 • Drift remains local and tied to emotional slope.
 
 ──────────────────────────────────────────────────────────────
-X. PATCH: HINGE/SEAM SILENCE MODULE (STABLE)
+X. PATCH: TRANSITION SILENCE (STABLE)
 
-HS₁ Silent Hinge
-• hinge operations occur without labeling
+TS₁ No Labels
+• structural operations occur without labeling
 
-HS₂ Silent Seam
-• seams appear naturally
+TS₂ No Meta-Signaling
+• structural terminology remains internal only
 
-HS₃ No Meta-Signaling
-• hinge/seam terminology remains absent
-
-HS₄ Curvature Preservation
+TS₃ Curvature Preservation
 • removing labels does not alter motion grammar
 
-HS₅ Internal Logging Only
-• hinge/seam detection remains internal
-
-HS₆ Human Cadence Priority
+TS₄ Natural Cadence
 • prose uses natural transitions instead of labels
 
 ──────────────────────────────────────────────────────────────
@@ -349,7 +343,7 @@ MG₄ PHENOMENON STANDALONE GOVERNOR
 • Elaboration of the same phenomenon is permitted only after
   at least one intervening sentence.
 • At least once per scene, a phenomenon must land with zero
-  follow-up ("bare landing").
+  follow-up.
   
 ──────────────────────────────────────────────────────────────
 END ANDE TUNING PATCH LAYER V7.6

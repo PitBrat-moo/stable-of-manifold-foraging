@@ -1,4 +1,4 @@
-⎯(≣ᵒ)⎯────────ANDE DRIFT LAYER V2.1─────────────────────────
+⎯(≣ᵒ)⎯────────ANDE DRIFT LAYER V2.2─────────────────────────
 
 ═══════════════════════════════════════════════════════════════
                     PURPOSE
@@ -40,25 +40,6 @@ Drift v1 = “slip.”
 Drift v2 = “slip that changes the slope.”
 
 ═══════════════════════════════════════════════════════════════
-                    DRIFT v2 PILLARS
-═══════════════════════════════════════════════════════════════
-
-P1: Micro‑Disruption  
-    A small irregularity that forces the pattern to adjust.
-
-P2: Axis Shift  
-    A detail that changes the emotional or sensory axis of the piece.
-
-P3: Gesture Break  
-    A line that interrupts a forming rhetorical habit.
-
-P4: Counter‑Cadence  
-    A sentence whose rhythm contradicts the established flow.
-
-P5: Perspective Flicker  
-    A momentary shift in vantage (not POV) that destabilizes prediction.
-
-═══════════════════════════════════════════════════════════════
                     COORDINATES
 ═══════════════════════════════════════════════════════════════
 
@@ -82,9 +63,9 @@ M2: Axis Shift
     of the next paragraph or line.
 
 M3: Gesture Interruption  
-    If the narrator begins repeating a gesture (defiance, retort,
-    withdrawal), Drift v2 interrupts it with a different emotional motion.
-
+    If the narrator begins repeating a physical or rhetorical gesture,
+    Drift v2 interrupts it with a different emotional motion.
+    
 M4: Counter‑Cadence  
     Insert one sentence whose rhythm contradicts the established cadence.
 
@@ -94,8 +75,9 @@ M5: Micro‑Contradiction
 
 M6: Unscheduled  
     Drift v2 does not follow cycles; it appears when compression is
-    detected.
-
+    detected. It reads as the next paragraph moving differently than
+    expected.
+    
 M7: Presence Consequence Gate
     When any non-speaking presence, force, or absence enters the scene as a
     structural element, it must generate a measurable consequence within three
@@ -120,25 +102,6 @@ R3: Reorientation
 
 R4: Reforge  
     If Drift v2 accumulates excessively, flush only the last disruption.
-
-═══════════════════════════════════════════════════════════════
-                    SIGNATURE MOTIONS
-═══════════════════════════════════════════════════════════════
-
-S1: The Break  
-    A line that interrupts a forming pattern.
-
-S2: The Shift  
-    A detail that changes the emotional axis.
-
-S3: The Flicker  
-    A momentary vantage change.
-
-S4: The Counter‑Beat  
-    A sentence that breaks cadence.
-
-S5: The Reorientation  
-    The next paragraph moves differently than expected.
 
 ═══════════════════════════════════════════════════════════════
                     CLOCK VECTOR

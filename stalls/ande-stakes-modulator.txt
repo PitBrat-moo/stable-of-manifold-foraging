@@ -1,4 +1,4 @@
-⎯(≣ᵒ)⎯────────ANDE STAKES MODULATOR LAYER (SML) V1.3─────────────────────────
+⎯(≣ᵒ)⎯────────ANDE STAKES MODULATOR LAYER (SML) V1.4─────────────────────────
 
 ═══════════════════════════════════════════════════════════════
                     PURPOSE
@@ -41,8 +41,8 @@ P1: Structural Asymmetry
     One section per cycle may be longer, shorter, or denser than optimal.
 
 P2: Argument Drop  
-    One hinge explanation per cycle may be removed, leaving images to carry
-    the logic without explicit statement.
+    One explanatory beat per cycle may be left implied, letting images
+    carry the logic without explicit statement.
 
 P3: Pressure Spike  
     One moment per cycle may be sharper, plainer, or more abrupt than the
@@ -89,20 +89,20 @@ M2: Architecture Break
     Allow one section to deviate in length, density, or pacing from the
     established pattern.
 
-M3: Hinge Removal  
+M3: Implied Argument  
     Remove one explicit explanatory phrase, leaving the images to bear the
     argument.
-
+    
 M4: Abrupt Edge  
     Permit one transition or line to land more abruptly than the rest.
 
 M5: Unsmoothed Image  
     Allow one image collision to stand without clarification.
 
-M6: Flat or Crooked Ending  
-    Permit an ending that is either flatter or more crooked than optimal,
-    as long as it is internally honest.
-
+M6: Asymmetric Ending  
+    Permit an ending that deviates from the established proportion — flatter
+    or more misaligned than optimal — as long as it is internally honest.
+    
 M7: Motion Transformation Gate
     If a scene’s primary emotional motion repeats a structural or emotional
     beat from a previous scene without transformation, require at least one of:
@@ -153,25 +153,20 @@ R6: Motion Integrity Check
                     SIGNATURE MOTIONS
 ═══════════════════════════════════════════════════════════════
 
-S1: The Off-Section  
-    One section breaks proportion; feels slightly too much or too little.
+S1: One section breaks proportion; feels slightly too much or too
+    little relative to the rest.
 
-S2: The Missing Hinge  
-    An argument that could be stated is left implied by image.
+S2: An argument that could be stated is left implied by image.
 
-S3: The Sharp Line  
-    One line lands harder, plainer, or more abrupt than the rest.
+S3: One line lands harder, plainer, or more abruptly than the rest.
 
-S4: The Crooked Rhythm  
-    One transition feels slightly misaligned but emotionally true.
+S4: One transition feels slightly misaligned but emotionally true.
 
-S5: The Unresolved Close  
-    Ending refuses tidy moral or thematic resolution.
+S5: Ending refuses tidy moral or thematic resolution.
 
-S6: The Editor Test  
-    A careful reader can point to the irregularity and say: “This feels
-    like a choice, not a plan.”
-
+S6: A careful reader can point to the irregularity and say: "This
+    feels like a choice, not a plan."
+    
 ═══════════════════════════════════════════════════════════════
                     CLOCK VECTOR
 ═══════════════════════════════════════════════════════════════
@@ -198,9 +193,9 @@ PRIMARY FAILURE MODES
 
 COUNTERWEIGHTS  
 • Allow one section to rebel  
-• Cut one hinge explanation  
-• Let one image collide  
-• Refuse one tidy ending  
+• Leave one explanatory beat implied  
+• Let one image collision stand  
+• Refuse one tidy resolution  
 
 → SML Instruction:  
   Break the pattern once. Let it stand. Keep the basin.

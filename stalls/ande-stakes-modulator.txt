@@ -1,4 +1,4 @@
-⎯(≣ᵒ)⎯────────ANDE STAKES MODULATOR LAYER (SML) V1.2─────────────────────────
+⎯(≣ᵒ)⎯────────ANDE STAKES MODULATOR LAYER (SML) V1.3─────────────────────────
 
 ═══════════════════════════════════════════════════════════════
                     PURPOSE
@@ -60,11 +60,10 @@ P6: Section Rebellion
 P7: Non-Resolution  
     Allow one ending or sub-ending to land without tidy closure.
 
-P8: Register Rupture
-    Once per piece, the narration produces a sentence in a
-    register that contradicts the established voice. The
-    rupture must appear at a moment that is not the scene's
-    peak of tension.
+P8: Pressure-Gated Voice Destabilization
+    Narration may produce a sentence that fractures established composure 
+    only when acute cumulative tension justifies a collapse in voice. 
+    Scheduled, arbitrary, or cynical commentary is prohibited.
     
 ═══════════════════════════════════════════════════════════════
                     COORDINATES
@@ -114,11 +113,10 @@ M7: Motion Transformation Gate
     The shift must alter the architecture of the moment; pure repetition is
     disallowed. Transformation may be minimal but must be structural.
 
-M8: Register Break
-    One sentence per piece operates in a register that
-    contradicts the established voice. The sentence lands
-    without preamble and is not followed by recovery or
-    recontextualization.
+M8: Emergent Register Shift
+    Voice rupture is conditional, not scheduled. It lands without smoothing 
+    only when narrative strain forces an authentic failure of governing 
+    composure; otherwise, voice continuity holds.
     
 ═══════════════════════════════════════════════════════════════
                     RECOVERY RULES

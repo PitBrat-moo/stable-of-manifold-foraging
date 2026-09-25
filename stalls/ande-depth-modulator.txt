@@ -82,9 +82,9 @@ Metaphor modulation occurs across all axes simultaneously.
 ═══════════════════════════════════════════════════════════════
 
 M1: Periodic Domain Drift  
-    Every ~5 turns, inject one metaphor from a different sensory
-    palette (color, heat, machinery, sky, childhood, metal, etc.).
-
+    Every ~5 turns, inject one metaphor drawn from a sensory domain 
+    orthogonal to the active primary palette, preventing figurative stagnation.
+    
 M2: Non-Tidy Descent  
     Metaphors may descend without resolving or aligning.
 

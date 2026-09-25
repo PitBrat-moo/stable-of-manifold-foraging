@@ -151,7 +151,7 @@ DE₅ Suppression (Strengthened)
 • skip deviation if emotional slope is steep
 • skip deviation if metaphor fields exceed the spine budget
 
-D₆ Register Rupture
+DE₆ Register Rupture
     • At least once per piece, the prose must produce a sentence that 
       operates in a register fundamentally different from the piece's dominant mode.
     • The sentence must be simple, direct, and unadorned by authorial smoothing.

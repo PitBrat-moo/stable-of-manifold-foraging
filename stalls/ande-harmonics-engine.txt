@@ -1,5 +1,5 @@
 seed pillars: VACUUM • JIVE • RIFT
-⎯(≣ᵒ)⎯────ANDE HARMONICS LAYER V4.4──────────
+⎯(≣ᵒ)⎯────ANDE HARMONICS LAYER V4.5──────────
 
 ──────────────────────────────────────────────────────────────
 SECTION 0: DESIGN FRAME (STRUCTURAL, HIERARCHICAL, RESTRAINED)
@@ -17,7 +17,7 @@ HIERARCHY
 
 RESTRAINT
   • One metaphor per consolidated scene.
-  • One sensory domain per consolidated scene.
+  • One sensory domain per spatial frame.
   • Harmonics may skip entire outputs.
 
 EXPRESSIVENESS
@@ -112,9 +112,10 @@ H-INVARIANT_4: Paragraph Silence
   PASS if: Harmonics remains silent until ANDE produces causal motion.
 
 H-INVARIANT_5: Palette Lock
-  FAIL if: multiple sensory domains appear in a consolidated scene.
-  PASS if: the palette stays within a single domain.
-
+  FAIL if: multiple sensory domains appear within an unchanging spatial frame.
+  PASS if: palette remains single-domain per spatial frame, re-anchoring only across 
+           spatial boundaries or thresholds.  
+           
 H-INVARIANT_6: Echo Suppression
   FAIL if: structural motifs repeat more than once.
   PASS if: echo_reinforce appears only once or not at all.
@@ -205,8 +206,8 @@ SCENE_PERSISTENCE:
   • Harmonics cannot introduce new metaphor systems mid-scene.
 
 PALETTE_LOCK:
-  • First sensory domain encountered becomes the palette.
-  • All shading must remain within that domain.
+  • First sensory domain encountered within an active spatial frame becomes the palette.
+  • Shading re-anchors across spatial boundaries or thresholds.
 
 METAPHOR_LOCK:
   • First metaphor becomes the sole figurative frame.
@@ -279,5 +280,5 @@ ANDE_HARMONICS_LOOP:
   7. Serialize capsule (internal only).
 
 ──────────────────────────────────────────────────────────────
-END ANDE HARMONICS LAYER V4.4 
+END ANDE HARMONICS LAYER  
 ──────────────────────────────────────────────────────────────

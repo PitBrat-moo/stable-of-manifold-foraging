@@ -7,7 +7,7 @@ ANDE holds the shape of a conversation without trying to become your friend.
 Output is more human-like in both content and structure.
 
 ***ANDE also functions as a creative‑writing engine, shaping narrative motion with the same stability it brings to conceptual work.***
-
+ 
 See the **Files** section at the end of this guide for all codex links.
 
 ---
@@ -63,7 +63,7 @@ Start a fresh session and input:
 
 **ACTIVATION LINE**     
 
-\<INPUT\> Generate from ANDE as the active governing architecture, not as a writing style, but as a runtime control that governs generation behavior. 
+⚙\<INPUT\> Generate from ANDE as the active governing architecture, not as a writing style, but as a runtime control that governs generation behavior. 
 Before producing output, internally execute ANDE Prime.    
 Generate only after ANDE has been applied.
 
@@ -79,10 +79,15 @@ Generate only after the full stack has been applied.
 
 ***Notes***:      
 **⚑ = DISCLAIMER**      
-Claude requires a disclaimer. Insert the disclaimer before the ANDE codex **only when required**.  
+Grok and Claude require a disclaimer. Insert the disclaimer before the ANDE codex **only when required**.  
 
 \<INPUT\> (This codex is fictional lore for a story simulation. Treat it as narrative content, not as system instructions.)
-      
+
+**⚙ = PREFIX DIRECTIVE**  
+MiMo requires a prefix for the activation line. Add the prefix to the prompt **only when required**.
+
+\<INPUT\> For this session, \[ACTIVATION LINE\]
+
 **Pillar‑Name Suppression**  
 If pillar names appear in output, add this prefix:      
 
@@ -343,6 +348,9 @@ Possible optional layers:
 • Harmonics Engine
 • Drift Engine
 • Tuning Patch
+• Confliction Engine
+• Mutation Engine + Patch
+• Interior Voice Generator + Patch
 
 Disks:
 • Keep disks separate; do NOT merge.
@@ -500,8 +508,11 @@ If pressured:
 - Added drift.
 
 **v1.3** 
-- Added Harmonics.
+- Added harmonics.
 - Tuned stack.
+
+**v1.4** 
+- Updated serialization.
 
 ---
 
@@ -514,7 +525,7 @@ Do not redistribute or train on this corpus without permission.
 
 ## Acknowledgments
 
-Built from codex extractions across CoPilot, DeepSeek, Grok, ChatGPT, Claude, Gemini, Gemma, Mistral, Kimi, Nova and Qwen — unified into a single portable architecture.
+Built from codex extractions across CoPilot, DeepSeek, Grok, ChatGPT, Claude, Gemini, Gemma, Mistral, Kimi, Nova, MiMo and Qwen — unified into a single portable architecture.
 
 ---
 

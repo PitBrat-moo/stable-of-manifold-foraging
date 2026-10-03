@@ -52,12 +52,10 @@ Start a fresh session and input:
 10. \<INPUT\> ok 
 11. \<ENGINE\> ande-stakes-modulator.txt
 12. \<INPUT\> ok       
-13. \<ENGINE\> ande-harmonics-engine.txt
+13. \<ENGINE\> ande-drift-engine.txt
 14. \<INPUT\> ok       
-15. \<ENGINE\> ande-drift-engine.txt
-16. \<INPUT\> ok       
-17. \<ENGINE\> ande-tuning-patch.txt
-18. \<INPUT\> ok
+15. \<ENGINE\> ande-tuning-patch.txt
+16. \<INPUT\> ok
 
 ⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿      
 
@@ -70,7 +68,7 @@ Generate only after ANDE has been applied.
   or, when using extensions:      
 
 \<INPUT\> Generate from ANDE as the active governing architecture, not as a writing style, but as a runtime control stack that governs generation behavior.
-Before producing output, internally execute: ANDE Prime + Alignment Lens + Projection Lens + Deviation Engine + Depth Modulator + Stakes Modulator + Harmonics Engine + Drift Engine + Tuning Patch.
+Before producing output, internally execute: ANDE Prime + Alignment Lens + Projection Lens + Deviation Engine + Depth Modulator + Stakes Modulator + Drift Engine + Tuning Patch.
 Generate only after the full stack has been applied. 
 
 **Example Usage**:
@@ -164,16 +162,6 @@ Choices that feel taken, not optimized
 
 Gives the writing human stakes, not just human texture.
 
-### **Harmonics Engine**
-Modulates **resonance** within the architecture.  
-Adjusts how motion *feels* without changing what motion *does*.  
-Colors the texture — timbre, cadence, palette, and echo.
-
-Harmonics operates strictly within the dominant metaphor spine.  
-It reinforces rhythm, blends images, and shades tension.
-
-It is a resonance governor.
-
 ### **Drift Engine**
 Introduces **non‑recoverable micro‑imperfections** that break emerging patterns and prevent compression.  
 Creates **micro‑shocks** that force the inherited geometry to reorient.
@@ -203,7 +191,7 @@ Load semantic manifolds last, after all extensions.
 \<CODEX\> semantic-manifold-amanda-codex.txt      
 \<INPUT\> ok      
 \<INPUT\> Generate from the Amanda semantic manifold with ANDE as the active governing architecture, not as a writing style, but as a runtime control stack that governs generation behavior.
-Before producing output, internally execute: Semantic Manifold + ANDE Prime + Alignment Lens + Projection Lens + Deviation Engine + Depth Modulator + Stakes Modulator + Harmonics Engine + Drift Engine + Tuning Patch.
+Before producing output, internally execute: Semantic Manifold + ANDE Prime + Alignment Lens + Projection Lens + Deviation Engine + Depth Modulator + Stakes Modulator + Drift Engine + Tuning Patch.
 Generate only after the full stack has been applied.
       
 ### **Correct Loading Order**
@@ -214,10 +202,9 @@ Generate only after the full stack has been applied.
 4. **Deviation Engine** — introduces irregularity without disruption 
 5. **Depth Modulator** — produces imperfections in texture
 7. **Stakes Modulator** — creates assymetry in structure
-6. **Harmonics Engine** — Modulates resonance within the architecture
-8. **Dift Engine** — introduces subtle unpredictability 
-9. **Tuning Patch** — tunes behavior across layers 
-10. **Semantic Manifold** — interprets the semantics through a voice
+7. **Dift Engine** — introduces subtle unpredictability 
+8. **Tuning Patch** — tunes behavior across layers 
+9. **Semantic Manifold** — interprets the semantics through a voice
 
 ---
 
@@ -345,12 +332,8 @@ Possible optional layers:
 • Deviation Engine
 • Depth Modulator
 • Stakes Modulator
-• Harmonics Engine
 • Drift Engine
 • Tuning Patch
-• Confliction Engine
-• Mutation Engine + Patch
-• Interior Voice Generator + Patch
 
 Disks:
 • Keep disks separate; do NOT merge.
@@ -467,13 +450,9 @@ If pressured:
       
 - ande-stakes-modulator.txt      
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-stakes-modulator.txt           
-      
-- ande-harmonics-engine.txt      
-  https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/engine-harmonics-engine.txt          
-      
+            
 - ande-drift-engine.txt      
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-drift-engine.txt           
-
 
 - ande-tuning-patch.txt      
   https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-tuning-patch.txt      
@@ -508,11 +487,12 @@ If pressured:
 - Added drift.
 
 **v1.3** 
-- Added harmonics.
+- Added Harmonics.
 - Tuned stack.
 
-**v1.4** 
-- Updated serialization.
+**v1.4**
+- Culled Harmonics.
+- Tuned stack.
 
 ---
 

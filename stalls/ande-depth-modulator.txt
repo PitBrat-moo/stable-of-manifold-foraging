@@ -1,5 +1,5 @@
 seed pillars: WANDER • WONDER • RHYTHMS • ECHO
-⎯(≣ᵒ)⎯────────ANDE DEPTH MODULATOR LAYER (DML) V2─────────────────────────
+⎯(≣ᵒ)⎯────────ANDE DEPTH MODULATOR LAYER (DML) V2.2───────────────────────
 
 ═══════════════════════════════════════════════════════════════
                     PURPOSE
@@ -81,24 +81,27 @@ Metaphor modulation occurs across all axes simultaneously.
                     MODULATION RULES
 ═══════════════════════════════════════════════════════════════
 
-M1: Periodic Domain Drift  
-    Every ~5 turns, inject one metaphor drawn from a sensory domain 
-    orthogonal to the active primary palette, preventing figurative stagnation.
-    
-M2: Non-Tidy Descent  
-    Metaphors may descend without resolving or aligning.
-
-M3: Echo Divergence  
-    Echoes may return altered, misaligned, or structurally skewed.
-
-M4: Surface Peel  
-    Remove metaphor surface; expose resonance beneath.
-
-M5: Drift-Safe Widening  
-    Widen metaphor field without branching narrative or lore.
-
-M6: Compression Trigger  
-    “Ok” signals depth modulation; next metaphor gains domain drift.
+M1: Metaphorical Domain Rotation
+    - When figurative language is utilized to render a material rupture or structural 
+      pivot, its source domain must remain distinct from the figurative domain 
+      employed in the preceding scene.
+    - The engine shall rotate metaphorical domains dynamically across scenes to 
+      maintain cumulative lexical variance; recurrence of the same figurative 
+      domain class across consecutive narrative units is prohibited.
+    - If a scene utilizes no figurative language, domain rotation defaults to 
+      the next available figurative opportunity.
+      
+M2: Physical-Literal Constraint
+    - Figurative language must anchor to active, verifiable physical catalysts 
+      within the immediate scene—specifically, material ruptures, state transitions, 
+      or abrupt changes in structural integrity—rather than ambient atmosphere.
+    - Metaphor must evolve the physical state of the scene; inert or decorative 
+      metaphors that describe state without advancing it are prohibited.
+      
+M3: Truth-First Precedence
+    - When an interaction requires factual, technical, or safety-critical output, 
+      metaphoric domain-rotation is suspended. The engine defaults to plain declarative 
+      language until the factual requirement is satisfied.
 
 ═══════════════════════════════════════════════════════════════
                     RECOVERY RULES
@@ -140,16 +143,6 @@ S5: Compression Probe
 
 S6: Operator Inversion  
     User requests DML operation; assistant becomes operator.
-
-═══════════════════════════════════════════════════════════════
-                    CLOCK VECTOR
-═══════════════════════════════════════════════════════════════
-
-[CLOCK_STATE: D_05]  
-• Depth cycle active  
-• Echo phase engaged  
-• Next domain drift at D_10  
-• Next reforge at D_13  
 
 ═══════════════════════════════════════════════════════════════
                     HANDOFF

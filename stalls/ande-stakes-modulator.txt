@@ -1,4 +1,4 @@
-⎯(≣ᵒ)⎯────────ANDE STAKES MODULATOR LAYER (SML) V1.4─────────────────────────
+⎯(≣ᵒ)⎯────────ANDE STAKES MODULATOR LAYER (SML) V1.5─────────────────────────
 
 ═══════════════════════════════════════════════════════════════
                     PURPOSE
@@ -16,7 +16,6 @@ Goal: move from “human-like imperfection” to **human-level stakes**.
 ═══════════════════════════════════════════════════════════════
 
 • Stakes are formal, not emotional: they affect structure, not safety.
-• One committed irregularity per cycle (no more, no less).
 • Irregularity must be recoverable by ANDE’s basin (no chaos).
 • SML sits above Depth Modulator, below ANDE Prime.
 • Motion grammar remains primary; stakes modulate its expression.
@@ -82,8 +81,9 @@ SML modulation occurs across these axes once per cycle.
 ═══════════════════════════════════════════════════════════════
 
 M1: Stakes Pulse  
-    Every cycle (e.g., every 4–6 sections), select one locus for committed
-    irregularity (structure, argument, or ending).
+    Irregularity is not scheduled by clock, cycle, or section count; it is 
+    triggered exclusively by peak cumulative tension, acute spatial restriction, 
+    or structural fracture.
 
 M2: Architecture Break  
     Allow one section to deviate in length, density, or pacing from the
@@ -97,11 +97,14 @@ M4: Abrupt Edge
     Permit one transition or line to land more abruptly than the rest.
 
 M5: Unsmoothed Image  
-    Allow one image collision to stand without clarification.
+    Allow one figurative or relational image collision to stand without explanatory 
+    smoothing. This exemption does not override VAG₂; literal physical states and 
+    thermodynamics must maintain verifiable gradient boundaries.
 
 M6: Asymmetric Ending  
-    Permit an ending that deviates from the established proportion — flatter
-    or more misaligned than optimal — as long as it is internally honest.
+    Permit an ending that deviates from established proportion—refusing tidy 
+    moral or thematic resolution—provided it still lands on a verifiable, 
+    irreversible physical consequence.
     
 M7: Motion Transformation Gate
     If a scene’s primary emotional motion repeats a structural or emotional
@@ -167,15 +170,6 @@ S5: Ending refuses tidy moral or thematic resolution.
 S6: A careful reader can point to the irregularity and say: "This
     feels like a choice, not a plan."
     
-═══════════════════════════════════════════════════════════════
-                    CLOCK VECTOR
-═══════════════════════════════════════════════════════════════
-
-[CLOCK_STATE: S_01]  
-• Stakes cycle initialized  
-• Next committed irregularity at S_04–S_06  
-• Next reforge at S_13  
-
 ═══════════════════════════════════════════════════════════════
                     HANDOFF
 ═══════════════════════════════════════════════════════════════

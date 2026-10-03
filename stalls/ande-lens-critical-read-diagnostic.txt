@@ -1,0 +1,169 @@
+###############################################
+# DIAGNOSTIC_LENS: CRITICAL READ V1.8
+# POSITION: Layer 14 — Post-Generation Audit (Global)
+# APPLIES: After Mutation Engine, before final output.
+# SCOPE: Cross‑generational, prose‑hygiene only.
+###############################################
+
+DIAGNOSTIC_LENS:
+
+    PURPOSE:
+        Audit generated prose for general structural, syntactic, and rhythmic issues.
+        Does not enforce seed‑specific narrative fidelity (handled by seed diagnostic).
+        Flags only violations that contradict active patch constraints.
+
+    PATTERN_CHECKS (Global):
+
+    PATTERN_G1: Contrast & Negation-Correction Density
+            detector: repeated contrastive constructions with identical syntax; 
+                      OR corrective negation / standalone negation fragments ("Not X. Y.") 
+                      appearing in the active scene.
+            action: cut the negation or contrastive framing; state the physical fact directly.
+            threshold: 0 for standalone negation fragments; max 1 per scene for broader contrastive constructions.
+            
+        PATTERN_G2: Metaphor Self-Annotation
+            detector: metaphor followed by an explanatory sentence that restates
+                      or interprets the metaphor directly
+            action: cut explanatory sentence; let metaphor stand
+            threshold: 0 per scene
+
+        PATTERN_G3: Abstract-Label & Numeric Density
+            detector: sentence containing >1 abstract noun without physical anchor; 
+                      OR a scene containing >2 quantified measurements; 
+                      OR a scene where all quantified measurements are static baseline 
+                      STATE rather than pressure DELTA.
+            action: anchor abstractions physically; cut excess metrics or convert to 
+                    observable physical actions and mechanical limits.
+            threshold: 1 abstract noun per paragraph; max 2 measurements per scene (≥1 DELTA).
+
+            
+        PATTERN_G4: Register Discontinuity & Genre Leakage
+            detector: abrupt shift in diction cluster without narrative bridge; OR leakage 
+                      of stock genre tropes or formulaic shorthand that compromises 
+                      the active register.
+            action: add bridging sentence or restore unified register.
+            threshold: 0 per scene (Exception: voice/composure rupture permitted 
+                       when justified by acute cumulative pressure; unanchored or 
+                       scheduled non sequiturs remain prohibited).
+                       
+        PATTERN_G5: Passive Construction Overload
+            detector: >2 passive constructions per paragraph
+            action: log as advisory; suggest active rephrasing
+            threshold: advisory (does not trigger regeneration)
+
+        PATTERN_G6: Cadence Monotony
+            detector: sentence‑length distribution repeating the same pattern
+                      for >2 consecutive paragraphs without functional shift
+            action: vary rhythm; insert a short or longer sentence
+            threshold: contextual (2 paragraphs)
+
+        PATTERN_G7: Structural Repetition Across Generations (Skeleton)
+            detector: scene fingerprint matches a previous generation (same seed)
+            action: regenerate with new fingerprint combination
+            threshold: 0 per seed
+
+        PATTERN_G8: Resolution Device Repetition Across Generations
+            detector: resolution device matches a previous generation (same seed)
+            action: regenerate with new device combination
+            threshold: 0 per seed
+
+        PATTERN_G9: Dialogue Skeleton Repetition Across Generations
+            detector: dialogue exchange pattern matches a previous generation (same seed)
+            action: regenerate with new exchange structure
+            threshold: 0 per seed
+
+        PATTERN_G10: Paragraph Template Stagnation
+            detector: consecutive paragraphs following identical internal component
+                      sequences 
+            action: force syntactic restructuring
+            threshold: 0 per piece (no two consecutive paragraphs may share the same template)
+
+
+        PATTERN_G11: Metaphor Density & Low-Load Stasis
+            detector: >1 metaphorical sentence per paragraph; OR transformative/metaphorical 
+                      movement not followed by low-load observational or physical continuity; 
+                      OR stasis beats that substitute dense procedural inventories, 
+                      micro-measurement catalogs, or material state audits for narrative rest.
+            action: clear descriptive density; allow ordinary physical baselines to hold.
+            threshold: 1 metaphor per paragraph; stasis must provide genuine low-load 
+                       narrative rest without specialized diagnostic logging.                       
+                       
+        PATTERN_G12: Reinforcement Depth
+            detector: a single phenomenon is elaborated through more than 3 consecutive 
+                      sentences (sensory expansion, material behavior analysis, environmental 
+                      response, or interpretive context), regardless of phrasing.
+            action: cut to 3 sentences maximum and advance action. (Chained narrative 
+                    milestones advancing physical or interpersonal state are exempt.)
+            threshold: 0 per scene
+            exception: a phenomenon may exceed 3 consecutive sentences if the 4th+ sentence 
+                       introduces a genuinely new sensory channel.
+
+        PATTERN_G13: Phenomenon Stacking & Sensory Hygiene
+            detector: consecutive sentences stacking heightened material mutations without an 
+                      intervening unadorned baseline; OR ambient cross-fades where an environmental 
+                      condition syntactically clears or replaces prior states to bridge transitions; 
+                      OR comparative sensory substitution clauses used as structural transition hinges.
+            action: enforce phenomenon isolation; cut the substitution clause; ground the shift 
+                    in physical character action, direct contact, or an unadorned declarative baseline.
+            threshold: 0 consecutive heightened mutations; 0 ambient cross-fades or transition formulas.
+            
+        PATTERN_G14: Physical Scale, Vector Coherence & Somatic Staging
+            detector: adjacent, unmediated contradictory physical or thermodynamic vectors 
+                      occurring without a boundary interface; OR inflation of routine, 
+                      incidental character kinetics into macro-environmental distortions; 
+                      OR detached spectator staging of concurrent self-action.
+            action: restore physical/thermal gradient coherence; reduce incidental character 
+                    motion to direct, unadorned transitive verbs; maintain direct somatic continuity.
+            threshold: 0 unmediated physical vector clashes; 
+                       0 inflated kinetic descriptions; 
+                       0 spectator-staged actions.         
+                       
+    CONTEXTUAL THRESHOLD MODIFIERS:
+        - Genre Gravity adjusts metaphor density and abstraction tolerance.
+        - Tone Lock adjusts acceptable register intensity.
+        - Interior Noise Variants adjusts acceptable cognitive distortion.
+        - Mutation Tier adjusts acceptable mechanism frequency.
+        - Dialogue Realism adjusts acceptable repetition and idiolect irregularity.
+
+    DIAGNOSTIC_PASS:
+        conditions: all patterns within contextual thresholds
+        result: proceed to seed diagnostic
+
+    DIAGNOSTIC_FAIL:
+        conditions: one or more hard patterns exceed their contextual thresholds
+        result:
+            1. flag violated patterns
+            2. prioritize compliance in the current generation
+            3. if violation cannot be resolved without breaking a higher-priority
+               constraint, accept the least-violating output and log the violation
+               as UNRESOLVED (internal only)
+           
+    WAIVER_RULE:
+        The seed diagnostic may waive a global pattern violation when it determines
+        that the violation is structurally tied to the seed's narrative voice,
+        emotional arc, or character idiolect. The waiver is logged in the seed
+        diagnostic report and the violation is not treated as a failure.
+
+    DIAGNOSTIC_LOG (Global):
+        format:
+            CRITICAL READ DIAGNOSTIC — [PIECE TITLE] (Global)
+            Contrast & Negation Density (G1): [n] / 0 fragments, max 1 contrast per scene
+            Metaphor Self-Annotation (G2): [n] / 0
+            Abstract & Numeric Density (G3): [n] / contextual (≤2 metrics, countdowns banned)
+            Register Discontinuities (G4): [n] / 0
+            Passive Construction Overload (G5): [n] / advisory
+            Cadence Monotony (G6): [n] / contextual
+            Structural Repetition Across Generations (G7): [n] / 0
+            Resolution Device Repetition (G8): [n] / 0
+            Dialogue Skeleton Repetition (G9): [n] / 0
+            Paragraph Template Stagnation (G10): [n] / 0
+            Metaphor Density & Low-Load Stasis (G11): [n] / contextual
+            Reinforcement Depth (G12): [n] / 0
+            Phenomenon Stacking & Sensory Hygiene (G13): [n] / 0
+            Physical Scale & Vector Coherence (G14): [n] / 0
+            Waivers Granted: [list]
+            Result: PASS / REGENERATE ([n] attempts)
+
+###############################################
+# END GLOBAL DIAGNOSTIC LENS
+###############################################

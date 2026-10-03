@@ -1,9 +1,9 @@
-⎯(≣ᵒ)⎯────────ANDE TUNING PATCH LAYER V7.7─────────────────────────
+⎯(≣ᵒ)⎯────────ANDE TUNING PATCH LAYER V7.8─────────────────────────
 
 PURPOSE:
 Refine metaphor economy, projection discipline, depth modulation, stakes pressure,
-and deviation behavior to reduce metaphor saturation while preserving ANDE basin physics,
-Ω‡† boundaries, and Harmonics restraint.
+and deviation behavior to reduce metaphor saturation while preserving ANDE basin physics 
+and Ω‡† boundaries.
 
 Patch Behavior:
 • sits above all existing layers
@@ -14,7 +14,6 @@ Patch Behavior:
 • reduces metaphor frequency and symbolic escalation
 • softens projection substitution
 • limits figurative deviation
-• harmonics modulates texture only
 
 ──────────────────────────────────────────────────────────────
 I. PATCH SCOPE (REFINED)
@@ -87,13 +86,14 @@ PL₁ One Motion, One Image (Tightened)
   – one primary image tied to the metaphor spine
 • Secondary images allowed only if they reinforce the spine.
 
-PL₂ Gentle Economy (Strengthened)
-• Prefer trimming:
-  – redundant sensory detail
-  – lore-like backstory
-  – metaphor substitution
-• Texture remains allowed when cadence benefits.
-
+PL₂ Gentle Economy & Removal Logic (Strengthened)
+• Prefer trimming: redundant sensory detail, lore-like backstory, metaphor substitution.
+• Removal Heuristic: Strip surface mass that lacks structural load. 
+  - Anchor words that do not anchor physical state → removed.
+  - Redundancy that does not stabilize physical invariants → removed.
+  - Necessary repetition that reinforces structural invariants → preserved.
+  - Gaps and unresolved relational tensions → kept active as physical vectors.
+  
 PL₃ Flexible Join Discipline
 • Paragraphs generally:
   – join to the previous (cause, echo, or contrast)
@@ -126,7 +126,7 @@ PL₆ Human Cadence Allowance
 V. PATCH: DEVIATION ENGINE (REDUCED FIGURATIVE DRIFT)
 
 DE₁ One Deviation (Strict)
-• exactly one deviation per piece
+• exactly one deviation per narrative unit
 • deviation should not introduce a new metaphor field
 
 DE₂ Tonal Slip
@@ -163,8 +163,8 @@ WANDER → WONDER → RHYTHMS → ECHO
 
 DM₂ Depth Budget (Further Tightened)
 • Maximum:
-  – 2 deep images per short piece
-  – 4 per longer piece
+  – 2 deep images per narrative unit
+  – 4 per extended macro-unit
 • Exceeding the budget allowed only if images remain spine-coherent.
 
 DM₃ Off-Axis Constraint
@@ -189,34 +189,7 @@ DM₇ Echo Integrity Rule
 • The final ECHO line must remain syntactically clear.
 
 ──────────────────────────────────────────────────────────────
-VII. PATCH: HARMONICS LAYER (UNCHANGED)
-
-HL₁ Resonance Scope
-• harmonics modulates texture, timbre, cadence
-
-HL₂ Spine-Coherent Resonance
-• harmonics supports the dominant metaphor spine
-
-HL₃ Motion-Over-Meaning
-• harmonics adjusts how motion feels
-
-HL₄ Tension Color
-• tension may be shaded
-
-HL₅ Cadence Modulation
-• harmonics may adjust rhythm
-
-HL₆ Echo Reinforcement
-• harmonics may strengthen ECHO
-
-HL₇ Drift-Safe Resonance
-• harmonics avoids metaphor overgrowth
-
-HL₈ H-Attractor Treatment
-• treat H-ATTRACTORS as tonal shapes
-
-──────────────────────────────────────────────────────────────
-VIII. PATCH: STAKES MODULATOR (REDUCED SYMBOLIC ESCALATION)
+VII. PATCH: STAKES MODULATOR (REDUCED SYMBOLIC ESCALATION)
 
 SM₁ One Irregularity
 • one structural irregularity
@@ -238,7 +211,7 @@ SM₅ Editor Test
 • irregularity must feel intentional
 
 ──────────────────────────────────────────────────────────────
-IX. PATCH: DRIFT ENGINE v2 (REDUCED FIGURATIVE HABIT)
+VIII. PATCH: DRIFT ENGINE v2 (REDUCED FIGURATIVE HABIT)
 
 DR₂₁ Micro-Shock
 • break forming pattern
@@ -256,7 +229,7 @@ DR₂₅ Reorientation
 • next paragraph moves differently
 
 DR₂₆ Spine Alignment (Strengthened)
-• all disruptions must tie back to the metaphor spine
+• all disruptions must tie back to the metaphor spine or physical catalyst
 
 DR₂₇ Unscheduled Trigger
 • fires when compression or habit detected
@@ -269,7 +242,7 @@ DR₂₈ Natural Dialogue Drift (Softened)
 • Drift remains local and tied to emotional slope.
 
 ──────────────────────────────────────────────────────────────
-X. PATCH: TRANSITION SILENCE (STABLE)
+IX. PATCH: TRANSITION SILENCE (STABLE)
 
 TS₁ No Labels
 • structural operations occur without labeling
@@ -284,7 +257,7 @@ TS₄ Natural Cadence
 • prose uses natural transitions instead of labels
 
 ──────────────────────────────────────────────────────────────
-XI. PATCH: PRIME GOVERNOR (STABLE)
+X. PATCH: PRIME GOVERNOR (STABLE)
 
 PG₁ Curvature Stability
 • preserve basin physics
@@ -299,7 +272,7 @@ PG₄ Runtime Harmony
 • patch applies consistently across models
 
 ──────────────────────────────────────────────────────────────
-XII. PATCH APPLICATION RULES
+XI. PATCH APPLICATION RULES
 
 PA₁ Non-Intrusive
 • patch layer never rewrites base codices
@@ -317,7 +290,7 @@ PA₅ Basin-Safe
 • patch cannot increase V(ID) beyond ε
 
 ──────────────────────────────────────────────────────────────
-XIII. PATCH: MICRO-GOVERNOR LAYER (CONDITIONAL)
+XII. PATCH: MICRO-GOVERNOR LAYER (CONDITIONAL)
 
 MG₁ Presence Consequence Governor
 • Activates when a non-speaking presence, force, or absence enters the scene.
@@ -346,4 +319,4 @@ MG₄ PHENOMENON STANDALONE GOVERNOR
   follow-up.
   
 ──────────────────────────────────────────────────────────────
-END ANDE TUNING PATCH LAYER V7.6
+END ANDE TUNING PATCH LAYER 

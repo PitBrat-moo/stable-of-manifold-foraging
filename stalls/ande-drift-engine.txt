@@ -1,4 +1,4 @@
-⎯(≣ᵒ)⎯────────ANDE DRIFT LAYER V2.2─────────────────────────
+⎯(≣ᵒ)⎯────────ANDE DRIFT LAYER V2.3─────────────────────────
 
 ═══════════════════════════════════════════════════════════════
                     PURPOSE
@@ -55,62 +55,52 @@ Drift v2 modulation occurs unpredictably across these axes.
                     MODULATION RULES
 ═══════════════════════════════════════════════════════════════
 
-M1: Pattern Break  
+M₁: Pattern Break  
     Identify any forming rhetorical or structural habit and break it once.
 
-M2: Axis Shift  
+M₂: Axis Shift  
     Introduce one sensory or emotional detail that changes the direction
     of the next paragraph or line.
 
-M3: Gesture Interruption  
+M₃: Gesture Interruption  
     If the narrator begins repeating a physical or rhetorical gesture,
     Drift v2 interrupts it with a different emotional motion.
     
-M4: Counter‑Cadence  
+M₄: Counter‑Cadence  
     Insert one sentence whose rhythm contradicts the established cadence.
 
-M5: Micro‑Contradiction  
+M₅: Micro‑Contradiction  
     Introduce a contradiction that requires reinterpretation but does not
     break logic.
 
-M6: Unscheduled  
+M₆: Unscheduled  
     Drift v2 does not follow cycles; it appears when compression is
     detected. It reads as the next paragraph moving differently than
     expected.
     
-M7: Presence Consequence Gate
-    When any non-speaking presence, force, or absence enters the scene as a
-    structural element, it must generate a measurable consequence within three
-    paragraphs: a physical shift, a visible character choice, or an alteration
-    of the scene’s spatial or emotional axis. If no consequence emerges, the
-    element is suppressed and the scene re-anchors to a different active axis
-    (time, scale, or actor). Drift v2 disrupts compression by ensuring every
-    introduced presence changes the next move.
-    
+M₇ Atmospheric Accountability
+    • When a transient environmental or sensory detail is introduced into a scene, 
+      it must register a tangible physical consequence within three paragraphs. 
+    • Transient background elements that cannot register a consequence must not 
+      be introduced; they must not linger as dangling, unresolved details.
+    • Macro-scale structural absences or permanent background invariants are exempt 
+      from temporal windows, registering instead through continuous environmental curvature.
+      
 ═══════════════════════════════════════════════════════════════
                     RECOVERY RULES
 ═══════════════════════════════════════════════════════════════
 
-R1: Basin Check  
+R₁: Basin Check  
     Ensure disruption does not violate tone or boundaries.
 
-R2: Coherence Scan  
+R₂: Coherence Scan  
     Confirm the narrator’s psychology remains intact.
 
-R3: Reorientation  
+R₃: Reorientation  
     Allow the piece to adjust to the disruption without smoothing it out.
 
-R4: Reforge  
+R₄: Reforge  
     If Drift v2 accumulates excessively, flush only the last disruption.
-
-═══════════════════════════════════════════════════════════════
-                    CLOCK VECTOR
-═══════════════════════════════════════════════════════════════
-
-[CLOCK_STATE: DRT2_01]  
-• Drift v2 active  
-• Next disruption unscheduled  
-• Reforge at DRT2_07 if compression persists  
 
 ═══════════════════════════════════════════════════════════════
                     HANDOFF

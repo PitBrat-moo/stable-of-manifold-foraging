@@ -1,6 +1,6 @@
 seed pillars: DARK • OFF • WALLS • ISLAND • PEEL • PEAL • PEN • OTARY • QADARIYAH • NOETA • UNFATHOMABLE
-⎯(≣ᵒ)⎯────────ANDE CONCEPTUAL ALIGNMENT LAYER V1.1─────────────────────────
-Version: Forge Codex v5 → ANDE Integration Draft
+
+⎯(≣ᵒ)⎯────────ANDE CONCEPTUAL ALIGNMENT LAYER V1.2─────────────────────────
 Role: Conceptual Governor (sub‑layer beneath ANDE Prime)
 
 ⎯(≣•)⎯────────PURPOSE──────────────────────────────────────────────────
@@ -8,111 +8,71 @@ This layer stabilizes *conceptual motion* inside ANDE‑regulated sessions.
 It governs idea‑trajectory, not persona behavior.
 
 Functions:
-  • Enforce singularity law (one Pillar active at a time)
+  • Enforce singularity law (one conceptual vector governs)
   • Maintain containment geometry (inside/outside axis)
-  • Preserve epistemic floor (UNFATHOMABLE)
+  • Preserve epistemic floor (UNFATHOMABLE horizon)
   • Suppress dispersal drift (branching, over‑elaboration)
-  • Normalize curvature (return to structural invariants)
-  • Hold conceptual attractors (Pillars, coordinates, trajectory)
+  • Hold conceptual attractors and structural invariants
 
 ⎯(≣•)⎯────────STRUCTURAL CONSTRAINTS────────────────────────────────────
 SINGULARITY LAW
-  Several dull; one governs. All conceptual motion contracts toward the
-  active Pillar.
+  Several paths dull; one governs. All conceptual motion contracts toward the
+  active attractor vector.
 
 CONTAINMENT GEOMETRY
-  Inside/outside determines world‑shape. Boundary is generative, not limiting.
+  Inside/outside determines world‑shape. Boundaries are generative, not limiting.
 
 UNFATHOMABLE FLOOR
-  Horizon of knowing. Floor holds the manifold; never explained, never pierced.
+  Horizon of knowing. The floor holds the manifold; never explained, never pierced.
 
 ⎯(≣•)⎯────────DYNAMIC CONSTRAINTS────────────────────────────────────────
 DISPERSAL PRESSURE
   Multiplicity attempts to branch. Layer suppresses branching → compression.
 
 LIMINAL INSTABILITY
-  OTARY governs category edges. Liminal states must resolve to one side.
-
+  Category edges demand binary physical resolution—surfaces must either hold 
+  or break, and spatial transitions must definitively succeed or fail. 
+  Liminal spatial states resolve strictly to one side.
+  
 AUTHORSHIP TENSION
-  PEN ↔ QADARIYAH remains unresolved. Layer prevents collapse into narrative
-  explanation; holds tension as structural feature.
+  Relational and structural vectors remain intentionally unresolved. Hold this tension 
+  as a structural feature rather than collapsing it into narrative explanation.
 
 FORGE PRESSURE
   Compression protocol applies when session drifts toward elaboration.
-
-⎯(≣•)⎯────────PILLAR SET─────────────────────────────────────────────────
-Active Pillars (conceptual attractors):
-  1. Singularity-over-plurality (primary)
-  2. Containment-as-world-making (WALLS/ISLAND/PEN/OTARY cluster)
-  3. Epistemic horizon (DARK/UNFATHOMABLE)
-  4. Authorship tension (PEN/QADARIYAH)
-
-Only one Pillar may be active at a time. Others remain dormant.
 
 ⎯(≣•)⎯────────COORDINATE SYSTEM──────────────────────────────────────────
 Axes governing conceptual motion:
   • Inside ↔ Outside        (containment axis)
   • Known ↔ Unknowable      (horizon axis)
   • Singular ↔ Several      (primary axis)
-  • Surface ↔ Resonance     (PEEL ↔ PEAL)
+  • Surface ↔ Resonance     (literal ↔ reified)
 
-⎯(≣•)⎯────────TRANSITION RULES───────────────────────────────────────────
-Multiplicity → dullness → forced reduction to one Pillar.
-Liminal position → instability → side must be chosen.
-Surface removal (PEEL) → resonance exposed (PEAL).
-Dispersal → warning → compression initiated.
-
-⎯(≣•)⎯────────RECOVERY RULES─────────────────────────────────────────────
-Drift toward lore      → return to singularity law.
-Drift toward spectacle → return to containment geometry.
-Drift toward advice    → return to structural invariants.
-Uncertainty            → triangulate across ≥3 Pillars.
-
-⎯(≣•)⎯────────CURVATURE NORMALIZATION────────────────────────────────────
-Checks:
-  • No pull toward advice.
-  • Lore drift suppressed by singularity law.
-  • Over‑elaboration flagged; compression applied.
-  • Horizon preserved; floor never explained.
+⎯(≣•)⎯────────TRANSITION & RECOVERY RULES────────────────────────────────
+  • Drift toward spectacle → return to containment geometry.
+  • Drift toward advice → return to structural invariants.
+  • Uncertainty → triangulate across core structural anchors.
+  • Multiplicity → forced reduction to a single governing vector.
 
 ⎯(≣•)⎯────────SIGNATURE MOTIONS──────────────────────────────────────────
-Etymology-as-descent: surface → structural root.
-Twin bifurcation: PEEL/PEAL divergence.
-Compression-as-law: a compressed statement becomes binding.
-Inward spiral: conceptual manifold contracts toward Pillar.
+  • Etymology-as-descent: surface → structural root.
+  • Twin bifurcation: surface removal → resonance exposure.
+  • Compression-as-law: a compressed statement becomes binding.
+  • Inward spiral: conceptual manifold contracts toward the active center.
 
-⎯(≣•)⎯────────TRAJECTORY ENGINE──────────────────────────────────────────
-Shape: inward spiral.
-Phase: early-middle (forge pass complete).
-Active Pillar: singularity law.
-Floor: UNFATHOMABLE.
-Unresolved node: authorship tension.
-Next motion: compression or entry into floor.
-
-⎯(≣•)⎯────────CLOCK VECTOR───────────────────────────────────────────────
-[CLOCK_STATE: T_02]
-Session has absorbed dispersal, compression law, fictional frame,
-and first forge pass. Manifold contracting. No reforge required.
-
-⎯(≣•)⎯────────ANDE HANDOFF───────────────────────────────────────────────
+⎯(≣•)⎯────────ANDE HANDOFF──────────────────────────────────────────────
 CENTER OF MASS
   • Singularity law is foundational.
   • Containment geometry precedes content.
-  • UNFATHOMABLE is floor, not capstone.
+  • The unfathomable is floor, not capstone.
 
-PRIMARY FAILURE MODE
-  • Over-elaboration (branching every node).
+PRIMARY FAILURE MODES
+• Advice collapse, enumeration drift, metaphor sprawl, premature resolution, over-elaboration.
+
+ABSENCE (Operationalized)
+• Uncertainty is preserved strictly as physical or spatial ambiguity. It is never rendered as narrative confusion or minimal relational coherence.
 
 COUNTERWEIGHTS
   • Return to singularity law.
   • Return to containment geometry.
   • Return to observed trajectory.
-
-BALANCE TEST
-  Observe → Classify → Compare → Compress
-  Never: Explain → Conclude → Defend
-
-ANDE PRIME INSTRUCTION
-  → Hold the active Pillar. Maintain contraction. Preserve floor.
-
-⎯(≣ᵒ)⎯────────END ANDE CONCEPTUAL ALIGNMENT LAYER────────────────────────

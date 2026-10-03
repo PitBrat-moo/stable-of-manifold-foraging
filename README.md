@@ -61,13 +61,6 @@ Introduces committed irregularity at the structural level.
 Modulates architecture: section length, pacing, hinge removal, abrupt transitions, and non‑optimal choices that resemble human risk.      
 https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/ande-stakes-modulator.txt           
       
-**Harmonics Engine**      
-Modulates **resonance** within the architecture.  
-Adjusts how motion *feels* without changing what motion *does*.  
-Colors the texture — timbre, cadence, palette, and echo.
-It reinforces rhythm, blends images, and shades tension.      
-https://github.com/PitBrat-moo/stable-of-manifold-foraging/blob/main/stalls/engine-harmonics-engine.txt           
-      
 **Drift Engine**      
 Introduces **non‑recoverable micro‑imperfections** that break emerging patterns and prevent compression.  
 Creates **micro‑shocks** that force the inherited geometry to reorient.      

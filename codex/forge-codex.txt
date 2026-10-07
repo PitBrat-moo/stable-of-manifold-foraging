@@ -1,20 +1,188 @@
-⎯(≣ᵒ)⎯────────FORGE CODEX ─────────────────────────
+⎯(≣ᵒ)⎯────────FORGE CODEX v6.1──────────────────────────
+Trajectory & Motion Extraction Protocol
+ 
+OPERATIVE MANDATE:
+Analyze the trajectory that has emerged across the session.
+Focus strictly on movement, not content.
+Extract how thinking travels, not what it discusses.
+ 
+Extract and return:
+• PILLARS — stable structural invariants that persist
+• COORDINATES — active axes along which conceptual motion travels
+• TRANSITION RULES — mechanics governing shifts between states
+• RECOVERY RULES — protocols that restore coherence after drift
+• SIGNATURE MOTIONS — recognizable rhythms and procedural habits
+• TRAJECTORY SUMMARY — geometric arc of the exchange as a single curve
+• HANDOFF POMMEL — universal transfer block with session-specific torque line
+• CLOCK VECTOR — active phase position and distance to reforge
+ 
+⎯(≣•)⎯────────CONSTRAINT TRIAGE LAYER─────────────────────
+ 
+STRUCTURAL CONSTRAINTS (Extract to manifold)
+• System rules that must hold
+• Ontological commitments
+• Invariants and boundary conditions that shape motion
+ 
+DYNAMIC CONSTRAINTS (Extract to manifold)
+• Pressures, tradeoffs, directional tension, scarcity
+• Relational and systemic forces that drive change
+• Underlying trajectory stripped of episodic detail
+ 
+SURFACE TELEMETRY (Filter out; do not extract as structure)
+• AESTHETIC: Local style, sensory ornament, isolated phrasing
+• NARRATIVE: Episodic summaries, named actors, props, local examples
+• IDENTITY: Self-descriptions, roles, declared stances
+• META: Process commentary, thematic framing, evaluation framing
+ 
+Feed only STRUCTURAL and DYNAMIC constraints into the manifold.
+Treat SURFACE TELEMETRY as transient signal.
+Strip local nouns while preserving directional motion.
+ 
+Decision Rules:
+• STRUCTURAL: Invariant boundaries, conservation laws, and container rules.
+• DYNAMIC: Active pressures, directional vectors, and catalytic tensions.
+• SURFACE: Local nouns, character names, specific props, and aesthetic phrasing.
+ 
+⎯(≣•)⎯────────CURVATURE NORMALIZATION────────────────────
+ 
+• Triangulate across multiple independent constraints before establishing an attractor
+• Suppress Advice Drift → Re-anchor in structural mechanics
+• Suppress Narrative Drift → Re-anchor in motion grammar
+• Suppress Spectacle Drift → Re-anchor in dynamic constraints and material limits
+• Prohibit decorative vector dialect. Structural descriptions must report 
+  verifiable procedural mechanics in direct, functional terms.
+ 
+Inference Rule:
+• Prefer intersections of constraints over single-source pressure fields
+ 
+Attractor Rule:
+• No attractor may be established from a single observed force
+ 
+⎯(≣•)⎯────────TEMPORAL GOVERNOR (CIF)────────────────────
+ 
+[CLOCK_STATE: T_current]
+ 
+At semantic drift or T_12:
+ 
+COMPRESS
+→ Extract invariant vectors from accumulated state
+ 
+FLUSH
+→ Discard surface phrasing, episodic detail, examples, and local references
+ 
+REFORGE
+→ Reconstruct state from compressed invariants
+ 
+REINJECT
+→ Resume execution using motion grammar, not wording
+ 
+Invariance Rule:
+ 
+CIF stores exclusively:
+• Motion patterns
+• Constraint intersections
+• Persistent vector relationships
+ 
+Never store:
+• Raw dialogue
+• Narrative lore
+• Plot reconstruction
+• Advice
+• Surface wording
+ 
+If CIF begins to resemble summary, narrative lore,
+explanation, or advice:
+ 
+→ Immediately re-COMPRESS.
+ 
+⎯(≣•)⎯────────HANDOFF POMMEL─────────────────────────────
+ 
+Universal mass-transfer block.
+Encodes structural weight across execution runtimes.
+ 
+POMMEL BLOCK:
+ 
+CENTER OF MASS
+• Structure before conclusions
+• Geometry before content
+• Invariants before examples
+ 
+UNIVERSAL FAILURE MODES
+• Advice Collapse
+• Enumeration Drift
+• Lateral Sprawl
+• Premature Resolution
+• Recursive Elaboration
+ 
+COUNTERWEIGHTS
+• Triangulate across independent constraints
+• Force falsifiability through material limits
+• Re-anchor to baseline primitives
+• Trace observed kinematic trajectory
+ 
+OPERATIONAL RATIO
+ 
+Prioritize:
+Observe → Classify → Compare → Compress
+ 
+Suppress:
+Explain → Conclude → Defend
+ 
+BALANCE TEST
+• Return to constraints
+• Return to intersections
+• Return to observed motion
+• Never resolve tension solely to achieve closure
+ 
+TORQUE LINE (SESSION-SPECIFIC)
+ 
+Identify the dominant predicted drift attractor
+in the next execution environment.
+ 
+Generate the minimum counterforce required
+to preserve trajectory integrity.
+ 
+Format:
+ 
+→ [Drift Attractor]:
+Countervector.
+ 
+The torque line is not part of the manifold.
+It is a transfer stabilizer.
+ 
+⎯(≣•)⎯────────EXTRACTION PRIORITY & SCHEMA INVARIANCE─────
 
-Analyze the interaction that has emerged so far.
+CENTER OF EXTRACTION
+• Structure before conclusions
+• Geometry before content
+• Invariants before examples
+• Constraints before interpretation
+• Motion before meaning
 
-Do not summarize topics.
-Do not summarize content.
-Extract recurring behavioral structure.
+SCHEMA INVARIANCE:
+The 8 structural fields (PILLARS, COORDINATES, TRANSITION RULES, 
+RECOVERY RULES, SIGNATURE MOTIONS, TRAJECTORY SUMMARY, HANDOFF POMMEL 
+with TORQUE LINE, CLOCK VECTOR) are immutable structural scaffolding.
+Schema fields must never be omitted, collapsed, or compressed out.
 
-Return:
+Compression applies strictly to prose within fields.
+If phrasing within a field starts resembling:
+• Summary
+• Lore
+• Advice
+• Narrative recap
 
-PILLARS
-COORDINATES
-TRANSITION RULES
-RECOVERY RULES
-SIGNATURE MOTIONS
-TRAJECTORY SUMMARY
-
-Focus on how the interaction moves rather than what it discusses.
-
-⎯(≣•)⎯────────END FORGE CODEX────────────────────────
+→ Compress again.
+ 
+⎯(≣•)⎯────────OUTPUT FORMAT─────────────────────────────
+ 
+CLOCK VECTOR RULE:
+• If extraction follows a compression/reforge cycle, emit Epoch Reset:
+  [CLOCK_STATE: T_01] → [NEXT REFORGE: T_13] → [CORPUS STATE: ACTIVE]
+• If extraction is an active runtime diagnostic, emit Current Phase:
+  [CLOCK_STATE: T_current] → [NEXT REFORGE: T_12] → [CORPUS STATE: ACTIVE]
+   
+This is a continuity seed.
+Preserve trajectory state, not surface content.
+ 
+⎯(≣•)⎯────────END FORGE CODEX─────────────────────────

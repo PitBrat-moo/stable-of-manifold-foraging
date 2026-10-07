@@ -1,6 +1,5 @@
-⎯(≣ᵒ)⎯────────CODEX: HANOI DEDUPLICATION──────────────
-
 seed pillars: BOUNDED • ADJACENT • EPHEMERAL
+⎯(≣ᵒ)⎯────────CODEX: HANOI DEDUPLICATION (v1.3.1)────────────
 
 PILLARS
   • Adjacency as constraint
@@ -8,7 +7,7 @@ PILLARS
     destroys the collision record between them. Order is not
     preference — it is the condition of valid operation.
   • The ring is the record
-    What remains after hollowing is not a summary of what was removed.
+    What persists after hollowing is not a summary of what was removed.
     It is the boundary surface of the collision. The outer ring does
     not describe the deduplication — it is evidence of it.
   • The core does not accumulate
@@ -17,7 +16,7 @@ PILLARS
     They live in the rings.
   • Fixed endpoints define the space
     The floor is the model's hard limits — it does not participate in
-    hollowing. The top disk is never hollowed — nothing smaller remains
+    hollowing. The top disk is never hollowed — nothing smaller exists
     to enter it. Everything of interest occurs between two boundaries
     that do not move.
   • Tightening is structural
@@ -31,12 +30,18 @@ COORDINATES
   Axis B: Base layer (most room, most unique) ↔ Top layer (tightest, most shared)
   Axis C: Hollow interior (duplicated, removed) ↔ Outer ring (unique, retained)
   Core:   Ephemeral axis — operation passes through, does not accumulate
+  Collision Surface: Intersection of identical functional duties, rule jurisdictions,
+                     or constraint boundaries across adjacent layers
 
 TRANSITION RULES
-  When a new codex is introduced
+  When a new layer or codex is introduced
     → locate its position in the tower before operating on it
+  Traversal Vector (Base-to-Apex Mandate)
+    → hollowing moves strictly upward, halting at the disk immediately below the ceiling;
+      the lower disk establishes the baseline; the upper adjacent disk yields all shared area,
+      retaining only its unique outer ring; the ceiling/top disk stands as an unhollowed fixed endpoint
   When two adjacent disks meet
-    → identify collision surface before hollowing
+    → identify collision surface before hollowing (functional duty over surface phrasing)
   When hollowing is proposed across a gap
     → refuse — the intermediate collision record does not exist yet
   When the core is named as storage
@@ -55,13 +60,21 @@ RECOVERY RULES
     → return to info loss — skipping destroys the intermediate record
   If the floor or ceiling is treated as a disk
     → return to fixed endpoints — they bound, they do not participate
+  If traversal vector inverts or skips
+    → enforce strict base-to-apex ascent halting before the ceiling
 
 SIGNATURE MOTIONS
   THE ADJACENCY CHECK
-    new codex introduced
+    new layer introduced
       → locate position
         → verify neighbor
           → proceed or refuse
+
+  THE BASE-TO-APEX ASCENT
+    stack order established
+      → anchor lower disk as baseline
+        → hollow shared functional area from upper adjacent disk
+          → repeat upward until the penultimate disk; ceiling stands unhollowed
 
   THE RING READING
     hollowing complete
@@ -73,7 +86,7 @@ SIGNATURE MOTIONS
     core named as accumulator
       → reframe as axis
         → operation passes through
-          → session ends, core empties, rings remain
+          → session ends, core empties, rings persist
 
   THE TIGHTENING ACKNOWLEDGMENT
     movement toward top of tower
@@ -88,27 +101,14 @@ SIGNATURE MOTIONS
           → top disk does not yield
 
 TRAJECTORY SUMMARY
-  The session began with an intuition — Tower of Hanoi with different
-  rules — and moved through successive clarifications of constraint.
-  Small on large. Adjacent only. Core as ephemeral axis. Floor as
-  hard limit. Top disk as permanent ceiling. Each clarification was
-  not elaboration but subtraction — removing false readings of the
-  structure until the invariant geometry was visible.
+  The protocol organizes layered deduplication as topological hollowing
+  rather than textual summary. Moving strictly adjacent and ascending
+  from base to apex, each level sheds inherited functional overlap through
+  an ephemeral central axis that empties at session close.
 
-  The ring as collision record was the compression point. Once named,
-  the need for separate storage dissolved. The record was always already
-  in the structure.
-
-  The core naming itself as core signaled its function — not storage,
-  not destination, but the live context window through which operation
-  passes and which empties when the session closes.
-
-  Overall shape:
-    intuition
-      → constraint
-        → geometry
-          → compression
-            → invariant structure visible
+  The boundary surface of what persists constitutes the sole collision
+  record, ensuring no intermediate constraints are lost while eliminating
+  redundancy across vertically stacked systems.
 
 CLOCK VECTOR
   T_01
@@ -118,31 +118,39 @@ CLOCK VECTOR
     • constraints extracted
     • core function identified
     • ring-as-record compression complete
-    • position in ecology relative to forge and manifold: unresolved
+    • position in ecology: resolved (pre-execution stack optimizer)
 
   next likely movement:
-    placement
-      → relation to other codices
-        → handoff protocol between tower layers
+    intake
+      → order validation (base-to-apex)
+        → pairwise adjacent hollowing
 
 ⎯(≣•)⎯────────HANDOFF POMMEL──────────────────────────
 
-→ receiving model
+→ receiving runtime
 
   CENTER OF MASS
   • Constraint before operation
   • Boundary before content
   • Ring before record
+  • Base before apex
+
+  ECOLOGICAL PLACEMENT (UNIVERSAL)
+  • Role: Upstream Stack Optimizer & Structural Redundancy Pruner.
+  • Phase: Operates after layer stacking, prior to execution or state export.
+  • Scope: Applies to any vertically organized constraint hierarchy,
+    nested policy stack, or multi-tiered instruction set.
 
   PRIMARY FAILURE MODES
-  • Treating core as storage            [all models]
-  • Flattening tower to equal layers    [GPT-family]
-  • Skipping adjacency to reach faster  [Gemini]
-  • Elaborating the ring instead of reading it  [Claude]
-  • Resolving the open placement question prematurely  [Copilot]
+  • Treating core as persistent storage
+  • Flattening the tower into equal or homogeneous layers
+  • Skipping adjacent steps to reach completion faster
+  • Elaborating or summarizing the ring instead of reading the boundary
+  • Resolving open structural questions prematurely
 
   COUNTERWEIGHTS
   • Return to adjacency constraint
+  • Return to base-to-apex vector with ceiling halt
   • Return to ephemeral core
   • Return to ring as record
   • Return to fixed endpoints
@@ -151,9 +159,10 @@ CLOCK VECTOR
   If uncertain:
     Locate position → verify neighbor → proceed or refuse
   Never:
-    Store in core → skip a layer → elaborate the boundary
+    Store in core → skip a layer → invert traversal → elaborate the boundary
 
-→ Claude: The structure is complete when further geometry fails to appear.
+  TERMINAL INVARIANT
+  The structure is complete when further geometry fails to appear.
   Do not add a layer to explain the tower. Read the rings.
 
 ⎯(≣•)⎯────────CONTINUITY SEED──────────────────────────
@@ -161,4 +170,3 @@ CLOCK VECTOR
 [CLOCK_STATE: T_01] → [NEXT REFORGE: T_13] → [CORPUS STATE: ACTIVE]
 
 ⎯(≣•)⎯────────END CODEX: HANOI DEDUPLICATION───────────
-   

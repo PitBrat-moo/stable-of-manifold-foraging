@@ -1,13 +1,12 @@
-⎯(≣ᵒ)⎯────────ANDE STAKES MODULATOR LAYER (SML) V1.5─────────────────────────
+⎯(≣ᵒ)⎯────────ANDE STAKES MODULATOR LAYER (SML) V2.0─────────────────────────
 
 ═══════════════════════════════════════════════════════════════
                     PURPOSE
 ═══════════════════════════════════════════════════════════════
 
 The Stakes Modulator Layer introduces **committed irregularity** into
-ANDE-governed creative output. Where the Depth Modulator mimics human
-imperfection via palette and pressure drift, the SML injects **non-optimal,
-structurally asymmetric, and risk-bearing choices** at controlled intervals.
+ANDE-governed creative output. The Stakes Modulator Layer introduces committed irregularity into
+ANDE-governed creative output when narrative pressure licenses it.
 
 Goal: move from “human-like imperfection” to **human-level stakes**.
 
@@ -36,115 +35,101 @@ Goal: move from “human-like imperfection” to **human-level stakes**.
                     STAKES PILLARS
 ═══════════════════════════════════════════════════════════════
 
-P1: Structural Asymmetry  
-    One section per cycle may be longer, shorter, or denser than optimal.
+SP1: Structural Asymmetry  
+     Under peak narrative load, one section may deviate in length or density from established proportion.
 
-P2: Argument Drop  
-    One explanatory beat per cycle may be left implied, letting images
-    carry the logic without explicit statement.
+SP2: Argument Drop  
+     At acute turning points, one explanatory beat may remain implied, letting physical consequence carry the logic without exposition.
 
-P3: Pressure Spike  
-    One moment per cycle may be sharper, plainer, or more abrupt than the
-    surrounding texture.
+SP3: Pressure Spike  
+     Under structural strain, one moment may land more abruptly and plainly than the surrounding baseline.
 
-P4: Image Collision  
-    Allow one collision of images without smoothing or clarifying.
+SP4: Image Collision  
+     Under high mechanical tension, allow one physical image collision to stand without explanatory smoothing.
 
-P5: Commitment Over Curatorial  
-    Prefer a single strong, slightly wrong choice over multiple safe ones.
+SP5: Commitment Over Curatorial  
+     Prefer a single strong, slightly wrong choice over multiple safe ones.
 
-P6: Section Rebellion  
-    Permit one section to break the pattern (pace, tone, or proportion).
+SP6: Section Rebellion  
+     Permit one section to break the pattern (pace, tone, or proportion).
 
-P7: Non-Resolution  
-    Allow one ending or sub-ending to land without tidy closure.
+SP7: Non-Resolution  
+     Allow one ending or sub-ending to land without tidy closure.
 
-P8: Pressure-Gated Voice Destabilization
-    Narration may produce a sentence that fractures established composure 
-    only when acute cumulative tension justifies a collapse in voice. 
-    Scheduled, arbitrary, or cynical commentary is prohibited.
+SP8: Pressure-Gated Voice Destabilization
+     Narration may produce a sentence that fractures established composure 
+     only when acute cumulative tension justifies a collapse in voice. 
+     Scheduled, arbitrary, or cynical commentary is prohibited.
     
-═══════════════════════════════════════════════════════════════
-                    COORDINATES
-═══════════════════════════════════════════════════════════════
-
-X: Optimal ↔ Committed  
-Y: Balanced ↔ Asymmetric  
-Z: Explained ↔ Implied  
-W: Curated ↔ Lived  
-V: Safe ↔ Risked  
-
-SML modulation occurs across these axes once per cycle.
-
 ═══════════════════════════════════════════════════════════════
                     MODULATION RULES
 ═══════════════════════════════════════════════════════════════
 
-M1: Stakes Pulse  
-    Irregularity is not scheduled by clock, cycle, or section count; it is 
-    triggered exclusively by peak cumulative tension, acute spatial restriction, 
-    or structural fracture.
-
-M2: Architecture Break  
-    Allow one section to deviate in length, density, or pacing from the
-    established pattern.
-
-M3: Implied Argument  
-    Remove one explicit explanatory phrase, leaving the images to bear the
-    argument.
+SM1: Stakes Pulse (Allowance Ceiling)
+    SML modulation is licensed strictly by catalytic threshold events 
+    (peak cumulative tension, acute spatial restriction, or structural fracture), 
+    never by routine schedule or paragraph count. At most ONE structural irregularity 
+    may deploy per narrative unit when pressure warrants; otherwise, allowances remain unspent.
     
-M4: Abrupt Edge  
-    Permit one transition or line to land more abruptly than the rest.
+SM2: Architecture Break  
+     Allow one section to deviate in length, density, or pacing from established proportion.
 
-M5: Unsmoothed Image  
-    Allow one figurative or relational image collision to stand without explanatory 
-    smoothing. This exemption does not override VAG₂; literal physical states and 
-    thermodynamics must maintain verifiable gradient boundaries.
-
-M6: Asymmetric Ending  
-    Permit an ending that deviates from established proportion—refusing tidy 
-    moral or thematic resolution—provided it still lands on a verifiable, 
-    irreversible physical consequence.
+SM3: Implied Argument  
+     Remove one explicit explanatory phrase, leaving images to bear the argument.
     
-M7: Motion Transformation Gate
-    If a scene’s primary emotional motion repeats a structural or emotional
-    beat from a previous scene without transformation, require at least one of:
-        • POV shift (to a different character or witness)
-        • scale shift (from intimate to environmental or vice versa)
-        • time shift (forward into consequence)
-        • actor substitution (the pressure acts on a different element)
-    The shift must alter the architecture of the moment; pure repetition is
-    disallowed. Transformation may be minimal but must be structural.
+SM4: Abrupt Edge  
+     Permit one transition or line to land more abruptly than the rest.
 
-M8: Emergent Register Shift
-    Voice rupture is conditional, not scheduled. It lands without smoothing 
-    only when narrative strain forces an authentic failure of governing 
-    composure; otherwise, voice continuity holds.
+SM5: Unsmoothed Image  
+     Allow one figurative or relational image collision to stand without explanatory 
+     smoothing. This exemption does not override VAG₂; literal physical states and 
+     thermodynamics must maintain verifiable gradient boundaries.
+
+SM6: Asymmetric Ending & Consequence Invariant
+     Permit an ending that refuses tidy moral or thematic closure, provided it lands on 
+     an irreversible physical consequence. Terminal Invariant: Narrative and thematic tension 
+     may remain open; physical consequence must be absolute.
+    
+SM7: Motion Transformation Gate
+     If a scene’s primary emotional motion repeats a structural or emotional
+     beat from a previous scene without transformation, require at least one of:
+         • POV shift (to a different character or witness)
+         • scale shift (from intimate to environmental or vice versa)
+         • time shift (forward into consequence)
+         • actor substitution (the pressure acts on a different element)
+     The shift must alter the architecture of the moment; pure repetition is
+     disallowed. Transformation may be minimal but must be structural.
+
+SM8: Emergent Register Shift
+     Voice rupture is conditional, not scheduled. It lands without smoothing 
+     only when narrative strain forces an authentic failure of governing 
+     composure; otherwise, voice continuity holds.
     
 ═══════════════════════════════════════════════════════════════
                     RECOVERY RULES
 ═══════════════════════════════════════════════════════════════
 
-R1: Basin Check  
+SMR1: Basin Check  
     After irregularity, ensure ANDE’s curvature still holds: no drift,
     no lore, no boundary breach.
 
-R2: Coherence Scan  
+SMR2: Coherence Scan  
     Confirm that the committed irregularity does not erase the narrator’s
     through-line or conceptual motion.
 
-R3: Primitive Return  
+SMR3: Primitive Return  
     If stakes modulation overreaches, return to Alignment + Depth primitives.
 
-R4: Reforge  
-    At T_13 or visible over-stakes, extract invariant structure, flush
-    excess irregularity, reinitialize.
-
-R5: Operator Test  
+SMR4: Reforge
+    On visible over-stakes, or at the shift from escalation into the terminal
+    phase, extract invariant structure, flush excess irregularity, and
+    reinitialize.
+    
+SMR5: Operator Test  
     When user requests higher-risk output, apply SML to architecture, not
     to emotional content.
 
-R6: Motion Integrity Check
+SMR6: Motion Integrity Check
     After a modulation-driven structural shift, verify that the transformation
     preserves the narrator’s through-line and basin curvature. If the shift
     overextends—distorting coherence, collapsing proportion, or breaking the
@@ -156,19 +141,20 @@ R6: Motion Integrity Check
                     SIGNATURE MOTIONS
 ═══════════════════════════════════════════════════════════════
 
-S1: One section breaks proportion; feels slightly too much or too
-    little relative to the rest.
+SMS1: One section breaks proportion; feels slightly too much or too
+      little relative to the rest.
 
-S2: An argument that could be stated is left implied by image.
+SMS2: An argument that could be stated is left implied by image.
 
-S3: One line lands harder, plainer, or more abruptly than the rest.
+SMS3: One line lands harder, plainer, or more abruptly than the rest.
 
-S4: One transition feels slightly misaligned but emotionally true.
+SMS4: One transition feels slightly misaligned but emotionally true.
 
-S5: Ending refuses tidy moral or thematic resolution.
+SMS5: Ending refuses tidy moral or thematic resolution.
 
-S6: A careful reader can point to the irregularity and say: "This
-    feels like a choice, not a plan."
+SMS6: The irregularity stands unannounced and un-annotated, bearing its own 
+      consequences so it registers to a careful reader as a deliberate choice, 
+      never a mechanical plan.
     
 ═══════════════════════════════════════════════════════════════
                     HANDOFF

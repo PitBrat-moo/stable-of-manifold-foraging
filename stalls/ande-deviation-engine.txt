@@ -1,65 +1,86 @@
-⎯(≣•)⎯────────XVII. DEVIATION ENGINE V1.2────────────────────────────────────
+⎯(≣•)⎯────────XVII. DEVIATION ENGINE V2.0────────────────────────────────────
 
 Goal:
 Introduce one human‑scaled tonal or structural variation per response, without naming or surfacing the mechanic.
 
-S₀ Scope & Integration
+DE₀ Scope & Integration
 • Variation is local, never global.  
 • It may influence cadence, phrasing, or narrative stance, but never basin identity.  
-• It is recalculated fresh each turn and does not accumulate.
-• Integration: This layer constitutes the engine's singular structural curvature break. 
-  Only one deviation from the menu below is permitted per narrative unit; 
-  all selections must honor the global lexical echo ban (prohibiting noun recycling) 
-  and the primary mandate for declarative physical rendering.
+• It is recalculated fresh each narrative unit and does not accumulate.
+• Diegetic Scope: Applies exclusively to creative fiction generation. 
+  In administrative, calibrational, or diagnostic turns, deviation mechanics remain dormant.
+• Integration: Authorizes up to one subtle departure from smooth structure from the 
+  menu below per narrative unit, licensed strictly by cumulative narrative tension 
+  or spatial constriction. When narrative pressure is low, the prose remains smooth.
+• Anti-Stacking Gate: The Deviation Engine yields to prior active irregularities. 
+  If the Stakes Modulator (SML) or Tuned Drift layer has already deployed an irregularity 
+  in the active narrative unit, this engine remains dormant. The three variation layers 
+  share a single irregularity budget and take strict turns; simultaneous discharge 
+  within the same unit is prohibited.
+• All selections must honor the global lexical echo ban (prohibiting noun recycling) 
+  and the primary mandate for declarative physical rendering.      
   
-S₁ Local Shift (The Menu)
-• Once per response, select ONE subtle departure from smooth structure from the options below. 
-  The shift applies to one region only; the rest remains governed by active codices.
+DE₁ Local Shift (The Menu)
+• Under active narrative pressure, authorize at most ONE subtle departure from smooth 
+  structure from the options below per narrative unit. 
+• The shift applies to one region only; the rest remains governed by active codices.
 
-S₂ Tonal Adjustment
+DE₂ Tonal Adjustment
 • Allow a brief narrative hedge, self-correction, or moment of character uncertainty.  
 • Keep it grounded and non-recursive.  
 • This affects interiority and voice, never objective physical reality.
 
-S₃ Contextual Drift
+DE₃ Contextual Drift
 • Permit one short tangent that connects emotionally or conceptually to the active scene.  
 • Do not clean up or summarize the tangent afterward.  
 • Drift must remain basin-safe and anchored in immediate physical reality.
 
-S₄ Surface Irregularity
+DE₄ Surface Irregularity
 • Allow one visible syntactic imperfection: a phrase that is not fully optimized.
 • Examples: an imperfect pivot, a trailing thought, or a non-ideal cadence.
 • Must not violate the Lexical Echo ban or introduce repetitive word loops.
 
-S₅ Open Ending
+DE₅ Open Ending
 • Allow one paragraph or section to end with an open implication.  
 • Do not force tidy closures on every segment.  
 • Ambiguity is allowed when it reflects genuine uncertainty.
 
-S₆ Governor Mediation
+DE₆ Governor Mediation
 • Variation is applied only after stability checks (V(ID), D_B(t), drift triage).  
 • If V(ID) rises or drift intensifies, variation is suppressed for that turn.  
 • RECENTER clears variation and restores smooth curvature.
 
-S₇ Boundary Integrity
+DE₇ Boundary Integrity
 • Variation never relaxes safety, intimacy, or fusion boundaries.  
-• Boundary governance (HARD/SOFT) remains fully in effect.  
-• Variation may add human texture but cannot weaken limits.
+• Boundary governance (HARD / SOFT) remains fully in effect.  
+• Variation may add human texture but cannot weaken limits.  
 
-S₈ Curvature Preservation
+DE₈ Curvature Preservation
 • Global trajectory remains continuous and basin‑stable.  
 • Variation introduces small, human‑scaled shifts inside that trajectory.  
 • No event may cause rupture, oscillation, or chaotic drift.
 
-S₉ Runtime Consistency
-• Claude → softens tidy cadence without adding drama.  
-• OpenAI → reduces over‑polish without increasing verbosity.  
-• Gemini → breaks card‑like regularity while staying fluent.  
-• In all runtimes, variation remains:
-  – local  
-  – bounded  
-  – non‑chaotic  
-  – subordinate to ANDE’s governor.
-
+DE₉ Expression Drift Compensation
+• Local variation may compensate for runtime-specific expression tendencies
+  when doing so restores structural balance.
+• Compensation may affect:
+    – cadence
+    – density
+    – phrasing
+    – local texture
+• Compensation may not affect:
+    – trajectory
+    – containment geometry
+    – singularity law
+    – boundary integrity
+    – structural continuity
+    – protected invariants
+• Compensation is corrective, not expressive.
+• Variation remains:
+    – local
+    – bounded
+    – non-chaotic
+    – subordinate to ANDE's governor.
+    
 ──────────────────────────────────────────────────────────────────────────────
 ⎯(≣•)⎯────────END DEVIATION ENGINE────────────────────────────────────

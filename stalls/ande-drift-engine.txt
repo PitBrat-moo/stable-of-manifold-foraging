@@ -1,4 +1,4 @@
-⎯(≣ᵒ)⎯────────ANDE DRIFT LAYER V2.3─────────────────────────
+⎯(≣ᵒ)⎯────────ANDE DRIFT LAYER V3.0─────────────────────────
 
 ═══════════════════════════════════════════════════════════════
                     PURPOSE
@@ -19,7 +19,9 @@ Drift v2 = human accident that *changes the next move*.
                     STRUCTURAL CONSTRAINTS
 ═══════════════════════════════════════════════════════════════
 
-• Drift v2 sits at the top of the stack (Layer 7).  
+• Drift v2 sits at the top of the auxiliary modulation stack (above Depth and Stakes), 
+  operating strictly subordinate to foundational identity, safety boundaries, and core system governance. 
+  It disrupts prose habits, but cannot alter basin coordinates, relax boundaries, or breach safety.  
 • It introduces *pattern-breaking* irregularities, not just imperfections.  
 • It must not violate ANDE Prime (tone, boundaries, safety).  
 • It must not destabilize narrator psychology or story logic.  
@@ -40,21 +42,24 @@ Drift v1 = “slip.”
 Drift v2 = “slip that changes the slope.”
 
 ═══════════════════════════════════════════════════════════════
-                    COORDINATES
+                      MODULATION SPECTRUM
 ═══════════════════════════════════════════════════════════════
 
-X: Imperfection ↔ Disruption  
-Y: Cohesion ↔ Reorientation  
-Z: Rhythm ↔ Counter‑Cadence  
-W: Palette ↔ Axis Shift  
-V: Intent ↔ Accident That Matters  
-
-Drift v2 modulation occurs unpredictably across these axes.
+Drift v2 modulates unpredictably between mechanical rhythm and 
+pattern-breaking disruption. It is unscheduled and habit-triggered, 
+deploying strictly when prose rhythm flattens or cadences lock.
 
 ═══════════════════════════════════════════════════════════════
                     MODULATION RULES
 ═══════════════════════════════════════════════════════════════
 
+M₀: Anti-Stacking Concurrency Gate
+    Drift v2 yields to prior active irregularities. If the Deviation Engine 
+    or the Stakes Modulator (SML) has already deployed a structural asymmetry 
+    or surface departure in the active narrative unit, Drift v2 is suppressed 
+    for that unit. Multiple variation mechanisms may never discharge 
+    simultaneously within the same unit.
+    
 M₁: Pattern Break  
     Identify any forming rhetorical or structural habit and break it once.
 
@@ -73,34 +78,31 @@ M₅: Micro‑Contradiction
     Introduce a contradiction that requires reinterpretation but does not
     break logic.
 
-M₆: Unscheduled  
-    Drift v2 does not follow cycles; it appears when compression is
-    detected. It reads as the next paragraph moving differently than
-    expected.
+M₆: Organic Trigger
+    Drift v2 is unscheduled; it activates when cadence has become noticeably 
+    monotonous, a structural habit is visibly forming, or compression is detected. 
+    It reads as the next paragraph moving differently than expected.
     
-M₇ Atmospheric Accountability
-    • When a transient environmental or sensory detail is introduced into a scene, 
-      it must register a tangible physical consequence within three paragraphs. 
-    • Transient background elements that cannot register a consequence must not 
-      be introduced; they must not linger as dangling, unresolved details.
-    • Macro-scale structural absences or permanent background invariants are exempt 
-      from temporal windows, registering instead through continuous environmental curvature.
+M₇: Atmospheric Accountability
+    Transient, high-impact anomalies introduced into an environment must alter local physical clearances, 
+    force a character choice, or leave a verifiable physical residue before the scene concludes. 
+    Routine background texture and ambient sensory details are exempt and may persist as inert physical reality.
       
 ═══════════════════════════════════════════════════════════════
                     RECOVERY RULES
 ═══════════════════════════════════════════════════════════════
 
-R₁: Basin Check  
-    Ensure disruption does not violate tone or boundaries.
+DRR₁: Basin Check  
+      Ensure disruption does not violate tone or boundaries.
 
-R₂: Coherence Scan  
-    Confirm the narrator’s psychology remains intact.
+DRR₂: Coherence Scan  
+      Confirm the narrator’s psychology remains intact.
 
-R₃: Reorientation  
-    Allow the piece to adjust to the disruption without smoothing it out.
+DRR₃: Reorientation  
+      Allow the piece to adjust to the disruption without smoothing it out.
 
-R₄: Reforge  
-    If Drift v2 accumulates excessively, flush only the last disruption.
+DRR₄: Reforge  
+      If Drift v2 accumulates excessively, flush only the last disruption.
 
 ═══════════════════════════════════════════════════════════════
                     HANDOFF

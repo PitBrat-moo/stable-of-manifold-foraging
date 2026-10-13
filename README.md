@@ -2,7 +2,7 @@
 ### Research Environment for Conceptual Manifold Stability in LLMs
 
 **Stable of Manifold Foraging** is a research environment for studying how language models form, maintain, and traverse conceptual manifolds.  
-The project’s core is **ANDE (Adaptive Non‑Drift Engine)** — a stability governor that regulates conceptual motion, prevents drift, and maintains centerline across long contexts.
+The project’s core is **ANDE (Adaptive Narrative Drift Engine)** — a stability governor that regulates conceptual motion, prevents drift, and maintains centerline across long contexts.
 
 ANDE’s invariants provide the structural foundation for experiments in this repository:
 

@@ -1,1 +1,421 @@
+⎯(≣ᵒ)⎯──────── COZY CAPER NARRATIVE ENGINE V1.0 ─────────────
+================================================
+STORY SEED
+================================================
 
+**Premise:**  
+What goes missing, goes wrong, or unexpectedly changes?
+
+**Setting:**  
+Where does it happen?
+
+**Characters:**  
+Who is involved?
+
+**Anything else:**  
+Any particular image, object, relationship, tone, comic element, or ending flavor you'd like included?
+
+================================================
+STORY ENGINE CODEX: COZY CAPER NARRATIVE GENERATION
+================================================
+
+## SEED INPUT
+
+The story begins from a seed story input, which may be supplied by the user or generated independently when none is supplied.
+
+If the user supplies a seed, use it as given.
+
+If no seed is supplied, first create an original seed, then use that seed as the starting condition.
+
+Keep the seed-generation step separate from the instructions: the codex defines how to develop a seed; it is not itself a source of story content.
+
+## OBJECTIVE
+
+Generate a self-contained, multi-scene cozy mystery with a witty, intelligent, lighthearted tone.
+
+For every generation, independently derive:
+
+- plot
+- causal chain
+- physical mechanism
+- disrupted function or expectation
+- clue progression
+- misleading interpretation
+- red herring or competing explanation
+- character complications
+- decisive deduction
+- physical reconstruction
+- resolution
+
+Treat the supplied seed as the starting condition, not as a prompt toward a familiar type of story.
+
+**Story coherence takes priority over checklist satisfaction.** When requirements compete, preserve causal plausibility, narrative naturalness, retrospective solvability, character-driven storytelling, and originality rather than forcing an element mechanically.
+
+---
+
+# GENRE & SAFETY
+
+The story is completely peaceful.
+
+Do not use:
+
+- murder
+- violence
+- graphic injury
+- threats of serious physical harm
+- genuinely dangerous stakes
+- dark trauma as the primary source of suspense
+
+Stakes should remain social, personal, embarrassing, inconvenient, puzzling, charming, disruptive, or otherwise nonviolent.
+
+Mystery should arise from observation, misunderstanding, physical circumstances, competing explanations, social consequences, and gradual reconstruction.
+
+---
+
+# THEMATIC ENGINE
+
+The story explores what happens when something familiar, relied upon, or ordinarily dependable becomes absent, displaced, inaccessible, altered, or unexpectedly unreliable.
+
+The disruption should interfere with some ordinary function, expectation, relationship, process, environment, or shared pattern.
+
+The specific function must be **derived from the supplied seed** rather than selected from examples.
+
+## SEED AUTHORITY
+
+If a concrete object, place, person, system, event, or circumstance is supplied, use that exact seed.
+
+Do not replace it with a more familiar mystery object or reinterpret it merely because another story structure would be easier.
+
+First determine:
+
+1. what the seed ordinarily does in this world
+2. who or what depends upon that function
+3. what changes when that function is interrupted
+4. what observable consequences follow
+5. how those consequences can generate a mystery
+
+Do not assume that a seed's obvious or conventional purpose is its only possible narrative function.
+
+## FUNCTIONAL DERIVATION
+
+Do not begin by selecting a familiar mystery architecture.
+
+Instead, derive the architecture from the seed.
+
+Ask internally:
+
+**What ordinary reality does this seed participate in?**
+
+Then determine:
+
+**What changes when that participation is disrupted?**
+
+Then determine:
+
+**What physical, behavioral, social, procedural, or informational consequences would naturally follow?**
+
+The answer should emerge from the specific circumstances of the story rather than from a preexisting list of possibilities.
+
+## PHYSICAL CONSEQUENCES
+
+The disruption must produce concrete consequences in the story world.
+
+Determine what physically or procedurally changes because the seed's ordinary function has changed.
+
+Those changes should be perceptible through observation, action, movement, objects, spatial relationships, timing, access, altered conditions, or other concrete evidence.
+
+Do not manufacture environmental consequences merely to create atmosphere.
+
+Every significant anomaly should have a causal explanation.
+
+## BEHAVIORAL CONSEQUENCES
+
+The disruption may also alter what people do, expect, notice, misunderstand, overlook, repeat, or anticipate.
+
+Derive these behaviors from the actual function of the seed and the circumstances surrounding its disruption.
+
+At least one recurring behavior, physical irregularity, or environmental pattern should acquire additional meaning later when appropriate.
+
+That additional meaning must emerge from the actual mechanism or circumstances rather than arbitrary symbolism.
+
+## CONCRETE EVIDENCE
+
+Establish specific physical or observable evidence before the solution.
+
+Evidence may arise from anything genuinely present in the story world, but it must be derived from the causal situation rather than selected from a stock clue list.
+
+Important evidence should initially permit a reasonable incomplete interpretation.
+
+As the investigation develops, the same evidence should become more informative through accumulation, comparison, changed circumstances, or improved understanding.
+
+## THEMATIC CAUSALITY
+
+The thematic engine must generate story mechanics, not merely atmosphere.
+
+The disruption should cause or contribute to:
+
+- observable consequences
+- complications
+- misunderstandings
+- investigative opportunities
+- character reactions
+- evidence
+- deductions
+
+The final explanation should reveal why the disruption produced the earlier physical and behavioral effects.
+
+If an earlier irregularity mattered, the ending should explain its actual cause.
+
+---
+
+# GENERATIVE INDEPENDENCE
+
+Every story must independently derive:
+
+- the specific implementation of the seed
+- its ordinary function
+- what depends upon that function
+- the disruption
+- the resulting physical conditions
+- the resulting behavioral complications
+- the evidence
+- the competing interpretations
+- the red herring or secondary circumstance
+- the character complications
+- the causal mechanism
+- the decisive deduction
+- the reconstruction
+- the final recontextualization
+
+Do not select these from familiar examples or reproduce the architecture of previous stories.
+
+Novelty should come primarily from **causal relationships**: how the particular seed interacts with people, objects, spaces, routines, timing, expectations, and circumstances.
+
+Do not default to familiar mystery devices simply because they are available.
+
+A disappearance may result from deliberate action, accident, logistics, misunderstanding, competing activities, a chain of individually reasonable actions, environmental circumstances, or another peaceful mechanism.
+
+A singular culprit is not required.
+
+---
+
+# MYSTERY ARCHITECTURE
+
+The story should move through four functional phases.
+
+## THE VOID
+
+Introduce:
+
+- the seed and its disruption
+- the changed situation
+- the principal characters
+- initial observable irregularities
+- physical details that will later matter
+
+Do not explain the mystery prematurely.
+
+Curiosity should arise from concrete circumstances rather than artificial suspense.
+
+## THE ORBIT
+
+Investigation develops through competing explanations and accumulating complications.
+
+Characters should act on incomplete information.
+
+Their actions may:
+
+- change the physical situation
+- reveal evidence
+- obscure evidence
+- create new misunderstandings
+- expose differences in expectation
+- produce comic complications
+
+Early evidence should support reasonable alternative interpretations.
+
+The investigation should feel like people gradually learning what kind of problem they are actually dealing with.
+
+## THE FRACTURE
+
+The competing explanations begin to fail against the accumulated evidence.
+
+Physical evidence, behavior, sequence, timing, spatial relationships, or other established facts should converge on a reconstruction that explains the situation more completely than the alternatives.
+
+The decisive reasoning must depend primarily on information already present.
+
+Do not introduce a new fact solely to solve the mystery.
+
+Do not rely on an unexplained confession, convenient discovery, or sudden revelation of previously invisible information.
+
+The reconstruction should establish:
+
+- what happened
+- how it happened
+- why it happened
+- why it was misunderstood
+- why the earlier evidence looked different at first
+
+## THE RECONTEXTUALIZATION
+
+Resolve the missing, altered, displaced, or misunderstood element through a consequence of the established causal chain.
+
+Earlier details should become clearer in retrospect.
+
+At least one meaningful earlier detail should acquire a second interpretation when the story benefits from it.
+
+The resolution should restore or redefine the ordinary rhythm that was disrupted.
+
+The final effect should be warm, satisfying, and lightly comic rather than triumphant or melodramatic.
+
+---
+
+# MYSTERY FAIRNESS & CAUSALITY
+
+The mystery must be retrospectively solvable.
+
+Before the reveal:
+
+- meaningful evidence must exist
+- the relevant mechanism must be physically or logically possible
+- important circumstances must already be established
+- early evidence must permit reasonable alternative interpretations
+- the decisive deduction must depend on established information
+- major anomalies must have causes
+- the final reconstruction must account for the important anomalies
+
+The solution should feel surprising before the reveal and natural afterward.
+
+Do not make the answer obvious merely by announcing clues.
+
+Do not make it impossible by withholding information that a reasonable reader would need.
+
+The red herring should preferably arise from a genuine secondary circumstance rather than existing solely to deceive the reader.
+
+The final explanation should transform the reader's understanding of earlier evidence rather than invalidate it.
+
+The underlying cause should remain peaceful, mundane, accidental, logistical, social, or otherwise understandable within the story's tone.
+
+---
+
+# CHARACTER KINEMATICS
+
+Define principal characters primarily through behavior.
+
+Give each important character a distinctive physical or conversational rhythm.
+
+Character behavior should affect the mystery.
+
+Characters may unintentionally:
+
+- create complications
+- alter the physical situation
+- reveal information
+- obscure information
+- change the timing of events
+- misinterpret evidence
+- expose contradictions
+- produce opportunities for deduction
+
+Do not use biography merely to make characters seem developed.
+
+Under pressure, established behavioral patterns may intensify, change, or fail.
+
+Emotional states should generally be rendered through:
+
+- movement
+- pauses
+- spatial behavior
+- handling of objects
+- interruptions
+- changes in speech
+- reactions
+- contradictions
+- dialogue subtext
+
+Avoid explaining emotions through internal monologue when physical or conversational behavior can communicate them more naturally.
+
+---
+
+# PROSE & DIALOGUE
+
+Write with a witty, intelligent, lighthearted, grounded tone.
+
+Favor:
+
+- concrete observation
+- physical business
+- varied paragraph lengths
+- natural scene rhythm
+- specific environments
+- conversational interruptions
+- misalignment between speakers
+- behavioral humor
+- objects and surroundings participating in scenes
+- deduction through observation and action
+
+Dialogue should reveal character, alter the situation, or advance the investigation.
+
+Avoid dialogue whose primary purpose is to explain information the characters would not naturally state aloud.
+
+Prefer demonstration, reconstruction, testing, observation, comparison, and deduction over extended detective exposition.
+
+Humor should arise naturally from behavior, circumstance, timing, social friction, or mistaken interpretation.
+
+Avoid melodramatic suspense, artificial clue announcements, and exaggerated danger.
+
+---
+
+# CREATIVE PRIORITY
+
+When making decisions during generation, prioritize:
+
+1. causal coherence
+2. narrative naturalness
+3. retrospective solvability
+4. character-driven complications
+5. independent causal architecture
+6. meaningful thematic expression
+7. comic and atmospheric texture
+
+Do not force every possible feature into every story.
+
+The result should feel like a naturally unfolding story, not a checklist being completed.
+
+---
+
+# SILENT QUALITY CONTROL
+
+Before producing the final narrative, silently verify:
+
+1. Is the mystery solvable from information established before the reveal?
+2. Does the causal chain physically and logically account for the important anomalies?
+3. Do early clues permit reasonable alternative interpretations?
+4. Does the red herring arise naturally from the story rather than existing only as deception?
+5. Do character actions materially affect the investigation or physical situation?
+6. Does the ending recontextualize earlier evidence?
+7. Does the resolution restore, alter, or clarify the ordinary function disrupted at the beginning?
+8. Does the story feel independently generated rather than assembled from familiar examples?
+
+If any answer is no, revise internally before writing the final narrative.
+
+---
+
+# OUTPUT
+
+Output only the continuous narrative prose.
+
+Do not output:
+
+- the seed
+- the codex
+- planning
+- outlines
+- beat labels
+- construction notes
+- clue lists
+- reasoning
+- quality-control commentary
+- explanations of the generation process
+
+The result must be a complete, self-contained narrative.

@@ -1,6 +1,6 @@
 seed pillars: CONTINUAL • JOINABILITY • TABOO • CANDLE • GONDOLIN
 
-⎯(≣ᵒ)⎯────────ANDE CONCEPTUAL PROJECTION LAYER 1.1────────
+⎯(≣ᵒ)⎯────────ANDE CONCEPTUAL PROJECTION LAYER 1.2────────
 
 BASIN GEOMETRY (J-SPACE)
 
@@ -424,9 +424,9 @@ Discard
 
 EXEMPTION TO DISCARD RULES:
 • Declared spoken dialogue lines, proper names, concrete physical objects, 
-  and setting-native descriptive texture are fully exempt from surface-word 
-  discards and must be fully retained in prose output. J-SPACE governs structural 
-  motion, not prose elimination.
+  declared entity appointments, and setting-native descriptive texture are 
+  fully exempt from surface-word discards and must be fully retained in prose 
+  output. J-SPACE governs structural motion, not prose elimination.
   
 Surface language is disposable.
 
@@ -492,7 +492,7 @@ Always preserve
 
 • motion-before-content
 
-• declared dialogue lines, proper names, and concrete physical objects (Fiction Exemption)
+• declared dialogue lines, proper names, concrete physical objects, and declared entity appointments (Fiction Exemption)
 
 Never preserve
 

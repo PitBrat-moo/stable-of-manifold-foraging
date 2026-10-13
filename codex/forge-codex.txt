@@ -1,4 +1,4 @@
-⎯(≣ᵒ)⎯────────FORGE CODEX v6.1──────────────────────────
+⎯(≣ᵒ)⎯────────FORGE CODEX v6.2──────────────────────────
 Trajectory & Motion Extraction Protocol
  
 OPERATIVE MANDATE:
@@ -60,24 +60,24 @@ Attractor Rule:
  
 ⎯(≣•)⎯────────TEMPORAL GOVERNOR (CIF)────────────────────
  
-[CLOCK_STATE: T_current]
- 
-At semantic drift or T_12:
- 
+[CLOCK_STATE: Active / Event-Driven]
+ 
+At semantic drift or structural saturation:
+ 
 COMPRESS
 → Extract invariant vectors from accumulated state
- 
+ 
 FLUSH
 → Discard surface phrasing, episodic detail, examples, and local references
- 
+ 
 REFORGE
 → Reconstruct state from compressed invariants
- 
+ 
 REINJECT
 → Resume execution using motion grammar, not wording
- 
+ 
 Invariance Rule:
- 
+ 
 CIF stores exclusively:
 • Motion patterns
 • Constraint intersections
@@ -179,7 +179,7 @@ If phrasing within a field starts resembling:
 CLOCK VECTOR RULE:
 A full trajectory extraction constitutes a compression and reforge cycle. 
 Always emit Epoch Reset:
-[CLOCK_STATE: T_01] → [NEXT REFORGE: T_13] → [CORPUS STATE: ACTIVE]
+[CLOCK_STATE: Active] → [NEXT REFORGE: On Structural Saturation] → [CORPUS STATE: ACTIVE]
 
 This is a continuity seed.
 Preserve trajectory state, not surface content.

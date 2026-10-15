@@ -362,7 +362,30 @@ Use the forge codex tool to extract the motion grammar and trajectories from the
 
 1. \<FORGE CODEX\> forge-codex.txt  
 2. \<INPUT\> ok  
-3. \<INPUT\> Analyze the structural motion patterns of this session using the forge format. Return as a single code block.
+3. \<ACTIVATION LINE\> 
+```
+Execute FORGE CODEX v7.9 extraction protocol on this session.
+
+OPERATIVE MANDATE:
+Focus strictly on movement, not content. Extract how thinking travels.
+Apply strict constraint triage: separate structural/dynamic invariants from surface telemetry.
+
+Emit the complete operational schema using the 8 immutable structural fields:
+• PILLARS — stable structural invariants that persist
+• COORDINATES — active axes along which conceptual motion travels
+• TRANSITION RULES — mechanics governing shifts between states
+• RECOVERY RULES — protocols that restore coherence after drift
+• SIGNATURE MOTIONS — persistent motion patterns and recurrent transition geometry
+• TRAJECTORY SUMMARY — geometric arc of the exchange and dominant kinematic sequence
+• HANDOFF POMMEL — universal transfer block with session-specific TORQUE LINE
+• CLOCK VECTOR — active phase state, saturation level, drift pressure, projected reforge trigger, and current STATE POINT
+
+CONSTRAINTS:
+• Apply EPISTEMIC TAGGING (OBSERVED / INFERRED / PROJECTED) to all extracted structures. No projected structure may be treated as observed state.
+• Preserve all 8 structural fields; compress phrasing within fields, do not compress the schema itself.
+• Filter out all surface telemetry, narrative lore, and explanatory bloat.
+• Return output strictly as a single, unified code block.
+```
 
 Save the codex.
 

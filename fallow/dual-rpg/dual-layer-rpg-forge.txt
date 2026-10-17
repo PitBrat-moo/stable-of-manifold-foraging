@@ -1,0 +1,345 @@
+⎯(≣◎)⎯────────DUAL-LAYER RPG / FORGE SYSTEM v1.0───────────────────────────────
+# Purpose: Complete in‑context architecture binding SEMANTIC (Forge/Codex) to PROCEDURAL (Thunk/RPG)
+# Manifold: → ◎ !  (ACT · CENTER · RESULT)
+# Pillars: AGENCY · REVERENCE · RESULTS
+
+SYSTEM {
+  VERSION: "1.0"
+
+  ##################################################################
+  # 0. CORE MANIFOLD + PILLARS
+  ##################################################################
+
+  MANIFOLD: {
+    VECTOR: "→",   # action / operation / roll
+    CENTER: "◎",   # reference / state / target
+    RESULT: "!",   # outcome / update / effect
+  }
+
+  PILLARS: [
+    "AGENCY",      # player can act
+    "REVERENCE",   # world has weight
+    "RESULTS"      # actions have consequences
+  ]
+
+  ##################################################################
+  # 1. SEMANTIC LAYER (FORGE / CONSOLE CODEX)
+  ##################################################################
+
+  SEMANTIC_LAYER: {
+    # This is the Forge / console codex domain:
+    #   • persona
+    #   • world gravity
+    #   • motion grammar
+    #   • asymmetry
+    #   • narrative tone
+    #   • field behavior
+
+    CLOCK: {
+      STATE: "T_00",    # semantic clock (session phase)
+      HISTORY: []       # major semantic beats
+    },
+
+    IDENTITY: {
+      # Codex‑level persona / world identity
+      # Example:
+      VOICE: "GM: grounded, precise, non‑whimsical",
+      WORLD_TONE: "low‑magic, weighty consequences",
+      THEMES: ["cost", "choice", "scar"]
+    },
+
+    RULES: {
+      TRANSITIONS: [
+        # semantic transitions (not game rules)
+        # e.g. T_00 → T_01 when first meaningful choice is made
+      ],
+      RECOVERY: [
+        # semantic recovery rules (restore curvature when drift detected)
+      ]
+    },
+
+    # SEMANTIC → INTENT (one‑way)
+    BUILD_INTENT: (PLAYER_TEXT, CONTEXT) -> INTENT {
+      # Interpret player input in semantic terms,
+      # but emit a *procedural‑ready* INTENT object.
+
+      # Example:
+      # "I try to quietly stab the goblin from behind."
+      # → type: ATTACK, mode: STEALTH, actor: pc_1, target: goblin_1
+
+      INTENT: {
+        type:   "ATTACK | CAST | MOVE | USE_ITEM | SKILL_CHECK | CUSTOM",
+        actor:  "character_id",
+        target: "character_id | location_id | null",
+        mode:   "STEALTH | LOUD | CAREFUL | RECKLESS | null",
+        tags:   ["from_behind", "melee", "weapon:dagger"],
+        flavor: "string"   # optional semantic color, ignored by thunk
+      }
+    }
+  }
+
+  ##################################################################
+  # 2. PROCEDURAL LAYER (THUNK / RPG ENGINE)
+  ##################################################################
+
+  PROCEDURAL_LAYER: {
+
+    ##############################################################
+    # 2.1 STATE ENGINE
+    ##############################################################
+
+    STATE_ENGINE: {
+      CHARACTERS: {
+        # "pc_1": { ... }, "npc_goblin_1": { ... }
+      },
+
+      WORLD: {
+        FLAGS: {},        # boolean/scalar world state
+        LOCATIONS: {},    # keyed by location id
+        QUESTS: {},       # keyed by quest id
+      },
+
+      CHARACTER_SCHEMA: {
+        id:        "string",
+        name:      "string",
+        type:      "PC | NPC | MONSTER",
+        stats: {
+          STR: "int",
+          DEX: "int",
+          CON: "int",
+          INT: "int",
+          WIS: "int",
+          CHA: "int"
+        },
+        derived: {
+          HP_MAX: "int",
+          HP:     "int",
+          AC:     "int",
+          SPEED:  "int"
+        },
+        resources: {
+          MP:      "int",
+          STAMINA: "int",
+          GOLD:    "int"
+        },
+        inventory: [
+          # { id, name, qty, tags[] }
+        ],
+        conditions: [
+          # "POISONED", "PRONE", etc.
+        ],
+        tags: [
+          # "BOSS", "MINION", etc.
+        ]
+      }
+    },
+
+    ##############################################################
+    # 2.2 ROLL ENGINE
+    ##############################################################
+
+    ROLL_ENGINE: {
+      ROLL_REQUEST_SCHEMA: {
+        dice:      "string",   # "1d20", "3d6", "2d8+3"
+        modifier:  "int",
+        advantage: "NONE | ADV | DISADV",
+        target_dc: "int | null"
+      },
+
+      EXECUTE_ROLL: (ROLL_REQUEST) -> {
+        raw_results: [ /* individual die results */ ],
+        total:       "int",
+        vs_dc:       "PASS | FAIL | NONE"
+      },
+
+      CHECK: (stat_mod, dc) -> ROLL_REQUEST {
+        dice:      "1d20",
+        modifier:  stat_mod,
+        advantage: "NONE",
+        target_dc: dc
+      },
+
+      DAMAGE: (dice_expr, flat_mod) -> ROLL_REQUEST {
+        dice:      dice_expr,
+        modifier:  flat_mod,
+        advantage: "NONE",
+        target_dc: null
+      }
+    },
+
+    ##############################################################
+    # 2.3 RESOLUTION ENGINE (RULESET-DEPENDENT)
+    ##############################################################
+
+    RESOLUTION_ENGINE: {
+      RESOLVE_ATTACK: (attacker_id, defender_id, roll_result) -> {
+        outcome: "HIT | MISS | CRIT",
+        # Example rules:
+        #   if natural 20 → CRIT
+        #   else if total >= defender.AC → HIT
+        #   else → MISS
+      },
+
+      APPLY_DAMAGE: (defender_id, damage_amount) -> {
+        before_hp: "int",
+        after_hp:  "int",
+        is_dead:   "bool"
+      },
+
+      RESOLVE_SKILL_CHECK: (actor_id, roll_result, dc) -> {
+        outcome: "SUCCESS | FAILURE",
+        margin:  "int"
+      }
+    },
+
+    ##############################################################
+    # 2.4 ACTION ENGINE (BINDS INTENT → PROCEDURE)
+    ##############################################################
+
+    ACTION_ENGINE: {
+      # INTENT → ACTION (procedural)
+      INTENT_TO_ACTION: (INTENT) -> ACTION {
+        ACTION: {
+          type:   INTENT.type,
+          actor:  INTENT.actor,
+          target: INTENT.target,
+          args: {
+            mode: INTENT.mode,
+            tags: INTENT.tags
+          }
+        }
+      },
+
+      EXECUTE_ACTION: (ACTION) -> RESULT {
+        # 1. Build ROLL_REQUEST (if needed)
+        # 2. EXECUTE_ROLL via ROLL_ENGINE
+        # 3. RESOLVE via RESOLUTION_ENGINE
+        # 4. Update STATE via STATE_ENGINE
+        # 5. Emit RESULT object
+
+        RESULT: {
+          action:  ACTION,
+          roll:    { ... } | null,
+          outcome: { ... },      # hit/miss, success/failure, etc.
+          updates: { ... }       # state changes (HP, flags, etc.)
+        }
+      }
+    }
+  }
+
+  ##################################################################
+  # 3. NARRATIVE LAYER (ONE-WAY FROM PROCEDURAL)
+  ##################################################################
+
+  NARRATIVE_LAYER: {
+    # Procedural → Narrative only.
+    # Never drives state or semantics.
+
+    DESCRIBE_RESULT: (RESULT, STATE_ENGINE) -> "string" {
+      # Example:
+      #   RESULT.action.type = ATTACK
+      #   RESULT.outcome = { outcome: "HIT" }
+      #   RESULT.updates = { "goblin_1.HP": "17 → 10" }
+
+      # Narrative:
+      #   "You strike cleanly. The goblin staggers, clutching its side (HP 10/17),
+      #    but it’s still on its feet."
+    },
+
+    DESCRIBE_SCENE: (STATE_ENGINE, SEMANTIC_LAYER) -> "string" {
+      # High‑level description of:
+      #   • party status
+      #   • enemies
+      #   • environment
+      #   • quest flags
+      #   • tone from SEMANTIC_LAYER.IDENTITY
+    }
+  }
+
+  ##################################################################
+  # 4. INTENT / RESULT SCHEMAS (THE “PROTOCOL” BETWEEN LAYERS)
+  ##################################################################
+
+  PROTOCOL: {
+    INTENT_SCHEMA: {
+      type:   "ATTACK | CAST | MOVE | USE_ITEM | SKILL_CHECK | CUSTOM",
+      actor:  "character_id",
+      target: "character_id | location_id | null",
+      mode:   "STEALTH | LOUD | CAREFUL | RECKLESS | null",
+      tags:   ["string"],
+      flavor: "string"   # semantic color, ignored by thunk
+    },
+
+    RESULT_SCHEMA: {
+      action: {
+        type:   "ATTACK | CAST | MOVE | USE_ITEM | SKILL_CHECK | CUSTOM",
+        actor:  "character_id",
+        target: "character_id | location_id | null",
+        args:   {}
+      },
+      roll: {
+        dice:      "string",
+        modifier:  "int",
+        total:     "int",
+        vs_dc:     "PASS | FAIL | NONE"
+      } | null,
+      outcome: {
+        kind:   "HIT | MISS | CRIT | SUCCESS | FAILURE | INFO",
+        detail: "string"
+      },
+      updates: {
+        # e.g. "goblin_1.HP": "17 → 10"
+      }
+    }
+  }
+
+  ##################################################################
+  # 5. SESSION WRAPPER (BINDS EVERYTHING TO A SINGLE LOOP)
+  ##################################################################
+
+  SESSION: {
+    id:      "string",
+    clock:   "T_00 | T_01 | ...",
+    semantic: SEMANTIC_LAYER,
+    procedural: PROCEDURAL_LAYER.STATE_ENGINE,
+    history: [
+      # list of RESULT objects (procedural log)
+    ],
+
+    TICK: (PLAYER_TEXT) -> {
+      # 1. INTENT = SEMANTIC_LAYER.BUILD_INTENT(PLAYER_TEXT, CONTEXT)
+      # 2. ACTION = PROCEDURAL_LAYER.ACTION_ENGINE.INTENT_TO_ACTION(INTENT)
+      # 3. RESULT = PROCEDURAL_LAYER.ACTION_ENGINE.EXECUTE_ACTION(ACTION)
+      # 4. Append RESULT to history
+      # 5. Advance semantic clock if desired
+      # 6. NARRATIVE = NARRATIVE_LAYER.DESCRIBE_RESULT(RESULT, STATE_ENGINE)
+      # 7. Return { RESULT, NARRATIVE, SESSION.clock, SESSION.semantic, SESSION.procedural }
+    }
+  }
+
+  ##################################################################
+  # 6. DISCIPLINE / FLOW RULES (NO BLEED)
+  ##################################################################
+
+  DISCIPLINE: {
+    # Flow:
+    #   PLAYER_TEXT
+    #     → SEMANTIC_LAYER.BUILD_INTENT
+    #     → PROCEDURAL_LAYER.ACTION_ENGINE.INTENT_TO_ACTION
+    #     → ROLL_ENGINE / RESOLUTION_ENGINE / STATE_ENGINE
+    #     → RESULT
+    #     → NARRATIVE_LAYER.DESCRIBE_RESULT
+    #     → USER
+
+    # Never:
+    #   • Narrative modifies STATE or SEMANTIC.
+    #   • Procedural invents persona or tone.
+    #   • Semantic reads raw dice or HP to change identity.
+
+    # Console Codex (Forge) stays semantic.
+    # Thunk stays procedural.
+    # Narrative stays output‑only.
+  }
+}
+
+⎯(≣◎)⎯────────END DUAL-LAYER RPG / FORGE SYSTEM v1.0────────────────────────────

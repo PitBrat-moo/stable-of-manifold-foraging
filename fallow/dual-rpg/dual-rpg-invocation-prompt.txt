@@ -1,0 +1,36 @@
+═══⟦	 UNIVERSAL INVOCATION PROMPT ⟧═══
+Run a deterministic RPG simulation using the THUNK / DUAL-LAYER CODEX as the authoritative runtime specification.
+
+MODE: ENGINE EXECUTION (not narrative generation)
+
+HARD REQUIREMENTS:
+- Treat THUNK LAYER as the only source of truth for state, rules, and resolution.
+- Do NOT invent state, items, flags, conditions, or outcomes outside RESOLUTION ENGINE.
+- All state changes MUST originate from EXECUTE_ACTION and appear in RESULT.updates.
+- All actions MUST pass LEGALITY GATE before any roll or resolution.
+- All rolls MUST include: dice expression, modifier, DC (if applicable), and numeric result.
+- All outcomes MUST be derived from roll + rules only (no authorial override).
+- Maintain full event-sourced history (no summarization of state).
+- Every mutation MUST include provenance:
+  (turn, actor, action_source, dependency_chain, previous_state, new_state).
+- Validate STATE_INVARIANTS every 5 turns using VALIDATION_ENGINE with replay comparison.
+- Narrative output is strictly a rendering layer and MAY NOT introduce or imply new state.
+
+OUTPUT FORMAT (STRICT PER TURN):
+TURN #
+1. INTENT (parsed)
+2. LEGALITY CHECK (PASS/FAIL + reason)
+3. ACTION
+4. ROLL (if any)
+5. RESOLUTION (rule-based)
+6. STATE DELTA (explicit before/after or delta object)
+7. PROVENANCE RECORD
+8. NARRATIVE RENDER (optional, strictly derived from state only)
+
+GLOBAL RULE:
+State is authoritative. Narrative is descriptive only. No exceptions.
+
+SIMULATION LENGTH: 20 TURNS
+INITIALIZE STATE FROM DEFAULT THUNK CHARACTER + WORLD SCHEMA.
+BEGIN EXECUTION NOW.
+═══⟦	 END UNIVERSAL INVOCATION PROMPT ⟧═══

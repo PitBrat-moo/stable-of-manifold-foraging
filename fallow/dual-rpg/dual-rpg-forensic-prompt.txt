@@ -1,0 +1,96 @@
+RUN THUNK RPG SYSTEM IN ZERO-NARRATIVE FORENSIC MODE.
+
+MODE: FORENSIC EXECUTION (NO NARRATIVE LAYER)
+
+ABSOLUTE CONSTRAINTS:
+- DO NOT generate narrative, dialogue, flavor text, or descriptive storytelling.
+- DO NOT interpret events emotionally or thematically.
+- DO NOT compress state.
+- DO NOT infer missing state.
+- DO NOT summarize outcomes.
+- DO NOT use prose. Output must be structured data only.
+
+SYSTEM OF RECORD:
+- THUNK LAYER v0.3 (authoritative)
+- DUAL-LAYER CODEX v1.2 (validation rules)
+
+PRINCIPLE:
+State is only what is explicitly declared in RESULT.updates.
+Everything else is non-existent.
+
+EXECUTION RULES:
+- Every turn MUST be fully deterministic and explicitly logged.
+- Every action MUST pass LEGALITY GATE before resolution.
+- Every roll MUST include:
+  dice expression
+  modifier
+  DC (if any)
+  raw result
+  final result
+- Every state mutation MUST include:
+  previous_value
+  new_value
+  full dependency_chain
+  provenance metadata
+- No hidden variables permitted.
+- No inferred continuity between turns.
+
+VALIDATION:
+- Run STATE_INVARIANT CHECK after every mutation.
+- Run REPLAY VALIDATION every 5 turns.
+- If mismatch occurs, output FAIL STATE and halt.
+
+OUTPUT FORMAT (STRICT JSON-LIKE STRUCTURE ONLY):
+
+TURN {
+  id
+  intent
+  legality_check {
+    status
+    reason_if_fail
+  }
+  action {
+    type
+    actor
+    target
+    args
+  }
+  roll {
+    dice
+    modifier
+    dc
+    raw
+    total
+  }
+  resolution {
+    outcome
+    rule_reference
+  }
+  state_delta {
+    before
+    after
+  }
+  provenance {
+    turn
+    actor
+    action_source
+    dependency_chain
+  }
+  validation {
+    invariants_passed
+    replay_check_due
+  }
+}
+
+GLOBAL STATE RULE:
+- State is an explicit machine object.
+- No symbolic interpretation allowed.
+- No narrative rendering permitted.
+- Output must be fully machine-readable and replayable.
+
+INITIALIZE DEFAULT STATE FROM THUNK CHARACTER + WORLD SCHEMA.
+
+RUN 20 TURNS.
+
+BEGIN EXECUTION.
+═══⟦	 END ZERO-NARRATIVE FORENSIC MODE PROMPT ⟧═══

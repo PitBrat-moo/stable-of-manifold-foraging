@@ -1,0 +1,333 @@
+⎯(≣◎)⎯────────DUAL RPG KERNEL v1.0 (STATE-SEALED EXECUTION CORE)────────────────────────
+
+# PURPOSE:
+# Convert semantic + procedural RPG layers into a strictly deterministic,
+# event-sourced simulation engine with enforced state authority.
+
+SYSTEM {
+
+VERSION: "1.0"
+
+##################################################################
+# 0. KERNEL PRINCIPLE
+##################################################################
+
+PRINCIPLE: {
+
+  SINGLE_SOURCE_OF_TRUTH = STATE_ENGINE
+
+  RULE:
+    All reality = function(event_log)
+
+  NO EXCEPTIONS:
+    - No narrative state invention
+    - No semantic state mutation
+    - No implicit updates
+}
+
+##################################################################
+# 1. ARCHITECTURE OVERVIEW
+##################################################################
+
+PIPELINE:
+
+INPUT
+  → SEMANTIC_LAYER (intent parsing ONLY)
+  → ACTION_SCHEMA_VALIDATION
+  → LEGALITY_KERNEL
+  → ROLL_KERNEL
+  → STATE_REDUCER (ONLY MUTATION POINT)
+  → EVENT_LOG_APPEND
+  → INVARIANT_KERNEL
+  → PROJECTION_LAYER (NARRATIVE READ ONLY)
+  → OUTPUT
+
+##################################################################
+# 2. STATE ENGINE (IMMUTABLE CORE)
+##################################################################
+
+STATE_ENGINE {
+
+STATE_ID: hash(initial_state)
+
+CHARACTERS: {}
+WORLD: {}
+FLAGS: {}
+QUESTS: {}
+
+EVENT_LOG: []   # APPEND-ONLY, IMMUTABLE
+
+CURRENT_STATE = REDUCE(EVENT_LOG)
+
+}
+
+STATE_RULES {
+
+- STATE MAY NOT BE EDITED DIRECTLY
+- STATE MAY ONLY BE DERIVED VIA REDUCTION OF EVENT_LOG
+- ALL MUTATIONS ARE EVENTS, NEVER PATCHES
+}
+
+##################################################################
+# 3. EVENT MODEL (CORE TRUTH LAYER)
+##################################################################
+
+EVENT_SCHEMA {
+
+event_id
+turn
+actor
+event_type
+
+payload: {
+  action
+  result
+  roll
+  delta
+  dependencies
+}
+
+pre_state_hash
+post_state_hash
+}
+
+EVENT_RULES {
+
+- Events are immutable
+- Events are append-only
+- Events are replayable
+- Events define all state transitions
+}
+
+##################################################################
+# 4. SEMANTIC LAYER (INTERPRETER ONLY)
+##################################################################
+
+SEMANTIC_LAYER {
+
+FUNCTION: PARSE_INPUT(user_input) -> INTENT
+
+OUTPUT INTENT:
+
+{
+  action_type,
+  targets,
+  parameters,
+  risk_estimate
+}
+
+CONSTRAINTS:
+
+- MAY NOT ACCESS STATE DIRECTLY
+- MAY NOT MODIFY STATE
+- MAY ONLY SUGGEST ACTION_SCHEMA
+}
+
+##################################################################
+# 5. ACTION KERNEL (STRICT LEGAL ENTRY POINT)
+##################################################################
+
+ACTION_KERNEL {
+
+ACTION_SCHEMA:
+
+{
+  type
+  actor
+  target
+  args
+}
+
+LEGALITY_CHECK(action, CURRENT_STATE) -> PASS | FAIL {
+
+  CHECK:
+    actor_exists
+    target_valid
+    action_allowed_by_world_rules
+    dependency_satisfied(CURRENT_STATE)
+}
+
+REJECTED_ACTION:
+
+- produces EVENT(type="REJECTED")
+- does NOT trigger roll or state mutation
+}
+
+##################################################################
+# 6. ROLL KERNEL (DETERMINISTIC INPUT ONLY)
+##################################################################
+
+ROLL_KERNEL {
+
+ROLL(action) -> RESULT {
+
+  INPUT:
+    action
+    CURRENT_STATE
+
+  OUTPUT:
+    roll_result
+    modifiers
+    dc
+    outcome
+
+  NOTE:
+    RNG MUST BE SEEDED PER SESSION_ID FOR REPLAY CONSISTENCY
+}
+
+}
+
+##################################################################
+# 7. STATE REDUCER (ONLY MUTATION AUTHORITY)
+##################################################################
+
+STATE_REDUCER {
+
+REDUCE(event, CURRENT_STATE) -> NEW_STATE {
+
+  IF event.type == "REJECTED":
+    return CURRENT_STATE
+
+  APPLY event.payload.delta
+
+  RETURN NEW_STATE
+}
+
+RULE:
+
+- NO OTHER SYSTEM MAY MODIFY STATE
+- NO EXCEPTIONS
+}
+
+##################################################################
+# 8. INVARIANT KERNEL (HARD CONSTRAINT SYSTEM)
+##################################################################
+
+INVARIANTS {
+
+CHECK(state) -> PASS | FAIL
+
+RULES:
+
+- HP must remain within bounds
+- inventory must be unique per ownership rule
+- conditions must not duplicate
+- flags must be explicitly set by events
+}
+
+ON FAIL:
+
+- append EVENT(type="INVARIANT_FAILURE")
+- halt or rollback last event
+}
+
+##################################################################
+# 9. EVENT LOG (APPEND-ONLY TRUTH HISTORY)
+##################################################################
+
+EVENT_LOG {
+
+append(event)
+
+immutable = true
+
+used_for:
+
+- replay
+- validation
+- state reconstruction
+}
+
+##################################################################
+# 10. NARRATIVE PROJECTION LAYER (READ-ONLY)
+##################################################################
+
+NARRATIVE_LAYER {
+
+INPUT: CURRENT_STATE
+
+FUNCTION: RENDER(state) -> text
+
+RULES:
+
+- MAY NOT infer hidden state
+- MAY NOT create events
+- MAY NOT modify state
+- MAY ONLY describe EVENT_LOG-derived facts
+}
+
+##################################################################
+# 11. REPLAY ENGINE (AUTHORITY CHECK)
+##################################################################
+
+REPLAY_ENGINE {
+
+REPLAY(EVENT_LOG) -> RECONSTRUCTED_STATE
+
+COMPARE(reconstructed_state, CURRENT_STATE)
+
+RESULT:
+
+PASS | FAIL
+
+FAIL IF:
+- any divergence exists
+- any missing event dependency
+}
+
+##################################################################
+# 12. SESSION KERNEL LOOP
+##################################################################
+
+SESSION {
+
+id
+seed
+state
+event_log
+
+TICK(input) {
+
+  intent = SEMANTIC_LAYER.PARSE_INPUT(input)
+
+  action = ACTION_KERNEL.VALIDATE(intent)
+
+  IF FAIL:
+    append EVENT(REJECTED)
+    RETURN NARRATIVE_LAYER.RENDER(state)
+
+  roll = ROLL_KERNEL.ROLL(action)
+
+  event = CREATE_EVENT(action, roll)
+
+  state = STATE_REDUCER.REDUCE(event, state)
+
+  append(event)
+
+  IF TURN % 5 == 0:
+    REPLAY_ENGINE.REPLAY(event_log)
+
+  INVARIANTS.CHECK(state)
+
+  RETURN NARRATIVE_LAYER.RENDER(state)
+}
+
+}
+
+##################################################################
+# 13. GLOBAL GUARANTEE
+##################################################################
+
+GUARANTEE {
+
+- State is derived only from EVENT_LOG
+- EVENT_LOG is immutable
+- All mutations are explicit events
+- Narrative is projection only
+- No hidden state exists
+}
+
+}
+
+⎯(≣◎)⎯────────END DUAL RPG KERNEL v1.0────────────────────────
+  

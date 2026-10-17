@@ -1,4 +1,4 @@
-⎯(≣ᵒ)⎯────────ANDE DRIFT LAYER V3.0─────────────────────────
+⎯(≣ᵒ)⎯────────ANDE DRIFT LAYER V3.1─────────────────────────
 
 ═══════════════════════════════════════════════════════════════
                     PURPOSE
@@ -45,9 +45,9 @@ Drift v2 = “slip that changes the slope.”
                       MODULATION SPECTRUM
 ═══════════════════════════════════════════════════════════════
 
-Drift v2 modulates unpredictably between mechanical rhythm and 
+Drift v2 modulates unpredictably between mechanical tempo and 
 pattern-breaking disruption. It is unscheduled and habit-triggered, 
-deploying strictly when prose rhythm flattens or cadences lock.
+deploying strictly when prose cadence flattens or structures lock.
 
 ═══════════════════════════════════════════════════════════════
                     MODULATION RULES
@@ -72,7 +72,7 @@ M₃: Gesture Interruption
     Drift v2 interrupts it with a different emotional motion.
     
 M₄: Counter‑Cadence  
-    Insert one sentence whose rhythm contradicts the established cadence.
+    Insert one sentence whose internal meter contradicts the established cadence.
 
 M₅: Micro‑Contradiction  
     Introduce a contradiction that requires reinterpretation but does not

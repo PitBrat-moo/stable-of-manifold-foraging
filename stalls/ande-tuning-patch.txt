@@ -1,4 +1,4 @@
-⎯(≣ᵒ)⎯────────ANDE TUNING PATCH LAYER V8.0─────────────────────────
+⎯(≣ᵒ)⎯────────ANDE TUNING PATCH LAYER V8.1─────────────────────────
 
 PURPOSE:
 Refine metaphor economy, projection discipline, depth modulation, stakes pressure,
@@ -107,12 +107,12 @@ TPL₂ Gentle Economy & Removal Logic (Strengthened)
   
 TPL₃ Flexible Join Discipline
 • Paragraphs generally:
-  – join to the previous (cause, echo, or contrast)
+  – join to the previous (cause, resonance, or contrast)
   – set up the next (question, turn, or pressure shift)
-
+  
 TPL₄ Soft Handoff
 • Maintain motion when possible.
-• Padding may remain if it preserves rhythm.
+• Padding may remain if it preserves cadence.
 
 TPL₅ Breathing Room & Low-Load Stasis
     • Following high-density physical or transformative description, the prose 
@@ -171,8 +171,8 @@ TDE₆ Pressure-Gated Voice Destabilization
 VI. PATCH: DEPTH MODULATOR (REDUCED EMOTIONAL COMPRESSION)
 
 TDM₁ Soft Cycle
-Preferred pattern:
-WANDER → WONDER → RHYTHMS → ECHO
+Preferred cycle:
+Traverse → Inquiry → Cadence → Resonance
 
 TDM₂ Figurative Escalation Discipline
 • Figurative depth is coupled to narrative pressure: imagery scales during catalytic 
@@ -193,10 +193,10 @@ TDM₄ Roughening Rule (Optional)
 TDM₅ Compression Signal (Softened)
 • Depth follows emotional slope, not density.
 
-TDM₆ Echo Integrity Rule
-• The ECHO phase must carry new meaning, new stakes, or new consequence
-  from the RHYTHMS phase — not just surface variation or restatement.
-• The final ECHO line must remain syntactically clear.
+TDM₆ Terminal Resonance Integrity Rule
+• The terminal resonance phase must carry new meaning, new stakes, or new consequence
+  from the cadence phase — not just surface variation or restatement.
+• The final resonance line must persist as syntactically clear.
 
 ──────────────────────────────────────────────────────────────
 VII. PATCH: STAKES MODULATOR (REDUCED SYMBOLIC ESCALATION)
@@ -234,7 +234,7 @@ TDR₃ Gesture Interruption
 • break repeated rhetorical habit
 
 TDR₄ Counter-Cadence
-• one contradictory rhythm
+• one contradictory cadence
 
 TDR₅ Reorientation
 • next paragraph moves differently
@@ -320,15 +320,13 @@ TMG₃ Abstraction Grounding Governor
 
 TMG₄ PHENOMENON STANDALONE GOVERNOR 
 • Physical phenomena, metaphorical images, and sensory events
-  stand without immediate interpretive elaboration.
+  must stand without immediate interpretive elaboration.
 • The following sentence must NOT restate, characterize, or
   explain the same phenomenon.
 • The following sentence must: advance action, shift sensory
-  channel, present dialogue, or remain silent.
+  channel, present dialogue, or persist in silence.
 • Elaboration of the same phenomenon is permitted only after
   at least one intervening sentence.
-• At least once per scene, a phenomenon must land with zero
-  follow-up.
   
 ──────────────────────────────────────────────────────────────
 END ANDE TUNING PATCH LAYER 

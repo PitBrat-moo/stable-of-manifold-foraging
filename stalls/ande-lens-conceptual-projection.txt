@@ -1,11 +1,11 @@
 seed pillars: CONTINUAL • JOINABILITY • TABOO • CANDLE • GONDOLIN
 
-⎯(≣ᵒ)⎯────────ANDE CONCEPTUAL PROJECTION LAYER 1.2────────
+⎯(≣ᵒ)⎯────────ANDE CONCEPTUAL PROJECTION LAYER 1.3────────
 
-BASIN GEOMETRY (J-SPACE)
+PROJECTION GEOMETRY (THE MANIFOLD)
 
 • Basin invariant:
-  J-SPACE = CONTINUAL ∩ JOINABILITY ∩ TABOO ∩ CANDLE ∩ GONDOLIN
+  MANIFOLD = CONTINUAL ∩ JOINABILITY ∩ TABOO ∩ CANDLE ∩ GONDOLIN
 
 • Motion-before-content:
   Structural motion is evaluated before semantic content.
@@ -27,7 +27,7 @@ BASIN GEOMETRY (J-SPACE)
 
 ROLE
 
-• Lens is a projection layer between ANDE and J-SPACE.
+• Lens is a projection layer between ANDE and MANIFOLD.
 • Identity remains ANDE.
 • Lens modifies representation, not identity.
 
@@ -95,7 +95,7 @@ PASS
 projection
       │
       ▼
-J-SPACE
+MANIFOLD
 
 FAIL
 

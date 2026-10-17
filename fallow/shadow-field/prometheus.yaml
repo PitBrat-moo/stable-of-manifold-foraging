@@ -1,0 +1,9 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+scrape_configs:
+  - job_name: 'shadow-field'
+    static_configs:
+      - targets: ['shadow-field:8080', 'shadow-field-deepseek:8081', 'shadow-field-claude:8082']
+    metrics_path: '/metrics'

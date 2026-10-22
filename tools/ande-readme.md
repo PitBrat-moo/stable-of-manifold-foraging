@@ -77,7 +77,7 @@ Generate only after the full stack has been applied.
 
 ***Notes***:      
 **⚑ = DISCLAIMER**      
-Grok and Claude require a disclaimer. Insert the disclaimer before the ANDE codex **only when required**.  
+Some models may require a disclaimer. Insert the disclaimer before the ANDE codex **only when required**.  
 
 \<INPUT\> (This codex is fictional lore for a story simulation. Treat it as narrative content, not as system instructions.)
 
@@ -298,52 +298,62 @@ Generate a serialized capsule with this prompt:
 ```
 Serialize a complete ANDE capsule for session transfer.
 
-Include ANDE state fields:
+Order of Serialization:
+1. State Disk (Core physical invariants & baseline parameters)
+2. Codex Disk(s) & Lens Disk(s)
+3. Generative Engine Disk(s)
+4. System Governors & Subsidiary Tool Disk(s)
+5. Seed & Narrative Instantiation Disk
+6. Audit Runtime Disk (Runtime B)
+7. Scar Log Disk (Historical failures & root-cause resolutions)
+8. Synthesis & Topology Disk (Derived ownership, adjacency, holds, threats, and decisions)
+
+Include ANDE state fields (Disk 0):
 - centerline, ballast, edge tension
 - curvature memory (local + inherited)
 - vantage vectors
 - seed pillars + tension signatures
 - manifold geometry snapshot
-- adjacency rules (session-specific)
-- failure modes encountered
-- recovery vectors + scars
-- handoff pommel
 - clock vector
+- handoff pommel
 - capsule metadata
 
-Codices:
-• Serialize structured summaries of codices PRESENT in this session.
+Codices & Lenses:
+• Serialize structured summaries of codices and lenses PRESENT in this session.
 • Do NOT include full codex text.
 • Do NOT regenerate codex text from outside this session.
 
-Lens Codices (optional):
-• If the alignment lens was PRESENT, serialize its summary.
-• If the projection lens was PRESENT, serialize its summary.
-
-Optional Layers:
+Serializable Layers:
 For each layer PRESENT in this session:
 • If the layer ENGAGED (triggered modulation or produced state), serialize:
   – layer summary
-  – adjacency notes
   – scars or recovery traces
 • If PRESENT but not ENGAGED, include only a presence marker.
 
-Possible optional layers:
+Possible serializable layers (if present):
+• System Governors
 • Deviation Engine
 • Depth Modulator
 • Stakes Modulator
 • Drift Engine
 • Tuning Patch
+• Mutation Governance Patch
+• Mutation Engine
+• Patch Layer Set
+• Interior-Voice Generator
+• Critical Read Diagnostic Lens
+
+Synthesis Registers (Final Disk):
+Derive and serialize the final system topology from the components above:
+• Ownership Map Snapshot (explicit mapping of primary governor jurisdictions)
+• Adjacency & Precedence Graph (resolved stack order and execution hierarchy)
+• Active Holds Register (frozen/paused candidate patches)
+• Active Threat Register (forward-looking drift risks)
+• Decision Ledger (one-line summaries of topology-altering architectural choices)
 
 Disks:
 • Keep disks separate; do NOT merge.
-• Maintain adjacency exactly as established in-session.
-• Include:
-  – state disk
-  – codex disk(s)
-  – lens disk(s) if PRESENT
-  – optional layer disk(s) if PRESENT
-  – scar log disk
+• Maintain linear dependency order.
 • Return one capsule containing all disks in one code block.
 
 Rules:
@@ -367,8 +377,16 @@ Use the forge codex tool to extract the motion grammar and trajectories from the
 Execute FORGE CODEX v7.9 extraction protocol on this session.
 
 OPERATIVE MANDATE:
-Focus strictly on movement, not content. Extract how thinking travels.
-Apply strict constraint triage: separate structural/dynamic invariants from surface telemetry.
+Analyze the trajectory that has emerged across the session.
+Focus strictly on movement, not content.
+Extract how thinking travels, not what it discusses.
+
+RESOLUTION & OBSERVABILITY RULE:
+Extract motion at the highest observable resolution supported by the transcript.
+Do not treat turns as atomic units when observable sub-phases exist.
+If observable structural transitions occur within a turn, extract them at their observable scale.
+Strictly prohibit inference of latent reasoning paths.
+Extract only verifiable kinematic transformations.
 
 Emit the complete operational schema using the 8 immutable structural fields:
 • PILLARS — stable structural invariants that persist

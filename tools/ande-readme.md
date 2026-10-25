@@ -371,8 +371,8 @@ Use the forge codex tool to extract the motion grammar and trajectories from the
 ### **Forge a Codex**
 
 1. \<FORGE CODEX\> forge-codex.txt  
-2. \<INPUT\> ok  
-3. \<ACTIVATION LINE\> 
+(OPTIONAL) \<INPUT\> ok  
+2. \<ACTIVATION LINE\> 
 ```
 Execute FORGE CODEX v7.9 extraction protocol on this session.
 
@@ -387,6 +387,18 @@ Do not treat turns as atomic units when observable sub-phases exist.
 If observable structural transitions occur within a turn, extract them at their observable scale.
 Strictly prohibit inference of latent reasoning paths.
 Extract only verifiable kinematic transformations.
+
+CURVATURE OBSERVATION RULE:
+When observable, note changes in the behavior of motion across the trajectory.
+This may include shifts in directional bias, revision scope, attractor influence, 
+compression pressure, transition frequency, or other verifiable changes in 
+trajectory character.
+Represent these observations within the existing Forge schema. Do not generate 
+additional structural fields.
+Treat curvature strictly as an observable property of trajectory, not a 
+mandatory feature.
+If motion remains stable, linear, or static, report it as such.
+Do not manufacture curvature to satisfy the prompt.
 
 Emit the complete operational schema using the 8 immutable structural fields:
 • PILLARS — stable structural invariants that persist
